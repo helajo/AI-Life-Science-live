@@ -58,3 +58,13 @@ td.d { font-family: var(--mono); font-size: .84rem; white-space: nowrap; }
 .small { font-size: .84rem; }
 .foot { padding-block: 18px 30px; border-top: 1px solid var(--line); color: var(--muted); font-size: .86rem; }
 ol.rubric { padding-left: 20px; max-width: 72ch; }
+.tk { font: 500 .78rem var(--mono); padding: 1px 6px; border: 1px solid var(--line); border-radius: 4px; white-space: nowrap; }
+.chk { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: .9rem; }
+.disc { border: 1px solid var(--line); border-left: 3px solid var(--down); background: var(--panel); padding: 10px 12px; font-size: .86rem; max-width: 80ch; margin: 0 0 12px; }
+.sigs { display: grid; gap: 12px; }
+.sig { max-width: 860px; }
+.scores { display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: center; margin: 8px 0; }
+.score { display: inline-flex; gap: 3px; vertical-align: middle; }
+.score i { width: 14px; height: 8px; background: var(--accent-soft); display: block; }
+.score i.on { background: var(--accent); }
+section ul { max-width: 72ch; padding-left: 20px; }
