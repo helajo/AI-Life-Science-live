@@ -10,10 +10,11 @@
       subs: { all: "All trials", stopped: "Stopped", changes: "Changes", companies: "Companies", dates: "Dates ahead", deals: "Deals", longevity: "Longevity", reading: "Reading", method: "Method", glossary: "Glossary" },
       tSignals: "Latest signals", tChanges: "Registry changes", tDue: "Due in the next 30 days", seeAll: "See all", noSignals: "No material signals in the last scan.", noChanges: "No changes recorded yet.", noDue: "Nothing due in the next 30 days.",
       overdue: "{n} active Phase 2 or Phase 3 trials are past their listed result date with no update.", scanOf: "scan of {d}",
-      trials: "Trials", sponsors: "AI drug companies", core: "Their trials tracked here", stoppedN: "Stopped early", results: "With results posted", p3: "Live in Phase 3 or 2/3", new90: "Registered in 90 days", tilesH: "AI drug companies at a glance", sortBy: "Sort", sorts: { "-updated": "Newest update", "-phase": "Latest phase first", "phase": "Earliest phase first", "company": "Company A–Z", "drug": "Drug A–Z" }, pProxyA: "Listed through", pProxyB: "",
+      trials: "Trials", sponsors: "Companies behind them", core: "Trials of those drugs", coreDrugs: "Drugs from an AI platform, in human trials", stoppedN: "Of those trials, stopped early", results: "With results posted", p3: "Live in Phase 3 or 2/3", new90: "Registered in 90 days", tilesH: "Drugs designed or found by an AI platform",
+      originLine: "AI drug companies run {n} trials in all. {a} test a drug the company says came from its own AI platform, and only those are counted above. {b} test a drug it bought in or repurposed, {p} one found with a partner, and for {d} the company does not say.", snip: "from a search summary, page not opened", origin: "Origin", allOrigins: "All origins", dOrigin: "Where the drug came from", pDrugs: "Drugs", og: { platform: "Own platform", partner: "With a partner", acquired: "Bought in or repurposed", not_stated: "Not stated" }, sortBy: "Sort", sorts: { "-updated": "Newest update", "-phase": "Latest phase first", "phase": "Earliest phase first", "company": "Company A–Z", "drug": "Drug A–Z" }, pProxyA: "Listed through", pProxyB: "",
       apprH: "Approved so far", apprNone: "No drug from an AI drug company tracked here has been approved by a major regulator.", apprAi: "From AI drug companies: none yet.", pApproved: "Approved drugs", profPartly: "some details not re-checked",
-      verdictH: "Does AI change the odds? Unproven.", verdictP: "{n} of the {t} completed randomised Phase 2 trials needed before a matched comparison means anything. A completed trial is not a successful one: the registry does not say whether a trial met its endpoint.",
-      phaseH: "Trials by phase, AI drug companies", active: "Active", completed: "Completed", stopped: "Stopped", unknown: "Unknown", total: "Total",
+      verdictH: "Does AI change the odds? Unproven.", verdictP: "{n} of the {t} completed randomised Phase 2 trials of AI-platform drugs needed before a matched comparison means anything. A completed trial is not a successful one: the registry does not say whether a trial met its endpoint.",
+      phaseH: "Trials by phase, drugs from an AI platform", active: "Active", completed: "Completed", stopped: "Stopped", unknown: "Unknown", total: "Total",
       company: "Company", ticker: "Ticker", basis: "Basis", furthest: "Furthest phase", ai: "AI drug company", computational: "Computational, contested", year: "1 year", mcap: "Market cap", pe: "P/E",
       allPhases: "All phases", allCompanies: "All companies", search: "Search drug, condition, company or ticker", listedOnly: "Listed companies only", clear: "Clear filters", noMatch: "Nothing matches these filters.", showMore: "Show {n} more", shown: "{a} of {b}",
       trial: "Trial", drug: "Drug", condition: "Condition", phase: "Phase", status: "Status", updated: "Updated", why: "Reason given", readout: "Due", n: "Enrolled", date: "Date", change: "Change", event: "Event", source: "Source",
@@ -33,7 +34,8 @@
       readNote: "The short list to follow. Headlines refresh daily; news sources are filtered to AI and ageing.", noFeed: "No feed: open the site.",
       methodH: "What is counted", methodP: [
         "A trial is listed here when it is an interventional drug or biologic trial on ClinicalTrials.gov and its lead sponsor is a company on the list, or it tests a listed asset that such a company discovered and another sponsor now runs.",
-        "\"AI-discovered\" is judged by company, not by molecule: a company counts as an AI drug company when it describes its discovery platform as AI or machine learning. Companies whose platform is physics-based or structure-based computation are listed separately as contested and kept out of the headline counts. The split is an editorial judgement and should be reviewed company by company.",
+        "The headline numbers count drug by drug. A trial is counted when two things hold: the company describes its discovery platform as AI or machine learning, and it says this particular drug was found or designed by that platform. Each drug's origin is recorded with a source: own platform, found with a partner, bought in or repurposed, or not stated. Drugs a company bought in, or old compounds its AI picked for a new use, are listed but not counted.",
+        "Companies whose platform is physics-based or structure-based computation are listed separately as contested and kept out of the headline counts. Both judgements rest on what companies say about themselves and should be read that way.",
         "Not captured: AI-origin drugs licensed to large pharma and not on the asset list, trials registered only outside ClinicalTrials.gov (many Chinese trials), and whether a completed trial succeeded.",
         "Market data in the company panel is delayed, comes from the source named there, and is context only: this site draws no link between a signal and a price."],
       rubricH: "Grading a single claim", rubricP: "Score each 0 to 2. Below 6 of 14, treat it as hype.",
@@ -52,10 +54,11 @@
       subs: { all: "全部试验", stopped: "已终止", changes: "变动", companies: "公司", dates: "未来日期", deals: "交易", longevity: "长寿", reading: "阅读", method: "方法", glossary: "术语" },
       tSignals: "最新信号", tChanges: "登记库变动", tDue: "未来 30 天到期", seeAll: "查看全部", noSignals: "最近一次扫描没有重要信号。", noChanges: "暂无变动记录。", noDue: "未来 30 天没有到期事件。",
       overdue: "{n} 项进行中的二期或三期试验已过登记的结果日期，尚无更新。", scanOf: "{d} 扫描",
-      trials: "试验", sponsors: "AI 制药公司", core: "本站收录的试验", stoppedN: "提前终止", results: "已公布结果", p3: "三期或 2/3 期（未终止）", new90: "近 90 天新登记", tilesH: "AI 制药公司概览", sortBy: "排序", sorts: { "-updated": "最近更新", "-phase": "分期从晚到早", "phase": "分期从早到晚", "company": "公司 A–Z", "drug": "药物 A–Z" }, pProxyA: "通过", pProxyB: "上市",
+      trials: "试验", sponsors: "涉及的公司", core: "这些药物的试验", coreDrugs: "来自 AI 平台、已进入人体试验的药物", stoppedN: "其中提前终止的试验", results: "已公布结果", p3: "三期或 2/3 期（未终止）", new90: "近 90 天新登记", tilesH: "由 AI 平台设计或发现的药物",
+      originLine: "AI 制药公司共开展 {n} 项试验。其中 {a} 项测试的是公司称出自其自有 AI 平台的药物，上方只统计这一部分。另有 {b} 项测试外购或老药新用的药物，{p} 项为与合作方共同发现，{d} 项公司未说明来源。", snip: "依据搜索摘要，未打开原页面", origin: "来源", allOrigins: "全部来源", dOrigin: "药物来源", pDrugs: "药物", og: { platform: "自有平台", partner: "与合作方共同", acquired: "外购或老药新用", not_stated: "未说明" }, sortBy: "排序", sorts: { "-updated": "最近更新", "-phase": "分期从晚到早", "phase": "分期从早到晚", "company": "公司 A–Z", "drug": "药物 A–Z" }, pProxyA: "通过", pProxyB: "上市",
       apprH: "已获批的药物", apprNone: "本站收录的 AI 制药公司的药物尚无一款获主要监管机构批准。", apprAi: "来自 AI 制药公司：尚无。", pApproved: "已获批药物", profPartly: "部分细节未重新核对",
-      verdictH: "AI 是否改变了成功率？尚无定论。", verdictP: "做匹配比较至少需要 {t} 项已完成的随机二期试验，目前只有 {n} 项。“已完成”不等于“成功”：登记库不记录试验是否达到终点。",
-      phaseH: "各期试验数（AI 制药公司）", active: "进行中", completed: "已完成", stopped: "已终止", unknown: "不详", total: "合计",
+      verdictH: "AI 是否改变了成功率？尚无定论。", verdictP: "做匹配比较至少需要 {t} 项 AI 平台药物的已完成随机二期试验，目前只有 {n} 项。“已完成”不等于“成功”：登记库不记录试验是否达到终点。",
+      phaseH: "各期试验数（来自 AI 平台的药物）", active: "进行中", completed: "已完成", stopped: "已终止", unknown: "不详", total: "合计",
       company: "公司", ticker: "代码", basis: "依据", furthest: "最远分期", ai: "AI 制药公司", computational: "计算驱动，有争议", year: "一年", mcap: "市值", pe: "市盈率",
       allPhases: "全部分期", allCompanies: "全部公司", search: "搜索药物、适应症、公司或代码", listedOnly: "只看上市公司", clear: "清除筛选", noMatch: "没有符合筛选条件的内容。", showMore: "再显示 {n} 条", shown: "{a} / {b}",
       trial: "试验", drug: "药物", condition: "适应症", phase: "分期", status: "状态", updated: "更新", why: "申办方给出的原因", readout: "到期", n: "入组人数", date: "日期", change: "变动", event: "事件", source: "来源",
@@ -75,7 +78,8 @@
       readNote: "值得跟踪的短名单。标题每日刷新；新闻类来源只保留与 AI 和衰老相关的标题。", noFeed: "无订阅源，请直接访问网站。",
       methodH: "收录口径", methodP: [
         "收录条件：ClinicalTrials.gov 上的干预性药物或生物制品试验，且牵头申办方在公司名单内；或试验的药物在资产名单内，由名单内公司发现、现由其他申办方开展。",
-        "“AI 发现”按公司而非分子判断：公司自称其药物发现平台由 AI 或机器学习驱动，即视为 AI 制药公司。平台以物理或结构计算为主的公司单列为“有争议”，不计入主要统计。这一划分属于编辑判断，应逐家复核。",
+        "主要数字按药物逐一统计。一项试验要同时满足两点才计入：公司自称其药物发现平台由 AI 或机器学习驱动；并且公司表示这一具体药物由该平台发现或设计。每种药物的来源都附有出处：自有平台、与合作方共同发现、外购或老药新用、未说明。公司外购的药物，或由 AI 为已有化合物挑出新用途的，只列出、不计入。",
+        "平台以物理或结构计算为主的公司单列为“有争议”，不计入主要统计。这两项判断都依据公司对自身的说法，请据此理解。",
         "未覆盖：授权给大型药企且不在资产名单内的 AI 来源药物；只在 ClinicalTrials.gov 以外登记的试验（许多中国试验）；已完成试验是否成功。",
         "公司面板中的行情数据有延迟，来源见面板内说明，仅作背景：本站不在信号与股价之间建立任何联系。"],
       rubricH: "如何评估单项声明", rubricP: "每项 0 到 2 分。14 分中低于 6 分，按炒作对待。",
@@ -135,12 +139,12 @@
     var h = location.hash.replace(/^#/, ""), qi = h.indexOf("?"), path = dec(qi < 0 ? h : h.slice(0, qi)).toLowerCase(), q = qi < 0 ? "" : h.slice(qi + 1);
     if (ALIAS[path]) path = ALIAS[path];
     var p = path.split("/"), view = VIEWS[p[0]] ? p[0] : "today", subs = VIEWS[view], sub = subs.indexOf(p[1]) >= 0 ? p[1] : (subs[0] || "");
-    var o = { view: view, sub: sub, q: "", phase: "", status: "", company: "", listed: "", sort: "", co: "", n: PAGE };
+    var o = { view: view, sub: sub, q: "", phase: "", status: "", company: "", origin: "", listed: "", sort: "", co: "", n: PAGE };
     q.split("&").forEach(function (kv) { var i = kv.indexOf("="); if (i > 0 && kv.slice(0, i) in o) o[kv.slice(0, i)] = dec(kv.slice(i + 1).replace(/\+/g, " ")); });
     return o;
   }
   function hashOf(o) {
-    var q = ["q", "phase", "status", "company", "listed", "sort", "co"].filter(function (k) { return o[k]; }).map(function (k) { return k + "=" + encodeURIComponent(o[k]).replace(/%20/g, "+"); });
+    var q = ["q", "phase", "status", "company", "origin", "listed", "sort", "co"].filter(function (k) { return o[k]; }).map(function (k) { return k + "=" + encodeURIComponent(o[k]).replace(/%20/g, "+"); });
     return "#" + o.view + (o.sub && o.sub !== VIEWS[o.view][0] ? "/" + o.sub : "") + (q.length ? "?" + q.join("&") : "");
   }
   function go(change, push) {
@@ -186,17 +190,20 @@
       { key: "company", label: t("company"), val: function (x) { return (D.companies[x.co] ? D.companies[x.co].name : x.lead_sponsor).toLowerCase(); }, cell: function (x) { return (x.via === "sponsor" ? co(x.co) : esc(x.lead_sponsor)) + " " + tk(x.ticker); } },
       { key: "condition", label: t("condition"), cell: function (x) { return esc((x.conditions || []).slice(0, 2).join("; ")); } },
       { key: "phase", label: t("phase"), term: "phase", val: function (x) { return x.phase_rank; }, cell: function (x) { return esc(phase(x.phase)); } },
-      { key: "status", label: t("status"), term: "status", val: function (x) { return x.status; }, cell: function (x) { return pill(x.bucket, status(x.status)); } }
+      { key: "status", label: t("status"), term: "status", val: function (x) { return x.status; }, cell: function (x) { return pill(x.bucket, status(x.status)); } },
+      { key: "origin", label: t("origin"), term: "origin", val: function (x) { return x.origin; }, cell: function (x) { return pill(x.origin === "platform" ? "active" : "", t("og")[x.origin] || x.origin); } }
     ].concat(extra);
   }
   function trialDetail(x) {
     function row(k, v) { return v == null || v === "" ? "" : "<dt>" + esc(k) + "</dt><dd>" + esc(v) + "</dd>"; }
-    return "<dl>" + row(t("dTitle"), x.title) + row(t("condition"), (x.conditions || []).join("; ")) + row(t("drug"), (x.interventions || []).join(", ")) + row(t("dRun"), x.lead_sponsor) +
+    var dr = x.drug_id ? D.drugMap[x.drug_id] : null;
+    var org = "<dt>" + esc(t("dOrigin")) + "</dt><dd>" + esc(t("og")[x.origin] || x.origin) + (dr && L(dr, "ai_role") ? ": " + esc(L(dr, "ai_role")) : "") + (dr && dr.source ? " " + link(dr.source.url, dr.source.publisher || t("source")) : "") + (dr && dr.checked === "snippet" ? " (" + esc(t("snip")) + ")" : "") + "</dd>";
+    return "<dl>" + org + row(t("dTitle"), x.title) + row(t("condition"), (x.conditions || []).join("; ")) + row(t("drug"), (x.interventions || []).join(", ")) + row(t("dRun"), x.lead_sponsor) +
       row(t("n"), x.enrollment) + row(t("dRand"), x.randomised ? t("yes") : t("no")) + row(t("dFirst"), x.first_posted) + row(t("dPrim"), x.primary_completion) + row(t("updated"), x.last_update) + row(t("dWhy"), x.why_stopped) + "</dl>";
   }
   function trialRows(base) {
     var q = fold(S.q), st = S.sub === "stopped" ? "" : S.status;
-    return base.filter(function (x) { return (!S.listed || x.ticker) && (!S.phase || x.phase === S.phase) && (!st || x.bucket === st) && (!S.company || x.co === S.company) && (!q || x.search.indexOf(q) >= 0); });
+    return base.filter(function (x) { return (!S.listed || x.ticker) && (!S.phase || x.phase === S.phase) && (!st || x.bucket === st) && (!S.company || x.co === S.company) && (!S.origin || x.origin === S.origin) && (!q || x.search.indexOf(q) >= 0); });
   }
   function filters(base, withStatus) {
     function opts(list, cur, all) { return '<option value="">' + esc(all) + "</option>" + list.map(function (o) { return '<option value="' + esc(o[0]) + '"' + (o[0] === cur ? " selected" : "") + ">" + esc(o[1]) + "</option>"; }).join(""); }
@@ -207,7 +214,7 @@
       return '<button type="button" class="chip" data-status="' + b + '" aria-pressed="' + (S.status === b) + '">' + esc(t(b)) + " " + base.filter(function (x) { return x.bucket === b; }).length + "</button>"; }).join("") + "</span>";
     var so = S.sort || DEF;
     return '<div class="filters"><input id="f-q" type="search" placeholder="' + esc(t("search")) + '" aria-label="' + esc(t("search")) + '" value="' + esc(S.q) + '"><select id="f-company" aria-label="' + esc(t("company")) + '">' + opts(cos, S.company, t("allCompanies")) +
-      '</select><select id="f-phase" aria-label="' + esc(t("phase")) + '">' + opts(phases, S.phase, t("allPhases")) + "</select>" + chips +
+      '</select><select id="f-phase" aria-label="' + esc(t("phase")) + '">' + opts(phases, S.phase, t("allPhases")) + '</select><select id="f-origin" aria-label="' + esc(t("origin")) + '">' + opts(["platform", "partner", "acquired", "not_stated"].map(function (o) { return [o, t("og")[o]]; }), S.origin, t("allOrigins")) + "</select>" + chips +
       '<label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + '</label><select id="f-sort" class="only-phone" aria-label="' + esc(t("sortBy")) + '">' + Object.keys(t("sorts")).map(function (k) { return '<option value="' + k + '"' + (k === so ? " selected" : "") + ">" + esc(t("sortBy")) + ": " + esc(t("sorts")[k]) + "</option>"; }).join("") + '</select><button type="button" class="btn" id="f-clear" data-clear="1" hidden>' + esc(t("clear")) + '</button></div><p class="muted small" id="count"></p>';
   }
 
@@ -246,10 +253,11 @@
       var b2 = blk(esc(t("tChanges")), href("trials", "changes"), ev.map(function (e) { return "<li>" + (isNew(e.detected) ? newDot() : "") + '<span class="muted small">' + esc(e.date) + "</span> " + co(byNct(e.nct) ? byNct(e.nct).co : e.sponsor_id) + "<br>" + evLine(e) + ' <span class="small">' + nct(e.nct) + "</span></li>"; }).join(""), t("noChanges"));
       var b3 = blk(esc(t("tDue")) + (tb.due_30d_n > due.length ? ' <span class="muted small">' + tb.due_30d_n + "</span>" : ""), href("calendar"), due.map(function (x) { return '<li><span class="muted small">' + esc(x.primary_completion) + "</span> " + co(x.co) + " " + tk(x.ticker) + "<br>" + esc((x.interventions || [])[0] || "") + " · " + esc(phase(x.phase)) + ' <span class="small">' + nct(x.nct) + "</span></li>"; }).join("") +
         (tb.overdue.length ? '<li class="muted small">' + esc(f("overdue", { n: tb.overdue.length })) + "</li>" : ""), t("noDue"));
-      var tiles = [[s.core_sponsors, "sponsors"], [s.core_trials, "core"], [s.core_phase3_live, "p3"], [s.core_stopped, "stoppedN"], [s.core_with_results, "results"], [s.core_new_90d, "new90"]];
+      var tiles = [[s.core_drugs, "coreDrugs"], [s.core_trials, "core"], [s.core_sponsors, "sponsors"], [s.core_phase3_live, "p3"], [s.core_stopped, "stoppedN"], [s.core_with_results, "results"]];
+      var bo = s.by_origin || {};
       var pc = Math.min(100, 100 * s.phase2_completed_randomised / s.phase2_threshold);
       return '<section class="today">' + b1 + b2 + b3 + "</section>" +
-        "<section><h2>" + esc(t("tilesH")) + '</h2><div class="tiles">' + tiles.map(function (x) { return '<div class="tile"><b>' + x[0] + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + "</div></section>" +
+        "<section><h2>" + esc(t("tilesH")) + '</h2><div class="tiles">' + tiles.map(function (x) { return '<div class="tile"><b>' + x[0] + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + '</div><p class="note" style="margin-top:10px">' + esc(f("originLine", { n: s.ai_company_trials, a: bo.platform, b: bo.acquired, p: bo.partner, d: bo.not_stated })) + ' <a href="' + href("more", "method") + '">' + esc(t("subs").method) + "</a></p></section>" +
         "<section><h2>" + esc(t("phaseH")) + "</h2>" + funnel() + "</section>" +
         '<section class="verdict"><h2>' + esc(t("verdictH")) + '</h2><div class="meter"><i style="width:' + pc + '%"></i></div><p class="note">' + esc(f("verdictP", { n: s.phase2_completed_randomised, t: s.phase2_threshold })) + "</p><h3>" + esc(t("apprH")) + '</h3><p class="note">' + esc((D.approvals || []).some(function (a) { return a.tier === "ai"; }) ? "" : t("apprAi")) + "</p>" +
         ((D.approvals || []).length ? '<ul class="plain">' + D.approvals.map(function (a) { return "<li><b>" + esc(a.drug) + "</b> · " + esc(a.regulator) + " " + esc(a.date) + " · " + co(a.co) + " " + tk(a.co) + " · " + esc(t(a.tier)) + "<br>" + esc(L(a, "text")) + ' <span class="small">' + link(a.source.url, a.source.publisher) + "</span></li>"; }).join("") + "</ul>" : "") + "</section>";
@@ -377,6 +385,8 @@
       var st = rows.filter(function (x) { return x.bucket === "stopped"; });
       if (st.length) h += "<h3>" + esc(t("pStopped")) + "</h3><ul>" + st.map(function (x) { return "<li>" + esc(x.interventions[0] || "") + " · " + esc(phase(x.phase)) + " · " + pill("stopped", status(x.status)) + ' <span class="small">' + nct(x.nct) + "</span>" + (x.why_stopped ? '<br><span class="muted small">' + esc(x.why_stopped) + "</span>" : "") + "</li>"; }).join("") + "</ul>";
     }
+    var mine = (D.drugs || []).filter(function (d) { return c.sponsor_ids.indexOf(d.sponsor_id) >= 0; });
+    if (mine.length) h += "<h3>" + esc(t("pDrugs")) + "</h3><ul>" + mine.map(function (d) { return "<li><b>" + esc(d.drug) + "</b> " + pill(d.origin === "platform" ? "active" : "", t("og")[d.origin] || d.origin) + (L(d, "ai_role") ? "<br>" + esc(L(d, "ai_role")) : "") + (d.source ? ' <span class="small">' + link(d.source.url, d.source.publisher || t("source")) + (d.checked === "snippet" ? " (" + esc(t("snip")) + ")" : "") + "</span>" : "") + "</li>"; }).join("") + "</ul>";
     var ap = (D.approvals || []).filter(function (a) { return a.co === c.key; });
     if (ap.length) h += "<h3>" + esc(t("pApproved")) + "</h3><ul>" + ap.map(function (a) { return "<li><b>" + esc(a.drug) + "</b> · " + esc(a.regulator) + " " + esc(a.date) + "<br>" + esc(L(a, "text")) + ' <span class="small">' + link(a.source.url, a.source.publisher) + "</span></li>"; }).join("") + "</ul>";
     var sg = (D.signals || []).filter(function (i) { return (i.names || []).some(function (n) { return n.ticker === c.ticker || (c.proxy && n.ticker === c.proxy); }) && (c.ticker || i.title_en.indexOf(c.name.split(" ")[0]) >= 0); });
@@ -454,7 +464,7 @@
   function count() {
     var c = document.getElementById("count"), b = document.getElementById("f-clear");
     if (c && V._cur) c.textContent = f("shown", { a: trialRows(V._cur.base).length, b: V._cur.base.length });
-    if (b) b.hidden = !(S.q || S.phase || (S.status && S.sub !== "stopped") || S.company || S.listed);
+    if (b) b.hidden = !(S.q || S.phase || (S.status && S.sub !== "stopped") || S.company || S.origin || S.listed);
   }
   function render(keepScroll) {
     chrome();
@@ -483,6 +493,7 @@
     var id = e.target.id;
     if (id === "f-company") { go({ company: e.target.value, n: PAGE }); render(true); }
     else if (id === "f-phase") { go({ phase: e.target.value, n: PAGE }); render(true); }
+    else if (id === "f-origin") { go({ origin: e.target.value, n: PAGE }); render(true); }
     else if (id === "f-sort") { go({ sort: e.target.value === DEF ? "" : e.target.value }); redrawBody(); }
     else if (id === "f-listed") { go({ listed: e.target.checked ? "1" : "", n: PAGE }); render(true); }
     else return;
@@ -507,7 +518,7 @@
     function refocus(sel) { var x = document.querySelector(sel); if (x) x.focus(); }
     if (el.hasAttribute("data-sort")) { var k = el.getAttribute("data-sort"), cs = S.sort || DEF, ns = cs === "-" + k ? k : "-" + k, def = DEF; go({ sort: ns === def ? "" : ns }); if (V._cur) redrawBody(); else render(true); return refocus('[data-sort="' + k + '"]'); }
     if (el.hasAttribute("data-status")) { var b = el.getAttribute("data-status"); go({ status: S.status === b ? "" : b, n: PAGE }); render(true); return refocus('[data-status="' + b + '"]'); }
-    if (el.hasAttribute("data-clear")) { go({ q: "", phase: "", status: "", company: "", listed: "", n: PAGE }); render(true); return refocus("#f-q"); }
+    if (el.hasAttribute("data-clear")) { go({ q: "", phase: "", status: "", company: "", origin: "", listed: "", n: PAGE }); render(true); return refocus("#f-q"); }
     if (el.hasAttribute("data-more")) { S.n += PAGE; return redrawBody(); }
     if (el.hasAttribute("data-open")) { var id = el.getAttribute("data-open"); S.open = S.open === id ? null : id; redrawBody(); var again = document.querySelector('[data-open="' + id + '"]'); if (again) again.focus(); }
   });
@@ -535,7 +546,8 @@
   function chrome0() { Array.prototype.forEach.call(document.querySelectorAll("[data-t]"), function (el) { el.textContent = t(el.getAttribute("data-t")); }); }
   function get(url) { return fetch(url, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
   get("data/ledger.json").catch(function () { return get("../data/ledger.json"); }).then(function (d) {
-    D = d; D.trialMap = {}; D.sigMap = {}; D.evMap = {};
+    D = d; D.trialMap = {}; D.sigMap = {}; D.evMap = {}; D.drugMap = {};
+    (d.drugs || []).forEach(function (x) { D.drugMap[x.sponsor_id + ":" + x.drug] = x; });
     d.trials.forEach(function (x) { D.trialMap[x.nct] = x; }); (d.signals || []).forEach(function (x) { D.sigMap[x.id] = x; }); d.events.forEach(function (x) { D.evMap[x.id] = x; });
     render(true);
   }).catch(function (e) { document.getElementById("main").innerHTML = '<p class="muted">' + esc(t("failed")) + "</p>"; if (window.console) console.error(e); });
