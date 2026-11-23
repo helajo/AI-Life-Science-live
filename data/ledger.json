@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-23T14:37:25Z",
+ "generated_at": "2026-11-23T14:47:03Z",
  "today": "2026-11-23",
  "baseline": "2026-11-19",
  "sources": {
@@ -9,8 +9,8 @@
   "feed:stat": "ok",
   "feed:biopharmadive": "ok",
   "feed:gen": "ok",
-  "feed:decodingbio": "ok",
-  "feed:topol": "ok",
+  "feed:decodingbio": "error: RuntimeError",
+  "feed:topol": "error: RuntimeError",
   "feed:lifespan": "ok",
   "feed:fightaging": "ok"
  },
@@ -5753,8 +5753,8 @@
      "direction": "positive"
     }
    ],
-   "so_what_en": "A randomised, placebo-controlled trial of about 200 patients, due to start in the second half of 2027, would be one of the first late-stage tests of a drug from an AI-native company; the supporting data so far are from an uncontrolled Phase 1b/2 study.",
-   "so_what_zh": "这项约 200 名患者的随机、安慰剂对照试验计划于 2027 年下半年启动，将是 AI 原生公司药物最早的后期检验之一；目前的支持数据来自无对照的 1b/2 期研究。",
+   "so_what_en": "A randomised, placebo-controlled trial of about 200 patients, due to start in the second half of 2027, would be one of the first late-stage tests of a drug from an AI drug company; the supporting data so far are from an uncontrolled Phase 1b/2 study.",
+   "so_what_zh": "这项约 200 名患者的随机、安慰剂对照试验计划于 2027 年下半年启动，将是 AI 制药公司药物最早的后期检验之一；目前的支持数据来自无对照的 1b/2 期研究。",
    "changes_view_en": "the trial start slips past 2027, or the FDA's position on the endpoint changes.",
    "changes_view_zh": "试验启动推迟到 2027 年之后，或 FDA 对终点的立场发生变化。",
    "confidence": "medium",
@@ -6040,7 +6040,7 @@
     "as_of": "2026-11-20",
     "price": 88.91,
     "currency": "USD",
-    "mcap_usd": 1148813553577.0,
+    "mcap_usd": 1154833422969.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 115.1,
@@ -6142,7 +6142,7 @@
     "as_of": "2026-11-20",
     "price": 125.53,
     "currency": "USD",
-    "mcap_usd": 3859012500000.0,
+    "mcap_usd": 3949245310000.0,
     "pe": 15.9,
     "pe_fiscal_year": false,
     "hi52": 243.37,
@@ -6326,7 +6326,7 @@
     "as_of": "2026-11-20",
     "price": 1347.11,
     "currency": "USD",
-    "mcap_usd": 1278209088520.0,
+    "mcap_usd": 1282207254902.0,
     "pe": 43.7,
     "pe_fiscal_year": false,
     "hi52": 1475.25,
@@ -6514,7 +6514,7 @@
     "as_of": "2026-11-20",
     "price": 37.82,
     "currency": "USD",
-    "mcap_usd": 170851699114.0,
+    "mcap_usd": 171183793903.0,
     "pe": 11.2,
     "pe_fiscal_year": true,
     "hi52": 64.16,
@@ -6733,7 +6733,7 @@
     "as_of": "2026-11-20",
     "price": 2.45,
     "currency": "USD",
-    "mcap_usd": 1662580394.0,
+    "mcap_usd": 1647198240.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 5.24,
@@ -7151,7 +7151,7 @@
     "as_of": "2026-11-20",
     "price": 9.54,
     "currency": "USD",
-    "mcap_usd": 1311622127.0,
+    "mcap_usd": 1307749227.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 22.67,
@@ -7316,7 +7316,7 @@
     "as_of": "2026-11-20",
     "price": 22.93,
     "currency": "USD",
-    "mcap_usd": 1897966632.0,
+    "mcap_usd": 1864181625.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 34.0,
@@ -7513,7 +7513,7 @@
     "as_of": "2026-11-20",
     "price": 7.51,
     "currency": "USD",
-    "mcap_usd": 1461429553.0,
+    "mcap_usd": 1451064804.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.54,
@@ -7717,7 +7717,7 @@
     "as_of": "2026-11-20",
     "price": 9.69,
     "currency": "USD",
-    "mcap_usd": 3480113682.0,
+    "mcap_usd": 3429520570.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 15.02,
@@ -7935,7 +7935,7 @@
     "as_of": "2026-11-20",
     "price": 16.12,
     "currency": "USD",
-    "mcap_usd": 3714328691.0,
+    "mcap_usd": 3745263017.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 21.27,
@@ -8135,7 +8135,7 @@
     "as_of": "2026-11-20",
     "price": 13.11,
     "currency": "USD",
-    "mcap_usd": 699206396.0,
+    "mcap_usd": 694616398.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 25.0,
@@ -8219,7 +8219,7 @@
     "as_of": "2026-11-20",
     "price": 54.04,
     "currency": "USD",
-    "mcap_usd": 10661375683.0,
+    "mcap_usd": 10582942979.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 89.09,
@@ -8614,7 +8614,7 @@
     "as_of": "2026-11-20",
     "price": 669.54,
     "currency": "USD",
-    "mcap_usd": 255561467374.0,
+    "mcap_usd": 255142784443.0,
     "pe": 35.3,
     "pe_fiscal_year": false,
     "hi52": 727.56,
@@ -8966,7 +8966,7 @@
     "as_of": "2026-11-20",
     "price": 0.24,
     "currency": "USD",
-    "mcap_usd": 4052666.0,
+    "mcap_usd": 4186113.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -9127,7 +9127,7 @@
     "as_of": "2026-11-20",
     "price": 2.25,
     "currency": "USD",
-    "mcap_usd": 20843259.0,
+    "mcap_usd": 22411115.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 6.92,
@@ -9667,7 +9667,7 @@
     "as_of": "2026-11-20",
     "price": 4.28,
     "currency": "USD",
-    "mcap_usd": 208192046.0,
+    "mcap_usd": 204147697.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -9786,7 +9786,7 @@
     "as_of": "2026-11-20",
     "price": 16.13,
     "currency": "USD",
-    "mcap_usd": 1184104472.0,
+    "mcap_usd": 1189831700.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -9943,7 +9943,7 @@
     "as_of": "2026-11-20",
     "price": 1.84,
     "currency": "USD",
-    "mcap_usd": 179237885.0,
+    "mcap_usd": 179710808.0,
     "pe": 4.8,
     "pe_fiscal_year": false,
     "hi52": 3.23,
@@ -10130,7 +10130,7 @@
     "as_of": "2026-11-20",
     "price": 265.29,
     "currency": "USD",
-    "mcap_usd": 3416994360000.0,
+    "mcap_usd": 3410355600000.0,
     "pe": 13.9,
     "pe_fiscal_year": false,
     "hi52": 408.61,
@@ -10317,7 +10317,7 @@
     "as_of": "2026-11-20",
     "price": 484.52,
     "currency": "USD",
-    "mcap_usd": 3731365714598.0,
+    "mcap_usd": 3719929374988.0,
     "pe": 25.3,
     "pe_fiscal_year": false,
     "hi52": 559.15,
@@ -10504,7 +10504,7 @@
     "as_of": "2026-11-20",
     "price": 246.82,
     "currency": "USD",
-    "mcap_usd": 2756160822816.0,
+    "mcap_usd": 2737744966967.0,
     "pe": 20.0,
     "pe_fiscal_year": false,
     "hi52": 287.2,
@@ -10692,7 +10692,7 @@
     "as_of": "2026-11-20",
     "price": 220.36,
     "currency": "USD",
-    "mcap_usd": 158428104230.0,
+    "mcap_usd": 158217044985.0,
     "pe": 36.1,
     "pe_fiscal_year": false,
     "hi52": 242.8,
@@ -10879,7 +10879,7 @@
     "as_of": "2026-11-20",
     "price": 245.82,
     "currency": "USD",
-    "mcap_usd": 41366448000.0,
+    "mcap_usd": 41332664000.0,
     "pe": 29.9,
     "pe_fiscal_year": false,
     "hi52": 284.5,
@@ -11062,7 +11062,7 @@
     "as_of": "2026-11-20",
     "price": 10.55,
     "currency": "USD",
-    "mcap_usd": 1629163533.0,
+    "mcap_usd": 1638316137.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.61,
@@ -11245,7 +11245,7 @@
     "as_of": "2026-11-20",
     "price": 266.22,
     "currency": "USD",
-    "mcap_usd": 43736810041.0,
+    "mcap_usd": 44163877015.0,
     "pe": 43.6,
     "pe_fiscal_year": false,
     "hi52": 325.99,
@@ -11454,7 +11454,7 @@
     "as_of": "2026-11-20",
     "price": 21.77,
     "currency": "USD",
-    "mcap_usd": 68821415562.0,
+    "mcap_usd": 69421786038.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 22.07,
@@ -11642,7 +11642,7 @@
     "as_of": "2026-11-20",
     "price": 150.47,
     "currency": "USD",
-    "mcap_usd": 288321718697.0,
+    "mcap_usd": 289447528188.0,
     "pe": 21.0,
     "pe_fiscal_year": true,
     "hi52": 170.46,
@@ -11826,7 +11826,7 @@
     "as_of": "2026-11-20",
     "price": 133.72,
     "currency": "USD",
-    "mcap_usd": 333165628505.0,
+    "mcap_usd": 333042366220.0,
     "pe": 135.1,
     "pe_fiscal_year": false,
     "hi52": 156.92,
@@ -12066,8 +12066,8 @@
   },
   {
    "key": "ai_native",
-   "term_en": "AI-native",
-   "term_zh": "AI 原生",
+   "term_en": "AI drug company",
+   "term_zh": "AI 制药公司",
    "def_en": "A company that describes its drug-discovery platform as AI or machine learning. Judged by company, not by molecule; companies using physics-based computation are listed separately as contested.",
    "def_zh": "自称其药物发现平台由 AI 或机器学习驱动的公司。按公司而非分子判断；以物理计算为主的公司单列为“有争议”。"
   },
@@ -12133,7 +12133,9 @@
    "ticker": "ANT",
    "market": "US",
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "openai",
@@ -12143,7 +12145,9 @@
    "ticker": null,
    "market": null,
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "deepmind",
@@ -12153,7 +12157,9 @@
    "ticker": null,
    "market": null,
    "proxy": "GOOGL",
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "isomorphic",
@@ -12163,7 +12169,9 @@
    "ticker": null,
    "market": null,
    "proxy": "GOOGL",
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "nvidia",
@@ -12173,7 +12181,9 @@
    "ticker": "NVDA",
    "market": "US",
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "lilly",
@@ -12183,7 +12193,9 @@
    "ticker": "LLY",
    "market": "US",
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "novo",
@@ -12193,7 +12205,9 @@
    "ticker": "NVO",
    "market": "US",
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "recursion",
@@ -12203,7 +12217,9 @@
    "ticker": "RXRX",
    "market": "US",
    "proxy": null,
-   "sponsor_id": "recursion"
+   "sponsor_id": "recursion",
+   "added": null,
+   "added_by": null
   },
   {
    "id": "insilico",
@@ -12213,7 +12229,9 @@
    "ticker": "3696.HK",
    "market": "HK",
    "proxy": null,
-   "sponsor_id": "insilico"
+   "sponsor_id": "insilico",
+   "added": null,
+   "added_by": null
   },
   {
    "id": "generate",
@@ -12223,7 +12241,9 @@
    "ticker": "GENB",
    "market": "US",
    "proxy": null,
-   "sponsor_id": "generate"
+   "sponsor_id": "generate",
+   "added": null,
+   "added_by": null
   },
   {
    "id": "schrodinger",
@@ -12233,7 +12253,9 @@
    "ticker": "SDGR",
    "market": "US",
    "proxy": null,
-   "sponsor_id": "schrodinger"
+   "sponsor_id": "schrodinger",
+   "added": null,
+   "added_by": null
   },
   {
    "id": "absci",
@@ -12243,7 +12265,9 @@
    "ticker": "ABSI",
    "market": "US",
    "proxy": null,
-   "sponsor_id": "absci"
+   "sponsor_id": "absci",
+   "added": null,
+   "added_by": null
   },
   {
    "id": "abcellera",
@@ -12253,7 +12277,9 @@
    "ticker": "ABCL",
    "market": "US",
    "proxy": null,
-   "sponsor_id": "abcellera"
+   "sponsor_id": "abcellera",
+   "added": null,
+   "added_by": null
   },
   {
    "id": "relay",
@@ -12263,7 +12289,9 @@
    "ticker": "RLAY",
    "market": "US",
    "proxy": null,
-   "sponsor_id": "relay"
+   "sponsor_id": "relay",
+   "added": null,
+   "added_by": null
   },
   {
    "id": "iambic",
@@ -12273,7 +12301,9 @@
    "ticker": "IAM",
    "market": "US",
    "proxy": null,
-   "sponsor_id": "iambic"
+   "sponsor_id": "iambic",
+   "added": null,
+   "added_by": null
   },
   {
    "id": "tempus",
@@ -12283,7 +12313,9 @@
    "ticker": "TEM",
    "market": "US",
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "xtalpi",
@@ -12293,7 +12325,9 @@
    "ticker": "2228.HK",
    "market": "HK",
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "xaira",
@@ -12303,7 +12337,9 @@
    "ticker": null,
    "market": null,
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "chai",
@@ -12313,7 +12349,9 @@
    "ticker": null,
    "market": null,
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   },
   {
    "id": "thermo",
@@ -12323,7 +12361,9 @@
    "ticker": "TMO",
    "market": "US",
    "proxy": null,
-   "sponsor_id": null
+   "sponsor_id": null,
+   "added": null,
+   "added_by": null
   }
  ],
  "second_order": [
@@ -12692,60 +12732,6 @@
     "date": "2026-11-18"
    }
   ],
-  "decodingbio": [
-   {
-    "title": "BioByte 180: Maps Against Cancer",
-    "url": "https://decodingbio.substack.com/p/biobyte-180-maps-against-cancer",
-    "date": "2026-11-19"
-   },
-   {
-    "title": "BioByte 179: Epilepsy Epilogue",
-    "url": "https://decodingbio.substack.com/p/biobyte-179-epilepsy-epilogue",
-    "date": "2026-11-12"
-   },
-   {
-    "title": "A Conversation with Michael Ehlers: Funding the Future of Drug Discovery and Development at Formation Bio",
-    "url": "https://decodingbio.substack.com/p/a-conversation-with-mike-ehlers-funding",
-    "date": "2026-11-10"
-   },
-   {
-    "title": "BioByte 178: The Expression Code",
-    "url": "https://decodingbio.substack.com/p/biobyte-178-the-expression-code",
-    "date": "2026-11-05"
-   },
-   {
-    "title": "BioByte 177: Evolution-Encoded Knowledge",
-    "url": "https://decodingbio.substack.com/p/biobyte-177-evolution-encoded-knowledge",
-    "date": "2026-10-29"
-   }
-  ],
-  "topol": [
-   {
-    "title": "Jo Chikwe: A Renowned Cardiac Surgeon, on Leadership, Diversity, And Much More",
-    "url": "https://erictopol.substack.com/p/jo-chikwe-a-renowned-cardiac-surgeon",
-    "date": "2026-11-15"
-   },
-   {
-    "title": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
-    "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
-    "date": "2026-11-10"
-   },
-   {
-    "title": "Vadim Gladyshev and the Science of Aging",
-    "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of",
-    "date": "2026-10-27"
-   },
-   {
-    "title": "Connecting Our Immune System and Healthspan",
-    "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells",
-    "date": "2026-10-11"
-   },
-   {
-    "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
-    "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery",
-    "date": "2026-10-06"
-   }
-  ],
   "lifespan": [
    {
     "title": "James Peyer on Turning Aging Biology Into Medicine",
@@ -12798,6 +12784,60 @@
     "title": "FGF13 Overexpression Improves Astrocyte Function to Slow Cognitive Aging in Mice",
     "url": "https://www.fightaging.org/archives/2026/11/fgf13-overexpression-improves-astrocyte-function-to-slow-cognitive-aging-in-mice/",
     "date": "2026-11-20"
+   }
+  ],
+  "decodingbio": [
+   {
+    "title": "BioByte 180: Maps Against Cancer",
+    "url": "https://decodingbio.substack.com/p/biobyte-180-maps-against-cancer",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "BioByte 179: Epilepsy Epilogue",
+    "url": "https://decodingbio.substack.com/p/biobyte-179-epilepsy-epilogue",
+    "date": "2026-11-12"
+   },
+   {
+    "title": "A Conversation with Michael Ehlers: Funding the Future of Drug Discovery and Development at Formation Bio",
+    "url": "https://decodingbio.substack.com/p/a-conversation-with-mike-ehlers-funding",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "BioByte 178: The Expression Code",
+    "url": "https://decodingbio.substack.com/p/biobyte-178-the-expression-code",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "BioByte 177: Evolution-Encoded Knowledge",
+    "url": "https://decodingbio.substack.com/p/biobyte-177-evolution-encoded-knowledge",
+    "date": "2026-10-29"
+   }
+  ],
+  "topol": [
+   {
+    "title": "Jo Chikwe: A Renowned Cardiac Surgeon, on Leadership, Diversity, And Much More",
+    "url": "https://erictopol.substack.com/p/jo-chikwe-a-renowned-cardiac-surgeon",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
+    "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "Vadim Gladyshev and the Science of Aging",
+    "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Connecting Our Immune System and Healthspan",
+    "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells",
+    "date": "2026-10-11"
+   },
+   {
+    "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
+    "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery",
+    "date": "2026-10-06"
    }
   ]
  }
