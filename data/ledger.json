@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-23T13:15:20Z",
+ "generated_at": "2026-11-23T14:37:25Z",
  "today": "2026-11-23",
  "baseline": "2026-11-19",
  "sources": {
@@ -9,8 +9,8 @@
   "feed:stat": "ok",
   "feed:biopharmadive": "ok",
   "feed:gen": "ok",
-  "feed:decodingbio": "error: RuntimeError",
-  "feed:topol": "error: RuntimeError",
+  "feed:decodingbio": "ok",
+  "feed:topol": "ok",
   "feed:lifespan": "ok",
   "feed:fightaging": "ok"
  },
@@ -6040,7 +6040,7 @@
     "as_of": "2026-11-20",
     "price": 88.91,
     "currency": "USD",
-    "mcap_usd": 1167048523168.0,
+    "mcap_usd": 1148813553577.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 115.1,
@@ -6142,7 +6142,7 @@
     "as_of": "2026-11-20",
     "price": 125.53,
     "currency": "USD",
-    "mcap_usd": 3284844460000.0,
+    "mcap_usd": 3859012500000.0,
     "pe": 15.9,
     "pe_fiscal_year": false,
     "hi52": 243.37,
@@ -6326,7 +6326,7 @@
     "as_of": "2026-11-20",
     "price": 1347.11,
     "currency": "USD",
-    "mcap_usd": 1272357654428.0,
+    "mcap_usd": 1278209088520.0,
     "pe": 43.7,
     "pe_fiscal_year": false,
     "hi52": 1475.25,
@@ -6514,7 +6514,7 @@
     "as_of": "2026-11-20",
     "price": 37.82,
     "currency": "USD",
-    "mcap_usd": 170346915035.0,
+    "mcap_usd": 170851699114.0,
     "pe": 11.2,
     "pe_fiscal_year": true,
     "hi52": 64.16,
@@ -6733,7 +6733,7 @@
     "as_of": "2026-11-20",
     "price": 2.45,
     "currency": "USD",
-    "mcap_usd": 1643399409.0,
+    "mcap_usd": 1662580394.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 5.24,
@@ -7151,7 +7151,7 @@
     "as_of": "2026-11-20",
     "price": 9.54,
     "currency": "USD",
-    "mcap_usd": 1196803552.0,
+    "mcap_usd": 1311622127.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 22.67,
@@ -7316,7 +7316,7 @@
     "as_of": "2026-11-20",
     "price": 22.93,
     "currency": "USD",
-    "mcap_usd": 1820944323.0,
+    "mcap_usd": 1897966632.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 34.0,
@@ -7513,7 +7513,7 @@
     "as_of": "2026-11-20",
     "price": 7.51,
     "currency": "USD",
-    "mcap_usd": 1397513603.0,
+    "mcap_usd": 1461429553.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.54,
@@ -7717,7 +7717,7 @@
     "as_of": "2026-11-20",
     "price": 9.69,
     "currency": "USD",
-    "mcap_usd": 3318437823.0,
+    "mcap_usd": 3480113682.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 15.02,
@@ -7935,7 +7935,7 @@
     "as_of": "2026-11-20",
     "price": 16.12,
     "currency": "USD",
-    "mcap_usd": 3564076251.0,
+    "mcap_usd": 3714328691.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 21.27,
@@ -8135,7 +8135,7 @@
     "as_of": "2026-11-20",
     "price": 13.11,
     "currency": "USD",
-    "mcap_usd": 670291367.0,
+    "mcap_usd": 699206396.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 25.0,
@@ -8219,7 +8219,7 @@
     "as_of": "2026-11-20",
     "price": 54.04,
     "currency": "USD",
-    "mcap_usd": 10426077571.0,
+    "mcap_usd": 10661375683.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 89.09,
@@ -8614,7 +8614,7 @@
     "as_of": "2026-11-20",
     "price": 669.54,
     "currency": "USD",
-    "mcap_usd": 252651065231.0,
+    "mcap_usd": 255561467374.0,
     "pe": 35.3,
     "pe_fiscal_year": false,
     "hi52": 727.56,
@@ -8966,7 +8966,7 @@
     "as_of": "2026-11-20",
     "price": 0.24,
     "currency": "USD",
-    "mcap_usd": 3900154.0,
+    "mcap_usd": 4052666.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -9127,7 +9127,7 @@
     "as_of": "2026-11-20",
     "price": 2.25,
     "currency": "USD",
-    "mcap_usd": 20842337.0,
+    "mcap_usd": 20843259.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 6.92,
@@ -9667,7 +9667,7 @@
     "as_of": "2026-11-20",
     "price": 4.28,
     "currency": "USD",
-    "mcap_usd": 206813291.0,
+    "mcap_usd": 208192046.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -9786,7 +9786,7 @@
     "as_of": "2026-11-20",
     "price": 16.13,
     "currency": "USD",
-    "mcap_usd": 1177546795.0,
+    "mcap_usd": 1184104472.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -9943,7 +9943,7 @@
     "as_of": "2026-11-20",
     "price": 1.84,
     "currency": "USD",
-    "mcap_usd": 174035730.0,
+    "mcap_usd": 179237885.0,
     "pe": 4.8,
     "pe_fiscal_year": false,
     "hi52": 3.23,
@@ -10130,7 +10130,7 @@
     "as_of": "2026-11-20",
     "price": 265.29,
     "currency": "USD",
-    "mcap_usd": 3440210349600.0,
+    "mcap_usd": 3416994360000.0,
     "pe": 13.9,
     "pe_fiscal_year": false,
     "hi52": 408.61,
@@ -10317,7 +10317,7 @@
     "as_of": "2026-11-20",
     "price": 484.52,
     "currency": "USD",
-    "mcap_usd": 3711537775144.0,
+    "mcap_usd": 3731365714598.0,
     "pe": 25.3,
     "pe_fiscal_year": false,
     "hi52": 559.15,
@@ -10504,7 +10504,7 @@
     "as_of": "2026-11-20",
     "price": 246.82,
     "currency": "USD",
-    "mcap_usd": 2757350268030.0,
+    "mcap_usd": 2756160822816.0,
     "pe": 20.0,
     "pe_fiscal_year": false,
     "hi52": 287.2,
@@ -10692,7 +10692,7 @@
     "as_of": "2026-11-20",
     "price": 220.36,
     "currency": "USD",
-    "mcap_usd": 157365772699.0,
+    "mcap_usd": 158428104230.0,
     "pe": 36.1,
     "pe_fiscal_year": false,
     "hi52": 242.8,
@@ -10879,7 +10879,7 @@
     "as_of": "2026-11-20",
     "price": 245.82,
     "currency": "USD",
-    "mcap_usd": 41167040000.0,
+    "mcap_usd": 41366448000.0,
     "pe": 29.9,
     "pe_fiscal_year": false,
     "hi52": 284.5,
@@ -11062,7 +11062,7 @@
     "as_of": "2026-11-20",
     "price": 10.55,
     "currency": "USD",
-    "mcap_usd": 1543739228.0,
+    "mcap_usd": 1629163533.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.61,
@@ -11245,7 +11245,7 @@
     "as_of": "2026-11-20",
     "price": 266.22,
     "currency": "USD",
-    "mcap_usd": 43929983490.0,
+    "mcap_usd": 43736810041.0,
     "pe": 43.6,
     "pe_fiscal_year": false,
     "hi52": 325.99,
@@ -11454,7 +11454,7 @@
     "as_of": "2026-11-20",
     "price": 21.77,
     "currency": "USD",
-    "mcap_usd": 68189446641.0,
+    "mcap_usd": 68821415562.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 22.07,
@@ -11642,7 +11642,7 @@
     "as_of": "2026-11-20",
     "price": 150.47,
     "currency": "USD",
-    "mcap_usd": 289676506389.0,
+    "mcap_usd": 288321718697.0,
     "pe": 21.0,
     "pe_fiscal_year": true,
     "hi52": 170.46,
@@ -11826,7 +11826,7 @@
     "as_of": "2026-11-20",
     "price": 133.72,
     "currency": "USD",
-    "mcap_usd": 333720308785.0,
+    "mcap_usd": 333165628505.0,
     "pe": 135.1,
     "pe_fiscal_year": false,
     "hi52": 156.92,
@@ -12692,60 +12692,6 @@
     "date": "2026-11-18"
    }
   ],
-  "lifespan": [
-   {
-    "title": "James Peyer on Turning Aging Biology Into Medicine",
-    "url": "https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/",
-    "date": "2026-11-20"
-   },
-   {
-    "title": "One Way That Aged T Cells Age the Whole Body",
-    "url": "https://lifespan.io/one-way-that-aged-t-cells-age-the-whole-body/",
-    "date": "2026-11-19"
-   },
-   {
-    "title": "Partial Reprogramming’s Outcome Depends on Cell Type",
-    "url": "https://lifespan.io/partial-reprogrammings-outcome-depends-on-cell-type/",
-    "date": "2026-11-17"
-   },
-   {
-    "title": "Fat Cells Can Secrete a Senescence Promoter",
-    "url": "https://lifespan.io/fat-cells-can-secrete-a-senescence-promoter/",
-    "date": "2026-11-16"
-   },
-   {
-    "title": "Serotonin Signals Suppress Physical Activity in Aging Mice",
-    "url": "https://lifespan.io/serotonin-signals-suppress-physical-activity-in-aging-mice/",
-    "date": "2026-11-13"
-   }
-  ],
-  "fightaging": [
-   {
-    "title": "Evidence for NAD Levels to Remain Stable or Increase with Age in Healthy Individuals",
-    "url": "https://www.fightaging.org/archives/2026/11/evidence-for-nad-levels-to-remain-stable-or-increase-with-age-in-healthy-individuals/",
-    "date": "2026-11-23"
-   },
-   {
-    "title": "The Central Dogma of Aging",
-    "url": "https://www.fightaging.org/archives/2026/11/the-central-dogma-of-aging/",
-    "date": "2026-11-23"
-   },
-   {
-    "title": "Fight Aging! Newsletter, November 23rd 2026",
-    "url": "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026/",
-    "date": "2026-11-22"
-   },
-   {
-    "title": "Granzyme K Knockout Mice Exhibit Reduced Loss of Function with Age",
-    "url": "https://www.fightaging.org/archives/2026/11/granzyme-k-knockout-mice-exhibit-reduced-loss-of-function-with-age/",
-    "date": "2026-11-20"
-   },
-   {
-    "title": "FGF13 Overexpression Improves Astrocyte Function to Slow Cognitive Aging in Mice",
-    "url": "https://www.fightaging.org/archives/2026/11/fgf13-overexpression-improves-astrocyte-function-to-slow-cognitive-aging-in-mice/",
-    "date": "2026-11-20"
-   }
-  ],
   "decodingbio": [
    {
     "title": "BioByte 180: Maps Against Cancer",
@@ -12798,6 +12744,60 @@
     "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
     "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery",
     "date": "2026-10-06"
+   }
+  ],
+  "lifespan": [
+   {
+    "title": "James Peyer on Turning Aging Biology Into Medicine",
+    "url": "https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "One Way That Aged T Cells Age the Whole Body",
+    "url": "https://lifespan.io/one-way-that-aged-t-cells-age-the-whole-body/",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "Partial Reprogramming’s Outcome Depends on Cell Type",
+    "url": "https://lifespan.io/partial-reprogrammings-outcome-depends-on-cell-type/",
+    "date": "2026-11-17"
+   },
+   {
+    "title": "Fat Cells Can Secrete a Senescence Promoter",
+    "url": "https://lifespan.io/fat-cells-can-secrete-a-senescence-promoter/",
+    "date": "2026-11-16"
+   },
+   {
+    "title": "Serotonin Signals Suppress Physical Activity in Aging Mice",
+    "url": "https://lifespan.io/serotonin-signals-suppress-physical-activity-in-aging-mice/",
+    "date": "2026-11-13"
+   }
+  ],
+  "fightaging": [
+   {
+    "title": "Evidence for NAD Levels to Remain Stable or Increase with Age in Healthy Individuals",
+    "url": "https://www.fightaging.org/archives/2026/11/evidence-for-nad-levels-to-remain-stable-or-increase-with-age-in-healthy-individuals/",
+    "date": "2026-11-23"
+   },
+   {
+    "title": "The Central Dogma of Aging",
+    "url": "https://www.fightaging.org/archives/2026/11/the-central-dogma-of-aging/",
+    "date": "2026-11-23"
+   },
+   {
+    "title": "Fight Aging! Newsletter, November 23rd 2026",
+    "url": "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026/",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Granzyme K Knockout Mice Exhibit Reduced Loss of Function with Age",
+    "url": "https://www.fightaging.org/archives/2026/11/granzyme-k-knockout-mice-exhibit-reduced-loss-of-function-with-age/",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "FGF13 Overexpression Improves Astrocyte Function to Slow Cognitive Aging in Mice",
+    "url": "https://www.fightaging.org/archives/2026/11/fgf13-overexpression-improves-astrocyte-function-to-slow-cognitive-aging-in-mice/",
+    "date": "2026-11-20"
    }
   ]
  }

@@ -5,6 +5,7 @@
     en: {
       title: "AI Drug Ledger", subtitle: "Drugs from AI-native companies in human trials: what started, what moved, what stopped. Outcomes, not announcements.",
       loading: "Loading…", failed: "Could not load data/ledger.json.", skip: "Skip to content",
+      gsPh: "Search companies, tickers, drugs, signals, terms", gsCo: "Companies", gsTr: "Trials", gsSig: "Signals", gsDeals: "Deals", gsTerms: "Glossary", gsAll: "See all {n} matching trials", gsNone: "Nothing found for “{q}”.", gsTrialsN: "{n} trials",
       nav: { today: "Today", signals: "Signals", trials: "Trials", calendar: "Calendar", more: "More" },
       subs: { all: "All trials", stopped: "Stopped", changes: "Changes", companies: "Companies", dates: "Dates ahead", deals: "Deals", longevity: "Longevity", reading: "Reading", method: "Method", glossary: "Glossary" },
       tSignals: "Latest signals", tChanges: "Registry changes", tDue: "Due in the next 30 days", seeAll: "See all", noSignals: "No material signals in the last scan.", noChanges: "No changes recorded yet.", noDue: "Nothing due in the next 30 days.",
@@ -46,6 +47,7 @@
     zh: {
       title: "AI 新药台账", subtitle: "AI 原生公司进入人体试验的药物：哪些启动了，哪些推进了，哪些停了。只记结果，不记公告。",
       loading: "加载中…", failed: "无法加载 data/ledger.json。", skip: "跳到正文",
+      gsPh: "搜索公司、代码、药物、信号、术语", gsCo: "公司", gsTr: "试验", gsSig: "信号", gsDeals: "交易", gsTerms: "术语", gsAll: "查看全部 {n} 项匹配的试验", gsNone: "没有找到“{q}”。", gsTrialsN: "{n} 项试验",
       nav: { today: "今日", signals: "信号", trials: "试验", calendar: "日历", more: "更多" },
       subs: { all: "全部试验", stopped: "已终止", changes: "变动", companies: "公司", dates: "未来日期", deals: "交易", longevity: "长寿", reading: "阅读", method: "方法", glossary: "术语" },
       tSignals: "最新信号", tChanges: "登记库变动", tDue: "未来 30 天到期", seeAll: "查看全部", noSignals: "最近一次扫描没有重要信号。", noChanges: "暂无变动记录。", noDue: "未来 30 天没有到期事件。",
@@ -413,12 +415,38 @@
   }
   function hidePop() { var p = document.getElementById("pop"); p.hidden = true; p._for = null; }
 
+  // ---- site-wide search ----
+  function gsHide() { var r = document.getElementById("gs-res"); r.hidden = true; document.getElementById("gs").setAttribute("aria-expanded", "false"); }
+  function gsRun(raw) {
+    var q = fold(raw), box = document.getElementById("gs-res");
+    if (!D || q.length < 2) return gsHide();
+    function has(s) { return fold(s).indexOf(q) >= 0; }
+    var h = "";
+    var cos = Object.keys(D.companies).map(function (k) { return D.companies[k]; }).filter(function (c) { return has([c.name, c.name_zh, c.ticker, c.key].join(" ")); })
+      .sort(function (a, b) { return (fold(b.ticker) === q) - (fold(a.ticker) === q) || b.trials - a.trials; });
+    if (cos.length) h += "<h4>" + esc(t("gsCo")) + "</h4>" + cos.slice(0, 6).map(function (c) {
+      return '<button type="button" class="gs-item" data-co="' + esc(c.key) + '">' + esc(coName(c)) + (c.ticker ? ' <span class="tk">' + esc(c.ticker) + "</span>" : "") + "<small>" + esc(c.tier ? t(c.tier) : (t("roles")[c.role] || "")) + (c.trials ? " · " + esc(f("gsTrialsN", { n: c.trials })) : "") + "</small></button>"; }).join("");
+    var tr = D.trials.filter(function (x) { return x.search.indexOf(q) >= 0; });
+    if (tr.length) h += "<h4>" + esc(t("gsTr")) + "</h4>" + tr.slice(0, 5).map(function (x) {
+      return '<a class="gs-item" href="' + href("trials", "all", { q: x.nct }) + '">' + esc((x.interventions || []).slice(0, 2).join(", ") || x.title) + " · " + esc(phase(x.phase)) + "<small>" + esc(D.companies[x.co] ? coName(D.companies[x.co]) : x.lead_sponsor) + " · " + esc((x.conditions || [])[0] || "") + " · " + esc(x.nct) + "</small></a>"; }).join("") +
+      (tr.length > 5 ? '<a class="gs-item" href="' + href("trials", "all", { q: raw.trim() }) + '">' + esc(f("gsAll", { n: tr.length })) + " →</a>" : "");
+    var sg = (D.signals || []).filter(function (i) { return has([i.title_en, i.title_zh, i.so_what_en, i.so_what_zh, (i.names || []).map(function (n) { return n.ticker; }).join(" ")].join(" ")); });
+    if (sg.length) h += "<h4>" + esc(t("gsSig")) + "</h4>" + sg.slice(0, 4).map(function (i) { return '<a class="gs-item" href="' + href("signals") + '">' + esc(L(i, "title")) + "<small>" + esc(i.date) + " · " + esc(t("ty")[i.type] || i.type) + "</small></a>"; }).join("");
+    var dl = (D.deals || []).filter(function (d) { return has([d.ai, d.pharma, (d.tickers || []).join(" ")].join(" ")); });
+    if (dl.length) h += "<h4>" + esc(t("gsDeals")) + "</h4>" + dl.slice(0, 4).map(function (d) { return '<a class="gs-item" href="' + href("calendar", "deals") + '">' + esc(d.ai) + " – " + esc(d.pharma) + "<small>" + esc(d.date) + (d.upfront_usd != null ? " · " + esc(t("upfront")) + " " + dealUsd(d.upfront_usd) : "") + "</small></a>"; }).join("");
+    var gl = (D.glossary || []).filter(function (g) { return has(g.term_en + " " + g.term_zh); });
+    if (gl.length) h += "<h4>" + esc(t("gsTerms")) + "</h4>" + gl.slice(0, 3).map(function (g) { return '<a class="gs-item" href="' + href("more", "glossary") + '">' + esc(L(g, "term")) + "<small>" + esc(L(g, "def")) + "</small></a>"; }).join("");
+    box.innerHTML = h || '<p class="gs-none">' + esc(f("gsNone", { q: raw.trim() })) + "</p>";
+    box.hidden = false; document.getElementById("gs").setAttribute("aria-expanded", "true");
+  }
+
   // ---- render ----
   function chrome() {
     document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
     document.title = t("nav")[S.view] + (S.sub ? " · " + t("subs")[S.sub] : "") + " · " + t("title");
     Array.prototype.forEach.call(document.querySelectorAll("[data-t]"), function (el) { el.textContent = t(el.getAttribute("data-t")); });
     var lb = document.getElementById("lang"); lb.textContent = lang === "zh" ? "English" : "中文"; lb.setAttribute("lang", lang === "zh" ? "en" : "zh-CN"); lb.setAttribute("aria-label", lang === "zh" ? "Switch to English" : "切换到中文");
+    var gs = document.getElementById("gs"); gs.placeholder = t("gsPh"); gs.setAttribute("aria-label", t("gsPh"));
     document.getElementById("nav").setAttribute("aria-label", lang === "zh" ? "栏目" : "Sections");
     var fresh = { signals: D && (D.signals || []).some(function (i) { return isNew(i.run); }), trials: D && D.events.some(function (e) { return isNew(e.detected); }) };
     document.getElementById("nav").innerHTML = Object.keys(VIEWS).map(function (k) { return '<a href="#' + k + '"' + (k === S.view ? ' aria-current="page"' : "") + ">" + esc(t("nav")[k]) + (fresh[k] ? '<span class="badge" title="' + esc(t("newLab")) + '"></span>' : "") + "</a>"; }).join("");
@@ -444,7 +472,9 @@
     tb.replaceChild(tmp.tHead, tb.tHead); tb.replaceChild(tmp.tBodies[0], tb.tBodies[0]); count();
   }
   var timer = null;
+  var gsTimer = null;
   document.addEventListener("input", function (e) {
+    if (e.target.id === "gs") { clearTimeout(gsTimer); var gv = e.target.value; gsTimer = setTimeout(function () { gsRun(gv); }, 120); return; }
     if (e.target.id !== "f-q") return;
     clearTimeout(timer); var v = e.target.value;
     timer = setTimeout(function () { go({ q: v.trim(), n: PAGE }); redrawBody(); }, 150);
@@ -459,6 +489,8 @@
     var el = document.getElementById(id); if (el) el.focus();
   });
   document.addEventListener("click", function (e) {
+    if (!document.getElementById("gs-res").hidden && !(e.target.closest && e.target.closest(".gs"))) gsHide();
+    if (e.target.closest && e.target.closest("#gs-res .gs-item")) setTimeout(gsHide, 0);
     if (e.target.classList && e.target.classList.contains("skip")) { e.preventDefault(); document.getElementById("main").focus(); return; }
     var el = e.target.closest ? e.target.closest("[data-co],[data-g],[data-sort],[data-status],[data-clear],[data-more],[data-open],[data-close],#panel-close,#backdrop,#lang") : null;
     var pop = document.getElementById("pop");
@@ -480,7 +512,9 @@
     if (el.hasAttribute("data-open")) { var id = el.getAttribute("data-open"); S.open = S.open === id ? null : id; redrawBody(); var again = document.querySelector('[data-open="' + id + '"]'); if (again) again.focus(); }
   });
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") { if (!document.getElementById("pop").hidden) return hidePop(); if (S.co) closePanel(); }
+    if (e.target.id === "gs" && e.key === "Enter") { var first = document.querySelector("#gs-res .gs-item"); if (first) { e.preventDefault(); first.click(); } return; }
+    if (e.target.id === "gs" && e.key === "ArrowDown") { var f1 = document.querySelector("#gs-res .gs-item"); if (f1) { e.preventDefault(); f1.focus(); } return; }
+    if (e.key === "Escape") { if (!document.getElementById("gs-res").hidden) { gsHide(); return document.getElementById("gs").focus(); } if (!document.getElementById("pop").hidden) return hidePop(); if (S.co) closePanel(); }
     if (e.key === "Tab" && S.co && !document.getElementById("panel").hidden) {   // keep focus inside the open panel
       var p = document.getElementById("panel"), fs = p.querySelectorAll("a[href],button"), first = fs[0], last = fs[fs.length - 1];
       if (!first) return;
@@ -490,11 +524,12 @@
     }
   });
   window.addEventListener("hashchange", function () {
-    var prev = S, open = S.open; S = parse(); if (!S.co) panelPushed = false;
+    var prev = S, open = S.open; S = parse(); if (!S.co) panelPushed = false; gsHide();
     if (prev.view === S.view && prev.sub === S.sub) { S.n = prev.n; S.open = open; if (prev.co !== S.co && hashOf({ view: prev.view, sub: prev.sub, q: prev.q, phase: prev.phase, status: prev.status, company: prev.company, listed: prev.listed, sort: prev.sort }) === hashOf({ view: S.view, sub: S.sub, q: S.q, phase: S.phase, status: S.status, company: S.company, listed: S.listed, sort: S.sort })) { chrome(); return drawPanel(); } return render(true); }
     render(false);
   });
   window.addEventListener("scroll", function () { if (!document.getElementById("pop").hidden) hidePop(); }, true);
+  document.addEventListener("focusin", function (e) { if (e.target.id === "gs" && e.target.value.trim().length >= 2) gsRun(e.target.value); });
   window.addEventListener("pagehide", function () { if (D) store("ledger-seen", D.generated_at); });
   S = parse(); chrome0();
   function chrome0() { Array.prototype.forEach.call(document.querySelectorAll("[data-t]"), function (el) { el.textContent = t(el.getAttribute("data-t")); }); }
