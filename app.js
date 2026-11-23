@@ -8,8 +8,8 @@
       nav: { today: "Today", signals: "Signals", trials: "Trials", calendar: "Calendar", more: "More" },
       subs: { all: "All trials", stopped: "Stopped", changes: "Changes", companies: "Companies", dates: "Dates ahead", deals: "Deals", longevity: "Longevity", reading: "Reading", method: "Method", glossary: "Glossary" },
       tSignals: "Latest signals", tChanges: "Registry changes", tDue: "Due in the next 30 days", seeAll: "See all", noSignals: "No material signals in the last scan.", noChanges: "No changes recorded yet.", noDue: "Nothing due in the next 30 days.",
-      overdue: "{n} active Phase 2/3 trials are past their listed result date with no update.", scanOf: "scan of {d}",
-      trials: "Trials", sponsors: "Companies", core: "Trials from AI-native companies", stoppedN: "Stopped early", results: "With results posted", p3: "In Phase 3 or 2/3", new90: "Registered in 90 days",
+      overdue: "{n} active Phase 2 or Phase 3 trials are past their listed result date with no update.", scanOf: "scan of {d}",
+      trials: "Trials", sponsors: "AI-native companies", core: "Their trials on the ledger", stoppedN: "Stopped early", results: "With results posted", p3: "Live in Phase 3 or 2/3", new90: "Registered in 90 days", tilesH: "AI-native companies at a glance", sortBy: "Sort", sorts: { "-updated": "Newest update", "-phase": "Latest phase first", "phase": "Earliest phase first", "company": "Company A–Z", "drug": "Drug A–Z" }, pProxyA: "Listed through", pProxyB: "",
       apprH: "Approved so far", apprNone: "No drug from an AI-native company on this ledger has been approved by a major regulator.", apprAi: "From AI-native companies: none yet.", pApproved: "Approved drugs", profPartly: "some details not re-checked",
       verdictH: "Does AI change the odds? Unproven.", verdictP: "{n} of the {t} completed randomised Phase 2 trials needed before a matched comparison means anything. A completed trial is not a successful one: the registry does not say whether a trial met its endpoint.",
       phaseH: "Trials by phase, AI-native companies", active: "Active", completed: "Completed", stopped: "Stopped", unknown: "Unknown", total: "Total",
@@ -39,8 +39,8 @@
       rubric: ["Evidence level: lab or animal, uncontrolled human, randomised human.", "Endpoint: biomarker, surrogate, clinical outcome.", "Size and pre-registration.", "Independence: company release, peer-reviewed, replicated by others.", "Comparator: none, placebo, standard of care.", "The target has human genetic support.", "The AI contribution is specific and checkable, and negative data are disclosed."],
       glossNote: "Plain-language meanings of the terms used on this site. Dotted terms anywhere on the page open the same explanation.",
       pClose: "Close", pOverview: "Overview", pAi: "AI link", pLead: "Most advanced programme", pMarket: "Market data", pMarketNote: "Delayed; as of {d}. Context only, not a signal.", pPrice: "Last close", p1m: "1 month", p3m: "3 months", pYtd: "Year to date", pCash: "Cash and equivalents", pCashInv: "Cash and investments", pRunway: "Cash runway", quarters: "{n} quarters", lossMaking: "n/a (loss-making)", pEps: "Earnings per share, 12 months", pFin: "Financials", pFinNote: "From the company's SEC filings, period to {d}. Twelve-month figures add the last fiscal year and the year to date.", pRange: "52-week range", pSince: "range since listing, {d}", pNoPe: "not available", pFy: "based on the last fiscal year's earnings, converted to US dollars.", pRev: "Revenue, 12 months", pRd: "R&D, 12 months",
-      pLedger: "On the ledger", pTrials: "{n} trials, {s} stopped early", pNoTrials: "No trials tracked for this company.", pNext: "Results due", pStopped: "Stopped trials", pSignals: "Signals", pDeals: "Deals", pChanges: "Registry changes", pLinks: "Links", pCt: "All trials on ClinicalTrials.gov", pSec: "SEC filings", pHk: "HKEX page", pSee: "See its trials", pProxy: "Listed through {t}", pPrivate: "Not listed", pSrc: "Profile source",
-      newLab: "new", markRead: "Mark all as read",
+      pLedger: "On the ledger", pTrials: "{n} trials, {s} stopped early", pNoTrials: "No trials tracked for this company.", pNext: "Results due", pStopped: "Stopped trials", pSignals: "Signals", pDeals: "Deals", pChanges: "Registry changes", pLinks: "Links", pCt: "All trials on ClinicalTrials.gov", pSec: "SEC filings", pHk: "HKEX page", pSee: "See its trials", pPrivate: "Not listed", pSrc: "Profile source",
+      newLab: "new",
       footer: "Descriptive information only; not medical or investment advice, a research report or a recommendation on any investment product. The publisher may hold positions in the companies named. Trial data: ClinicalTrials.gov.", generated: "Data generated {d}"
     },
     zh: {
@@ -49,8 +49,8 @@
       nav: { today: "今日", signals: "信号", trials: "试验", calendar: "日历", more: "更多" },
       subs: { all: "全部试验", stopped: "已终止", changes: "变动", companies: "公司", dates: "未来日期", deals: "交易", longevity: "长寿", reading: "阅读", method: "方法", glossary: "术语" },
       tSignals: "最新信号", tChanges: "登记库变动", tDue: "未来 30 天到期", seeAll: "查看全部", noSignals: "最近一次扫描没有重要信号。", noChanges: "暂无变动记录。", noDue: "未来 30 天没有到期事件。",
-      overdue: "{n} 项进行中的二/三期试验已过登记的结果日期，尚无更新。", scanOf: "{d} 扫描",
-      trials: "试验", sponsors: "公司", core: "AI 原生公司的试验", stoppedN: "提前终止", results: "已公布结果", p3: "处于三期或二/三期", new90: "近 90 天新登记",
+      overdue: "{n} 项进行中的二期或三期试验已过登记的结果日期，尚无更新。", scanOf: "{d} 扫描",
+      trials: "试验", sponsors: "AI 原生公司", core: "其在台账内的试验", stoppedN: "提前终止", results: "已公布结果", p3: "三期或 2/3 期（未终止）", new90: "近 90 天新登记", tilesH: "AI 原生公司概览", sortBy: "排序", sorts: { "-updated": "最近更新", "-phase": "分期从晚到早", "phase": "分期从早到晚", "company": "公司 A–Z", "drug": "药物 A–Z" }, pProxyA: "通过", pProxyB: "上市",
       apprH: "已获批的药物", apprNone: "台账内 AI 原生公司的药物尚无一款获主要监管机构批准。", apprAi: "来自 AI 原生公司：尚无。", pApproved: "已获批药物", profPartly: "部分细节未重新核对",
       verdictH: "AI 是否改变了成功率？尚无定论。", verdictP: "做匹配比较至少需要 {t} 项已完成的随机二期试验，目前只有 {n} 项。“已完成”不等于“成功”：登记库不记录试验是否达到终点。",
       phaseH: "各期试验数（AI 原生公司）", active: "进行中", completed: "已完成", stopped: "已终止", unknown: "不详", total: "合计",
@@ -80,8 +80,8 @@
       rubric: ["证据级别：体外或动物，无对照人体，随机人体。", "终点：生物标志物，替代终点，临床结局。", "样本量与预先登记。", "独立性：公司新闻稿，同行评议，他人重复验证。", "对照：无，安慰剂，标准治疗。", "靶点有人类遗传学证据支持。", "AI 的贡献具体且可核查，并披露阴性数据。"],
       glossNote: "本站所用术语的通俗解释。页面上带虚线的术语点开后是同样的说明。",
       pClose: "关闭", pOverview: "概况", pAi: "与 AI 的关系", pLead: "进展最快的项目", pMarket: "行情数据", pMarketNote: "有延迟；截至 {d}。仅作背景，不是信号。", pPrice: "最新收盘", p1m: "1 个月", p3m: "3 个月", pYtd: "年初至今", pCash: "现金及等价物", pCashInv: "现金及投资", pRunway: "现金可支撑", quarters: "{n} 个季度", lossMaking: "不适用（亏损）", pEps: "每股收益（12 个月）", pFin: "财务数据", pFinNote: "来自公司向 SEC 提交的文件，截至 {d}。12 个月数据为上一财年加本年至今。", pRange: "52 周区间", pSince: "上市以来区间（自 {d}）", pNoPe: "暂无", pFy: "按上一财年收益计算，并折算为美元。", pRev: "营收（12 个月）", pRd: "研发投入（12 个月）",
-      pLedger: "台账记录", pTrials: "{n} 项试验，{s} 项提前终止", pNoTrials: "未跟踪该公司的试验。", pNext: "即将到期的结果", pStopped: "已终止的试验", pSignals: "信号", pDeals: "交易", pChanges: "登记库变动", pLinks: "链接", pCt: "ClinicalTrials.gov 上的全部试验", pSec: "SEC 文件", pHk: "港交所页面", pSee: "查看其试验", pProxy: "通过 {t} 上市", pPrivate: "未上市", pSrc: "概况来源",
-      newLab: "新", markRead: "全部标为已读",
+      pLedger: "台账记录", pTrials: "{n} 项试验，{s} 项提前终止", pNoTrials: "未跟踪该公司的试验。", pNext: "即将到期的结果", pStopped: "已终止的试验", pSignals: "信号", pDeals: "交易", pChanges: "登记库变动", pLinks: "链接", pCt: "ClinicalTrials.gov 上的全部试验", pSec: "SEC 文件", pHk: "港交所页面", pSee: "查看其试验", pPrivate: "未上市", pSrc: "概况来源",
+      newLab: "新",
       footer: "仅为描述性信息，不构成医疗或投资建议、研究报告或对任何投资产品的推荐。发布者可能持有文中所述公司的头寸。试验数据来自 ClinicalTrials.gov。", generated: "数据生成于 {d}"
     }
   };
@@ -89,7 +89,7 @@
   var ST_ZH = { RECRUITING: "招募中", NOT_YET_RECRUITING: "尚未招募", ACTIVE_NOT_RECRUITING: "进行中，不再招募", ENROLLING_BY_INVITATION: "邀请入组", COMPLETED: "已完成", TERMINATED: "已终止", WITHDRAWN: "已撤回", SUSPENDED: "已暂停", UNKNOWN: "状态不详" };
   var VIEWS = { today: [], signals: [], trials: ["all", "stopped", "changes", "companies"], calendar: ["dates", "deals"], more: ["longevity", "reading", "method", "glossary"] };
   var ALIAS = { overview: "today", stopped: "trials/stopped", changes: "trials/changes", companies: "trials/companies", readouts: "calendar", dates: "calendar", deals: "calendar/deals", longevity: "more/longevity", reading: "more/reading", method: "more/method", glossary: "more/glossary" };
-  var lang = "en", D = null, S = {}, seen = null, opener = null, PAGE = 60;
+  var lang = "en", D = null, S = {}, seen = null, opener = null, PAGE = 60, DEF = "", panelPushed = false;
   function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
   lang = store("ledger-lang") || ((navigator.language || "").indexOf("zh") === 0 ? "zh" : "en");
   seen = store("ledger-seen");
@@ -113,7 +113,12 @@
   function dealUsd(n) { return n >= 1e9 ? "$" + (n / 1e9).toFixed(2).replace(/\.?0+$/, "") + "B" : "$" + (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M"; }
   function pct(x) { return x == null ? "–" : (x > 0 ? "+" : x < 0 ? "−" : "") + Math.abs(x * 100).toFixed(1) + "%"; }
   function score(n) { var o = ""; for (var i = 1; i <= 3; i++) o += '<i class="' + (i <= n ? "on" : "") + '"></i>'; return '<span class="score">' + o + "<b>" + n + "/3</b></span>"; }
-  function isNew(stamp) { return !!(seen && stamp && stamp > seen); }
+  function isNew(stamp) { if (!seen || !stamp || !D) return false; var d = stamp.slice(0, 10), sd = seen.slice(0, 10); return d > sd || (d === sd && D.generated_at > seen); }
+  function newDot() { return '<span class="dot" role="img" aria-label="' + esc(t("newLab")) + '" title="' + esc(t("newLab")) + '"></span>'; }
+  function fold(s) { s = String(s || "").trim().toLowerCase(); return s.normalize ? s.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : s; }
+  function money(x) { return Number(x).toFixed(2); }
+  var CAD_ZH = { "several a week": "每周数篇", "daily": "每日", "weekly": "每周", "yearly, April": "每年 4 月", "yearly, October": "每年 10 月" };
+  function srcStatus(v) { return lang !== "zh" ? v : String(v).replace(/^ok, (\d+) new/, "正常，新增 $1 条").replace(/\((\d+) over the cap, not listed\)/, "（另有 $1 条超出上限未列出）").replace(/unreachable/g, "无法访问"); }
   function spark(arr, w, h) {
     if (!arr || arr.length < 2) return "";
     var lo = Math.min.apply(null, arr), hi = Math.max.apply(null, arr), span = hi - lo || 1, n = arr.length - 1;
@@ -124,11 +129,12 @@
 
   // ---- URL state ----
   function parse() {
-    var h = decodeURIComponent(location.hash.replace(/^#/, "")), qi = h.indexOf("?"), path = (qi < 0 ? h : h.slice(0, qi)).toLowerCase(), q = qi < 0 ? "" : h.slice(qi + 1);
+    function dec(s) { try { return decodeURIComponent(s); } catch (e) { return s; } }
+    var h = location.hash.replace(/^#/, ""), qi = h.indexOf("?"), path = dec(qi < 0 ? h : h.slice(0, qi)).toLowerCase(), q = qi < 0 ? "" : h.slice(qi + 1);
     if (ALIAS[path]) path = ALIAS[path];
     var p = path.split("/"), view = VIEWS[p[0]] ? p[0] : "today", subs = VIEWS[view], sub = subs.indexOf(p[1]) >= 0 ? p[1] : (subs[0] || "");
     var o = { view: view, sub: sub, q: "", phase: "", status: "", company: "", listed: "", sort: "", co: "", n: PAGE };
-    q.split("&").forEach(function (kv) { var i = kv.indexOf("="); if (i > 0 && kv.slice(0, i) in o) o[kv.slice(0, i)] = kv.slice(i + 1).replace(/\+/g, " "); });
+    q.split("&").forEach(function (kv) { var i = kv.indexOf("="); if (i > 0 && kv.slice(0, i) in o) o[kv.slice(0, i)] = dec(kv.slice(i + 1).replace(/\+/g, " ")); });
     return o;
   }
   function hashOf(o) {
@@ -145,12 +151,12 @@
 
   // ---- tables ----
   function sorted(rows, cols) {
-    var key = S.sort.replace(/^-/, ""), desc = S.sort.charAt(0) === "-", c = cols.filter(function (x) { return x.key === key; })[0];
+    var so = S.sort || DEF, key = so.replace(/^-/, ""), desc = so.charAt(0) === "-", c = cols.filter(function (x) { return x.key === key; })[0];
     if (!c || !c.val) return rows;
     return rows.slice().sort(function (a, b) { var x = c.val(a), y = c.val(b); if (x == null) x = desc ? -Infinity : Infinity; if (y == null) y = desc ? -Infinity : Infinity; return (x < y ? -1 : x > y ? 1 : 0) * (desc ? -1 : 1); });
   }
   function thead(cols) {
-    var key = S.sort.replace(/^-/, ""), desc = S.sort.charAt(0) === "-";
+    var so = S.sort || DEF, key = so.replace(/^-/, ""), desc = so.charAt(0) === "-";
     return "<thead><tr>" + cols.map(function (c) {
       var lab = c.term ? term(c.term, c.label) : esc(c.label);
       if (!c.val) return '<th scope="col"' + (c.num ? ' class="n"' : "") + ">" + lab + "</th>";
@@ -174,7 +180,7 @@
   function trialCols(extra) {
     return [
       { key: "nct", label: t("trial"), cls: "d", nolabel: 1, cell: function (x) { return '<button type="button" class="exp" data-open="' + x.nct + '" aria-expanded="' + (S.open === x.nct) + '" aria-label="' + esc(t("details")) + '">' + (S.open === x.nct ? "▾" : "▸") + "</button>" + nct(x.nct); } },
-      { key: "drug", label: t("drug"), cls: "lead", nolabel: 1, val: function (x) { return (x.interventions[0] || "").toLowerCase(); }, cell: function (x) { return esc((x.interventions || []).slice(0, 2).join(", ")); } },
+      { key: "drug", label: t("drug"), cls: "lead", nolabel: 1, val: function (x) { return (x.interventions[0] || "").toLowerCase(); }, cell: function (x) { return esc((x.interventions || []).slice(0, 2).join(", ") || x.title); } },
       { key: "company", label: t("company"), val: function (x) { return (D.companies[x.co] ? D.companies[x.co].name : x.lead_sponsor).toLowerCase(); }, cell: function (x) { return (x.via === "sponsor" ? co(x.co) : esc(x.lead_sponsor)) + " " + tk(x.ticker); } },
       { key: "condition", label: t("condition"), cell: function (x) { return esc((x.conditions || []).slice(0, 2).join("; ")); } },
       { key: "phase", label: t("phase"), term: "phase", val: function (x) { return x.phase_rank; }, cell: function (x) { return esc(phase(x.phase)); } },
@@ -187,8 +193,8 @@
       row(t("n"), x.enrollment) + row(t("dRand"), x.randomised ? t("yes") : t("no")) + row(t("dFirst"), x.first_posted) + row(t("dPrim"), x.primary_completion) + row(t("updated"), x.last_update) + row(t("dWhy"), x.why_stopped) + "</dl>";
   }
   function trialRows(base) {
-    var q = S.q.toLowerCase();
-    return base.filter(function (x) { return (!S.listed || x.ticker) && (!S.phase || x.phase === S.phase) && (!S.status || x.bucket === S.status) && (!S.company || x.co === S.company) && (!q || x.search.indexOf(q) >= 0); });
+    var q = fold(S.q), st = S.sub === "stopped" ? "" : S.status;
+    return base.filter(function (x) { return (!S.listed || x.ticker) && (!S.phase || x.phase === S.phase) && (!st || x.bucket === st) && (!S.company || x.co === S.company) && (!q || x.search.indexOf(q) >= 0); });
   }
   function filters(base, withStatus) {
     function opts(list, cur, all) { return '<option value="">' + esc(all) + "</option>" + list.map(function (o) { return '<option value="' + esc(o[0]) + '"' + (o[0] === cur ? " selected" : "") + ">" + esc(o[1]) + "</option>"; }).join(""); }
@@ -197,10 +203,10 @@
     var cos = Object.keys(cs).map(function (k) { return [k, D.companies[k] ? coName(D.companies[k]) : k]; }).sort(function (a, b) { return a[1] < b[1] ? -1 : 1; });
     var chips = !withStatus ? "" : '<span class="chips" role="group" aria-label="' + esc(t("status")) + '">' + ["active", "completed", "stopped"].map(function (b) {
       return '<button type="button" class="chip" data-status="' + b + '" aria-pressed="' + (S.status === b) + '">' + esc(t(b)) + " " + base.filter(function (x) { return x.bucket === b; }).length + "</button>"; }).join("") + "</span>";
-    var any = S.q || S.phase || S.status || S.company || S.listed;
+    var so = S.sort || DEF;
     return '<div class="filters"><input id="f-q" type="search" placeholder="' + esc(t("search")) + '" aria-label="' + esc(t("search")) + '" value="' + esc(S.q) + '"><select id="f-company" aria-label="' + esc(t("company")) + '">' + opts(cos, S.company, t("allCompanies")) +
       '</select><select id="f-phase" aria-label="' + esc(t("phase")) + '">' + opts(phases, S.phase, t("allPhases")) + "</select>" + chips +
-      '<label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + "</label>" + (any ? '<button type="button" class="btn" data-clear="1">' + esc(t("clear")) + "</button>" : "") + '</div><p class="muted small" id="count"></p>';
+      '<label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + '</label><select id="f-sort" class="only-phone" aria-label="' + esc(t("sortBy")) + '">' + Object.keys(t("sorts")).map(function (k) { return '<option value="' + k + '"' + (k === so ? " selected" : "") + ">" + esc(t("sortBy")) + ": " + esc(t("sorts")[k]) + "</option>"; }).join("") + '</select><button type="button" class="btn" id="f-clear" data-clear="1" hidden>' + esc(t("clear")) + '</button></div><p class="muted small" id="count"></p>';
   }
 
   // ---- views ----
@@ -209,8 +215,8 @@
     return '<section><nav class="subnav" aria-label="' + esc(t("nav")[S.view]) + '">' + subs.map(function (s) { return '<a href="' + href(S.view, s) + '"' + (s === S.sub ? ' aria-current="true"' : "") + ">" + esc(t("subs")[s]) + "</a>"; }).join("") + "</nav></section>";
   }
   function sigCard(i, compact) {
-    var names = (i.names || []).map(function (n) { return tk(n.ticker) + " " + dirPill(n.direction) + (n.order === "second" ? " " + term("second_order", t("second")) : ""); }).join(" &nbsp; ");
-    var head = '<p class="muted small">' + (isNew(i.run) ? '<span class="dot" title="' + esc(t("newLab")) + '"></span>' : "") + esc(i.date) + " · " + esc(t("ty")[i.type] || i.type) + " · " + dirPill(i.direction) + "</p><h3>" + link(i.url, L(i, "title")) + "</h3>" +
+    var names = (i.names || []).map(function (n) { return tk(n.ticker) + " " + pill("", t("dir")[n.direction]) + (n.order === "second" ? " " + term("second_order", t("second")) : ""); }).join(" &nbsp; ");
+    var head = '<p class="muted small">' + (isNew(i.run) ? newDot() : "") + esc(i.date) + " · " + esc(t("ty")[i.type] || i.type) + " · " + dirPill(i.direction) + "</p><h3>" + link(i.url, L(i, "title")) + "</h3>" +
       '<p class="scores"><span>' + term("evidence", t("evidence")) + " " + score(i.evidence) + "</span><span>" + term("market", t("market")) + " " + score(i.market) + "</span>" + (compact ? "<span>" + (i.names || []).map(function (n) { return tk(n.ticker); }).join(" ") + "</span>" : "") + "</p>";
     if (compact) return head;
     return '<div class="card sig">' + head + '<p class="muted small">' + esc(t("conf")) + ": " + esc(t("confv")[i.confidence] || i.confidence) + " · " + esc(t(i.source_kind + "_src")) + (i.single_source ? " · " + esc(t("single")) : "") + "</p>" +
@@ -235,13 +241,13 @@
       var sig = tb.signal_ids.map(function (id) { return D.sigMap[id]; }).filter(Boolean), ev = tb.event_ids.map(function (id) { return D.evMap[id]; }).filter(Boolean), due = tb.due_30d.map(byNct).filter(Boolean);
       function blk(title, more, body, empty) { return '<div class="blk"><div class="row"><h2>' + title + '</h2><a class="more" href="' + more + '">' + esc(t("seeAll")) + " →</a></div>" + (body ? "<ul>" + body + "</ul>" : '<p class="muted">' + esc(empty) + "</p>") + "</div>"; }
       var b1 = blk(esc(t("tSignals")) + ' <span class="muted small">' + esc(f("scanOf", { d: tb.signals_run || "–" })) + "</span>", href("signals"), sig.map(function (i) { return "<li>" + sigCard(i, true) + "</li>"; }).join(""), t("noSignals"));
-      var b2 = blk(esc(t("tChanges")), href("trials", "changes"), ev.map(function (e) { return "<li>" + (isNew(e.detected) ? '<span class="dot"></span>' : "") + '<span class="muted small">' + esc(e.date) + "</span> " + co(byNct(e.nct) ? byNct(e.nct).co : e.sponsor_id) + "<br>" + evLine(e) + ' <span class="small">' + nct(e.nct) + "</span></li>"; }).join(""), t("noChanges"));
+      var b2 = blk(esc(t("tChanges")), href("trials", "changes"), ev.map(function (e) { return "<li>" + (isNew(e.detected) ? newDot() : "") + '<span class="muted small">' + esc(e.date) + "</span> " + co(byNct(e.nct) ? byNct(e.nct).co : e.sponsor_id) + "<br>" + evLine(e) + ' <span class="small">' + nct(e.nct) + "</span></li>"; }).join(""), t("noChanges"));
       var b3 = blk(esc(t("tDue")) + (tb.due_30d_n > due.length ? ' <span class="muted small">' + tb.due_30d_n + "</span>" : ""), href("calendar"), due.map(function (x) { return '<li><span class="muted small">' + esc(x.primary_completion) + "</span> " + co(x.co) + " " + tk(x.ticker) + "<br>" + esc((x.interventions || [])[0] || "") + " · " + esc(phase(x.phase)) + ' <span class="small">' + nct(x.nct) + "</span></li>"; }).join("") +
         (tb.overdue.length ? '<li class="muted small">' + esc(f("overdue", { n: tb.overdue.length })) + "</li>" : ""), t("noDue"));
-      var tiles = [[s.core_trials, "core"], [s.sponsors, "sponsors"], [s.phase3, "p3"], [s.stopped, "stoppedN"], [s.with_results, "results"], [s.new_90d, "new90"]];
+      var tiles = [[s.core_sponsors, "sponsors"], [s.core_trials, "core"], [s.core_phase3_live, "p3"], [s.core_stopped, "stoppedN"], [s.core_with_results, "results"], [s.core_new_90d, "new90"]];
       var pc = Math.min(100, 100 * s.phase2_completed_randomised / s.phase2_threshold);
       return '<section class="today">' + b1 + b2 + b3 + "</section>" +
-        '<section><div class="tiles">' + tiles.map(function (x) { return '<div class="tile"><b>' + x[0] + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + "</div></section>" +
+        "<section><h2>" + esc(t("tilesH")) + '</h2><div class="tiles">' + tiles.map(function (x) { return '<div class="tile"><b>' + x[0] + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + "</div></section>" +
         "<section><h2>" + esc(t("phaseH")) + "</h2>" + funnel() + "</section>" +
         '<section class="verdict"><h2>' + esc(t("verdictH")) + '</h2><div class="meter"><i style="width:' + pc + '%"></i></div><p class="note">' + esc(f("verdictP", { n: s.phase2_completed_randomised, t: s.phase2_threshold })) + "</p><h3>" + esc(t("apprH")) + '</h3><p class="note">' + esc((D.approvals || []).some(function (a) { return a.tier === "ai"; }) ? "" : t("apprAi")) + "</p>" +
         ((D.approvals || []).length ? '<ul class="plain">' + D.approvals.map(function (a) { return "<li><b>" + esc(a.drug) + "</b> · " + esc(a.regulator) + " " + esc(a.date) + " · " + co(a.co) + " " + tk(a.co) + " · " + esc(t(a.tier)) + "<br>" + esc(L(a, "text")) + ' <span class="small">' + link(a.source.url, a.source.publisher) + "</span></li>"; }).join("") + "</ul>" : "") + "</section>";
@@ -252,7 +258,7 @@
         '<p class="muted small">' + esc(f("sigLast", { d: st.last_date || "–" })) + (st.weekly ? ' · <a href="weekly.html">' + esc(t("weekly")) + " " + esc(st.weekly) + "</a>" : "") + "</p>";
       var fu = (st.followups || []).length ? "<section><h2>" + esc(t("followups")) + '</h2><ul class="plain">' + st.followups.map(function (x) { return "<li>" + esc(L(x, "text")) + "</li>"; }).join("") + "</ul></section>" : "";
       var op = (D.open || []).length ? "<section><h2>" + esc(t("watching")) + '</h2><ul class="plain">' + D.open.map(function (o) { return "<li>" + esc(o.due || "") + " " + esc(L(o, "text")) + "</li>"; }).join("") + "</ul></section>" : "";
-      var src = st.sources ? "<section><h2>" + esc(t("sigChecked")) + '</h2><p class="muted small">' + Object.keys(st.sources).map(function (k) { return esc(t("srcs")[k] || k) + ": " + esc(st.sources[k]); }).join(" · ") + "</p></section>" : "";
+      var src = st.sources ? "<section><h2>" + esc(t("sigChecked")) + '</h2><p class="muted small">' + Object.keys(st.sources).map(function (k) { return esc(t("srcs")[k] || k) + ": " + esc(srcStatus(st.sources[k])); }).join(" · ") + "</p></section>" : "";
       var cols = [{ key: "c", label: t("company"), nolabel: 1, cls: "lead", cell: function (c) { return co(c.ticker || c.id, lang === "zh" && c.name_zh ? c.name_zh : c.name); } },
         { key: "r", label: t("role"), cell: function (c) { return esc(t("roles")[c.role] || c.role); } },
         { key: "l", label: t("listing"), cell: function (c) { return c.ticker ? tk(c.ticker) : c.proxy ? esc(t("via")) + " " + tk(c.proxy) : esc(t("priv")); } }];
@@ -265,7 +271,7 @@
           { key: "company", label: t("company"), cls: "lead", nolabel: 1, cell: function (e) { return co(byNct(e.nct) ? byNct(e.nct).co : e.sponsor_id); } },
           { key: "change", label: t("change"), nolabel: 1, cell: function (e) { return evLine(e) + (e.why_stopped ? '<br><span class="muted small">' + esc(e.why_stopped) + "</span>" : ""); } },
           { key: "nct", label: t("trial"), cls: "d", cell: function (e) { return nct(e.nct); } }];
-        if (!S.sort) S.sort = "-date";
+        DEF = "-date";
         return subnav() + '<section><p class="note">' + esc(f("changesNote", { d: D.baseline || "" })) + "</p>" + (D.events.length ? table("t-main", D.events, cols, { isNew: function (e) { return isNew(e.detected); } }) : '<p class="muted">' + esc(t("noChanges")) + "</p>") + "</section>";
       }
       if (S.sub === "companies") {
@@ -278,12 +284,13 @@
           { key: "stopped", label: t("stopped"), num: 1, val: function (c) { return c.stopped; }, cell: function (c) { return c.stopped; } },
           { key: "furthest", label: t("furthest"), cell: function (c) { return esc(c.furthest ? phase(c.furthest) : ""); } },
           { key: "mcap", label: t("mcap"), num: 1, val: function (c) { return c.quote ? c.quote.mcap_usd : null; }, cell: function (c) { return c.quote && c.quote.mcap_usd ? usd(c.quote.mcap_usd) : ""; } }];
-        if (!S.sort) S.sort = "-trials";
+        if (!D.prices_shown) ccols = ccols.filter(function (c) { return c.key !== "spark" && c.key !== "mcap"; });
+        DEF = "-trials";
         return subnav() + '<section><div class="filters"><label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + "</label></div>" + table("t-main", cs, ccols) + "</section>";
       }
       var stop = S.sub === "stopped", base = stop ? D.trials.filter(function (x) { return x.bucket === "stopped"; }) : D.trials;
       var colsT = trialCols(stop ? [{ key: "why", label: t("why"), cell: function (x) { return esc(x.why_stopped || ""); } }] : [{ key: "updated", label: t("updated"), cls: "d", val: function (x) { return x.last_update; }, cell: function (x) { return esc(x.last_update); } }]);
-      if (!S.sort) S.sort = "-updated";
+      DEF = "-updated";
       V._cur = { base: base, cols: colsT, opt: { page: 1, detail: trialDetail, id: function (x) { return x.nct; } } };
       return subnav() + "<section>" + (stop ? '<p class="note">' + esc(t("stoppedNote")) + "</p>" : "") + filters(base, !stop) + table("t-main", trialRows(base), colsT, V._cur.opt) + "</section>";
     },
@@ -296,7 +303,7 @@
           { key: "upfront", label: t("upfront"), term: "upfront", num: 1, val: function (d) { return d.upfront_usd; }, cell: function (d) { return d.upfront_usd == null ? esc(t("undisclosed")) : dealUsd(d.upfront_usd); } },
           { key: "share", label: t("share"), num: 1, val: function (d) { return d.upfront_share; }, cell: function (d) { return d.upfront_share == null ? "" : '<span class="share"><i style="width:' + Math.max(1, d.upfront_share * 100).toFixed(1) + '%"></i></span>' + (d.upfront_share * 100).toFixed(1) + "%"; } },
           { key: "src", label: t("source"), cell: function (d) { return link(d.source.url, d.source.publisher); } }];
-        if (!S.sort) S.sort = "-date";
+        DEF = "-date";
         return subnav() + '<section><p class="note">' + esc(t("dealsNote")) + "</p>" + table("t-main", D.deals || [], dc) + "</section>";
       }
       var rows = D.trials.filter(function (x) { return (!S.listed || x.ticker) && x.bucket === "active" && x.phase_rank >= 3 && x.primary_completion && x.primary_completion >= D.today; })
@@ -304,7 +311,7 @@
       (D.catalysts || []).forEach(function (c) { if (c.sort >= D.today) rows.push({ sort: c.sort, when: c.when, c: c }); });
       rows.sort(function (a, b) { return a.sort < b.sort ? -1 : a.sort > b.sort ? 1 : 0; });
       var cc = [{ key: "due", label: t("readout"), term: "primary_completion", cls: "d", nolabel: 1, cell: function (r) { return esc(r.when); } },
-        { key: "ev", label: t("event"), cls: "lead", nolabel: 1, cell: function (r) { return r.c ? pill("down", t("regDecision")) + " " + esc(L(r.c, "title")) + '<br><span class="muted small" style="font-weight:400">' + esc(L(r.c, "note")) + "</span>" : esc((r.x.interventions || []).slice(0, 2).join(", ")) + " · " + esc(phase(r.x.phase)) + '<br><span class="muted small" style="font-weight:400">' + esc((r.x.conditions || []).slice(0, 2).join("; ")) + "</span>"; } },
+        { key: "ev", label: t("event"), cls: "lead", nolabel: 1, cell: function (r) { return r.c ? pill("active", t("regDecision")) + " " + esc(L(r.c, "title")) + '<br><span class="muted small" style="font-weight:400">' + esc(L(r.c, "note")) + "</span>" : esc((r.x.interventions || []).slice(0, 2).join(", ")) + " · " + esc(phase(r.x.phase)) + '<br><span class="muted small" style="font-weight:400">' + esc((r.x.conditions || []).slice(0, 2).join("; ")) + "</span>"; } },
         { key: "co", label: t("company"), cell: function (r) { return r.c ? (r.c.tickers || []).map(tk).join(" ") : (r.x.via === "sponsor" ? co(r.x.co) : esc(r.x.lead_sponsor)) + " " + tk(r.x.ticker); } },
         { key: "n", label: t("n"), num: 1, cell: function (r) { return r.x && r.x.enrollment != null ? r.x.enrollment : ""; } },
         { key: "src", label: t("source"), cls: "d", cell: function (r) { return r.c ? link(r.c.source.url, r.c.source.publisher) : nct(r.x.nct); } }];
@@ -314,14 +321,15 @@
         var px = 10 + x * (W - 20), slot = Math.round(px / 7); lanes[slot] = (lanes[slot] || 0) + 1; var y = 50 - lanes[slot] * 8;
         marks += r.c ? '<rect class="reg" x="' + (px - 3.5).toFixed(1) + '" y="' + (y - 3.5) + '" width="7" height="7"><title>' + esc(r.when + " " + L(r.c, "title")) + "</title></rect>" : '<circle cx="' + px.toFixed(1) + '" cy="' + y + '" r="3"><title>' + esc(r.when + " " + (r.x.interventions[0] || "") + " · " + r.x.phase) + "</title></circle>";
       });
-      var ticks = ""; for (var m = 0; m <= 12; m += 2) { var d = new Date(t0 + m / 12 * yr), px2 = 10 + m / 12 * (W - 20); ticks += '<line x1="' + px2 + '" y1="54" x2="' + px2 + '" y2="58"/><text x="' + px2 + '" y="70" text-anchor="middle">' + d.toISOString().slice(0, 7) + "</text>"; }
+      var ticks = "", d0 = new Date(t0);
+      for (var m = 1; m <= 12; m += 2) { var d = new Date(Date.UTC(d0.getUTCFullYear(), d0.getUTCMonth() + m, 1)), px2 = 10 + (d.getTime() - t0) / yr * (W - 20); if (px2 > W - 10) break; ticks += '<line x1="' + px2.toFixed(1) + '" y1="54" x2="' + px2.toFixed(1) + '" y2="58"/><text x="' + px2.toFixed(1) + '" y="70" text-anchor="' + (px2 > W - 40 ? "end" : "middle") + '">' + d.toISOString().slice(0, 7) + "</text>"; }
       var strip = '<div class="strip"><svg viewBox="0 0 ' + W + ' 74" role="img" aria-label="' + esc(t("stripLab")) + '"><line x1="10" y1="54" x2="' + (W - 10) + '" y2="54"/>' + ticks + marks + '</svg><p class="muted small" style="margin:2px 0 6px">' + esc(t("stripLab")) + "</p></div>";
       return subnav() + '<section><p class="note">' + esc(t("calNote")) + '</p><div class="filters"><label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + "</label></div>" + strip + table("t-main", rows, cc) + "</section>";
     },
     more: function () {
       if (S.sub === "reading") return subnav() + '<section><p class="note">' + esc(t("readNote")) + '</p><div class="cards">' + D.reading.map(function (r) {
         var h = D.headlines[r.id] || [];
-        return '<div class="card"><h3>' + link(r.url, r.name) + '</h3><p class="muted small">' + esc(r.cadence) + "</p><p>" + esc(L(r, "why")) + "</p>" +
+        return '<div class="card"><h3>' + link(r.url, r.name) + '</h3><p class="muted small">' + esc(lang === "zh" ? (CAD_ZH[r.cadence] || r.cadence) : r.cadence) + "</p><p>" + esc(L(r, "why")) + "</p>" +
           (h.length ? '<ul class="small">' + h.map(function (i) { return "<li>" + link(i.url, i.title) + ' <span class="muted">' + esc(i.date || "") + "</span></li>"; }).join("") + "</ul>" : (r.feed ? "" : '<p class="muted small">' + esc(t("noFeed")) + "</p>")) + "</div>";
       }).join("") + "</div></section>";
       if (S.sub === "method") return subnav() + "<section><h2>" + esc(t("methodH")) + "</h2>" + t("methodP").map(function (p) { return '<p class="note">' + esc(p) + "</p>"; }).join("") +
@@ -338,16 +346,16 @@
   // ---- company panel ----
   function panelHtml(c) {
     var q = c.quote, p = c.profile, rows = D.trials.filter(function (x) { return x.co === c.key; });
-    var listing = c.ticker ? tk(c.ticker) + (c.market ? ' <span class="muted small">' + esc(c.market) + "</span>" : "") : c.proxy ? esc(f("pProxy", { t: "" })) + tk(c.proxy) : '<span class="muted small">' + esc(t("pPrivate")) + "</span>";
+    var listing = c.ticker ? tk(c.ticker) + (c.market ? ' <span class="muted small">' + esc(c.market) + "</span>" : "") : c.proxy ? esc(t("pProxyA")) + " " + tk(c.proxy) + " " + esc(t("pProxyB")) : '<span class="muted small">' + esc(t("pPrivate")) + "</span>";
     var h = '<div class="phead"><div><h2 id="panel-title">' + esc(coName(c)) + '</h2><p class="small">' + listing + " · " + esc(c.tier ? t(c.tier) : (t("roles")[c.role] || "")) + (p && p.hq ? " · " + esc(p.hq) : "") + '</p></div><button type="button" class="btn" id="panel-close">' + esc(t("pClose")) + " ×</button></div>";
     if (p) h += "<h3>" + esc(t("pOverview")) + "</h3><p>" + esc(L(p, "what")) + "</p>" + (L(p, "ai") ? '<p><b class="small">' + esc(t("pAi")) + ":</b> " + esc(L(p, "ai")) + "</p>" : "") + (L(p, "lead") ? '<p><b class="small">' + esc(t("pLead")) + ":</b> " + esc(L(p, "lead")) + "</p>" : "") +
       '<p class="muted small">' + [p.founded ? p.founded : "", p.listed || "", link(p.source.url, t("pSrc") + ": " + p.source.publisher), t("asOf") + " " + p.as_of, p.checked === "partly" ? esc(t("profPartly")) : ""].filter(Boolean).join(" · ") + "</p>";
     function kv(k, v, g) { return v == null || v === "" ? "" : "<div><span>" + (g ? term(g, k) : esc(k)) + "</span><b>" + v + "</b></div>"; }
     if (q && q.price != null) {
       var cur = q.currency === "USD" ? "$" : q.currency === "HKD" ? "HK$" : (q.currency || "") + " ";
-      h += "<h3>" + esc(t("pMarket")) + '</h3><div class="mkt"><div class="row" style="margin:0"><div><span class="muted small">' + esc(t("pPrice")) + '</span><br><span class="px">' + esc(cur) + esc(q.price) + "</span></div>" + spark(q.spark, 200, 48) + "</div>" +
-        (q.pos52 != null ? '<div class="range" role="img" aria-label="' + esc(t("year")) + '"><i style="left:' + (100 * q.pos52).toFixed(1) + '%"></i></div><div class="rl"><span>' + esc(cur) + esc(q.lo52) + "</span><span>" + term("range52", q.range_since ? f("pSince", { d: q.range_since }) : t("pRange")) + "</span><span>" + esc(cur) + esc(q.hi52) + "</span></div>" : "") +
-        '<div class="kv">' + kv(t("mcap"), q.mcap_usd ? usd(q.mcap_usd) : "", "mcap") + kv(t("pe") + (q.pe_fiscal_year ? " *" : ""), q.pe != null ? q.pe.toFixed(1) : (q.loss_making ? esc(t("lossMaking")) : esc(t("pNoPe"))), "pe") +
+      h += "<h3>" + esc(t("pMarket")) + '</h3><div class="mkt"><div class="row" style="margin:0"><div><span class="muted small">' + esc(t("pPrice")) + '</span><br><span class="px">' + esc(cur) + money(q.price) + "</span></div>" + spark(q.spark, 200, 48) + "</div>" +
+        (q.pos52 != null ? '<div class="range" role="img" aria-label="' + esc(t("year")) + '"><i style="left:' + (100 * q.pos52).toFixed(1) + '%"></i></div><div class="rl"><span>' + esc(cur) + money(q.lo52) + "</span><span>" + term("range52", q.range_since ? f("pSince", { d: q.range_since }) : t("pRange")) + "</span><span>" + esc(cur) + money(q.hi52) + "</span></div>" : "") +
+        '<div class="kv">' + kv(t("mcap"), q.mcap_usd ? (q.currency !== "USD" ? "US" : "") + usd(q.mcap_usd) : "", "mcap") + kv(t("pe") + (q.pe_fiscal_year ? " *" : ""), q.pe != null ? q.pe.toFixed(1) : (q.loss_making ? esc(t("lossMaking")) : esc(t("pNoPe"))), "pe") +
         kv(t("p1m"), q.chg_1m == null ? "" : pct(q.chg_1m)) + kv(t("p3m"), q.chg_3m == null ? "" : pct(q.chg_3m)) + kv(t("pYtd"), q.chg_ytd == null ? "" : pct(q.chg_ytd)) +
         '</div><p class="muted small" style="margin:10px 0 0">' + esc(f("pMarketNote", { d: q.as_of })) + (q.source ? " " + esc(q.source) + "." : "") + (q.pe_fiscal_year ? " * " + esc(t("pFy")) : "") + "</p></div>";
     }
@@ -383,20 +391,25 @@
     return h;
   }
   function drawPanel() {
+    if (S.co && D && !D.companies[S.co]) go({ co: "" });       // an unknown key in a link is dropped
     var el = document.getElementById("panel"), bd = document.getElementById("backdrop"), c = S.co && D ? D.companies[S.co] : null;
     if (!c) { if (!el.hidden) { el.hidden = true; bd.hidden = true; document.body.style.overflow = ""; if (opener && document.contains(opener)) opener.focus(); opener = null; } return; }
     el.innerHTML = panelHtml(c); el.hidden = false; bd.hidden = false; document.body.style.overflow = "hidden"; el.scrollTop = 0;
     document.getElementById("panel-close").focus();
   }
-  function closePanel() { if (S.co) { go({ co: "" }, true); } }
+  function closePanel() {
+    if (!S.co) return;
+    if (panelPushed) { panelPushed = false; history.back(); } else { go({ co: "" }); chrome(); drawPanel(); }
+  }
 
   // ---- glossary popover ----
   function showPop(btn) {
     var g = (D.glossary || []).filter(function (x) { return x.key === btn.getAttribute("data-g"); })[0], pop = document.getElementById("pop");
     if (!g) return;
     pop.innerHTML = "<b>" + esc(L(g, "term")) + "</b>" + esc(L(g, "def")); pop.hidden = false;
-    var r = btn.getBoundingClientRect(), w = pop.offsetWidth, x = Math.max(12, Math.min(window.innerWidth - w - 12, r.left)), y = r.bottom + window.scrollY + 6;
-    pop.style.left = (x + window.scrollX) + "px"; pop.style.top = y + "px"; pop._for = btn;
+    var r = btn.getBoundingClientRect(), w = pop.offsetWidth, hgt = pop.offsetHeight, x = Math.max(12, Math.min(window.innerWidth - w - 12, r.left)), y = r.bottom + 6;
+    if (y + hgt > window.innerHeight - 8) y = Math.max(8, r.top - hgt - 6);
+    pop.style.left = x + "px"; pop.style.top = y + "px"; pop._for = btn;
   }
   function hidePop() { var p = document.getElementById("pop"); p.hidden = true; p._for = null; }
 
@@ -406,14 +419,19 @@
     document.title = t("nav")[S.view] + (S.sub ? " · " + t("subs")[S.sub] : "") + " · " + t("title");
     Array.prototype.forEach.call(document.querySelectorAll("[data-t]"), function (el) { el.textContent = t(el.getAttribute("data-t")); });
     var lb = document.getElementById("lang"); lb.textContent = lang === "zh" ? "English" : "中文"; lb.setAttribute("lang", lang === "zh" ? "en" : "zh-CN"); lb.setAttribute("aria-label", lang === "zh" ? "Switch to English" : "切换到中文");
+    document.getElementById("nav").setAttribute("aria-label", lang === "zh" ? "栏目" : "Sections");
     var fresh = { signals: D && (D.signals || []).some(function (i) { return isNew(i.run); }), trials: D && D.events.some(function (e) { return isNew(e.detected); }) };
     document.getElementById("nav").innerHTML = Object.keys(VIEWS).map(function (k) { return '<a href="#' + k + '"' + (k === S.view ? ' aria-current="page"' : "") + ">" + esc(t("nav")[k]) + (fresh[k] ? '<span class="badge" title="' + esc(t("newLab")) + '"></span>' : "") + "</a>"; }).join("");
   }
-  function count() { var c = document.getElementById("count"); if (c && V._cur) c.textContent = f("shown", { a: trialRows(V._cur.base).length, b: V._cur.base.length }); }
+  function count() {
+    var c = document.getElementById("count"), b = document.getElementById("f-clear");
+    if (c && V._cur) c.textContent = f("shown", { a: trialRows(V._cur.base).length, b: V._cur.base.length });
+    if (b) b.hidden = !(S.q || S.phase || (S.status && S.sub !== "stopped") || S.company || S.listed);
+  }
   function render(keepScroll) {
     chrome();
     if (!D) return;
-    V._cur = null;
+    V._cur = null; DEF = "";
     document.getElementById("main").innerHTML = V[S.view]();
     document.getElementById("stamp").textContent = f("generated", { d: D.generated_at });
     count(); drawPanel();
@@ -429,17 +447,19 @@
   document.addEventListener("input", function (e) {
     if (e.target.id !== "f-q") return;
     clearTimeout(timer); var v = e.target.value;
-    timer = setTimeout(function () { go({ q: v, n: PAGE }); redrawBody(); }, 150);
+    timer = setTimeout(function () { go({ q: v.trim(), n: PAGE }); redrawBody(); }, 150);
   });
   document.addEventListener("change", function (e) {
     var id = e.target.id;
     if (id === "f-company") { go({ company: e.target.value, n: PAGE }); render(true); }
     else if (id === "f-phase") { go({ phase: e.target.value, n: PAGE }); render(true); }
+    else if (id === "f-sort") { go({ sort: e.target.value === DEF ? "" : e.target.value }); redrawBody(); }
     else if (id === "f-listed") { go({ listed: e.target.checked ? "1" : "", n: PAGE }); render(true); }
     else return;
     var el = document.getElementById(id); if (el) el.focus();
   });
   document.addEventListener("click", function (e) {
+    if (e.target.classList && e.target.classList.contains("skip")) { e.preventDefault(); document.getElementById("main").focus(); return; }
     var el = e.target.closest ? e.target.closest("[data-co],[data-g],[data-sort],[data-status],[data-clear],[data-more],[data-open],[data-close],#panel-close,#backdrop,#lang") : null;
     var pop = document.getElementById("pop");
     if (!pop.hidden && (!el || !el.hasAttribute("data-g") || pop._for === el)) { var same = el && pop._for === el; hidePop(); if (same) return; }
@@ -448,27 +468,33 @@
     if (el.id === "panel-close" || el.id === "backdrop") return closePanel();
     if (el.hasAttribute("data-close")) return;
     if (el.hasAttribute("data-g")) { e.preventDefault(); return showPop(el); }
-    if (el.hasAttribute("data-co")) { if (!S.co) opener = el; return go({ co: el.getAttribute("data-co") }, true); }
-    if (el.hasAttribute("data-sort")) { var k = el.getAttribute("data-sort"); go({ sort: S.sort === "-" + k ? k : "-" + k }); return V._cur ? redrawBody() : render(true); }
-    if (el.hasAttribute("data-status")) { var b = el.getAttribute("data-status"); go({ status: S.status === b ? "" : b, n: PAGE }); return render(true); }
-    if (el.hasAttribute("data-clear")) { go({ q: "", phase: "", status: "", company: "", listed: "", n: PAGE }); return render(true); }
+    if (el.hasAttribute("data-co")) {
+      if (!S.co) { opener = el; panelPushed = true; return go({ co: el.getAttribute("data-co") }, true); }
+      go({ co: el.getAttribute("data-co") }); return drawPanel();      // moving between companies replaces, so Back still closes
+    }
+    function refocus(sel) { var x = document.querySelector(sel); if (x) x.focus(); }
+    if (el.hasAttribute("data-sort")) { var k = el.getAttribute("data-sort"), cs = S.sort || DEF, ns = cs === "-" + k ? k : "-" + k, def = DEF; go({ sort: ns === def ? "" : ns }); if (V._cur) redrawBody(); else render(true); return refocus('[data-sort="' + k + '"]'); }
+    if (el.hasAttribute("data-status")) { var b = el.getAttribute("data-status"); go({ status: S.status === b ? "" : b, n: PAGE }); render(true); return refocus('[data-status="' + b + '"]'); }
+    if (el.hasAttribute("data-clear")) { go({ q: "", phase: "", status: "", company: "", listed: "", n: PAGE }); render(true); return refocus("#f-q"); }
     if (el.hasAttribute("data-more")) { S.n += PAGE; return redrawBody(); }
     if (el.hasAttribute("data-open")) { var id = el.getAttribute("data-open"); S.open = S.open === id ? null : id; redrawBody(); var again = document.querySelector('[data-open="' + id + '"]'); if (again) again.focus(); }
   });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") { if (!document.getElementById("pop").hidden) return hidePop(); if (S.co) closePanel(); }
-    if (e.key === "Tab" && S.co) {   // keep focus inside the open panel
+    if (e.key === "Tab" && S.co && !document.getElementById("panel").hidden) {   // keep focus inside the open panel
       var p = document.getElementById("panel"), fs = p.querySelectorAll("a[href],button"), first = fs[0], last = fs[fs.length - 1];
+      if (!first) return;
       if (!p.contains(document.activeElement)) { e.preventDefault(); first.focus(); }
       else if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
       else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
     }
   });
   window.addEventListener("hashchange", function () {
-    var prev = S, open = S.open; S = parse();
+    var prev = S, open = S.open; S = parse(); if (!S.co) panelPushed = false;
     if (prev.view === S.view && prev.sub === S.sub) { S.n = prev.n; S.open = open; if (prev.co !== S.co && hashOf({ view: prev.view, sub: prev.sub, q: prev.q, phase: prev.phase, status: prev.status, company: prev.company, listed: prev.listed, sort: prev.sort }) === hashOf({ view: S.view, sub: S.sub, q: S.q, phase: S.phase, status: S.status, company: S.company, listed: S.listed, sort: S.sort })) { chrome(); return drawPanel(); } return render(true); }
     render(false);
   });
+  window.addEventListener("scroll", function () { if (!document.getElementById("pop").hidden) hidePop(); }, true);
   window.addEventListener("pagehide", function () { if (D) store("ledger-seen", D.generated_at); });
   S = parse(); chrome0();
   function chrome0() { Array.prototype.forEach.call(document.querySelectorAll("[data-t]"), function (el) { el.textContent = t(el.getAttribute("data-t")); }); }

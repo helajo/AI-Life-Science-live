@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-23T13:05:56Z",
+ "generated_at": "2026-11-23T13:15:20Z",
  "today": "2026-11-23",
  "baseline": "2026-11-19",
  "sources": {
@@ -17,6 +17,11 @@
  "stats": {
   "trials": 166,
   "core_trials": 101,
+  "core_sponsors": 29,
+  "core_stopped": 18,
+  "core_with_results": 12,
+  "core_new_90d": 8,
+  "core_phase3_live": 5,
   "sponsors": 38,
   "by_phase_core": {
    "Early Phase 1": {
@@ -578,10 +583,43 @@
    "note_zh": "由 Nimbus 发现，2023 年被武田收购。Nimbus 的研发负责人本人不认同“AI 发现”这一说法。",
    "source": "https://www.pharmavoice.com/news/nimbus-takeda-zasocitinib-ai-drug-discovery/831289/",
    "ticker": "TAK",
-   "run_by": "Takeda"
+   "run_by": "Takeda",
+   "run_by_zh": "武田"
   }
  ],
  "trials": [
+  {
+   "nct": "NCT07944092",
+   "title": "Study to Evaluate Safety & Tolerability of FMC-242 Alone and in Combination in Adults With Advanced Solid Tumors",
+   "lead_sponsor": "Frontier Medicines Corporation",
+   "phase": "Phase 1/2",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-11-18",
+   "last_update": "2026-11-23",
+   "primary_completion": "2029-01-01",
+   "completion": "2030-01-01",
+   "conditions": [
+    "Locally Advanced Solid Tumor"
+   ],
+   "interventions": [
+    "FMC-242",
+    "Trastuzumab (or biosimilar)",
+    "Fulvestrant (or generic)",
+    "Pan (K)RAS inhibitor"
+   ],
+   "enrollment": 282,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "frontier",
+   "via": "sponsor",
+   "bucket": "active",
+   "phase_rank": 2,
+   "tier": "computational",
+   "ticker": null,
+   "co": "frontier",
+   "search": "nct07944092 study to evaluate safety & tolerability of fmc-242 alone and in combination in adults with advanced solid tumors fmc-242 trastuzumab (or biosimilar) fulvestrant (or generic) pan (k)ras inhibitor locally advanced solid tumor frontier medicines corporation frontier medicines nct07944092 study to evaluate safety & tolerability of fmc-242 alone and in combination in adults with advanced solid tumors fmc-242 trastuzumab (or biosimilar) fulvestrant (or generic) pan (k)ras inhibitor locally advanced solid tumor frontier medicines corporation frontier medicines"
+  },
   {
    "nct": "NCT05267626",
    "title": "Study of AU-007, A Monoclonal Antibody That Binds to IL-2 and Inhibits IL-2Rα Binding, in Patients With Unresectable Locally Advanced or Metastatic Cancer",
@@ -615,7 +653,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "aulos",
-   "search": "nct05267626 study of au-007, a monoclonal antibody that binds to il-2 and inhibits il-2rα binding, in patients with unresectable locally advanced or metastatic cancer au-007 aldesleukin avelumab nivolumab advanced solid tumor metastatic cancer cutaneous melanoma non-small cell lung cancer aulos bioscience, inc. aulos bioscience (biolojic-designed antibody)"
+   "search": "nct05267626 study of au-007, a monoclonal antibody that binds to il-2 and inhibits il-2rα binding, in patients with unresectable locally advanced or metastatic cancer au-007 aldesleukin avelumab nivolumab advanced solid tumor metastatic cancer cutaneous melanoma non-small cell lung cancer aulos bioscience, inc. aulos bioscience (biolojic-designed antibody) nct05267626 study of au-007, a monoclonal antibody that binds to il-2 and inhibits il-2rα binding, in patients with unresectable locally advanced or metastatic cancer au-007 aldesleukin avelumab nivolumab advanced solid tumor metastatic cancer cutaneous melanoma non-small cell lung cancer aulos bioscience, inc. aulos bioscience (biolojic-designed antibody)"
   },
   {
    "nct": "NCT05985655",
@@ -648,7 +686,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct05985655 study to assess gtaexs617 in participants with advanced solid tumors gtaexs617 soc head and neck squamous cell carcinoma (hnscc) pancreatic adenocarcinoma non-small cell lung cancer (nsclc) platinum-resistant high-grade epithelial ovarian, primary peritoneal, or fallopian tube cancers (hgsoc) exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx"
+   "search": "nct05985655 study to assess gtaexs617 in participants with advanced solid tumors gtaexs617 soc head and neck squamous cell carcinoma (hnscc) pancreatic adenocarcinoma non-small cell lung cancer (nsclc) platinum-resistant high-grade epithelial ovarian, primary peritoneal, or fallopian tube cancers (hgsoc) exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx nct05985655 study to assess gtaexs617 in participants with advanced solid tumors gtaexs617 soc head and neck squamous cell carcinoma (hnscc) pancreatic adenocarcinoma non-small cell lung cancer (nsclc) platinum-resistant high-grade epithelial ovarian, primary peritoneal, or fallopian tube cancers (hgsoc) exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT07214311",
@@ -677,7 +715,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "peptilogics",
-   "search": "nct07214311 evaluation of plg0206 in prevention of recurrent infection in patients undergoing debridement, antibiotics, and implant retention (dair) for treatment of a periprosthetic joint infection (pji) following knee arthroplasty plg0206 prosthetic-joint infection peptilogics peptilogics"
+   "search": "nct07214311 evaluation of plg0206 in prevention of recurrent infection in patients undergoing debridement, antibiotics, and implant retention (dair) for treatment of a periprosthetic joint infection (pji) following knee arthroplasty plg0206 prosthetic-joint infection peptilogics peptilogics nct07214311 evaluation of plg0206 in prevention of recurrent infection in patients undergoing debridement, antibiotics, and implant retention (dair) for treatment of a periprosthetic joint infection (pji) following knee arthroplasty plg0206 prosthetic-joint infection peptilogics peptilogics"
   },
   {
    "nct": "NCT07524322",
@@ -709,7 +747,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "regor",
-   "search": "nct07524322 study of rgt-490 in patients with pik3ca-mutated advanced solid tumors rgt-490 breast cancer ovarian cancer endometrial cancer pik3ca mutation regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
+   "search": "nct07524322 study of rgt-490 in patients with pik3ca-mutated advanced solid tumors rgt-490 breast cancer ovarian cancer endometrial cancer pik3ca mutation regor pharmaceuticals inc. regor pharmaceuticals 锐格医药 nct07524322 study of rgt-490 in patients with pik3ca-mutated advanced solid tumors rgt-490 breast cancer ovarian cancer endometrial cancer pik3ca mutation regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT07932041",
@@ -738,7 +776,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct07932041 study evaluation ism9528 in healthy participants ism9528 capsules healthy subjects (hs) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct07932041 study evaluation ism9528 in healthy participants ism9528 capsules healthy subjects (hs) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct07932041 study evaluation ism9528 in healthy participants ism9528 capsules healthy subjects (hs) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06678659",
@@ -770,7 +808,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct06678659 a study of rec-1245 in participants with unresectable, locally advanced, or metastatic cancer rec-1245 unresectable locally advanced metastatic cancers relapsed/refractory lymphomas recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
+   "search": "nct06678659 a study of rec-1245 in participants with unresectable, locally advanced, or metastatic cancer rec-1245 unresectable locally advanced metastatic cancers relapsed/refractory lymphomas recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx nct06678659 a study of rec-1245 in participants with unresectable, locally advanced, or metastatic cancer rec-1245 unresectable locally advanced metastatic cancers relapsed/refractory lymphomas recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT06789913",
@@ -802,39 +840,7 @@
    "tier": "computational",
    "ticker": "RLAY",
    "co": "RLAY",
-   "search": "nct06789913 a phase 2 study of mutant-selective pi3kα inhibitor, rly-2608, in adults and children with pik3ca related overgrowth spectrum and malformations driven by pik3ca mutation (the reinspire study) rly-2608 pik3ca-related overgrowth spectrum (pros) lymphatic malformations vascular malformations pik3ca mutation relay therapeutics, inc. relay therapeutics rlay"
-  },
-  {
-   "nct": "NCT07944092",
-   "title": "Ph 1/2 Study to Evaluate Safety & Tolerability of FMC-242 Alone and in Combination in Adults With Advanced Solid Tumors",
-   "lead_sponsor": "Frontier Medicines Corporation",
-   "phase": "Phase 1/2",
-   "status": "NOT_YET_RECRUITING",
-   "first_posted": "2026-11-18",
-   "last_update": "2026-11-18",
-   "primary_completion": "2029-01-01",
-   "completion": "2030-01-01",
-   "conditions": [
-    "Locally Advanced Solid Tumor"
-   ],
-   "interventions": [
-    "FMC-242",
-    "Trastuzumab (or biosimilar)",
-    "Fulvestrant (or generic)",
-    "Pan (K)RAS inhibitor"
-   ],
-   "enrollment": 282,
-   "randomised": false,
-   "has_results": false,
-   "why_stopped": null,
-   "sponsor_id": "frontier",
-   "via": "sponsor",
-   "bucket": "active",
-   "phase_rank": 2,
-   "tier": "computational",
-   "ticker": null,
-   "co": "frontier",
-   "search": "nct07944092 ph 1/2 study to evaluate safety & tolerability of fmc-242 alone and in combination in adults with advanced solid tumors fmc-242 trastuzumab (or biosimilar) fulvestrant (or generic) pan (k)ras inhibitor locally advanced solid tumor frontier medicines corporation frontier medicines"
+   "search": "nct06789913 a phase 2 study of mutant-selective pi3kα inhibitor, rly-2608, in adults and children with pik3ca related overgrowth spectrum and malformations driven by pik3ca mutation (the reinspire study) rly-2608 pik3ca-related overgrowth spectrum (pros) lymphatic malformations vascular malformations pik3ca mutation relay therapeutics, inc. relay therapeutics rlay nct06789913 a phase 2 study of mutant-selective pi3kα inhibitor, rly-2608, in adults and children with pik3ca related overgrowth spectrum and malformations driven by pik3ca mutation (the reinspire study) rly-2608 pik3ca-related overgrowth spectrum (pros) lymphatic malformations vascular malformations pik3ca mutation relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT07946068",
@@ -864,7 +870,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct07946068 aleniglipron renal impairment study aleniglipron renal impairment severe renal impairment gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct07946068 aleniglipron renal impairment study aleniglipron renal impairment severe renal impairment gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct07946068 aleniglipron renal impairment study aleniglipron renal impairment severe renal impairment gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT05683418",
@@ -896,7 +902,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "totus",
-   "search": "nct05683418 a study to evaluate the safety and tolerability of tos-358 in women with hr+ her2- breast cancer tos-358 fulvestrant palbociclib ribociclib hr+/her2-negative breast cancer totus medicines totus medicines"
+   "search": "nct05683418 a study to evaluate the safety and tolerability of tos-358 in women with hr+ her2- breast cancer tos-358 fulvestrant palbociclib ribociclib hr+/her2-negative breast cancer totus medicines totus medicines nct05683418 a study to evaluate the safety and tolerability of tos-358 in women with hr+ her2- breast cancer tos-358 fulvestrant palbociclib ribociclib hr+/her2-negative breast cancer totus medicines totus medicines"
   },
   {
    "nct": "NCT06253871",
@@ -931,7 +937,7 @@
    "tier": "ai",
    "ticker": "IAM",
    "co": "IAM",
-   "search": "nct06253871 a phase 1/2 study of iam1363 in her2 cancers iam1363 oral treatment with iam1363 capsules or tablets, administered in combination with capecitabine + trastuzumab oral treatment with iam1363 capsules or tablets, administered in combination with capecitabine + zanidatamab oral treatment with iam1363 capsules or tablets, administered in combination with t-dxd her2 mutation-related tumors her2 her2-positive breast cancer her2 + breast cancer iambic therapeutics, inc iambic therapeutics iam"
+   "search": "nct06253871 a phase 1/2 study of iam1363 in her2 cancers iam1363 oral treatment with iam1363 capsules or tablets, administered in combination with capecitabine + trastuzumab oral treatment with iam1363 capsules or tablets, administered in combination with capecitabine + zanidatamab oral treatment with iam1363 capsules or tablets, administered in combination with t-dxd her2 mutation-related tumors her2 her2-positive breast cancer her2 + breast cancer iambic therapeutics, inc iambic therapeutics iam nct06253871 a phase 1/2 study of iam1363 in her2 cancers iam1363 oral treatment with iam1363 capsules or tablets, administered in combination with capecitabine + trastuzumab oral treatment with iam1363 capsules or tablets, administered in combination with capecitabine + zanidatamab oral treatment with iam1363 capsules or tablets, administered in combination with t-dxd her2 mutation-related tumors her2 her2-positive breast cancer her2 + breast cancer iambic therapeutics, inc iambic therapeutics iam"
   },
   {
    "nct": "NCT07359846",
@@ -960,7 +966,7 @@
    "tier": "ai",
    "ticker": "GENB",
    "co": "GENB",
-   "search": "nct07359846 a study to investigate gb-0895 adjunctive therapy in adults and adolescents with severe uncontrolled asthma (solairia-2) gb-0895 severe asthma generate biomedicines generate biomedicines genb"
+   "search": "nct07359846 a study to investigate gb-0895 adjunctive therapy in adults and adolescents with severe uncontrolled asthma (solairia-2) gb-0895 severe asthma generate biomedicines generate biomedicines genb nct07359846 a study to investigate gb-0895 adjunctive therapy in adults and adolescents with severe uncontrolled asthma (solairia-2) gb-0895 severe asthma generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT07872033",
@@ -989,7 +995,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct07872033 aleniglipron hepatic impairment study aleniglipron hepatic impairment gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct07872033 aleniglipron hepatic impairment study aleniglipron hepatic impairment gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct07872033 aleniglipron hepatic impairment study aleniglipron hepatic impairment gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07250802",
@@ -1018,7 +1024,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct07250802 a long-term study of zasocitinib in children and teenagers with plaque psoriasis zasocitinib plaque psoriasis takeda nimbus therapeutics tak"
+   "search": "nct07250802 a long-term study of zasocitinib in children and teenagers with plaque psoriasis zasocitinib plaque psoriasis takeda nimbus therapeutics tak nct07250802 a long-term study of zasocitinib in children and teenagers with plaque psoriasis zasocitinib plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07276724",
@@ -1047,7 +1053,7 @@
    "tier": "ai",
    "ticker": "GENB",
    "co": "GENB",
-   "search": "nct07276724 a study to investigate gb-0895 adjunctive therapy in adults and adolescents with severe uncontrolled asthma (solairia-1) gb-0895 severe asthma generate biomedicines generate biomedicines genb"
+   "search": "nct07276724 a study to investigate gb-0895 adjunctive therapy in adults and adolescents with severe uncontrolled asthma (solairia-1) gb-0895 severe asthma generate biomedicines generate biomedicines genb nct07276724 a study to investigate gb-0895 adjunctive therapy in adults and adolescents with severe uncontrolled asthma (solairia-1) gb-0895 severe asthma generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT06671483",
@@ -1077,7 +1083,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06671483 a study of zasocitinib in adults with psoriatic arthritis who have not taken biologic medicines zasocitinib active comparator psoriatic arthritis takeda nimbus therapeutics tak"
+   "search": "nct06671483 a study of zasocitinib in adults with psoriatic arthritis who have not taken biologic medicines zasocitinib active comparator psoriatic arthritis takeda nimbus therapeutics tak nct06671483 a study of zasocitinib in adults with psoriatic arthritis who have not taken biologic medicines zasocitinib active comparator psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07286058",
@@ -1106,7 +1112,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct07286058 continuation study of zasocitinib in adults with psoriatic arthritis zasocitinib psoriatic arthritis takeda nimbus therapeutics tak"
+   "search": "nct07286058 continuation study of zasocitinib in adults with psoriatic arthritis zasocitinib psoriatic arthritis takeda nimbus therapeutics tak nct07286058 continuation study of zasocitinib in adults with psoriatic arthritis zasocitinib psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07912593",
@@ -1139,7 +1145,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "ensem",
-   "search": "nct07912593 a kras inhibitor in participants with advanced solid tumors etx-929 dose escalation etx-929 dose escalation in combination with cetuximab metastatic colorectal cancer (crc) pancreatic ductal adenocarcinoma (pdac) non-squamous, non-small cell lung cancer endometrial adenocarcinoma ensem therapeutics ensem therapeutics"
+   "search": "nct07912593 a kras inhibitor in participants with advanced solid tumors etx-929 dose escalation etx-929 dose escalation in combination with cetuximab metastatic colorectal cancer (crc) pancreatic ductal adenocarcinoma (pdac) non-squamous, non-small cell lung cancer endometrial adenocarcinoma ensem therapeutics ensem therapeutics nct07912593 a kras inhibitor in participants with advanced solid tumors etx-929 dose escalation etx-929 dose escalation in combination with cetuximab metastatic colorectal cancer (crc) pancreatic ductal adenocarcinoma (pdac) non-squamous, non-small cell lung cancer endometrial adenocarcinoma ensem therapeutics ensem therapeutics"
   },
   {
    "nct": "NCT07751991",
@@ -1168,7 +1174,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "charm",
-   "search": "nct07751991 a study of chm-029 in participants with npm1 mutated, kmt2a or nup98 rearranged aml chm-029 aml (acute myeloid leukemia) charm therapeutics charm therapeutics"
+   "search": "nct07751991 a study of chm-029 in participants with npm1 mutated, kmt2a or nup98 rearranged aml chm-029 aml (acute myeloid leukemia) charm therapeutics charm therapeutics nct07751991 a study of chm-029 in participants with npm1 mutated, kmt2a or nup98 rearranged aml chm-029 aml (acute myeloid leukemia) charm therapeutics charm therapeutics"
   },
   {
    "nct": "NCT06982521",
@@ -1202,7 +1208,7 @@
    "tier": "computational",
    "ticker": "RLAY",
    "co": "RLAY",
-   "search": "nct06982521 phase 3 study of rly-2608 + fulvestrant vs capivasertib + fulvestrant as treatment for locally advanced or metastatic pik3ca-mutant hr+/her2- breast cancer zovegalisib capivasertib fulvestrant pik3ca mutation her2- negative breast cancer hormone receptor positive tumor breast cancer relay therapeutics, inc. relay therapeutics rlay"
+   "search": "nct06982521 phase 3 study of rly-2608 + fulvestrant vs capivasertib + fulvestrant as treatment for locally advanced or metastatic pik3ca-mutant hr+/her2- breast cancer zovegalisib capivasertib fulvestrant pik3ca mutation her2- negative breast cancer hormone receptor positive tumor breast cancer relay therapeutics, inc. relay therapeutics rlay nct06982521 phase 3 study of rly-2608 + fulvestrant vs capivasertib + fulvestrant as treatment for locally advanced or metastatic pik3ca-mutant hr+/her2- breast cancer zovegalisib capivasertib fulvestrant pik3ca mutation her2- negative breast cancer hormone receptor positive tumor breast cancer relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT05309421",
@@ -1233,7 +1239,7 @@
    "tier": "ai",
    "ticker": "EVAX",
    "co": "EVAX",
-   "search": "nct05309421 a single arm trial evaluating the efficacy and safety of evx-01 in combination with pembrolizumab in adults with unresectable or metastatic melanoma evx-01 pembrolizumab 25 mg/ml melanoma stage iv unresectable melanoma evaxion biotech a/s evaxion evax"
+   "search": "nct05309421 a single arm trial evaluating the efficacy and safety of evx-01 in combination with pembrolizumab in adults with unresectable or metastatic melanoma evx-01 pembrolizumab 25 mg/ml melanoma stage iv unresectable melanoma evaxion biotech a/s evaxion evax nct05309421 a single arm trial evaluating the efficacy and safety of evx-01 in combination with pembrolizumab in adults with unresectable or metastatic melanoma evx-01 pembrolizumab 25 mg/ml melanoma stage iv unresectable melanoma evaxion biotech a/s evaxion evax"
   },
   {
    "nct": "NCT06323356",
@@ -1263,7 +1269,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06323356 a study of tak-279 in adult participants with generalized pustular psoriasis or erythrodermic psoriasis tak-279 generalized pustular psoriasis erythrodermic psoriasis takeda nimbus therapeutics tak"
+   "search": "nct06323356 a study of tak-279 in adult participants with generalized pustular psoriasis or erythrodermic psoriasis tak-279 generalized pustular psoriasis erythrodermic psoriasis takeda nimbus therapeutics tak nct06323356 a study of tak-279 in adult participants with generalized pustular psoriasis or erythrodermic psoriasis tak-279 generalized pustular psoriasis erythrodermic psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07244263",
@@ -1292,7 +1298,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct07244263 a study of zasocitinib in adults with hidradenitis suppurativa zasocitinib (dose a) hidradenitis suppurativa takeda nimbus therapeutics tak"
+   "search": "nct07244263 a study of zasocitinib in adults with hidradenitis suppurativa zasocitinib (dose a) hidradenitis suppurativa takeda nimbus therapeutics tak nct07244263 a study of zasocitinib in adults with hidradenitis suppurativa zasocitinib (dose a) hidradenitis suppurativa takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07752108",
@@ -1321,7 +1327,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct07752108 a study of zasocitinib in adults with non-pustular palmoplantar psoriasis zasocitinib palmoplantar psoriasis takeda nimbus therapeutics tak"
+   "search": "nct07752108 a study of zasocitinib in adults with non-pustular palmoplantar psoriasis zasocitinib palmoplantar psoriasis takeda nimbus therapeutics tak nct07752108 a study of zasocitinib in adults with non-pustular palmoplantar psoriasis zasocitinib palmoplantar psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07108283",
@@ -1350,7 +1356,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct07108283 a study of zasocitinib in adults with nonsegmental vitiligo zasocitinib nonsegmental vitiligo takeda nimbus therapeutics tak"
+   "search": "nct07108283 a study of zasocitinib in adults with nonsegmental vitiligo zasocitinib nonsegmental vitiligo takeda nimbus therapeutics tak nct07108283 a study of zasocitinib in adults with nonsegmental vitiligo zasocitinib nonsegmental vitiligo takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07584226",
@@ -1382,7 +1388,7 @@
    "tier": "computational",
    "ticker": "RLAY",
    "co": "RLAY",
-   "search": "nct07584226 a first-in-human study of rly-8161 in advanced nras-mutant solid tumors rly-8161 advanced nras-mutant melanoma advanced nras-mutant solid tumors nras mutation nras g12d relay therapeutics, inc. relay therapeutics rlay"
+   "search": "nct07584226 a first-in-human study of rly-8161 in advanced nras-mutant solid tumors rly-8161 advanced nras-mutant melanoma advanced nras-mutant solid tumors nras mutation nras g12d relay therapeutics, inc. relay therapeutics rlay nct07584226 a first-in-human study of rly-8161 in advanced nras-mutant solid tumors rly-8161 advanced nras-mutant melanoma advanced nras-mutant solid tumors nras mutation nras g12d relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT06233461",
@@ -1411,7 +1417,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06233461 a study on the safety of tak-279 and whether it can reduce inflammation in the bowel of participants with moderately to severely active crohn's disease tak-279 crohn's disease takeda nimbus therapeutics tak"
+   "search": "nct06233461 a study on the safety of tak-279 and whether it can reduce inflammation in the bowel of participants with moderately to severely active crohn's disease tak-279 crohn's disease takeda nimbus therapeutics tak nct06233461 a study on the safety of tak-279 and whether it can reduce inflammation in the bowel of participants with moderately to severely active crohn's disease tak-279 crohn's disease takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07265570",
@@ -1440,7 +1446,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct07265570 study evaluating ism5411 administered orally to subjects with active ulcerative colitis (bethesda) ism5411 tablets ulcerative colitis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct07265570 study evaluating ism5411 administered orally to subjects with active ulcerative colitis (bethesda) ism5411 tablets ulcerative colitis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct07265570 study evaluating ism5411 administered orally to subjects with active ulcerative colitis (bethesda) ism5411 tablets ulcerative colitis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07905560",
@@ -1469,7 +1475,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "superluminal",
-   "search": "nct07905560 a study of safety of sun-0864 and how it is processed by and affects the body in healthy adults and healthy adults who are overweight or obese. sun-0864 (formulation 1) or sun-0864 (formulation 2) healthy participants superluminal medicines, inc. superluminal medicines"
+   "search": "nct07905560 a study of safety of sun-0864 and how it is processed by and affects the body in healthy adults and healthy adults who are overweight or obese. sun-0864 (formulation 1) or sun-0864 (formulation 2) healthy participants superluminal medicines, inc. superluminal medicines nct07905560 a study of safety of sun-0864 and how it is processed by and affects the body in healthy adults and healthy adults who are overweight or obese. sun-0864 (formulation 1) or sun-0864 (formulation 2) healthy participants superluminal medicines, inc. superluminal medicines"
   },
   {
    "nct": "NCT07317544",
@@ -1500,7 +1506,7 @@
    "tier": "ai",
    "ticker": "ABSI",
    "co": "ABSI",
-   "search": "nct07317544 study of abs-201 evaluating single and multiple ascending doses in adults with and without androgenetic alopecia sad iv dose 1 - 150mg abs201 iv single dose abs-201 sc multiple doses androgenetic alopecia (aga) healthy volunteers - male and female absci pty ltd. absci absi"
+   "search": "nct07317544 study of abs-201 evaluating single and multiple ascending doses in adults with and without androgenetic alopecia sad iv dose 1 - 150mg abs201 iv single dose abs-201 sc multiple doses androgenetic alopecia (aga) healthy volunteers - male and female absci pty ltd. absci absi nct07317544 study of abs-201 evaluating single and multiple ascending doses in adults with and without androgenetic alopecia sad iv dose 1 - 150mg abs201 iv single dose abs-201 sc multiple doses androgenetic alopecia (aga) healthy volunteers - male and female absci pty ltd. absci absi"
   },
   {
    "nct": "NCT07900568",
@@ -1530,7 +1536,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "helixon",
-   "search": "nct07900568 study of hxn-1013 in healthy participants and participants with mild-to-moderate asthma hxn-1013 health adults asthma helixon biotechnology (suzhou) co., ltd helixon 华深智药"
+   "search": "nct07900568 study of hxn-1013 in healthy participants and participants with mild-to-moderate asthma hxn-1013 health adults asthma helixon biotechnology (suzhou) co., ltd helixon 华深智药 nct07900568 study of hxn-1013 in healthy participants and participants with mild-to-moderate asthma hxn-1013 health adults asthma helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT07118891",
@@ -1560,7 +1566,7 @@
    "tier": "computational",
    "ticker": "ABCL",
    "co": "ABCL",
-   "search": "nct07118891 study evaluating abcl635 for vasomotor symptoms of menopause abcl635 vasomotor symptoms associated with menopause healthy volunteers abcellera biologics inc. abcellera abcl"
+   "search": "nct07118891 study evaluating abcl635 for vasomotor symptoms of menopause abcl635 vasomotor symptoms associated with menopause healthy volunteers abcellera biologics inc. abcellera abcl nct07118891 study evaluating abcl635 for vasomotor symptoms of menopause abcl635 vasomotor symptoms associated with menopause healthy volunteers abcellera biologics inc. abcellera abcl"
   },
   {
    "nct": "NCT07812090",
@@ -1590,7 +1596,7 @@
    "tier": "ai",
    "ticker": "BIOA",
    "co": "BIOA",
-   "search": "nct07812090 a randomized, phase 2 study of oral bge-102 in participants with center-involved diabetic macular edema oral bge-102 anti-vegf diabetic macular edema (dme) bioage labs, inc. bioage labs bioa"
+   "search": "nct07812090 a randomized, phase 2 study of oral bge-102 in participants with center-involved diabetic macular edema oral bge-102 anti-vegf diabetic macular edema (dme) bioage labs, inc. bioage labs bioa nct07812090 a randomized, phase 2 study of oral bge-102 in participants with center-involved diabetic macular edema oral bge-102 anti-vegf diabetic macular edema (dme) bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT07871721",
@@ -1619,7 +1625,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct07871721 a study of zasocitinib in adults with psoriatic arthritis (latitude psa next) zasocitinib psoriatic arthritis takeda nimbus therapeutics tak"
+   "search": "nct07871721 a study of zasocitinib in adults with psoriatic arthritis (latitude psa next) zasocitinib psoriatic arthritis takeda nimbus therapeutics tak nct07871721 a study of zasocitinib in adults with psoriatic arthritis (latitude psa next) zasocitinib psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05085561",
@@ -1648,7 +1654,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct05085561 the symptomatic cerebral cavernous malformation trial of rec-994 rec-994 cerebral cavernous malformation recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
+   "search": "nct05085561 the symptomatic cerebral cavernous malformation trial of rec-994 rec-994 cerebral cavernous malformation recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx nct05085561 the symptomatic cerebral cavernous malformation trial of rec-994 rec-994 cerebral cavernous malformation recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT07400588",
@@ -1680,7 +1686,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct07400588 aleniglipron phase 2 in type 2 diabetes mellitus aleniglipron obese obesity obesity type 2 diabetes mellitus weight loss gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct07400588 aleniglipron phase 2 in type 2 diabetes mellitus aleniglipron obese obesity obesity type 2 diabetes mellitus weight loss gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct07400588 aleniglipron phase 2 in type 2 diabetes mellitus aleniglipron obese obesity obesity type 2 diabetes mellitus weight loss gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07529808",
@@ -1712,7 +1718,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bighat",
-   "search": "nct07529808 phase 1/2 study of bhb810 in advanced gastric and gej adenocarcinoma bhb810 gastric cancer gastric adenocarcinoma gastric (stomach) cancer gastroesophageal adenocarcinoma bighat biosciences, inc. bighat biosciences"
+   "search": "nct07529808 phase 1/2 study of bhb810 in advanced gastric and gej adenocarcinoma bhb810 gastric cancer gastric adenocarcinoma gastric (stomach) cancer gastroesophageal adenocarcinoma bighat biosciences, inc. bighat biosciences nct07529808 phase 1/2 study of bhb810 in advanced gastric and gej adenocarcinoma bhb810 gastric cancer gastric adenocarcinoma gastric (stomach) cancer gastroesophageal adenocarcinoma bighat biosciences, inc. bighat biosciences"
   },
   {
    "nct": "NCT07654374",
@@ -1744,7 +1750,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct07654374 a study of aleniglipron in adults with obesity or overweight and type 2 diabetes mellitus (accomplish-2) aleniglipron obesity overweight chronic weight management type2 diabetes mellitus gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct07654374 a study of aleniglipron in adults with obesity or overweight and type 2 diabetes mellitus (accomplish-2) aleniglipron obesity overweight chronic weight management type2 diabetes mellitus gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct07654374 a study of aleniglipron in adults with obesity or overweight and type 2 diabetes mellitus (accomplish-2) aleniglipron obesity overweight chronic weight management type2 diabetes mellitus gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT06244771",
@@ -1776,7 +1782,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "frontier",
-   "search": "nct06244771 a study evaluating fmc-376 in participants with kras g12c mutated solid tumors fmc-376 advanced solid tumors with kras g12c mutations solid tumor, adult unresectable solid tumor metastatic solid tumor frontier medicines corporation frontier medicines"
+   "search": "nct06244771 a study evaluating fmc-376 in participants with kras g12c mutated solid tumors fmc-376 advanced solid tumors with kras g12c mutations solid tumor, adult unresectable solid tumor metastatic solid tumor frontier medicines corporation frontier medicines nct06244771 a study evaluating fmc-376 in participants with kras g12c mutated solid tumors fmc-376 advanced solid tumors with kras g12c mutations solid tumor, adult unresectable solid tumor metastatic solid tumor frontier medicines corporation frontier medicines"
   },
   {
    "nct": "NCT06671496",
@@ -1805,7 +1811,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06671496 a study of zasocitinib in adults with psoriatic arthritis who have or have not been treated with biologic medicines zasocitinib psoriatic arthritis takeda nimbus therapeutics tak"
+   "search": "nct06671496 a study of zasocitinib in adults with psoriatic arthritis who have or have not been treated with biologic medicines zasocitinib psoriatic arthritis takeda nimbus therapeutics tak nct06671496 a study of zasocitinib in adults with psoriatic arthritis who have or have not been treated with biologic medicines zasocitinib psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07169942",
@@ -1832,7 +1838,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct07169942 aleniglipron phase 2 body composition study obesity, overweight, or chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct07169942 aleniglipron phase 2 body composition study obesity, overweight, or chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct07169942 aleniglipron phase 2 body composition study obesity, overweight, or chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT06993844",
@@ -1864,7 +1870,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "ensem",
-   "search": "nct06993844 phase 1/2 study of etx-636 in participants with advanced solid tumors etx-636 dose escalation etx-636 dose escalation in combination with fulvestrant etx-636 dose expansion in combination with fulvestrant advanced solid tumors advanced breast cancer ensem therapeutics ensem therapeutics"
+   "search": "nct06993844 phase 1/2 study of etx-636 in participants with advanced solid tumors etx-636 dose escalation etx-636 dose escalation in combination with fulvestrant etx-636 dose expansion in combination with fulvestrant advanced solid tumors advanced breast cancer ensem therapeutics ensem therapeutics nct06993844 phase 1/2 study of etx-636 in participants with advanced solid tumors etx-636 dose escalation etx-636 dose escalation in combination with fulvestrant etx-636 dose expansion in combination with fulvestrant advanced solid tumors advanced breast cancer ensem therapeutics ensem therapeutics"
   },
   {
    "nct": "NCT07484022",
@@ -1896,7 +1902,7 @@
    "tier": "ai",
    "ticker": "GENB",
    "co": "GENB",
-   "search": "nct07484022 study of gb-4362 with enfortumab vedotin and pembrolizumab for advanced urothelial cancer gb-4362 enfortumab vedotin (ev) pembrolizumab advanced urothelial cancer metastatic urothelial carcinoma generate biomedicines generate biomedicines genb"
+   "search": "nct07484022 study of gb-4362 with enfortumab vedotin and pembrolizumab for advanced urothelial cancer gb-4362 enfortumab vedotin (ev) pembrolizumab advanced urothelial cancer metastatic urothelial carcinoma generate biomedicines generate biomedicines genb nct07484022 study of gb-4362 with enfortumab vedotin and pembrolizumab for advanced urothelial cancer gb-4362 enfortumab vedotin (ev) pembrolizumab advanced urothelial cancer metastatic urothelial carcinoma generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT07687459",
@@ -1925,7 +1931,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct07687459 study evaluation rentosertib (ins018_055) administered orally in patients with idiopathic pulmonary fibrosis (ipf) ins018_055 tablets idiopathic pulmonary fibrosis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct07687459 study evaluation rentosertib (ins018_055) administered orally in patients with idiopathic pulmonary fibrosis (ipf) ins018_055 tablets idiopathic pulmonary fibrosis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct07687459 study evaluation rentosertib (ins018_055) administered orally in patients with idiopathic pulmonary fibrosis (ipf) ins018_055 tablets idiopathic pulmonary fibrosis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06888921",
@@ -1956,7 +1962,7 @@
    "tier": "computational",
    "ticker": "CGEN",
    "co": "CGEN",
-   "search": "nct06888921 a clinical trial to evaluate the safety and efficacy of com701 in relapsed platinum sensitive ovarian cancer com701 normal saline ovarian cancer ovarian cancer recurrent compugen ltd compugen cgen"
+   "search": "nct06888921 a clinical trial to evaluate the safety and efficacy of com701 in relapsed platinum sensitive ovarian cancer com701 normal saline ovarian cancer ovarian cancer recurrent compugen ltd compugen cgen nct06888921 a clinical trial to evaluate the safety and efficacy of com701 in relapsed platinum sensitive ovarian cancer com701 normal saline ovarian cancer ovarian cancer recurrent compugen ltd compugen cgen"
   },
   {
    "nct": "NCT07819136",
@@ -1985,7 +1991,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct07819136 rec-7735 in participants with solid tumors rec-7735 solid tumors recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
+   "search": "nct07819136 rec-7735 in participants with solid tumors rec-7735 solid tumors recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx nct07819136 rec-7735 in participants with solid tumors rec-7735 solid tumors recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT07298395",
@@ -2014,7 +2020,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "enveda",
-   "search": "nct07298395 study of env-294 in adults with moderate-to-severe atopic dermatitis env-294 atopic dermatitis (ad) enveda therapeutics enveda"
+   "search": "nct07298395 study of env-294 in adults with moderate-to-severe atopic dermatitis env-294 atopic dermatitis (ad) enveda therapeutics enveda nct07298395 study of env-294 in adults with moderate-to-severe atopic dermatitis env-294 atopic dermatitis (ad) enveda therapeutics enveda"
   },
   {
    "nct": "NCT07301255",
@@ -2043,7 +2049,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "enveda",
-   "search": "nct07301255 env-294 for moderate-to-severe asthma: a 12-week study in adults env-294 asthma enveda therapeutics enveda"
+   "search": "nct07301255 env-294 for moderate-to-severe asthma: a 12-week study in adults env-294 asthma enveda therapeutics enveda nct07301255 env-294 for moderate-to-severe asthma: a 12-week study in adults env-294 asthma enveda therapeutics enveda"
   },
   {
    "nct": "NCT06778850",
@@ -2073,7 +2079,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "mindrank",
-   "search": "nct06778850 a phase i/iia clinical study to assess the single and multiple ascending doses of mdr-001 tablets in healthy participants and obese/ overweight participants mdr-001 palcebo overweight and obese volunteers mindrank ai ltd mindrank ai 德睿智药"
+   "search": "nct06778850 a phase i/iia clinical study to assess the single and multiple ascending doses of mdr-001 tablets in healthy participants and obese/ overweight participants mdr-001 palcebo overweight and obese volunteers mindrank ai ltd mindrank ai 德睿智药 nct06778850 a phase i/iia clinical study to assess the single and multiple ascending doses of mdr-001 tablets in healthy participants and obese/ overweight participants mdr-001 palcebo overweight and obese volunteers mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT06566079",
@@ -2104,7 +2110,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct06566079 study of ism6331 in participants with advanced/metastatic mesothelioma or other advanced solid tumors ism6331 malignant mesothelioma metastatic malignant solid tumor advanced solid tumor insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct06566079 study of ism6331 in participants with advanced/metastatic mesothelioma or other advanced solid tumors ism6331 malignant mesothelioma metastatic malignant solid tumor advanced solid tumor insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct06566079 study of ism6331 in participants with advanced/metastatic mesothelioma or other advanced solid tumors ism6331 malignant mesothelioma metastatic malignant solid tumor advanced solid tumor insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07815678",
@@ -2133,7 +2139,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct07815678 first-in-human study of the safety, tolerability, pharmacokinetics, and food effect of accg-2671 accg-2671 obesity aconcagua bio, inc. a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct07815678 first-in-human study of the safety, tolerability, pharmacokinetics, and food effect of accg-2671 accg-2671 obesity aconcagua bio, inc. a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct07815678 first-in-human study of the safety, tolerability, pharmacokinetics, and food effect of accg-2671 accg-2671 obesity aconcagua bio, inc. a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07656727",
@@ -2162,7 +2168,7 @@
    "tier": "ai",
    "ticker": "BIOA",
    "co": "BIOA",
-   "search": "nct07656727 a phase 2 study to evaluate the pharmacodynamics, safety and tolerability of bge-102 in participants with obesity and cardiovascular risk factors oral bge-102 obesity and cardiovascular risk bioage labs, inc. bioage labs bioa"
+   "search": "nct07656727 a phase 2 study to evaluate the pharmacodynamics, safety and tolerability of bge-102 in participants with obesity and cardiovascular risk factors oral bge-102 obesity and cardiovascular risk bioage labs, inc. bioage labs bioa nct07656727 a phase 2 study to evaluate the pharmacodynamics, safety and tolerability of bge-102 in participants with obesity and cardiovascular risk factors oral bge-102 obesity and cardiovascular risk bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT07801612",
@@ -2192,7 +2198,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "helixon",
-   "search": "nct07801612 a phase i study of hxn5003 in healthy participants and patients with moderate-to-severe atopic dermatitis hxn5003 health adult subjects moderate-to-severe atopic dermatitis helixon biotechnology (suzhou) co., ltd helixon 华深智药"
+   "search": "nct07801612 a phase i study of hxn5003 in healthy participants and patients with moderate-to-severe atopic dermatitis hxn5003 health adult subjects moderate-to-severe atopic dermatitis helixon biotechnology (suzhou) co., ltd helixon 华深智药 nct07801612 a phase i study of hxn5003 in healthy participants and patients with moderate-to-severe atopic dermatitis hxn5003 health adult subjects moderate-to-severe atopic dermatitis helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT06414460",
@@ -2221,7 +2227,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct06414460 study of ism3412 in participants with locally advanced/metastatic solid tumors ism3412 locally advanced/metastatic solid tumors insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct06414460 study of ism3412 in participants with locally advanced/metastatic solid tumors ism3412 locally advanced/metastatic solid tumors insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct06414460 study of ism3412 in participants with locally advanced/metastatic solid tumors ism3412 locally advanced/metastatic solid tumors insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07797907",
@@ -2250,7 +2256,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "biolojic",
-   "search": "nct07797907 this clinical study is to evaluate the safety, tolerability, pharmacokinetics (pk), pharmacodynamics (pd), and preliminary antitumor activity of bd200 in participants with advanced or metastatic cancer. bd200 solid tumor (phase i) biolojic design ltd. biolojic design / aulos bioscience"
+   "search": "nct07797907 this clinical study is to evaluate the safety, tolerability, pharmacokinetics (pk), pharmacodynamics (pd), and preliminary antitumor activity of bd200 in participants with advanced or metastatic cancer. bd200 solid tumor (phase i) biolojic design ltd. biolojic design / aulos bioscience nct07797907 this clinical study is to evaluate the safety, tolerability, pharmacokinetics (pk), pharmacodynamics (pd), and preliminary antitumor activity of bd200 in participants with advanced or metastatic cancer. bd200 solid tumor (phase i) biolojic design ltd. biolojic design / aulos bioscience"
   },
   {
    "nct": "NCT06299124",
@@ -2280,7 +2286,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "regor",
-   "search": "nct06299124 a phase i study of rgt-419b in patients with hr-positive, her2-negative advanced breast cancer or other solid tumors rgt-419b breast cancer advanced solid tumor regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
+   "search": "nct06299124 a phase i study of rgt-419b in patients with hr-positive, her2-negative advanced breast cancer or other solid tumors rgt-419b breast cancer advanced solid tumor regor pharmaceuticals inc. regor pharmaceuticals 锐格医药 nct06299124 a phase i study of rgt-419b in patients with hr-positive, her2-negative advanced breast cancer or other solid tumors rgt-419b breast cancer advanced solid tumor regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT07403968",
@@ -2309,7 +2315,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct07403968 a study of zasocitinib (tak-279) in adults with active crohn's disease zasocitinib crohn's disease takeda nimbus therapeutics tak"
+   "search": "nct07403968 a study of zasocitinib (tak-279) in adults with active crohn's disease zasocitinib crohn's disease takeda nimbus therapeutics tak nct07403968 a study of zasocitinib (tak-279) in adults with active crohn's disease zasocitinib crohn's disease takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07782476",
@@ -2339,7 +2345,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "helixon",
-   "search": "nct07782476 study of hxn6005 in healthy participants and patients with moderate-to-severe atopic dermatitis hxn6005 health adult subjects atopic dermatitis (ad) helixon biotechnology (suzhou) co., ltd helixon 华深智药"
+   "search": "nct07782476 study of hxn6005 in healthy participants and patients with moderate-to-severe atopic dermatitis hxn6005 health adult subjects atopic dermatitis (ad) helixon biotechnology (suzhou) co., ltd helixon 华深智药 nct07782476 study of hxn6005 in healthy participants and patients with moderate-to-severe atopic dermatitis hxn6005 health adult subjects atopic dermatitis (ad) helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT01588522",
@@ -2371,7 +2377,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct01588522 compound 31543 (calcitriol, usp) in patients receiving taxane-based chemotherapy regimens for the treatment of chemotherapy-induced alopecia compound 31543 calcitriol 5 μg/ml compound 31543 calcitriol 10 μg/ml compound 31543 calcitriol 20 μg/ml compound 31543 calcitriol 40 μg/ml chemotherapy-induced alopecia bpgbio bpgbio (formerly berg)"
+   "search": "nct01588522 compound 31543 (calcitriol, usp) in patients receiving taxane-based chemotherapy regimens for the treatment of chemotherapy-induced alopecia compound 31543 calcitriol 5 μg/ml compound 31543 calcitriol 10 μg/ml compound 31543 calcitriol 20 μg/ml compound 31543 calcitriol 40 μg/ml chemotherapy-induced alopecia bpgbio bpgbio (formerly berg) nct01588522 compound 31543 (calcitriol, usp) in patients receiving taxane-based chemotherapy regimens for the treatment of chemotherapy-induced alopecia compound 31543 calcitriol 5 μg/ml compound 31543 calcitriol 10 μg/ml compound 31543 calcitriol 20 μg/ml compound 31543 calcitriol 40 μg/ml chemotherapy-induced alopecia bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT05130866",
@@ -2400,7 +2406,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct05130866 efficacy and safety of rec-2282 in patients with progressive neurofibromatosis type 2 (nf2) mutated meningiomas rec-2282 neurofibromatosis type 2 recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
+   "search": "nct05130866 efficacy and safety of rec-2282 in patients with progressive neurofibromatosis type 2 (nf2) mutated meningiomas rec-2282 neurofibromatosis type 2 recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx nct05130866 efficacy and safety of rec-2282 in patients with progressive neurofibromatosis type 2 (nf2) mutated meningiomas rec-2282 neurofibromatosis type 2 recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT06254950",
@@ -2429,7 +2435,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06254950 a study on the safety of tak-279 and whether it can reduce inflammation in the bowel of participants with moderately to severely active ulcerative colitis tak-279 ulcerative colitis takeda nimbus therapeutics tak"
+   "search": "nct06254950 a study on the safety of tak-279 and whether it can reduce inflammation in the bowel of participants with moderately to severely active ulcerative colitis tak-279 ulcerative colitis takeda nimbus therapeutics tak nct06254950 a study on the safety of tak-279 and whether it can reduce inflammation in the bowel of participants with moderately to severely active ulcerative colitis tak-279 ulcerative colitis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07768254",
@@ -2458,7 +2464,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "helixon",
-   "search": "nct07768254 a study to evaluate the safety, tolerability, pk and preliminary efficacy of hx15001 combined with etrasimod in moderate-severe ulcerative colitis biological: hx15001 colitis, ulcerative helixon biotechnology (suzhou) co., ltd helixon 华深智药"
+   "search": "nct07768254 a study to evaluate the safety, tolerability, pk and preliminary efficacy of hx15001 combined with etrasimod in moderate-severe ulcerative colitis biological: hx15001 colitis, ulcerative helixon biotechnology (suzhou) co., ltd helixon 华深智药 nct07768254 a study to evaluate the safety, tolerability, pk and preliminary efficacy of hx15001 combined with etrasimod in moderate-severe ulcerative colitis biological: hx15001 colitis, ulcerative helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT06980116",
@@ -2490,7 +2496,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct06980116 dose determining study of exs73565 in participants with relapsed or refractory b-cell malignancies exs73565 relapsed or refractory b-cell malignancies chronic lymphocytic leukemia/small lymphocytic lymphoma (cll/sll) follicular lymphoma (fl) marginal zone lymphoma (mzl) exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx"
+   "search": "nct06980116 dose determining study of exs73565 in participants with relapsed or refractory b-cell malignancies exs73565 relapsed or refractory b-cell malignancies chronic lymphocytic leukemia/small lymphocytic lymphoma (cll/sll) follicular lymphoma (fl) marginal zone lymphoma (mzl) exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx nct06980116 dose determining study of exs73565 in participants with relapsed or refractory b-cell malignancies exs73565 relapsed or refractory b-cell malignancies chronic lymphocytic leukemia/small lymphocytic lymphoma (cll/sll) follicular lymphoma (fl) marginal zone lymphoma (mzl) exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT04354246",
@@ -2525,7 +2531,7 @@
    "tier": "computational",
    "ticker": "CGEN",
    "co": "CGEN",
-   "search": "nct04354246 com902 (a tigit inhibitor) in subjects with advanced malignancies dose escalation: com902 monotherapy. evaluation of safety/tolerability: com902 in combination with com701 (both at the rdfe) cohort expansion: com902 (rdfe) monotherapy. cohort expansion: com902 in combination with com701 (both at the rdfe). advanced cancer ovarian cancer lung cancer colon cancer compugen ltd compugen cgen"
+   "search": "nct04354246 com902 (a tigit inhibitor) in subjects with advanced malignancies dose escalation: com902 monotherapy. evaluation of safety/tolerability: com902 in combination with com701 (both at the rdfe) cohort expansion: com902 (rdfe) monotherapy. cohort expansion: com902 in combination with com701 (both at the rdfe). advanced cancer ovarian cancer lung cancer colon cancer compugen ltd compugen cgen nct04354246 com902 (a tigit inhibitor) in subjects with advanced malignancies dose escalation: com902 monotherapy. evaluation of safety/tolerability: com902 in combination with com701 (both at the rdfe) cohort expansion: com902 (rdfe) monotherapy. cohort expansion: com902 in combination with com701 (both at the rdfe). advanced cancer ovarian cancer lung cancer colon cancer compugen ltd compugen cgen"
   },
   {
    "nct": "NCT05304962",
@@ -2555,7 +2561,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "regor",
-   "search": "nct05304962 fih study of rgt-419b alone and with endocrine therapy in hr-positive, her2-negative advanced/metastatic breast cancer rgt-419b rgt-419b in combination with hormonal therapy breast cancer regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
+   "search": "nct05304962 fih study of rgt-419b alone and with endocrine therapy in hr-positive, her2-negative advanced/metastatic breast cancer rgt-419b rgt-419b in combination with hormonal therapy breast cancer regor pharmaceuticals inc. regor pharmaceuticals 锐格医药 nct05304962 fih study of rgt-419b alone and with endocrine therapy in hr-positive, her2-negative advanced/metastatic breast cancer rgt-419b rgt-419b in combination with hormonal therapy breast cancer regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT06759649",
@@ -2586,7 +2592,7 @@
    "tier": "computational",
    "ticker": "CGEN",
    "co": "CGEN",
-   "search": "nct06759649 a clinical trial to assess com503 in participants with advanced solid malignancies com503 zimberelimab neoplasm cancer, malignant tumors compugen ltd compugen cgen"
+   "search": "nct06759649 a clinical trial to assess com503 in participants with advanced solid malignancies com503 zimberelimab neoplasm cancer, malignant tumors compugen ltd compugen cgen nct06759649 a clinical trial to assess com503 in participants with advanced solid malignancies com503 zimberelimab neoplasm cancer, malignant tumors compugen ltd compugen cgen"
   },
   {
    "nct": "NCT06693843",
@@ -2615,7 +2621,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct06693843 a phase 2b, dose-range finding study of the efficacy and safety of multiple doses of aleniglipron (gsbr-1290) in participants living with obesity or overweight with at least one weight-related comorbidity aleniglipron obesity, overweight, or chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct06693843 a phase 2b, dose-range finding study of the efficacy and safety of multiple doses of aleniglipron (gsbr-1290) in participants living with obesity or overweight with at least one weight-related comorbidity aleniglipron obesity, overweight, or chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct06693843 a phase 2b, dose-range finding study of the efficacy and safety of multiple doses of aleniglipron (gsbr-1290) in participants living with obesity or overweight with at least one weight-related comorbidity aleniglipron obesity, overweight, or chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07654361",
@@ -2646,7 +2652,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct07654361 efficacy and safety of aleniglipron in participants with obesity or overweight with a weight-related comorbidity (accomplish-1) aleniglipron obesity overweight chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct07654361 efficacy and safety of aleniglipron in participants with obesity or overweight with a weight-related comorbidity (accomplish-1) aleniglipron obesity overweight chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct07654361 efficacy and safety of aleniglipron in participants with obesity or overweight with a weight-related comorbidity (accomplish-1) aleniglipron obesity overweight chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07643766",
@@ -2675,7 +2681,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "enveda",
-   "search": "nct07643766 a phase 2b dose-ranging study to evaluate the efficacy and safety of env-294 in adults with moderate-to-severe atopic dermatitis env-294 atopic dermatitis enveda therapeutics enveda"
+   "search": "nct07643766 a phase 2b dose-ranging study to evaluate the efficacy and safety of env-294 in adults with moderate-to-severe atopic dermatitis env-294 atopic dermatitis enveda therapeutics enveda nct07643766 a phase 2b dose-ranging study to evaluate the efficacy and safety of env-294 in adults with moderate-to-severe atopic dermatitis env-294 atopic dermatitis enveda therapeutics enveda"
   },
   {
    "nct": "NCT06541847",
@@ -2704,7 +2710,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "healx",
-   "search": "nct06541847 a phase 2, open-label study to evaluate the safety and effects of hlx-1502 in patients with neurofibromatosis type 1 hlx-1502 neurofibromatosis type 1 healx limited healx"
+   "search": "nct06541847 a phase 2, open-label study to evaluate the safety and effects of hlx-1502 in patients with neurofibromatosis type 1 hlx-1502 neurofibromatosis type 1 healx limited healx nct06541847 a phase 2, open-label study to evaluate the safety and effects of hlx-1502 in patients with neurofibromatosis type 1 hlx-1502 neurofibromatosis type 1 healx limited healx"
   },
   {
    "nct": "NCT06445517",
@@ -2734,7 +2740,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct06445517 study evaluating ism8207 in participants with advanced solid tumors and relapsed/refractory b-cell lymphoma ism8207 advanced solid tumors relapsed/refractory b-cell lymphoma insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct06445517 study evaluating ism8207 in participants with advanced solid tumors and relapsed/refractory b-cell lymphoma ism8207 advanced solid tumors relapsed/refractory b-cell lymphoma insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct06445517 study evaluating ism8207 in participants with advanced solid tumors and relapsed/refractory b-cell lymphoma ism8207 advanced solid tumors relapsed/refractory b-cell lymphoma insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06724042",
@@ -2768,7 +2774,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct06724042 study of ism5939 in patients with advanced and/or metastatic solid tumors ism5939 cisplatin docetaxel pembrolizumab advanced solid tumor metastatic solid tumor advanced and/or metastatic solid tumors insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct06724042 study of ism5939 in patients with advanced and/or metastatic solid tumors ism5939 cisplatin docetaxel pembrolizumab advanced solid tumor metastatic solid tumor advanced and/or metastatic solid tumors insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct06724042 study of ism5939 in patients with advanced and/or metastatic solid tumors ism5939 cisplatin docetaxel pembrolizumab advanced solid tumor metastatic solid tumor advanced and/or metastatic solid tumors insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07581431",
@@ -2796,7 +2802,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct07581431 a phase 1, evaluate the safety, tolerability, pharmacokinetics, and pharmacodynamics of ism8969 healthy subjects (hs) obese adult participants at risk of cardiovascular disease insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct07581431 a phase 1, evaluate the safety, tolerability, pharmacokinetics, and pharmacodynamics of ism8969 healthy subjects (hs) obese adult participants at risk of cardiovascular disease insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct07581431 a phase 1, evaluate the safety, tolerability, pharmacokinetics, and pharmacodynamics of ism8969 healthy subjects (hs) obese adult participants at risk of cardiovascular disease insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07108894",
@@ -2825,7 +2831,7 @@
    "tier": "computational",
    "ticker": "ABCL",
    "co": "ABCL",
-   "search": "nct07108894 a first-in-human phase 1 single-ascending dose study of abcl575 in healthy participants abcl575 healthy volunteers abcellera biologics inc. abcellera abcl"
+   "search": "nct07108894 a first-in-human phase 1 single-ascending dose study of abcl575 in healthy participants abcl575 healthy volunteers abcellera biologics inc. abcellera abcl nct07108894 a first-in-human phase 1 single-ascending dose study of abcl575 in healthy participants abcl575 healthy volunteers abcellera biologics inc. abcellera abcl"
   },
   {
    "nct": "NCT07517198",
@@ -2857,7 +2863,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct07517198 dose determining study of exs74539 (rec-4539) in participants with select solid tumors exs74539 solid tumor small cell lung cancer (sclc) high grade neuroendocrine cancer small cell carcinomas of non-lung origin exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx"
+   "search": "nct07517198 dose determining study of exs74539 (rec-4539) in participants with select solid tumors exs74539 solid tumor small cell lung cancer (sclc) high grade neuroendocrine cancer small cell carcinomas of non-lung origin exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx nct07517198 dose determining study of exs74539 (rec-4539) in participants with select solid tumors exs74539 solid tumor small cell lung cancer (sclc) high grade neuroendocrine cancer small cell carcinomas of non-lung origin exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT05552755",
@@ -2886,7 +2892,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct05552755 evaluate rec-4881 in participants with familial adenomatous polyposis (fap) rec-4881 familial adenomatous polyposis recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
+   "search": "nct05552755 evaluate rec-4881 in participants with familial adenomatous polyposis (fap) rec-4881 familial adenomatous polyposis recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx nct05552755 evaluate rec-4881 in participants with familial adenomatous polyposis (fap) rec-4881 familial adenomatous polyposis recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT06550076",
@@ -2915,7 +2921,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06550076 a study of tak-279 in participants with moderate-to-severe plaque psoriasis tak-279 plaque psoriasis takeda nimbus therapeutics tak"
+   "search": "nct06550076 a study of tak-279 in participants with moderate-to-severe plaque psoriasis tak-279 plaque psoriasis takeda nimbus therapeutics tak nct06550076 a study of tak-279 in participants with moderate-to-severe plaque psoriasis tak-279 plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06867718",
@@ -2944,7 +2950,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "regor",
-   "search": "nct06867718 study of once-daily oral rgt001-075 compared with placebo in adults with obesity or are overweight with weight-related health conditions rgt001-075 obesity or overweight regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
+   "search": "nct06867718 study of once-daily oral rgt001-075 compared with placebo in adults with obesity or are overweight with weight-related health conditions rgt001-075 obesity or overweight regor pharmaceuticals inc. regor pharmaceuticals 锐格医药 nct06867718 study of once-daily oral rgt001-075 compared with placebo in adults with obesity or are overweight with weight-related health conditions rgt001-075 obesity or overweight regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT06764615",
@@ -2974,7 +2980,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06764615 a continuation study of tak-279 in adults with ulcerative colitis (uc) and crohn's disease (cd) zasocitinib crohn's disease ulcerative colitis takeda nimbus therapeutics tak"
+   "search": "nct06764615 a continuation study of tak-279 in adults with ulcerative colitis (uc) and crohn's disease (cd) zasocitinib crohn's disease ulcerative colitis takeda nimbus therapeutics tak nct06764615 a continuation study of tak-279 in adults with ulcerative colitis (uc) and crohn's disease (cd) zasocitinib crohn's disease ulcerative colitis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06898450",
@@ -3004,7 +3010,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "nimbus",
-   "search": "nct06898450 a study to assess the safety, tolerability, and efficacy of ndi-219216 in patients with advanced solid tumors. ndi-219216 advanced solid tumors cancer msi-h cancer nimbus wadjet, inc. nimbus therapeutics"
+   "search": "nct06898450 a study to assess the safety, tolerability, and efficacy of ndi-219216 in patients with advanced solid tumors. ndi-219216 advanced solid tumors cancer msi-h cancer nimbus wadjet, inc. nimbus therapeutics nct06898450 a study to assess the safety, tolerability, and efficacy of ndi-219216 in patients with advanced solid tumors. ndi-219216 advanced solid tumors cancer msi-h cancer nimbus wadjet, inc. nimbus therapeutics"
   },
   {
    "nct": "NCT05456256",
@@ -3036,7 +3042,7 @@
    "tier": "ai",
    "ticker": "LTRN",
    "co": "LTRN",
-   "search": "nct05456256 a study of lp-300 with carboplatin and pemetrexed in never smokers with advanced lung adenocarcinoma lp-300 pemetrexed carboplatin adenocarcinoma of lung carcinoma, non-small-cell lung lantern pharma inc. lantern pharma ltrn"
+   "search": "nct05456256 a study of lp-300 with carboplatin and pemetrexed in never smokers with advanced lung adenocarcinoma lp-300 pemetrexed carboplatin adenocarcinoma of lung carcinoma, non-small-cell lung lantern pharma inc. lantern pharma ltrn nct05456256 a study of lp-300 with carboplatin and pemetrexed in never smokers with advanced lung adenocarcinoma lp-300 pemetrexed carboplatin adenocarcinoma of lung carcinoma, non-small-cell lung lantern pharma inc. lantern pharma ltrn"
   },
   {
    "nct": "NCT05933265",
@@ -3070,7 +3076,7 @@
    "tier": "ai",
    "ticker": "LTRN",
    "co": "LTRN",
-   "search": "nct05933265 study of lp-184 in patients with advanced solid tumors lp-184 olaparib nivolumab & ipilimumab advanced solid tumor metastatic solid tumor gbm tnbc - triple-negative breast cancer lantern pharma inc. lantern pharma ltrn"
+   "search": "nct05933265 study of lp-184 in patients with advanced solid tumors lp-184 olaparib nivolumab & ipilimumab advanced solid tumor metastatic solid tumor gbm tnbc - triple-negative breast cancer lantern pharma inc. lantern pharma ltrn nct05933265 study of lp-184 in patients with advanced solid tumors lp-184 olaparib nivolumab & ipilimumab advanced solid tumor metastatic solid tumor gbm tnbc - triple-negative breast cancer lantern pharma inc. lantern pharma ltrn"
   },
   {
    "nct": "NCT06132503",
@@ -3100,7 +3106,7 @@
    "tier": "ai",
    "ticker": "LTRN",
    "co": "LTRN",
-   "search": "nct06132503 safety, pharmacokinetics, and clinical activity of lp-284 in adult patients with relapsed or refractory lymphomas and solid tumors lp-284 relapsed or refractory lymphomas advanced solid tumor lantern pharma inc. lantern pharma ltrn"
+   "search": "nct06132503 safety, pharmacokinetics, and clinical activity of lp-284 in adult patients with relapsed or refractory lymphomas and solid tumors lp-284 relapsed or refractory lymphomas advanced solid tumor lantern pharma inc. lantern pharma ltrn nct06132503 safety, pharmacokinetics, and clinical activity of lp-284 in adult patients with relapsed or refractory lymphomas and solid tumors lp-284 relapsed or refractory lymphomas advanced solid tumor lantern pharma inc. lantern pharma ltrn"
   },
   {
    "nct": "NCT06973291",
@@ -3130,7 +3136,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06973291 a study comparing zasocitinib (tak-279) with deucravacitinib in adults with plaque psoriasis zasocitinib deucravacitinib plaque psoriasis takeda nimbus therapeutics tak"
+   "search": "nct06973291 a study comparing zasocitinib (tak-279) with deucravacitinib in adults with plaque psoriasis zasocitinib deucravacitinib plaque psoriasis takeda nimbus therapeutics tak nct06973291 a study comparing zasocitinib (tak-279) with deucravacitinib in adults with plaque psoriasis zasocitinib deucravacitinib plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06703021",
@@ -3159,7 +3165,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct06703021 a dose-range study of aleniglipron (gsbr-1290) in participants living with obesity or overweight with at least one weight-related comorbidity obesity overweight chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct06703021 a dose-range study of aleniglipron (gsbr-1290) in participants living with obesity or overweight with at least one weight-related comorbidity obesity overweight chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct06703021 a dose-range study of aleniglipron (gsbr-1290) in participants living with obesity or overweight with at least one weight-related comorbidity obesity overweight chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07449741",
@@ -3188,7 +3194,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "helixon",
-   "search": "nct07449741 phase i study of hxn6005 in adult healthy participants hxn6005 healthy volunteers (hv) helixon biotechnology (suzhou) co., ltd helixon 华深智药"
+   "search": "nct07449741 phase i study of hxn6005 in adult healthy participants hxn6005 healthy volunteers (hv) helixon biotechnology (suzhou) co., ltd helixon 华深智药 nct07449741 phase i study of hxn6005 in adult healthy participants hxn6005 healthy volunteers (hv) helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT07549750",
@@ -3217,7 +3223,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "helixon",
-   "search": "nct07549750 a dose escalation phase 1 study of hxn5003 in healthy participants hxn5003 atopic dermatitis helixon biotechnology (suzhou) co., ltd helixon 华深智药"
+   "search": "nct07549750 a dose escalation phase 1 study of hxn5003 in healthy participants hxn5003 atopic dermatitis helixon biotechnology (suzhou) co., ltd helixon 华深智药 nct07549750 a dose escalation phase 1 study of hxn5003 in healthy participants hxn5003 atopic dermatitis helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT07550621",
@@ -3248,7 +3254,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "mindrank",
-   "search": "nct07550621 drug-drug interaction study of mdr-001 with rifampin and itraconazole in healthy adult participants mdr-001 rifampin itraconazole healthy volunteers (hv) mindrank ai ltd mindrank ai 德睿智药"
+   "search": "nct07550621 drug-drug interaction study of mdr-001 with rifampin and itraconazole in healthy adult participants mdr-001 rifampin itraconazole healthy volunteers (hv) mindrank ai ltd mindrank ai 德睿智药 nct07550621 drug-drug interaction study of mdr-001 with rifampin and itraconazole in healthy adult participants mdr-001 rifampin itraconazole healthy volunteers (hv) mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT07550634",
@@ -3278,7 +3284,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "mindrank",
-   "search": "nct07550634 pharmacokinetics and safety of mdr-001 in mild and moderate hepatic impairment mdr-001 hepatic impairment (mild and moderate, child-pugh class a and b) hepatic insufficiency (mesh id: d048550) mindrank ai ltd mindrank ai 德睿智药"
+   "search": "nct07550634 pharmacokinetics and safety of mdr-001 in mild and moderate hepatic impairment mdr-001 hepatic impairment (mild and moderate, child-pugh class a and b) hepatic insufficiency (mesh id: d048550) mindrank ai ltd mindrank ai 德睿智药 nct07550634 pharmacokinetics and safety of mdr-001 in mild and moderate hepatic impairment mdr-001 hepatic impairment (mild and moderate, child-pugh class a and b) hepatic insufficiency (mesh id: d048550) mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT07336940",
@@ -3307,7 +3313,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "enveda",
-   "search": "nct07336940 study of env-294 in healthy adults and in adults with moderate-to-severe atopic dermatitis env-294 capsule atopic dermatitis (ad) enveda therapeutics enveda"
+   "search": "nct07336940 study of env-294 in healthy adults and in adults with moderate-to-severe atopic dermatitis env-294 capsule atopic dermatitis (ad) enveda therapeutics enveda nct07336940 study of env-294 in healthy adults and in adults with moderate-to-severe atopic dermatitis env-294 capsule atopic dermatitis (ad) enveda therapeutics enveda"
   },
   {
    "nct": "NCT06005974",
@@ -3338,7 +3344,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct06005974 a study of rec-4881 in participants with cancers which have an axin1 or apc mutation rec-4881 axin1 gene mutation apc gene mutation solid tumor recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
+   "search": "nct06005974 a study of rec-4881 in participants with cancers which have an axin1 or apc mutation rec-4881 axin1 gene mutation apc gene mutation solid tumor recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx nct06005974 a study of rec-4881 in participants with cancers which have an axin1 or apc mutation rec-4881 axin1 gene mutation apc gene mutation solid tumor recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT07190469",
@@ -3368,7 +3374,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "proteinqure",
-   "search": "nct07190469 pq203 in advanced malignant tumors including triple negative breast cancer pq203 triple negative breast cancer (tnbc) advanced solid tumors cancer proteinqure inc. proteinqure"
+   "search": "nct07190469 pq203 in advanced malignant tumors including triple negative breast cancer pq203 triple negative breast cancer (tnbc) advanced solid tumors cancer proteinqure inc. proteinqure nct07190469 pq203 in advanced malignant tumors including triple negative breast cancer pq203 triple negative breast cancer (tnbc) advanced solid tumors cancer proteinqure inc. proteinqure"
   },
   {
    "nct": "NCT05544019",
@@ -3400,7 +3406,7 @@
    "tier": "computational",
    "ticker": "SDGR",
    "co": "SDGR",
-   "search": "nct05544019 study of sgr-1505 in mature b-cell neoplasms sgr-1505 mature b-cell neoplasm non hodgkin lymphoma dlbcl waldenstrom macroglobulinemia schrödinger, inc. schrödinger 薛定谔 sdgr"
+   "search": "nct05544019 study of sgr-1505 in mature b-cell neoplasms sgr-1505 mature b-cell neoplasm non hodgkin lymphoma dlbcl waldenstrom macroglobulinemia schrödinger, inc. schrödinger 薛定谔 sdgr nct05544019 study of sgr-1505 in mature b-cell neoplasms sgr-1505 mature b-cell neoplasm non hodgkin lymphoma dlbcl waldenstrom macroglobulinemia schrodinger, inc. schrodinger 薛定谔 sdgr"
   },
   {
    "nct": "NCT04752813",
@@ -3431,7 +3437,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct04752813 a study of bpm31510 with vitamin k1 in subjects with newly diagnosed glioblastoma (gb) bpm31510 temozolomide (tmz) glioblastoma glioblastoma multiforme bpgbio bpgbio (formerly berg)"
+   "search": "nct04752813 a study of bpm31510 with vitamin k1 in subjects with newly diagnosed glioblastoma (gb) bpm31510 temozolomide (tmz) glioblastoma glioblastoma multiforme bpgbio bpgbio (formerly berg) nct04752813 a study of bpm31510 with vitamin k1 in subjects with newly diagnosed glioblastoma (gb) bpm31510 temozolomide (tmz) glioblastoma glioblastoma multiforme bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT07363967",
@@ -3460,7 +3466,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "stonewise",
-   "search": "nct07363967 a phase i first-in-human open-label study to evaluate the safety, tolerability, pharmacokinetics, and preliminary anti-tumor activity of swa1211 tablets in subjects with advanced solid tumors swa1211 solid tumor malignancies beijing stonewise technology co., ltd stonewise 望石智慧"
+   "search": "nct07363967 a phase i first-in-human open-label study to evaluate the safety, tolerability, pharmacokinetics, and preliminary anti-tumor activity of swa1211 tablets in subjects with advanced solid tumors swa1211 solid tumor malignancies beijing stonewise technology co., ltd stonewise 望石智慧 nct07363967 a phase i first-in-human open-label study to evaluate the safety, tolerability, pharmacokinetics, and preliminary anti-tumor activity of swa1211 tablets in subjects with advanced solid tumors swa1211 solid tumor malignancies beijing stonewise technology co., ltd stonewise 望石智慧"
   },
   {
    "nct": "NCT07274137",
@@ -3489,7 +3495,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "mindrank",
-   "search": "nct07274137 a phase iii study to evaluate the efficacy and safety of mdr-001 in adult participants with overweight or obesity (mobile） mdr-001 overweight or obesity mindrank ai ltd mindrank ai 德睿智药"
+   "search": "nct07274137 a phase iii study to evaluate the efficacy and safety of mdr-001 in adult participants with overweight or obesity (mobile） mdr-001 overweight or obesity mindrank ai ltd mindrank ai 德睿智药 nct07274137 a phase iii study to evaluate the efficacy and safety of mdr-001 in adult participants with overweight or obesity (mobile） mdr-001 overweight or obesity mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT06215755",
@@ -3518,7 +3524,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "verge",
-   "search": "nct06215755 a study of vrg50635 in participants with amyotrophic lateral sclerosis (als) vrg50635 amyotrophic lateral sclerosis verge genomics verge genomics"
+   "search": "nct06215755 a study of vrg50635 in participants with amyotrophic lateral sclerosis (als) vrg50635 amyotrophic lateral sclerosis verge genomics verge genomics nct06215755 a study of vrg50635 in participants with amyotrophic lateral sclerosis (als) vrg50635 amyotrophic lateral sclerosis verge genomics verge genomics"
   },
   {
    "nct": "NCT06286475",
@@ -3547,7 +3553,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "verge",
-   "search": "nct06286475 a study of vrg50635 in healthy volunteers vrg50635 healthy volunteers verge genomics verge genomics"
+   "search": "nct06286475 a study of vrg50635 in healthy volunteers vrg50635 healthy volunteers verge genomics verge genomics nct06286475 a study of vrg50635 in healthy volunteers vrg50635 healthy volunteers verge genomics verge genomics"
   },
   {
    "nct": "NCT05938920",
@@ -3576,7 +3582,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct05938920 study evaluating ins018_055 administered orally to subjects with idiopathic pulmonary fibrosis (ipf) ins018_055 idiopathic pulmonary fibrosis (ipf) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct05938920 study evaluating ins018_055 administered orally to subjects with idiopathic pulmonary fibrosis (ipf) ins018_055 idiopathic pulmonary fibrosis (ipf) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct05938920 study evaluating ins018_055 administered orally to subjects with idiopathic pulmonary fibrosis (ipf) ins018_055 idiopathic pulmonary fibrosis (ipf) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06920693",
@@ -3605,7 +3611,7 @@
    "tier": "ai",
    "ticker": "GENB",
    "co": "GENB",
-   "search": "nct06920693 study to investigate the safety, tolerability, and pharmacokinetics of gb-7624 in healthy adult participants gb-7624 atopic dermatitis (ad) generate biomedicines generate biomedicines genb"
+   "search": "nct06920693 study to investigate the safety, tolerability, and pharmacokinetics of gb-7624 in healthy adult participants gb-7624 atopic dermatitis (ad) generate biomedicines generate biomedicines genb nct06920693 study to investigate the safety, tolerability, and pharmacokinetics of gb-7624 in healthy adult participants gb-7624 atopic dermatitis (ad) generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT06108544",
@@ -3635,7 +3641,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06108544 a study about how well tak-279 works and its safety in participants with moderate-to-severe plaque psoriasis during 60 weeks of treatment with a withdrawal and retreatment period tak-279 apremilast plaque psoriasis takeda nimbus therapeutics tak"
+   "search": "nct06108544 a study about how well tak-279 works and its safety in participants with moderate-to-severe plaque psoriasis during 60 weeks of treatment with a withdrawal and retreatment period tak-279 apremilast plaque psoriasis takeda nimbus therapeutics tak nct06108544 a study about how well tak-279 works and its safety in participants with moderate-to-severe plaque psoriasis during 60 weeks of treatment with a withdrawal and retreatment period tak-279 apremilast plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06536465",
@@ -3664,7 +3670,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct06536465 the clostridioides difficile trial of rec-3964 rec-3964 recurrent clostridioides difficile infection recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
+   "search": "nct06536465 the clostridioides difficile trial of rec-3964 rec-3964 recurrent clostridioides difficile infection recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx nct06536465 the clostridioides difficile trial of rec-3964 rec-3964 recurrent clostridioides difficile infection recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT05975983",
@@ -3693,7 +3699,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct05975983 study evaluating ins018_055 administered orally to subjects with idiopathic pulmonary fibrosis ins018_055 idiopathic pulmonary fibrosis (ipf) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct05975983 study evaluating ins018_055 administered orally to subjects with idiopathic pulmonary fibrosis ins018_055 idiopathic pulmonary fibrosis (ipf) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct05975983 study evaluating ins018_055 administered orally to subjects with idiopathic pulmonary fibrosis ins018_055 idiopathic pulmonary fibrosis (ipf) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07116889",
@@ -3723,7 +3729,7 @@
    "tier": "ai",
    "ticker": "GENB",
    "co": "GENB",
-   "search": "nct07116889 a study to investigate gb-0895 in adults with mild to moderate asthma or copd gb-0895 (sc) asthma copd (chronic obstructive pulmonary disease) generate biomedicines generate biomedicines genb"
+   "search": "nct07116889 a study to investigate gb-0895 in adults with mild to moderate asthma or copd gb-0895 (sc) asthma copd (chronic obstructive pulmonary disease) generate biomedicines generate biomedicines genb nct07116889 a study to investigate gb-0895 in adults with mild to moderate asthma or copd gb-0895 (sc) asthma copd (chronic obstructive pulmonary disease) generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT06088043",
@@ -3753,7 +3759,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06088043 a study about how well tak-279 works and its safety in participants with moderate-to-severe plaque psoriasis during 52 weeks of treatment tak-279 apremilast plaque psoriasis takeda nimbus therapeutics tak"
+   "search": "nct06088043 a study about how well tak-279 works and its safety in participants with moderate-to-severe plaque psoriasis during 52 weeks of treatment tak-279 apremilast plaque psoriasis takeda nimbus therapeutics tak nct06088043 a study about how well tak-279 works and its safety in participants with moderate-to-severe plaque psoriasis during 52 weeks of treatment tak-279 apremilast plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05780034",
@@ -3782,7 +3788,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "accutar",
-   "search": "nct05780034 a study of ac676 for the treatment of relapsed/refractory b-cell malignancies ac676 relapsed/refractory b-cell malignancies accutar biotechnology inc accutar biotechnology 冰洲石生物"
+   "search": "nct05780034 a study of ac676 for the treatment of relapsed/refractory b-cell malignancies ac676 relapsed/refractory b-cell malignancies accutar biotechnology inc accutar biotechnology 冰洲石生物 nct05780034 a study of ac676 for the treatment of relapsed/refractory b-cell malignancies ac676 relapsed/refractory b-cell malignancies accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05654532",
@@ -3811,7 +3817,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "accutar",
-   "search": "nct05654532 study of ac699 in patients with estrogen receptor positive/human epidermal growth factor receptor 2 negative (er+/her2-) locally advanced or metastatic breast cancer ac699 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
+   "search": "nct05654532 study of ac699 in patients with estrogen receptor positive/human epidermal growth factor receptor 2 negative (er+/her2-) locally advanced or metastatic breast cancer ac699 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物 nct05654532 study of ac699 in patients with estrogen receptor positive/human epidermal growth factor receptor 2 negative (er+/her2-) locally advanced or metastatic breast cancer ac699 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05216432",
@@ -3846,7 +3852,7 @@
    "tier": "computational",
    "ticker": "RLAY",
    "co": "RLAY",
-   "search": "nct05216432 first-in-human study of mutant-selective pi3kα inhibitor, rly-2608, as a single agent in patients with advanced solid tumors and in combination with endocrine therapy +/- a cdk4/6 or cdk4 inhibitor in patients with advanced solid tumors or advanced breast cancer rly-2608 fulvestrant palbociclib 125mg ribociclib 400mg pik3ca mutation solid tumor, adult her2-negative breast cancer breast cancer relay therapeutics, inc. relay therapeutics rlay"
+   "search": "nct05216432 first-in-human study of mutant-selective pi3kα inhibitor, rly-2608, as a single agent in patients with advanced solid tumors and in combination with endocrine therapy +/- a cdk4/6 or cdk4 inhibitor in patients with advanced solid tumors or advanced breast cancer rly-2608 fulvestrant palbociclib 125mg ribociclib 400mg pik3ca mutation solid tumor, adult her2-negative breast cancer breast cancer relay therapeutics, inc. relay therapeutics rlay nct05216432 first-in-human study of mutant-selective pi3kα inhibitor, rly-2608, as a single agent in patients with advanced solid tumors and in combination with endocrine therapy +/- a cdk4/6 or cdk4 inhibitor in patients with advanced solid tumors or advanced breast cancer rly-2608 fulvestrant palbociclib 125mg ribociclib 400mg pik3ca mutation solid tumor, adult her2-negative breast cancer breast cancer relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT05961839",
@@ -3876,7 +3882,7 @@
    "tier": "computational",
    "ticker": "SDGR",
    "co": "SDGR",
-   "search": "nct05961839 study of sgr-2921 in relapsed/refractory acute myeloid leukemia or myelodysplastic syndrome sgr-2921 acute myeloid leukemia high-risk and very high-risk myelodysplastic syndromes schrödinger, inc. schrödinger 薛定谔 sdgr"
+   "search": "nct05961839 study of sgr-2921 in relapsed/refractory acute myeloid leukemia or myelodysplastic syndrome sgr-2921 acute myeloid leukemia high-risk and very high-risk myelodysplastic syndromes schrödinger, inc. schrödinger 薛定谔 sdgr nct05961839 study of sgr-2921 in relapsed/refractory acute myeloid leukemia or myelodysplastic syndrome sgr-2921 acute myeloid leukemia high-risk and very high-risk myelodysplastic syndromes schrodinger, inc. schrodinger 薛定谔 sdgr"
   },
   {
    "nct": "NCT06999720",
@@ -3906,7 +3912,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "helixon",
-   "search": "nct06999720 study of hx15001 in adult healthy volunteers. hx15001 (sad) hx15001 (mad) healthy volunteers helixon biotechnology (suzhou) co., ltd helixon 华深智药"
+   "search": "nct06999720 study of hx15001 in adult healthy volunteers. hx15001 (sad) hx15001 (mad) healthy volunteers helixon biotechnology (suzhou) co., ltd helixon 华深智药 nct06999720 study of hx15001 in adult healthy volunteers. hx15001 (sad) hx15001 (mad) healthy volunteers helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT07110766",
@@ -3935,7 +3941,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "mindrank",
-   "search": "nct07110766 phase ib clinical study on the efficacy and safety of mdr-001 in patients who are obesity or overweight mdr-001 obesity &amp; overweight mindrank ai ltd mindrank ai 德睿智药"
+   "search": "nct07110766 phase ib clinical study on the efficacy and safety of mdr-001 in patients who are obesity or overweight mdr-001 obesity &amp; overweight mindrank ai ltd mindrank ai 德睿智药 nct07110766 phase ib clinical study on the efficacy and safety of mdr-001 in patients who are obesity or overweight mdr-001 obesity &amp; overweight mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT06277934",
@@ -3964,7 +3970,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "regor",
-   "search": "nct06277934 a study of rgt001-075 in participants with obesity or overweight with weight-related comorbidities rgt001-075 obesity regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
+   "search": "nct06277934 a study of rgt001-075 in participants with obesity or overweight with weight-related comorbidities rgt001-075 obesity regor pharmaceuticals inc. regor pharmaceuticals 锐格医药 nct06277934 a study of rgt001-075 in participants with obesity or overweight with weight-related comorbidities rgt001-075 obesity regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT02996305",
@@ -3994,7 +4000,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "healx",
-   "search": "nct02996305 a study in adults and adolescents with angelman syndrome (stars) ov101 regimen 1 ov101 regimen 2 angelman syndrome healx ai healx"
+   "search": "nct02996305 a study in adults and adolescents with angelman syndrome (stars) ov101 regimen 1 ov101 regimen 2 angelman syndrome healx ai healx nct02996305 a study in adults and adolescents with angelman syndrome (stars) ov101 regimen 1 ov101 regimen 2 angelman syndrome healx ai healx"
   },
   {
    "nct": "NCT06463340",
@@ -4023,7 +4029,7 @@
    "tier": "computational",
    "ticker": "SDGR",
    "co": "SDGR",
-   "search": "nct06463340 study of sgr-3515 in participants with advanced solid tumors. sgr-3515 advanced solid tumor schrödinger, inc. schrödinger 薛定谔 sdgr"
+   "search": "nct06463340 study of sgr-3515 in participants with advanced solid tumors. sgr-3515 advanced solid tumor schrödinger, inc. schrödinger 薛定谔 sdgr nct06463340 study of sgr-3515 in participants with advanced solid tumors. sgr-3515 advanced solid tumor schrodinger, inc. schrodinger 薛定谔 sdgr"
   },
   {
    "nct": "NCT03882918",
@@ -4052,7 +4058,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "healx",
-   "search": "nct03882918 an open-label study to evaluate the long-term safety, tolerability, and efficacy of ov101 in individuals with angelman syndrome ov101 angelman syndrome healx ai healx"
+   "search": "nct03882918 an open-label study to evaluate the long-term safety, tolerability, and efficacy of ov101 in individuals with angelman syndrome ov101 angelman syndrome healx ai healx nct03882918 an open-label study to evaluate the long-term safety, tolerability, and efficacy of ov101 in individuals with angelman syndrome ov101 angelman syndrome healx ai healx"
   },
   {
    "nct": "NCT07050511",
@@ -4081,7 +4087,7 @@
    "tier": "ai",
    "ticker": "GENB",
    "co": "GENB",
-   "search": "nct07050511 study to investigate the safety, tolerability, and pharmacokinetics of gb-0669 in healthy adult participants gb-0669 sars cov-2 generate biomedicines generate biomedicines genb"
+   "search": "nct07050511 study to investigate the safety, tolerability, and pharmacokinetics of gb-0669 in healthy adult participants gb-0669 sars cov-2 generate biomedicines generate biomedicines genb nct07050511 study to investigate the safety, tolerability, and pharmacokinetics of gb-0669 in healthy adult participants gb-0669 sars cov-2 generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT05137314",
@@ -4110,7 +4116,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "peptilogics",
-   "search": "nct05137314 study in patients undergoing debridement, antibiotics, and implant retention (dair) for treatment of a periprosthetic joint infection (pji) occurring after total knee arthroplasty (tka) plg0206 joint infection peptilogics peptilogics"
+   "search": "nct05137314 study in patients undergoing debridement, antibiotics, and implant retention (dair) for treatment of a periprosthetic joint infection (pji) occurring after total knee arthroplasty (tka) plg0206 joint infection peptilogics peptilogics nct05137314 study in patients undergoing debridement, antibiotics, and implant retention (dair) for treatment of a periprosthetic joint infection (pji) occurring after total knee arthroplasty (tka) plg0206 joint infection peptilogics peptilogics"
   },
   {
    "nct": "NCT05759949",
@@ -4145,7 +4151,7 @@
    "tier": "computational",
    "ticker": "RLAY",
    "co": "RLAY",
-   "search": "nct05759949 first-in-human study of rly-5836 in advanced breast cancer and other solid tumors rly-5836 fulvestrant palbociclib ribociclib pik3ca mutation solid tumor, adult her2-negative breast cancer breast cancer relay therapeutics, inc. relay therapeutics rlay"
+   "search": "nct05759949 first-in-human study of rly-5836 in advanced breast cancer and other solid tumors rly-5836 fulvestrant palbociclib ribociclib pik3ca mutation solid tumor, adult her2-negative breast cancer breast cancer relay therapeutics, inc. relay therapeutics rlay nct05759949 first-in-human study of rly-5836 in advanced breast cancer and other solid tumors rly-5836 fulvestrant palbociclib ribociclib pik3ca mutation solid tumor, adult her2-negative breast cancer breast cancer relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT06118385",
@@ -4174,7 +4180,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "benevolent",
-   "search": "nct06118385 study investigating the safety, tolerability, pk and food effect of ben8744. ben8744 healthy volunteer study benevolentai bio benevolentai"
+   "search": "nct06118385 study investigating the safety, tolerability, pk and food effect of ben8744. ben8744 healthy volunteer study benevolentai bio benevolentai nct06118385 study investigating the safety, tolerability, pk and food effect of ben8744. ben8744 healthy volunteer study benevolentai bio benevolentai"
   },
   {
    "nct": "NCT06793943",
@@ -4206,7 +4212,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06793943 a study of interaction of zasocitinib (tak-279) with other medicines in healthy adults zasocitinib coc metformin digoxin healthy volunteers takeda nimbus therapeutics tak"
+   "search": "nct06793943 a study of interaction of zasocitinib (tak-279) with other medicines in healthy adults zasocitinib coc metformin digoxin healthy volunteers takeda nimbus therapeutics tak nct06793943 a study of interaction of zasocitinib (tak-279) with other medicines in healthy adults zasocitinib coc metformin digoxin healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT02650804",
@@ -4236,7 +4242,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct02650804 bpm31510 administered intravenously with gemcitabine in advanced pancreatic cancer patients bpm31510 nanosuspension injection gemcitabine pancreatic cancer bpgbio bpgbio (formerly berg)"
+   "search": "nct02650804 bpm31510 administered intravenously with gemcitabine in advanced pancreatic cancer patients bpm31510 nanosuspension injection gemcitabine pancreatic cancer bpgbio bpgbio (formerly berg) nct02650804 bpm31510 administered intravenously with gemcitabine in advanced pancreatic cancer patients bpm31510 nanosuspension injection gemcitabine pancreatic cancer bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT06515418",
@@ -4266,7 +4272,7 @@
    "tier": "ai",
    "ticker": "BIOA",
    "co": "BIOA",
-   "search": "nct06515418 efficacy and safety of oral azelaprag plus once weekly tirzepatide compared with tirzepatide alone in participants with obesity aged 55 years and over oral azelaprag (bge-105) tirzepatide obesity bioage labs, inc. bioage labs bioa"
+   "search": "nct06515418 efficacy and safety of oral azelaprag plus once weekly tirzepatide compared with tirzepatide alone in participants with obesity aged 55 years and over oral azelaprag (bge-105) tirzepatide obesity bioage labs, inc. bioage labs bioa nct06515418 efficacy and safety of oral azelaprag plus once weekly tirzepatide compared with tirzepatide alone in participants with obesity aged 55 years and over oral azelaprag (bge-105) tirzepatide obesity bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT03194217",
@@ -4296,7 +4302,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "benevolent",
-   "search": "nct03194217 ben-2001 in parkinson disease patients with excessive daytime sleepiness ben-2001 excessive daytime sleepiness parkinson disease benevolentai bio benevolentai"
+   "search": "nct03194217 ben-2001 in parkinson disease patients with excessive daytime sleepiness ben-2001 excessive daytime sleepiness parkinson disease benevolentai bio benevolentai nct03194217 ben-2001 in parkinson disease patients with excessive daytime sleepiness ben-2001 excessive daytime sleepiness parkinson disease benevolentai bio benevolentai"
   },
   {
    "nct": "NCT00604890",
@@ -4326,7 +4332,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct00604890 dose-ranging clinical trial of topical creams containing api 31510 for the treatment of superficial basal cell carcinoma api 31510 3% topical cream api 31510 1.5% topical cream superficial basal cell carcinoma bpgbio bpgbio (formerly berg)"
+   "search": "nct00604890 dose-ranging clinical trial of topical creams containing api 31510 for the treatment of superficial basal cell carcinoma api 31510 3% topical cream api 31510 1.5% topical cream superficial basal cell carcinoma bpgbio bpgbio (formerly berg) nct00604890 dose-ranging clinical trial of topical creams containing api 31510 for the treatment of superficial basal cell carcinoma api 31510 3% topical cream api 31510 1.5% topical cream superficial basal cell carcinoma bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT01251562",
@@ -4355,7 +4361,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct01251562 safety study of sterile compound c31510 for injection to subjects with solid tumors sterile compound c31510 for injection solid tumors bpgbio bpgbio (formerly berg)"
+   "search": "nct01251562 safety study of sterile compound c31510 for injection to subjects with solid tumors sterile compound c31510 for injection solid tumors bpgbio bpgbio (formerly berg) nct01251562 safety study of sterile compound c31510 for injection to subjects with solid tumors sterile compound c31510 for injection solid tumors bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT01957735",
@@ -4387,7 +4393,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct01957735 bp31510 (ubidecarenone,usp) nanosuspension for intravenous injection to patients with solid tumors bp31510 monotherapy bp31510 in combination with chemotherapy metastatic cancer cancer solid tumor bpgbio bpgbio (formerly berg)"
+   "search": "nct01957735 bp31510 (ubidecarenone,usp) nanosuspension for intravenous injection to patients with solid tumors bp31510 monotherapy bp31510 in combination with chemotherapy metastatic cancer cancer solid tumor bpgbio bpgbio (formerly berg) nct01957735 bp31510 (ubidecarenone,usp) nanosuspension for intravenous injection to patients with solid tumors bp31510 monotherapy bp31510 in combination with chemotherapy metastatic cancer cancer solid tumor bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT05080842",
@@ -4416,7 +4422,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "accutar",
-   "search": "nct05080842 a study of ac682 for the treatment of locally advanced or metastatic er+ breast cancer ac682 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
+   "search": "nct05080842 a study of ac682 for the treatment of locally advanced or metastatic er+ breast cancer ac682 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物 nct05080842 a study of ac682 for the treatment of locally advanced or metastatic er+ breast cancer ac682 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05241613",
@@ -4445,7 +4451,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "accutar",
-   "search": "nct05241613 a study of ac176 for the treatment of metastatic castration resistant prostate cancer ac176 metastatic castration resistant prostate cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
+   "search": "nct05241613 a study of ac176 for the treatment of metastatic castration resistant prostate cancer ac176 metastatic castration resistant prostate cancer accutar biotechnology inc accutar biotechnology 冰洲石生物 nct05241613 a study of ac176 for the treatment of metastatic castration resistant prostate cancer ac176 metastatic castration resistant prostate cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05662397",
@@ -4477,7 +4483,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "hotspot",
-   "search": "nct05662397 a study of hst-1011 given as monotherapy and in combination with an anti-pd1 antibody hst-1011 cemiplimab solid tumor, adult relapsed cancer refractory cancer hotspot therapeutics, inc hotspot therapeutics"
+   "search": "nct05662397 a study of hst-1011 given as monotherapy and in combination with an anti-pd1 antibody hst-1011 cemiplimab solid tumor, adult relapsed cancer refractory cancer hotspot therapeutics, inc hotspot therapeutics nct05662397 a study of hst-1011 given as monotherapy and in combination with an anti-pd1 antibody hst-1011 cemiplimab solid tumor, adult relapsed cancer refractory cancer hotspot therapeutics, inc hotspot therapeutics"
   },
   {
    "nct": "NCT03667716",
@@ -4510,7 +4516,7 @@
    "tier": "computational",
    "ticker": "CGEN",
    "co": "CGEN",
-   "search": "nct03667716 com701 (an inhibitor of pvrig) in subjects with advanced solid tumors. com701 com701 with opdivo (nivolumab). advanced cancer ovarian cancer breast cancer lung cancer compugen ltd compugen cgen"
+   "search": "nct03667716 com701 (an inhibitor of pvrig) in subjects with advanced solid tumors. com701 com701 with opdivo (nivolumab). advanced cancer ovarian cancer breast cancer lung cancer compugen ltd compugen cgen nct03667716 com701 (an inhibitor of pvrig) in subjects with advanced solid tumors. com701 com701 with opdivo (nivolumab). advanced cancer ovarian cancer breast cancer lung cancer compugen ltd compugen cgen"
   },
   {
    "nct": "NCT05128487",
@@ -4543,7 +4549,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "nimbus",
-   "search": "nct05128487 a study of ndi 1150-101 in patients with solid tumors ndi-101150 pembrolizumab solid tumor renal cell carcinoma (kidney cancer) gastric and gastroesophageal junction (gej) adenocarcinoma non-small cell lung cancer nimbus saturn, inc. nimbus therapeutics"
+   "search": "nct05128487 a study of ndi 1150-101 in patients with solid tumors ndi-101150 pembrolizumab solid tumor renal cell carcinoma (kidney cancer) gastric and gastroesophageal junction (gej) adenocarcinoma non-small cell lung cancer nimbus saturn, inc. nimbus therapeutics nct05128487 a study of ndi 1150-101 in patients with solid tumors ndi-101150 pembrolizumab solid tumor renal cell carcinoma (kidney cancer) gastric and gastroesophageal junction (gej) adenocarcinoma non-small cell lung cancer nimbus saturn, inc. nimbus therapeutics"
   },
   {
    "nct": "NCT06012578",
@@ -4572,7 +4578,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct06012578 study evaluating ism5411 administered orally to healthy volunteers ism5411 healthy subjects insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct06012578 study evaluating ism5411 administered orally to healthy volunteers ism5411 healthy subjects insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct06012578 study evaluating ism5411 administered orally to healthy volunteers ism5411 healthy subjects insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06606483",
@@ -4602,7 +4608,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "mindrank",
-   "search": "nct06606483 a study to evaluate the efficacy and safety of mdr-001 in subjects who are obesity or overweight mdr-001 obesity overweight and obesity mindrank ai ltd mindrank ai 德睿智药"
+   "search": "nct06606483 a study to evaluate the efficacy and safety of mdr-001 in subjects who are obesity or overweight mdr-001 obesity overweight and obesity mindrank ai ltd mindrank ai 德睿智药 nct06606483 a study to evaluate the efficacy and safety of mdr-001 in subjects who are obesity or overweight mdr-001 obesity overweight and obesity mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT05976321",
@@ -4632,7 +4638,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct05976321 a study of tak-279 in adults with or without liver damage tak-279 hepatic impairment healthy volunteers takeda nimbus therapeutics tak"
+   "search": "nct05976321 a study of tak-279 in adults with or without liver damage tak-279 hepatic impairment healthy volunteers takeda nimbus therapeutics tak nct05976321 a study of tak-279 in adults with or without liver damage tak-279 hepatic impairment healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06111547",
@@ -4661,7 +4667,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06111547 a study of tak-279 in healthy chinese adults tak-279 healthy volunteers takeda nimbus therapeutics tak"
+   "search": "nct06111547 a study of tak-279 in healthy chinese adults tak-279 healthy volunteers takeda nimbus therapeutics tak nct06111547 a study of tak-279 in healthy chinese adults tak-279 healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05764915",
@@ -4690,7 +4696,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "regor",
-   "search": "nct05764915 a phase i study of rgt-264 in subjects with advanced solid tumors rgt-264 phosphate tablets advanced solid tumor regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
+   "search": "nct05764915 a phase i study of rgt-264 in subjects with advanced solid tumors rgt-264 phosphate tablets advanced solid tumor regor pharmaceuticals inc. regor pharmaceuticals 锐格医药 nct05764915 a phase i study of rgt-264 in subjects with advanced solid tumors rgt-264 phosphate tablets advanced solid tumor regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT04570839",
@@ -4722,7 +4728,7 @@
    "tier": "computational",
    "ticker": "CGEN",
    "co": "CGEN",
-   "search": "nct04570839 com701 in combination with bms-986207 and nivolumab in subjects with advanced solid tumors. com701 in combination with bms-986207 and nivolumab. endometrial neoplasms ovarian cancer solid tumor head and neck cancer compugen ltd compugen cgen"
+   "search": "nct04570839 com701 in combination with bms-986207 and nivolumab in subjects with advanced solid tumors. com701 in combination with bms-986207 and nivolumab. endometrial neoplasms ovarian cancer solid tumor head and neck cancer compugen ltd compugen cgen nct04570839 com701 in combination with bms-986207 and nivolumab in subjects with advanced solid tumors. com701 in combination with bms-986207 and nivolumab. endometrial neoplasms ovarian cancer solid tumor head and neck cancer compugen ltd compugen cgen"
   },
   {
    "nct": "NCT06258265",
@@ -4752,7 +4758,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06258265 a study of tak-279 in healthy adults on the effect on ecg measurements tak-279 moxifloxacin healthy volunteers takeda nimbus therapeutics tak"
+   "search": "nct06258265 a study of tak-279 in healthy adults on the effect on ecg measurements tak-279 moxifloxacin healthy volunteers takeda nimbus therapeutics tak nct06258265 a study of tak-279 in healthy adults on the effect on ecg measurements tak-279 moxifloxacin healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05992155",
@@ -4782,7 +4788,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct05992155 a study of tak-279 in adults with or without kidney problems tak-279 renal impairment healthy volunteers takeda nimbus therapeutics tak"
+   "search": "nct05992155 a study of tak-279 in adults with or without kidney problems tak-279 renal impairment healthy volunteers takeda nimbus therapeutics tak nct05992155 a study of tak-279 in adults with or without kidney problems tak-279 renal impairment healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05393284",
@@ -4812,7 +4818,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "valo",
-   "search": "nct05393284 phase 2 spectra study to evaluate the safety and efficacy of opl-0401 in patients with diabetic retinopathy opl-0401 dose 1 non-proliferative diabetic retinopathy proliferative diabetic retinopathy valo health, inc. valo health"
+   "search": "nct05393284 phase 2 spectra study to evaluate the safety and efficacy of opl-0401 in patients with diabetic retinopathy opl-0401 dose 1 non-proliferative diabetic retinopathy proliferative diabetic retinopathy valo health, inc. valo health nct05393284 phase 2 spectra study to evaluate the safety and efficacy of opl-0401 in patients with diabetic retinopathy opl-0401 dose 1 non-proliferative diabetic retinopathy proliferative diabetic retinopathy valo health, inc. valo health"
   },
   {
    "nct": "NCT05153148",
@@ -4841,7 +4847,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct05153148 a study to evaluate the efficacy, safety, and tolerability of ndi-034858 in participants with active psoriatic arthritis ndi-034858 psoriatic arthritis takeda nimbus therapeutics tak"
+   "search": "nct05153148 a study to evaluate the efficacy, safety, and tolerability of ndi-034858 in participants with active psoriatic arthritis ndi-034858 psoriatic arthritis takeda nimbus therapeutics tak nct05153148 a study to evaluate the efficacy, safety, and tolerability of ndi-034858 in participants with active psoriatic arthritis ndi-034858 psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06290050",
@@ -4872,7 +4878,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct06290050 a study of the interaction of other drugs with tak-279 in healthy adults midazolam repaglinide tak-279 healthy volunteers takeda nimbus therapeutics tak"
+   "search": "nct06290050 a study of the interaction of other drugs with tak-279 in healthy adults midazolam repaglinide tak-279 healthy volunteers takeda nimbus therapeutics tak nct06290050 a study of the interaction of other drugs with tak-279 in healthy adults midazolam repaglinide tak-279 healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05762471",
@@ -4902,7 +4908,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct05762471 phase 1b/2a study of gsbr-1290 in adult overweight or obese healthy subjects and subjects with type 2 diabetes mellitus gsbr-1290 overweight or obesity type2 diabetes mellitus gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct05762471 phase 1b/2a study of gsbr-1290 in adult overweight or obese healthy subjects and subjects with type 2 diabetes mellitus gsbr-1290 overweight or obesity type2 diabetes mellitus gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct05762471 phase 1b/2a study of gsbr-1290 in adult overweight or obese healthy subjects and subjects with type 2 diabetes mellitus gsbr-1290 overweight or obesity type2 diabetes mellitus gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT06141889",
@@ -4931,7 +4937,7 @@
    "tier": "ai",
    "ticker": "BIOA",
    "co": "BIOA",
-   "search": "nct06141889 pharmacokinetics study of azelaprag (bge-105) in older adult healthy volunteers azelaprag healthy volunteer study bioage labs, inc. bioage labs bioa"
+   "search": "nct06141889 pharmacokinetics study of azelaprag (bge-105) in older adult healthy volunteers azelaprag healthy volunteer study bioage labs, inc. bioage labs bioa nct06141889 pharmacokinetics study of azelaprag (bge-105) in older adult healthy volunteers azelaprag healthy volunteer study bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT04455503",
@@ -4963,7 +4969,7 @@
    "tier": "ai",
    "ticker": "EVAX",
    "co": "EVAX",
-   "search": "nct04455503 study of adjuvant immunotherapy with evx-02 and anti-pd-1 evx-02a evx-02b evx-02a or evx-02b melanoma stage iv melanoma stage iii evaxion biotech a/s evaxion evax"
+   "search": "nct04455503 study of adjuvant immunotherapy with evx-02 and anti-pd-1 evx-02a evx-02b evx-02a or evx-02b melanoma stage iv melanoma stage iii evaxion biotech a/s evaxion evax nct04455503 study of adjuvant immunotherapy with evx-02 and anti-pd-1 evx-02a evx-02b evx-02a or evx-02b melanoma stage iv melanoma stage iii evaxion biotech a/s evaxion evax"
   },
   {
    "nct": "NCT06139055",
@@ -4993,7 +4999,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct06139055 a study of multiple-ascending doses of gsbr-1290 in healthy overweight/obese participants gsbr-1290 (capsule/tablet) gsbr-1290 healthy volunteers gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct06139055 a study of multiple-ascending doses of gsbr-1290 in healthy overweight/obese participants gsbr-1290 (capsule/tablet) gsbr-1290 healthy volunteers gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct06139055 a study of multiple-ascending doses of gsbr-1290 in healthy overweight/obese participants gsbr-1290 (capsule/tablet) gsbr-1290 healthy volunteers gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT05995249",
@@ -5025,7 +5031,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct05995249 a study of the interaction of tak-279 with substances that have an impact on metabolism in healthy adults tak-279 erythromycin phenytoin efavirenz healthy volunteers takeda nimbus therapeutics tak"
+   "search": "nct05995249 a study of the interaction of tak-279 with substances that have an impact on metabolism in healthy adults tak-279 erythromycin phenytoin efavirenz healthy volunteers takeda nimbus therapeutics tak nct05995249 a study of the interaction of tak-279 with substances that have an impact on metabolism in healthy adults tak-279 erythromycin phenytoin efavirenz healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05489679",
@@ -5054,7 +5060,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "accutar",
-   "search": "nct05489679 a study of ac682 in chinese patients with er+/her2- locally advanced or metastatic breast cancer ac682 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
+   "search": "nct05489679 a study of ac682 in chinese patients with er+/her2- locally advanced or metastatic breast cancer ac682 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物 nct05489679 a study of ac682 in chinese patients with er+/her2- locally advanced or metastatic breast cancer ac682 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05673109",
@@ -5083,7 +5089,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "accutar",
-   "search": "nct05673109 a study of ac176 for the treatment of metastatic castration resistant prostate cancer ac176 metastatic castration resistant prostate cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
+   "search": "nct05673109 a study of ac176 for the treatment of metastatic castration resistant prostate cancer ac176 metastatic castration resistant prostate cancer accutar biotechnology inc accutar biotechnology 冰洲石生物 nct05673109 a study of ac176 for the treatment of metastatic castration resistant prostate cancer ac176 metastatic castration resistant prostate cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05297045",
@@ -5112,7 +5118,7 @@
    "tier": "computational",
    "ticker": null,
    "co": "regor",
-   "search": "nct05297045 a study of oral glp1ra rgt001-075 in adults with type 2 diabetes rgt001-075 type 2 diabetes mellitus regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
+   "search": "nct05297045 a study of oral glp1ra rgt001-075 in adults with type 2 diabetes rgt001-075 type 2 diabetes mellitus regor pharmaceuticals inc. regor pharmaceuticals 锐格医药 nct05297045 a study of oral glp1ra rgt001-075 in adults with type 2 diabetes rgt001-075 type 2 diabetes mellitus regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT05920408",
@@ -5141,7 +5147,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct05920408 study to assess exs21546 in combination in patients with advanced solid tumours exs21546 advanced solid tumours exscientia ai limited exscientia (before the recursion merger) rxrx"
+   "search": "nct05920408 study to assess exs21546 in combination in patients with advanced solid tumours exs21546 advanced solid tumours exscientia ai limited exscientia (before the recursion merger) rxrx nct05920408 study to assess exs21546 in combination in patients with advanced solid tumours exs21546 advanced solid tumours exscientia ai limited exscientia (before the recursion merger) rxrx"
   },
   {
    "nct": "NCT04999839",
@@ -5170,7 +5176,7 @@
    "tier": "computational",
    "ticker": "TAK",
    "co": "TAK",
-   "search": "nct04999839 study of ndi-034858 in participants with moderate to severe plaque psoriasis ndi-034858 study drug moderate to severe plaque psoriasis takeda nimbus therapeutics tak"
+   "search": "nct04999839 study of ndi-034858 in participants with moderate to severe plaque psoriasis ndi-034858 study drug moderate to severe plaque psoriasis takeda nimbus therapeutics tak nct04999839 study of ndi-034858 in participants with moderate to severe plaque psoriasis ndi-034858 study drug moderate to severe plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05893043",
@@ -5199,7 +5205,7 @@
    "tier": "computational",
    "ticker": "GPCR",
    "co": "GPCR",
-   "search": "nct05893043 a study of multiple ascending doses of gsbr-1290 in japanese and non-japanese healthy participants gsbr-1290 healthy volunteers gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
+   "search": "nct05893043 a study of multiple ascending doses of gsbr-1290 in japanese and non-japanese healthy participants gsbr-1290 healthy volunteers gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr nct05893043 a study of multiple ascending doses of gsbr-1290 in japanese and non-japanese healthy participants gsbr-1290 healthy volunteers gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT04705597",
@@ -5228,7 +5234,7 @@
    "tier": "ai",
    "ticker": "BIOA",
    "co": "BIOA",
-   "search": "nct04705597 study to evaluate the safety, tolerability, and efficacy of bge-175 in hospitalized adults with coronavirus disease 2019 (covid-19) that are not in respiratory failure bge-175 covid19 bioage labs, inc. bioage labs bioa"
+   "search": "nct04705597 study to evaluate the safety, tolerability, and efficacy of bge-175 in hospitalized adults with coronavirus disease 2019 (covid-19) that are not in respiratory failure bge-175 covid19 bioage labs, inc. bioage labs bioa nct04705597 study to evaluate the safety, tolerability, and efficacy of bge-175 in hospitalized adults with coronavirus disease 2019 (covid-19) that are not in respiratory failure bge-175 covid19 bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT05154240",
@@ -5257,7 +5263,7 @@
    "tier": "ai",
    "ticker": "3696.HK",
    "co": "3696.HK",
-   "search": "nct05154240 a phase 1, evaluate the safety, tolerability, and pharmacokinetics of ins018_055 in healthy subjects ins018_055 idiopathic pulmonary fibrosis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
+   "search": "nct05154240 a phase 1, evaluate the safety, tolerability, and pharmacokinetics of ins018_055 in healthy subjects ins018_055 idiopathic pulmonary fibrosis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk nct05154240 a phase 1, evaluate the safety, tolerability, and pharmacokinetics of ins018_055 in healthy subjects ins018_055 idiopathic pulmonary fibrosis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT04737304",
@@ -5284,7 +5290,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "benevolent",
-   "search": "nct04737304 a first-in-human poc study with ben2293 in patients with mild to moderate atopic dermatitis atopic dermatitis benevolentai bio benevolentai"
+   "search": "nct04737304 a first-in-human poc study with ben2293 in patients with mild to moderate atopic dermatitis atopic dermatitis benevolentai bio benevolentai nct04737304 a first-in-human poc study with ben2293 in patients with mild to moderate atopic dermatitis atopic dermatitis benevolentai bio benevolentai"
   },
   {
    "nct": "NCT05264038",
@@ -5315,7 +5321,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "oncocross",
-   "search": "nct05264038 a first in human study to evaluate the safety, pharmacokinetics, and pharmacodynamics effects of oc514 oc514 (low dose) oc514 (mid dose) oc514 (high dose) cancer cachexia oncocross australia pty ltd. oncocross"
+   "search": "nct05264038 a first in human study to evaluate the safety, pharmacokinetics, and pharmacodynamics effects of oc514 oc514 (low dose) oc514 (mid dose) oc514 (high dose) cancer cachexia oncocross australia pty ltd. oncocross nct05264038 a first in human study to evaluate the safety, pharmacokinetics, and pharmacodynamics effects of oc514 oc514 (low dose) oc514 (mid dose) oc514 (high dose) cancer cachexia oncocross australia pty ltd. oncocross"
   },
   {
    "nct": "NCT05327855",
@@ -5345,7 +5351,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "valo",
-   "search": "nct05327855 efficacy and safety of opl-0301 compared to placebo in adults with post-myocardial infarction (mi) opl-0301 dose 1 opl-0301 dose 2 myocardial infarction valo health, inc. valo health"
+   "search": "nct05327855 efficacy and safety of opl-0301 compared to placebo in adults with post-myocardial infarction (mi) opl-0301 dose 1 opl-0301 dose 2 myocardial infarction valo health, inc. valo health nct05327855 efficacy and safety of opl-0301 compared to placebo in adults with post-myocardial infarction (mi) opl-0301 dose 1 opl-0301 dose 2 myocardial infarction valo health, inc. valo health"
   },
   {
    "nct": "NCT04823052",
@@ -5376,7 +5382,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "healx",
-   "search": "nct04823052 investigation of sulindac (hlx-0201) and gaboxadol (hlx-0206) in male fragile x syndrome patients aged 13-40 sulindac (hlx-0201), dose strength 1 sulindac (hlx-0201), dose strength 2 gaboxadol (hlx-0206) fragile x syndrome healx limited healx"
+   "search": "nct04823052 investigation of sulindac (hlx-0201) and gaboxadol (hlx-0206) in male fragile x syndrome patients aged 13-40 sulindac (hlx-0201), dose strength 1 sulindac (hlx-0201), dose strength 2 gaboxadol (hlx-0206) fragile x syndrome healx limited healx nct04823052 investigation of sulindac (hlx-0201) and gaboxadol (hlx-0206) in male fragile x syndrome patients aged 13-40 sulindac (hlx-0201), dose strength 1 sulindac (hlx-0201), dose strength 2 gaboxadol (hlx-0206) fragile x syndrome healx limited healx"
   },
   {
    "nct": "NCT04727138",
@@ -5406,7 +5412,7 @@
    "tier": "ai",
    "ticker": "RXRX",
    "co": "RXRX",
-   "search": "nct04727138 3-part study to assess safety, tolerability, pharmacokinetics and pharmacodynamics of exs21546 exs21546 powder for oral suspension exs21546 granule in capsule oncology exscientia ai limited exscientia (before the recursion merger) rxrx"
+   "search": "nct04727138 3-part study to assess safety, tolerability, pharmacokinetics and pharmacodynamics of exs21546 exs21546 powder for oral suspension exs21546 granule in capsule oncology exscientia ai limited exscientia (before the recursion merger) rxrx nct04727138 3-part study to assess safety, tolerability, pharmacokinetics and pharmacodynamics of exs21546 exs21546 powder for oral suspension exs21546 granule in capsule oncology exscientia ai limited exscientia (before the recursion merger) rxrx"
   },
   {
    "nct": "NCT04815603",
@@ -5435,7 +5441,7 @@
    "tier": "ai",
    "ticker": "BIOA",
    "co": "BIOA",
-   "search": "nct04815603 study to evaluate efficacy and safety of bge-117 in the treatment of anemia of aging bge-117 anemia bioage labs, inc. bioage labs bioa"
+   "search": "nct04815603 study to evaluate efficacy and safety of bge-117 in the treatment of anemia of aging bge-117 anemia bioage labs, inc. bioage labs bioa nct04815603 study to evaluate efficacy and safety of bge-117 in the treatment of anemia of aging bge-117 anemia bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT05152641",
@@ -5465,7 +5471,7 @@
    "tier": "ai",
    "ticker": "BIOA",
    "co": "BIOA",
-   "search": "nct05152641 study to evaluate efficacy and safety of bge-117 in moderately to severely anemic older individuals after major hip surgery bge-117, 4mg bge-117, 12mg acute posthemorrhagic anemia bioage labs, inc. bioage labs bioa"
+   "search": "nct05152641 study to evaluate efficacy and safety of bge-117 in moderately to severely anemic older individuals after major hip surgery bge-117, 4mg bge-117, 12mg acute posthemorrhagic anemia bioage labs, inc. bioage labs bioa nct05152641 study to evaluate efficacy and safety of bge-117 in moderately to severely anemic older individuals after major hip surgery bge-117, 4mg bge-117, 12mg acute posthemorrhagic anemia bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT00652080",
@@ -5494,7 +5500,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct00652080 an open-label safety study of api 31510 in a topical cream for in situ cutaneous squamous cell carcinoma (sccis) api 31510 squamous cell carcinoma bpgbio bpgbio (formerly berg)"
+   "search": "nct00652080 an open-label safety study of api 31510 in a topical cream for in situ cutaneous squamous cell carcinoma (sccis) api 31510 squamous cell carcinoma bpgbio bpgbio (formerly berg) nct00652080 an open-label safety study of api 31510 in a topical cream for in situ cutaneous squamous cell carcinoma (sccis) api 31510 squamous cell carcinoma bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT03002935",
@@ -5523,7 +5529,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct03002935 a safety study of orally administered bpm31510 in healthy subjects bpm31510 oral nanosuspension 4% healthy bpgbio bpgbio (formerly berg)"
+   "search": "nct03002935 a safety study of orally administered bpm31510 in healthy subjects bpm31510 oral nanosuspension 4% healthy bpgbio bpgbio (formerly berg) nct03002935 a safety study of orally administered bpm31510 in healthy subjects bpm31510 oral nanosuspension 4% healthy bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT02486055",
@@ -5552,7 +5558,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct02486055 a safety study of orally administered bpm31510 in healthy subjects bpm31510 oral nanosuspension 4% healthy bpgbio bpgbio (formerly berg)"
+   "search": "nct02486055 a safety study of orally administered bpm31510 in healthy subjects bpm31510 oral nanosuspension 4% healthy bpgbio bpgbio (formerly berg) nct02486055 a safety study of orally administered bpm31510 in healthy subjects bpm31510 oral nanosuspension 4% healthy bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT00605709",
@@ -5581,7 +5587,7 @@
    "tier": "ai",
    "ticker": null,
    "co": "bpgbio",
-   "search": "nct00605709 dose-ranging safety and efficacy study of topical creams containing api 31510 for the treatment of in situ cutaneous squamous cell carcinoma api 31510 topical cream squamous cell carcinoma bpgbio bpgbio (formerly berg)"
+   "search": "nct00605709 dose-ranging safety and efficacy study of topical creams containing api 31510 for the treatment of in situ cutaneous squamous cell carcinoma api 31510 topical cream squamous cell carcinoma bpgbio bpgbio (formerly berg) nct00605709 dose-ranging safety and efficacy study of topical creams containing api 31510 for the treatment of in situ cutaneous squamous cell carcinoma api 31510 topical cream squamous cell carcinoma bpgbio bpgbio (formerly berg)"
   }
  ],
  "events": [
@@ -5626,89 +5632,6 @@
   }
  ],
  "signals": [
-  {
-   "id": "web:recursion-rec4881-fda-phase3-design",
-   "date": "2026-11-18",
-   "url": "https://finviz.com/news/424428/recursion-announces-alignment-with-fda-on-registrational-phase-3-trial-design-for-rec-4881-in-familial-adenomatous-polyposis",
-   "source_kind": "company",
-   "title_en": "Recursion says the FDA agreed the design of a registrational Phase 3 trial for REC-4881",
-   "title_zh": "Recursion 称 FDA 已同意 REC-4881 注册性三期试验的设计",
-   "type": "regulatory",
-   "direction": "positive",
-   "evidence": 2,
-   "market": 2,
-   "names": [
-    {
-     "ticker": "RXRX",
-     "order": "first",
-     "direction": "positive"
-    }
-   ],
-   "so_what_en": "A randomised, placebo-controlled trial of about 200 patients, due to start in the second half of 2027, would be one of the first late-stage tests of a drug from an AI-native company; the supporting data so far are from an uncontrolled Phase 1b/2 study.",
-   "so_what_zh": "这项约 200 名患者的随机、安慰剂对照试验计划于 2027 年下半年启动，将是 AI 原生公司药物最早的后期检验之一；目前的支持数据来自无对照的 1b/2 期研究。",
-   "changes_view_en": "the trial start slips past 2027, or the FDA's position on the endpoint changes.",
-   "changes_view_zh": "试验启动推迟到 2027 年之后，或 FDA 对终点的立场发生变化。",
-   "confidence": "medium",
-   "single_source": false,
-   "run": "2026-11-23"
-  },
-  {
-   "id": "web:isomorphic-series-c-5bn",
-   "date": "2026-11-17",
-   "url": "https://pharmaphorum.com/news/isomorphic-labs-raises-5bn-massive-third-round",
-   "source_kind": "company",
-   "title_en": "Isomorphic Labs raises US$5B in a Series C led by Greenoaks and Sequoia",
-   "title_zh": "Isomorphic Labs 完成 50 亿美元 C 轮融资，由 Greenoaks 和红杉领投",
-   "type": "funding",
-   "direction": "positive",
-   "evidence": 0,
-   "market": 2,
-   "names": [
-    {
-     "ticker": "GOOGL",
-     "order": "second",
-     "direction": "positive"
-    }
-   ],
-   "so_what_en": "US$5B a few months after a US$2.1B round, with no drug yet in human trials: a reading of private appetite and a comparable for listed AI drug platforms, not evidence that the science works.",
-   "so_what_zh": "在 21 亿美元融资数月之后再融 50 亿美元，而尚无药物进入人体试验：这反映的是私募市场的热度，可作为上市 AI 药物平台的可比参照，并不证明科学有效。",
-   "changes_view_en": "Isomorphic or a partner takes one of its candidates into a human trial.",
-   "changes_view_zh": "Isomorphic 或其合作方将其候选药物推进人体试验。",
-   "confidence": "high",
-   "single_source": false,
-   "run": "2026-11-23"
-  },
-  {
-   "id": "web:merck-isomorphic-collaboration",
-   "date": "2026-11-19",
-   "url": "https://www.merck.com/?p=3705104",
-   "source_kind": "company",
-   "title_en": "Merck and Isomorphic Labs sign a research collaboration; amounts not disclosed",
-   "title_zh": "默沙东与 Isomorphic Labs 签署研究合作，金额未披露",
-   "type": "deal",
-   "direction": "positive",
-   "evidence": 0,
-   "market": 1,
-   "names": [
-    {
-     "ticker": "MRK",
-     "order": "first",
-     "direction": "neutral"
-    },
-    {
-     "ticker": "GOOGL",
-     "order": "second",
-     "direction": "positive"
-    }
-   ],
-   "so_what_en": "Another large drugmaker pays for Isomorphic's platform, but without the upfront figure the deal cannot be sized or compared with earlier ones.",
-   "so_what_zh": "又一家大型药企为 Isomorphic 的平台付费，但未披露首付款，无法衡量规模，也无法与此前的交易比较。",
-   "changes_view_en": "the upfront payment is disclosed, in a filing or by either company.",
-   "changes_view_zh": "任何一方或监管文件披露首付款金额。",
-   "confidence": "high",
-   "single_source": false,
-   "run": "2026-11-23"
-  },
   {
    "id": "registry:NCT05985655:status:ACTIVE_NOT_RECRUITING",
    "date": "2026-11-20",
@@ -5777,6 +5700,89 @@
    "so_what_zh": "这款由未上市公司通过计算设计的抗体已完成入组；登记库显示主要完成日期为 2027 年 2 月。",
    "changes_view_en": "results are posted or the trial is terminated.",
    "changes_view_zh": "公布结果或试验被终止。",
+   "confidence": "high",
+   "single_source": false,
+   "run": "2026-11-23"
+  },
+  {
+   "id": "web:merck-isomorphic-collaboration",
+   "date": "2026-11-19",
+   "url": "https://www.merck.com/?p=3705104",
+   "source_kind": "company",
+   "title_en": "Merck and Isomorphic Labs sign a research collaboration; amounts not disclosed",
+   "title_zh": "默沙东与 Isomorphic Labs 签署研究合作，金额未披露",
+   "type": "deal",
+   "direction": "positive",
+   "evidence": 0,
+   "market": 1,
+   "names": [
+    {
+     "ticker": "MRK",
+     "order": "first",
+     "direction": "neutral"
+    },
+    {
+     "ticker": "GOOGL",
+     "order": "second",
+     "direction": "positive"
+    }
+   ],
+   "so_what_en": "Another large drugmaker pays for Isomorphic's platform, but without the upfront figure the deal cannot be sized or compared with earlier ones.",
+   "so_what_zh": "又一家大型药企为 Isomorphic 的平台付费，但未披露首付款，无法衡量规模，也无法与此前的交易比较。",
+   "changes_view_en": "the upfront payment is disclosed, in a filing or by either company.",
+   "changes_view_zh": "任何一方或监管文件披露首付款金额。",
+   "confidence": "high",
+   "single_source": false,
+   "run": "2026-11-23"
+  },
+  {
+   "id": "web:recursion-rec4881-fda-phase3-design",
+   "date": "2026-11-18",
+   "url": "https://finviz.com/news/424428/recursion-announces-alignment-with-fda-on-registrational-phase-3-trial-design-for-rec-4881-in-familial-adenomatous-polyposis",
+   "source_kind": "company",
+   "title_en": "Recursion says the FDA agreed the design of a registrational Phase 3 trial for REC-4881",
+   "title_zh": "Recursion 称 FDA 已同意 REC-4881 注册性三期试验的设计",
+   "type": "regulatory",
+   "direction": "positive",
+   "evidence": 2,
+   "market": 2,
+   "names": [
+    {
+     "ticker": "RXRX",
+     "order": "first",
+     "direction": "positive"
+    }
+   ],
+   "so_what_en": "A randomised, placebo-controlled trial of about 200 patients, due to start in the second half of 2027, would be one of the first late-stage tests of a drug from an AI-native company; the supporting data so far are from an uncontrolled Phase 1b/2 study.",
+   "so_what_zh": "这项约 200 名患者的随机、安慰剂对照试验计划于 2027 年下半年启动，将是 AI 原生公司药物最早的后期检验之一；目前的支持数据来自无对照的 1b/2 期研究。",
+   "changes_view_en": "the trial start slips past 2027, or the FDA's position on the endpoint changes.",
+   "changes_view_zh": "试验启动推迟到 2027 年之后，或 FDA 对终点的立场发生变化。",
+   "confidence": "medium",
+   "single_source": false,
+   "run": "2026-11-23"
+  },
+  {
+   "id": "web:isomorphic-series-c-5bn",
+   "date": "2026-11-17",
+   "url": "https://pharmaphorum.com/news/isomorphic-labs-raises-5bn-massive-third-round",
+   "source_kind": "company",
+   "title_en": "Isomorphic Labs raises US$5B in a Series C led by Greenoaks and Sequoia",
+   "title_zh": "Isomorphic Labs 完成 50 亿美元 C 轮融资，由 Greenoaks 和红杉领投",
+   "type": "funding",
+   "direction": "positive",
+   "evidence": 0,
+   "market": 2,
+   "names": [
+    {
+     "ticker": "GOOGL",
+     "order": "second",
+     "direction": "positive"
+    }
+   ],
+   "so_what_en": "US$5B a few months after a US$2.1B round, with no drug yet in human trials: a reading of private appetite and a comparable for listed AI drug platforms, not evidence that the science works.",
+   "so_what_zh": "在 21 亿美元融资数月之后再融 50 亿美元，而尚无药物进入人体试验：这反映的是私募市场的热度，可作为上市 AI 药物平台的可比参照，并不证明科学有效。",
+   "changes_view_en": "Isomorphic or a partner takes one of its candidates into a human trial.",
+   "changes_view_zh": "Isomorphic 或其合作方将其候选药物推进人体试验。",
    "confidence": "high",
    "single_source": false,
    "run": "2026-11-23"
@@ -6034,7 +6040,7 @@
     "as_of": "2026-11-20",
     "price": 88.91,
     "currency": "USD",
-    "mcap_usd": 1158824858110.0,
+    "mcap_usd": 1167048523168.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 115.1,
@@ -6136,7 +6142,7 @@
     "as_of": "2026-11-20",
     "price": 125.53,
     "currency": "USD",
-    "mcap_usd": 3279528000000.0,
+    "mcap_usd": 3284844460000.0,
     "pe": 15.9,
     "pe_fiscal_year": false,
     "hi52": 243.37,
@@ -6320,7 +6326,7 @@
     "as_of": "2026-11-20",
     "price": 1347.11,
     "currency": "USD",
-    "mcap_usd": 1275650262036.0,
+    "mcap_usd": 1272357654428.0,
     "pe": 43.7,
     "pe_fiscal_year": false,
     "hi52": 1475.25,
@@ -6508,7 +6514,7 @@
     "as_of": "2026-11-20",
     "price": 37.82,
     "currency": "USD",
-    "mcap_usd": 170358427654.0,
+    "mcap_usd": 170346915035.0,
     "pe": 11.2,
     "pe_fiscal_year": true,
     "hi52": 64.16,
@@ -6727,7 +6733,7 @@
     "as_of": "2026-11-20",
     "price": 2.45,
     "currency": "USD",
-    "mcap_usd": 1628266359.0,
+    "mcap_usd": 1643399409.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 5.24,
@@ -6952,7 +6958,7 @@
     "cash_usd": null,
     "cash_as_of": null,
     "cash_incl_inv": false,
-    "loss_making": true,
+    "loss_making": false,
     "as_of": "2026-11-23",
     "price": 31.36,
     "currency": "HKD",
@@ -7145,10 +7151,10 @@
     "as_of": "2026-11-20",
     "price": 9.54,
     "currency": "USD",
-    "mcap_usd": 1266438293.0,
+    "mcap_usd": 1196803552.0,
     "pe": null,
     "pe_fiscal_year": false,
-    "hi52": 22.6699,
+    "hi52": 22.67,
     "lo52": 9.4,
     "pos52": 0.011,
     "range_since": "2026-02-27",
@@ -7310,11 +7316,11 @@
     "as_of": "2026-11-20",
     "price": 22.93,
     "currency": "USD",
-    "mcap_usd": 1816882615.0,
+    "mcap_usd": 1820944323.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 34.0,
-    "lo52": 10.945,
+    "lo52": 10.95,
     "pos52": 0.52,
     "range_since": null,
     "chg_1m": -0.040999999999999995,
@@ -7507,10 +7513,10 @@
     "as_of": "2026-11-20",
     "price": 7.51,
     "currency": "USD",
-    "mcap_usd": 1386665166.0,
+    "mcap_usd": 1397513603.0,
     "pe": null,
     "pe_fiscal_year": false,
-    "hi52": 12.5449,
+    "hi52": 12.54,
     "lo52": 2.24,
     "pos52": 0.511,
     "range_since": null,
@@ -7711,11 +7717,11 @@
     "as_of": "2026-11-20",
     "price": 9.69,
     "currency": "USD",
-    "mcap_usd": 3295574571.0,
+    "mcap_usd": 3318437823.0,
     "pe": null,
     "pe_fiscal_year": false,
-    "hi52": 15.015,
-    "lo52": 2.745,
+    "hi52": 15.02,
+    "lo52": 2.75,
     "pos52": 0.566,
     "range_since": null,
     "chg_1m": -0.20800000000000002,
@@ -7929,7 +7935,7 @@
     "as_of": "2026-11-20",
     "price": 16.12,
     "currency": "USD",
-    "mcap_usd": 3391727865.0,
+    "mcap_usd": 3564076251.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 21.27,
@@ -8213,7 +8219,7 @@
     "as_of": "2026-11-20",
     "price": 54.04,
     "currency": "USD",
-    "mcap_usd": 10438845686.0,
+    "mcap_usd": 10426077571.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 89.09,
@@ -8398,7 +8404,7 @@
     "cash_incl_inv": false,
     "loss_making": false,
     "as_of": "2026-11-23",
-    "price": 4.745,
+    "price": 4.75,
     "currency": "HKD",
     "mcap_usd": 2600730240.278584,
     "pe": 148.8,
@@ -8608,7 +8614,7 @@
     "as_of": "2026-11-20",
     "price": 669.54,
     "currency": "USD",
-    "mcap_usd": 252321306108.0,
+    "mcap_usd": 252651065231.0,
     "pe": 35.3,
     "pe_fiscal_year": false,
     "hi52": 727.56,
@@ -8958,7 +8964,7 @@
     "cash_incl_inv": true,
     "loss_making": true,
     "as_of": "2026-11-20",
-    "price": 0.245,
+    "price": 0.24,
     "currency": "USD",
     "mcap_usd": 3900154.0,
     "pe": null,
@@ -9110,12 +9116,12 @@
     "checked": "opened"
    },
    "quote": {
-    "fundamentals_as_of": "2023-12-31",
+    "fundamentals_as_of": null,
     "eps_ttm": null,
-    "revenue_ttm_usd": 7528000.0,
-    "rd_ttm_usd": 9975000.0,
-    "cash_usd": 23234000.0,
-    "cash_as_of": "2025-12-31",
+    "revenue_ttm_usd": null,
+    "rd_ttm_usd": null,
+    "cash_usd": null,
+    "cash_as_of": null,
     "cash_incl_inv": false,
     "loss_making": false,
     "as_of": "2026-11-20",
@@ -9780,7 +9786,7 @@
     "as_of": "2026-11-20",
     "price": 16.13,
     "currency": "USD",
-    "mcap_usd": 1152604716.0,
+    "mcap_usd": 1177546795.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -9930,8 +9936,8 @@
     "eps_ttm": 0.38,
     "revenue_ttm_usd": 72764000.0,
     "rd_ttm_usd": 22757000.0,
-    "cash_usd": 99881000.0,
-    "cash_as_of": "2025-12-31",
+    "cash_usd": null,
+    "cash_as_of": null,
     "cash_incl_inv": true,
     "loss_making": false,
     "as_of": "2026-11-20",
@@ -9940,7 +9946,7 @@
     "mcap_usd": 174035730.0,
     "pe": 4.8,
     "pe_fiscal_year": false,
-    "hi52": 3.235,
+    "hi52": 3.23,
     "lo52": 1.43,
     "pos52": 0.227,
     "range_since": null,
@@ -10083,6 +10089,7 @@
    "key": "GOOGL",
    "sponsor_ids": [],
    "name": "Alphabet",
+   "name_zh": "Alphabet（谷歌母公司）",
    "ticker": "GOOGL",
    "market": "US",
    "role": "compute",
@@ -10123,7 +10130,7 @@
     "as_of": "2026-11-20",
     "price": 265.29,
     "currency": "USD",
-    "mcap_usd": 3440475900000.0,
+    "mcap_usd": 3440210349600.0,
     "pe": 13.9,
     "pe_fiscal_year": false,
     "hi52": 408.61,
@@ -10269,6 +10276,7 @@
    "key": "MSFT",
    "sponsor_ids": [],
    "name": "Microsoft",
+   "name_zh": "微软",
    "ticker": "MSFT",
    "market": "US",
    "role": "compute",
@@ -10309,7 +10317,7 @@
     "as_of": "2026-11-20",
     "price": 484.52,
     "currency": "USD",
-    "mcap_usd": 3709981987385.0,
+    "mcap_usd": 3711537775144.0,
     "pe": 25.3,
     "pe_fiscal_year": false,
     "hi52": 559.15,
@@ -10455,6 +10463,7 @@
    "key": "AMZN",
    "sponsor_ids": [],
    "name": "Amazon",
+   "name_zh": "亚马逊",
    "ticker": "AMZN",
    "market": "US",
    "role": "compute",
@@ -10495,7 +10504,7 @@
     "as_of": "2026-11-20",
     "price": 246.82,
     "currency": "USD",
-    "mcap_usd": 2754103082597.0,
+    "mcap_usd": 2757350268030.0,
     "pe": 20.0,
     "pe_fiscal_year": false,
     "hi52": 287.2,
@@ -10641,6 +10650,7 @@
    "key": "DHR",
    "sponsor_ids": [],
    "name": "Danaher",
+   "name_zh": "丹纳赫",
    "ticker": "DHR",
    "market": "US",
    "role": "tools",
@@ -10675,14 +10685,14 @@
     "eps_ttm": 6.1,
     "revenue_ttm_usd": 25608000000.0,
     "rd_ttm_usd": 1670000000.0,
-    "cash_usd": 5687700000.0,
-    "cash_as_of": "2020-10-02",
+    "cash_usd": null,
+    "cash_as_of": null,
     "cash_incl_inv": false,
     "loss_making": false,
     "as_of": "2026-11-20",
     "price": 220.36,
     "currency": "USD",
-    "mcap_usd": 156655206576.0,
+    "mcap_usd": 157365772699.0,
     "pe": 36.1,
     "pe_fiscal_year": false,
     "hi52": 242.8,
@@ -10828,6 +10838,7 @@
    "key": "IQV",
    "sponsor_ids": [],
    "name": "IQVIA",
+   "name_zh": "艾昆纬",
    "ticker": "IQV",
    "market": "US",
    "role": "cro",
@@ -10868,7 +10879,7 @@
     "as_of": "2026-11-20",
     "price": 245.82,
     "currency": "USD",
-    "mcap_usd": 41165392000.0,
+    "mcap_usd": 41167040000.0,
     "pe": 29.9,
     "pe_fiscal_year": false,
     "hi52": 284.5,
@@ -11051,7 +11062,7 @@
     "as_of": "2026-11-20",
     "price": 10.55,
     "currency": "USD",
-    "mcap_usd": 1612383759.0,
+    "mcap_usd": 1543739228.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.61,
@@ -11234,7 +11245,7 @@
     "as_of": "2026-11-20",
     "price": 266.22,
     "currency": "USD",
-    "mcap_usd": 43513003438.0,
+    "mcap_usd": 43929983490.0,
     "pe": 43.6,
     "pe_fiscal_year": false,
     "hi52": 325.99,
@@ -11380,6 +11391,7 @@
    "key": "TAK",
    "sponsor_ids": [],
    "name": "Takeda",
+   "name_zh": "武田",
    "ticker": "TAK",
    "market": "US",
    "role": "pharma",
@@ -11445,7 +11457,7 @@
     "mcap_usd": 68189446641.0,
     "pe": null,
     "pe_fiscal_year": false,
-    "hi52": 22.066,
+    "hi52": 22.07,
     "lo52": 14.09,
     "pos52": 0.963,
     "range_since": null,
@@ -11588,6 +11600,7 @@
    "key": "NVS",
    "sponsor_ids": [],
    "name": "Novartis",
+   "name_zh": "诺华",
    "ticker": "NVS",
    "market": "US",
    "role": "pharma",
@@ -11622,14 +11635,14 @@
     "eps_ttm": 7.15,
     "revenue_ttm_usd": null,
     "rd_ttm_usd": 11200000000.0,
-    "cash_usd": 11435000000.0,
-    "cash_as_of": "2025-12-31",
+    "cash_usd": null,
+    "cash_as_of": null,
     "cash_incl_inv": false,
     "loss_making": false,
     "as_of": "2026-11-20",
     "price": 150.47,
     "currency": "USD",
-    "mcap_usd": 287119583139.0,
+    "mcap_usd": 289676506389.0,
     "pe": 21.0,
     "pe_fiscal_year": true,
     "hi52": 170.46,
@@ -11775,6 +11788,7 @@
    "key": "MRK",
    "sponsor_ids": [],
    "name": "Merck",
+   "name_zh": "默沙东",
    "ticker": "MRK",
    "market": "US",
    "role": "pharma",
@@ -11812,10 +11826,10 @@
     "as_of": "2026-11-20",
     "price": 133.72,
     "currency": "USD",
-    "mcap_usd": 332561643311.0,
+    "mcap_usd": 333720308785.0,
     "pe": 135.1,
     "pe_fiscal_year": false,
-    "hi52": 156.9199,
+    "hi52": 156.92,
     "lo52": 95.36,
     "pos52": 0.623,
     "range_since": null,
@@ -12316,27 +12330,32 @@
   {
    "ticker": "GOOGL",
    "name": "Alphabet",
-   "group": "compute"
+   "group": "compute",
+   "name_zh": "Alphabet（谷歌母公司）"
   },
   {
    "ticker": "MSFT",
    "name": "Microsoft",
-   "group": "compute"
+   "group": "compute",
+   "name_zh": "微软"
   },
   {
    "ticker": "AMZN",
    "name": "Amazon",
-   "group": "compute"
+   "group": "compute",
+   "name_zh": "亚马逊"
   },
   {
    "ticker": "DHR",
    "name": "Danaher",
-   "group": "tools"
+   "group": "tools",
+   "name_zh": "丹纳赫"
   },
   {
    "ticker": "IQV",
    "name": "IQVIA",
-   "group": "cro"
+   "group": "cro",
+   "name_zh": "艾昆纬"
   },
   {
    "ticker": "CERT",
@@ -12351,17 +12370,20 @@
   {
    "ticker": "TAK",
    "name": "Takeda",
-   "group": "pharma"
+   "group": "pharma",
+   "name_zh": "武田"
   },
   {
    "ticker": "NVS",
    "name": "Novartis",
-   "group": "pharma"
+   "group": "pharma",
+   "name_zh": "诺华"
   },
   {
    "ticker": "MRK",
    "name": "Merck",
-   "group": "pharma"
+   "group": "pharma",
+   "name_zh": "默沙东"
   }
  ],
  "longevity": [
