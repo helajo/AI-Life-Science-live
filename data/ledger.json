@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-23T15:55:06Z",
+ "generated_at": "2026-11-23T16:02:37Z",
  "today": "2026-11-23",
  "baseline": "2026-11-19",
  "sources": {
@@ -9,8 +9,8 @@
   "feed:stat": "ok",
   "feed:biopharmadive": "ok",
   "feed:gen": "ok",
-  "feed:decodingbio": "ok",
-  "feed:topol": "ok",
+  "feed:decodingbio": "error: RuntimeError",
+  "feed:topol": "error: RuntimeError",
   "feed:lifespan": "ok",
   "feed:fightaging": "ok"
  },
@@ -6582,7 +6582,7 @@
     "as_of": "2026-11-20",
     "price": 88.91,
     "currency": "USD",
-    "mcap_usd": 1150383954288.0,
+    "mcap_usd": 1148486386762.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 115.1,
@@ -6684,7 +6684,7 @@
     "as_of": "2026-11-20",
     "price": 125.53,
     "currency": "USD",
-    "mcap_usd": 4046149000000.0,
+    "mcap_usd": 4026507500000.0,
     "pe": 15.9,
     "pe_fiscal_year": false,
     "hi52": 243.37,
@@ -6868,7 +6868,7 @@
     "as_of": "2026-11-20",
     "price": 1347.11,
     "currency": "USD",
-    "mcap_usd": 1293961864064.0,
+    "mcap_usd": 1292047447926.0,
     "pe": 43.7,
     "pe_fiscal_year": false,
     "hi52": 1475.25,
@@ -7056,7 +7056,7 @@
     "as_of": "2026-11-20",
     "price": 37.82,
     "currency": "USD",
-    "mcap_usd": 172180078270.0,
+    "mcap_usd": 171870123134.0,
     "pe": 11.2,
     "pe_fiscal_year": true,
     "hi52": 64.16,
@@ -7275,7 +7275,7 @@
     "as_of": "2026-11-20",
     "price": 2.45,
     "currency": "USD",
-    "mcap_usd": 1653425833.0,
+    "mcap_usd": 1662580394.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 5.24,
@@ -7693,7 +7693,7 @@
     "as_of": "2026-11-20",
     "price": 9.54,
     "currency": "USD",
-    "mcap_usd": 1326468243.0,
+    "mcap_usd": 1324531793.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 22.67,
@@ -7858,7 +7858,7 @@
     "as_of": "2026-11-20",
     "price": 22.93,
     "currency": "USD",
-    "mcap_usd": 1841658287.0,
+    "mcap_usd": 1852169178.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 34.0,
@@ -8055,7 +8055,7 @@
     "as_of": "2026-11-20",
     "price": 7.51,
     "currency": "USD",
-    "mcap_usd": 1450201075.0,
+    "mcap_usd": 1451064804.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.54,
@@ -8259,7 +8259,7 @@
     "as_of": "2026-11-20",
     "price": 9.69,
     "currency": "USD",
-    "mcap_usd": 3439286445.0,
+    "mcap_usd": 3422988212.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 15.02,
@@ -8477,7 +8477,7 @@
     "as_of": "2026-11-20",
     "price": 16.12,
     "currency": "USD",
-    "mcap_usd": 3772882950.0,
+    "mcap_usd": 3758520585.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 21.27,
@@ -8677,7 +8677,7 @@
     "as_of": "2026-11-20",
     "price": 13.11,
     "currency": "USD",
-    "mcap_usd": 724221394.0,
+    "mcap_usd": 734252839.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 25.0,
@@ -8761,7 +8761,7 @@
     "as_of": "2026-11-20",
     "price": 54.04,
     "currency": "USD",
-    "mcap_usd": 10479886054.0,
+    "mcap_usd": 10427901587.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 89.09,
@@ -9156,7 +9156,7 @@
     "as_of": "2026-11-20",
     "price": 669.54,
     "currency": "USD",
-    "mcap_usd": 256296941372.0,
+    "mcap_usd": 256035060756.0,
     "pe": 35.3,
     "pe_fiscal_year": false,
     "hi52": 727.56,
@@ -9508,7 +9508,7 @@
     "as_of": "2026-11-20",
     "price": 0.24,
     "currency": "USD",
-    "mcap_usd": 4275078.0,
+    "mcap_usd": 4268723.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -9669,7 +9669,7 @@
     "as_of": "2026-11-20",
     "price": 2.25,
     "currency": "USD",
-    "mcap_usd": 23516914.0,
+    "mcap_usd": 22595568.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 6.92,
@@ -10209,7 +10209,7 @@
     "as_of": "2026-11-20",
     "price": 4.28,
     "currency": "USD",
-    "mcap_usd": 200838684.0,
+    "mcap_usd": 201757855.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -10328,7 +10328,7 @@
     "as_of": "2026-11-20",
     "price": 16.13,
     "currency": "USD",
-    "mcap_usd": 1196274832.0,
+    "mcap_usd": 1192695314.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -10672,7 +10672,7 @@
     "as_of": "2026-11-20",
     "price": 265.29,
     "currency": "USD",
-    "mcap_usd": 3472993530000.0,
+    "mcap_usd": 3459531600000.0,
     "pe": 13.9,
     "pe_fiscal_year": false,
     "hi52": 408.61,
@@ -10859,7 +10859,7 @@
     "as_of": "2026-11-20",
     "price": 484.52,
     "currency": "USD",
-    "mcap_usd": 3703678633450.0,
+    "mcap_usd": 3706265177012.0,
     "pe": 25.3,
     "pe_fiscal_year": false,
     "hi52": 559.15,
@@ -11046,7 +11046,7 @@
     "as_of": "2026-11-20",
     "price": 246.82,
     "currency": "USD",
-    "mcap_usd": 2782544880283.0,
+    "mcap_usd": 2776759851289.0,
     "pe": 20.0,
     "pe_fiscal_year": false,
     "hi52": 287.2,
@@ -11234,7 +11234,7 @@
     "as_of": "2026-11-20",
     "price": 220.36,
     "currency": "USD",
-    "mcap_usd": 159265305900.0,
+    "mcap_usd": 159525612301.0,
     "pe": 36.1,
     "pe_fiscal_year": false,
     "hi52": 242.8,
@@ -11421,7 +11421,7 @@
     "as_of": "2026-11-20",
     "price": 245.82,
     "currency": "USD",
-    "mcap_usd": 41671328000.0,
+    "mcap_usd": 41729832000.0,
     "pe": 29.9,
     "pe_fiscal_year": false,
     "hi52": 284.5,
@@ -11604,7 +11604,7 @@
     "as_of": "2026-11-20",
     "price": 10.55,
     "currency": "USD",
-    "mcap_usd": 1630688967.0,
+    "mcap_usd": 1627638099.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.61,
@@ -11787,7 +11787,7 @@
     "as_of": "2026-11-20",
     "price": 266.22,
     "currency": "USD",
-    "mcap_usd": 44019778138.0,
+    "mcap_usd": 43955824142.0,
     "pe": 43.6,
     "pe_fiscal_year": false,
     "hi52": 325.99,
@@ -11996,7 +11996,7 @@
     "as_of": "2026-11-20",
     "price": 21.77,
     "currency": "USD",
-    "mcap_usd": 69485298914.0,
+    "mcap_usd": 69500782153.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 22.07,
@@ -12184,7 +12184,7 @@
     "as_of": "2026-11-20",
     "price": 150.47,
     "currency": "USD",
-    "mcap_usd": 289313957570.0,
+    "mcap_usd": 289461839325.0,
     "pe": 21.0,
     "pe_fiscal_year": true,
     "hi52": 170.46,
@@ -12368,7 +12368,7 @@
     "as_of": "2026-11-20",
     "price": 133.72,
     "currency": "USD",
-    "mcap_usd": 333436805530.0,
+    "mcap_usd": 333202607190.0,
     "pe": 135.1,
     "pe_fiscal_year": false,
     "hi52": 156.92,
@@ -12548,7 +12548,9 @@
     "title": "BPGbio Receives FDA Rare Pediatric Disease Designation for its Potential Treatment for Primary Coenzyme Q10 Deficiency"
    },
    "checked": "opened",
-   "note": "Repurposing / reformulation of a known compound. The statement opened concerns CoQ10 deficiency; another BPGbio release (opened, silicon.co.uk copy, MitoCon 2024) says only that the drug's tumour effect was 'validated by' the platform. The topical cancer trials (API 31510, registered 2008) are the oldest; no page opened says how the cancer use was first found. One search summary lists an older alias 'Coenzyme Q10 - Cytotech' (snippet only, AdisInsight)."
+   "note": "Repurposing / reformulation of a known compound. The statement opened concerns CoQ10 deficiency; another BPGbio release (opened, silicon.co.uk copy, MitoCon 2024) says only that the drug's tumour effect was 'validated by' the platform. The topical cancer trials (API 31510, registered 2008) are the oldest; no page opened says how the cancer use was first found. One search summary lists an older alias 'Coenzyme Q10 - Cytotech' (snippet only, AdisInsight).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "bpgbio",
@@ -12562,7 +12564,9 @@
     "title": "Compound 31543 (Calcitriol, USP) in Patients Receiving Taxane-based Chemotherapy Regimens for the Treatment of Chemotherapy-Induced Alopecia"
    },
    "checked": "opened",
-   "note": "Classified 'acquired' because the active ingredient is a known drug (the registry record, read through its API, says 'topical calcitriol'). Whether the platform had any role is not stated on any page opened; BPGbio's current pipeline page does not list it."
+   "note": "Classified 'acquired' because the active ingredient is a known drug (the registry record, read through its API, says 'topical calcitriol'). Whether the platform had any role is not stated on any page opened; BPGbio's current pipeline page does not list it.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "lantern",
@@ -12576,7 +12580,9 @@
     "title": "Lantern Pharma Inc. Annual Report on Form 10-K, fiscal year 2024"
    },
    "checked": "opened",
-   "note": "A rescued drug: first Phase 1 trials date from 1997. RADR chose the patients, not the molecule."
+   "note": "A rescued drug: first Phase 1 trials date from 1997. RADR chose the patients, not the molecule.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "lantern",
@@ -12590,7 +12596,9 @@
     "title": "Lantern Pharma Inc. Annual Report on Form 10-K, fiscal year 2024"
    },
    "checked": "opened",
-   "note": "Called STAR-001 in CNS indications (Starlight Therapeutics). Acylfulvenes were first made at UC San Diego (Kelner, McMorris)."
+   "note": "Called STAR-001 in CNS indications (Starlight Therapeutics). Acylfulvenes were first made at UC San Diego (Kelner, McMorris).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "lantern",
@@ -12604,7 +12612,9 @@
     "title": "Lantern Pharma Inc. Annual Report on Form 10-K, fiscal year 2024"
    },
    "checked": "opened",
-   "note": "Borderline: Lantern calls LP-284 'novel' and holds its own compound patent (US 11,739,043), but a sublicence of LP-284 owes payments to AF Chemicals, and the 10-K makes no discovery claim for RADR. A reader could also file it as 'not_stated'."
+   "note": "Borderline: Lantern calls LP-284 'novel' and holds its own compound patent (US 11,739,043), but a sublicence of LP-284 owes payments to AF Chemicals, and the 10-K makes no discovery claim for RADR. A reader could also file it as 'not_stated'.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "evaxion",
@@ -12618,7 +12628,9 @@
     "title": "New phase 2 data highlight the strength of the immune response induced by personalized cancer vaccine EVX-01"
    },
    "checked": "opened",
-   "note": "The platform picks the antigens per patient; the peptide format and the CAF09b adjuvant are not AI-designed."
+   "note": "The platform picks the antigens per patient; the peptide format and the CAF09b adjuvant are not AI-designed.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "evaxion",
@@ -12632,7 +12644,9 @@
     "title": "AACR: Evaxion's DNA-Based Personalized Cancer Immunotherapy EVX-02 Meets Phase I/IIa Endpoints"
    },
    "checked": "opened",
-   "note": "EVX-02A and EVX-02B are the two delivery methods of the same vaccine compared in NCT04455503 (registry record: 'the selected delivery methodology either EVX-02A or EVX-02B'). Trial terminated."
+   "note": "EVX-02A and EVX-02B are the two delivery methods of the same vaccine compared in NCT04455503 (registry record: 'the selected delivery methodology either EVX-02A or EVX-02B'). Trial terminated.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "accutar",
@@ -12646,7 +12660,9 @@
     "title": "Accutar Biotechnology Announces First Patient Dosed in Phase 1 Study of AC0682 in ER-Positive Breast Cancer"
    },
    "checked": "snippet",
-   "note": "Snippet only: the CEO quote comes from a search summary (Business Wire blocked the fetch). The opened AC0176 release corroborates it indirectly ('another important validation ... that our AI platform can support and advance the discovery'). The BioSpace copy of the April 2022 NMPA release, opened, does not say how the drug was found. Both AC682 trials terminated."
+   "note": "Snippet only: the CEO quote comes from a search summary (Business Wire blocked the fetch). The opened AC0176 release corroborates it indirectly ('another important validation ... that our AI platform can support and advance the discovery'). The BioSpace copy of the April 2022 NMPA release, opened, does not say how the drug was found. Both AC682 trials terminated.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "accutar",
@@ -12660,7 +12676,9 @@
     "title": "Accutar Biotechnology Announces FDA Clearance of IND Application for Phase 1 Trial of AC0176 in Prostate Cancer"
    },
    "checked": "opened",
-   "note": "A general claim tied to this drug, with no detail of the AI's role. Both trials terminated."
+   "note": "A general claim tied to this drug, with no detail of the AI's role. Both trials terminated.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "accutar",
@@ -12674,7 +12692,9 @@
     "title": "Accutar Biotechnology Announces First Patient Dosed with AC0676 in Phase 1 Study in Patients with Relapsed/Refractory B-cell Malignancies"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "accutar",
@@ -12688,7 +12708,9 @@
     "title": "FDA Grants Fast Track Status to AC699 for ER+/HER2–, ESR1-Mutated Breast Cancer"
    },
    "checked": "opened",
-   "note": "Accutar's own AC699 releases are on Business Wire, which blocked the fetch; search summaries of them showed only the company boilerplate. Accutar's pipeline page returned 404."
+   "note": "Accutar's own AC699 releases are on Business Wire, which blocked the fetch; search summaries of them showed only the company boilerplate. Accutar's pipeline page returned 404.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "iambic",
@@ -12702,7 +12724,9 @@
     "title": "Iambic Therapeutics Announces First Patient Dosed in Phase 1 Clinical Study of IAM1363, a Highly Selective HER2 Inhibitor for the Treatment of Solid Tumors"
    },
    "checked": "opened",
-   "note": "The three long registry names are combination arms of the same trial; T-DXd, trastuzumab, capecitabine and zanidatamab in them are other companies' drugs."
+   "note": "The three long registry names are combination arms of the same trial; T-DXd, trastuzumab, capecitabine and zanidatamab in them are other companies' drugs.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "nimbus",
@@ -12716,7 +12740,9 @@
     "title": "Nimbus Therapeutics Presents Positive Updated Data from Phase 1/2 Clinical Trial of HPK1 Inhibitor for Advanced Solid Tumors at SITC 39th Annual Meeting"
    },
    "checked": "opened",
-   "note": "The quote is made about HPK1 in the NDI-101150 release rather than as a step-by-step account. A search summary (not opened) says a 2025 J Immunother Cancer paper describes 'a structure-guided drug design approach' for the compound."
+   "note": "The quote is made about HPK1 in the NDI-101150 release rather than as a step-by-step account. A search summary (not opened) says a 2025 J Immunother Cancer paper describes 'a structure-guided drug design approach' for the compound.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "nimbus",
@@ -12730,7 +12756,9 @@
     "title": "Nimbus Therapeutics Presents First Preclinical Data on Novel WRN Inhibitor"
    },
    "checked": "opened",
-   "note": "The rename NTX-452 → NDI-219216 rests on a search summary of Nimbus's April 2025 Business Wire release (fetch blocked). Nimbus's pipeline page, opened, lists WRN under 'Internal programs'."
+   "note": "The rename NTX-452 → NDI-219216 rests on a search summary of Nimbus's April 2025 Business Wire release (fetch blocked). Nimbus's pipeline page, opened, lists WRN under 'Internal programs'.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "hotspot",
@@ -12744,7 +12772,9 @@
     "title": "HotSpot Therapeutics Announces FDA Clearance of IND Application for HST-1011, an Investigational Small Molecule Allosteric Inhibitor of CBL-B"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "enveda",
@@ -12758,7 +12788,9 @@
     "title": "Enveda Announces First Candidate Discovered From Nature Using AI Advances to Clinical Trials"
    },
    "checked": "opened",
-   "note": "The AI found the starting natural product; ENV-294 itself is a derivative made by medicinal chemistry, not an AI-designed structure."
+   "note": "The AI found the starting natural product; ENV-294 itself is a derivative made by medicinal chemistry, not an AI-designed structure.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "bighat",
@@ -12772,7 +12804,9 @@
     "title": "Company's First AI-Generated Design Goes Into Human Studies"
    },
    "checked": "opened",
-   "note": "The claim covers the antibody; the release does not say where the payload and linker come from."
+   "note": "The claim covers the antibody; the release does not say where the payload and linker come from.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "insilico",
@@ -12786,7 +12820,9 @@
     "title": "TNIK Inhibitor: Treating Fibrotic diseases of the Lung and Kidney"
    },
    "checked": "opened",
-   "note": "Also known as ISM001-055. The pipeline page uses the name rentosertib only; the link to INS018_055 is from Insilico's Nature Biotechnology / Nature Medicine papers (seen in search summaries, not opened)."
+   "note": "Also known as ISM001-055. The pipeline page uses the name rentosertib only; the link to INS018_055 is from Insilico's Nature Biotechnology / Nature Medicine papers (seen in search summaries, not opened).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "insilico",
@@ -12800,7 +12836,9 @@
     "title": "Insilico Medicine announces first patient dosed with ISM3412 in a global multicenter trial"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "insilico",
@@ -12814,7 +12852,9 @@
     "title": "Insilico Medicine release on garutadustat (ISM5411) Phase IIa first patient dosing"
    },
    "checked": "opened",
-   "note": "USAN name garutadustat. Source title is paraphrased; the URL is the release opened."
+   "note": "USAN name garutadustat. Source title is paraphrased; the URL is the release opened.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "insilico",
@@ -12828,7 +12868,9 @@
     "title": "Insilico Medicine announces FDA IND clearance for ISM5939, an oral ENPP1 inhibitor for solid tumors"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "insilico",
@@ -12842,7 +12884,9 @@
     "title": "Insilico Medicine release on first patient dosed with ISM6331 (pan-TEAD inhibitor)"
    },
    "checked": "opened",
-   "note": "Source title is paraphrased; the URL is the release opened."
+   "note": "Source title is paraphrased; the URL is the release opened.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "insilico",
@@ -12856,7 +12900,9 @@
     "title": "Insilico Medicine and Fosun Pharma release on first patient dosed with QPCTL inhibitor ISM8207"
    },
    "checked": "opened",
-   "note": "Partner: Fosun Pharma (collaboration since January 2022). A search summary of Insilico's QPCTL page adds that PandaOmics identified QPCTL and generative chemistry made the molecule (snippet only). The release spells the code both ISM8207 and ISM8027."
+   "note": "Partner: Fosun Pharma (collaboration since January 2022). A search summary of Insilico's QPCTL page adds that PandaOmics identified QPCTL and generative chemistry made the molecule (snippet only). The release spells the code both ISM8207 and ISM8027.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "insilico",
@@ -12870,7 +12916,9 @@
     "title": "Insilico completes first-in-human dosing in Phase I clinical study of AI-driven NLRP3 inhibitor ISM8969"
    },
    "checked": "opened",
-   "note": "Co-developed with Hygtia Therapeutics, which holds 50% of global rights; Insilico designed the molecule and leads Phase I, so counted as platform rather than partner."
+   "note": "Co-developed with Hygtia Therapeutics, which holds 50% of global rights; Insilico designed the molecule and leads Phase I, so counted as platform rather than partner.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "insilico",
@@ -12884,7 +12932,9 @@
     "title": "Targeting the $100 Billion Market: Insilico Medicine Nominates AI-driven Novel PCC ISM9528 for Pain Management"
    },
    "checked": "opened",
-   "note": "Release of 2026-07-22 planned clinical trials for 2027, yet the registry (NCT07932041, sponsor InSilico Medicine Hong Kong) already lists an Early Phase 1 single-participant study as recruiting. Target not disclosed."
+   "note": "Release of 2026-07-22 planned clinical trials for 2027, yet the registry (NCT07932041, sponsor InSilico Medicine Hong Kong) already lists an Early Phase 1 single-participant study as recruiting. Target not disclosed.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "healx",
@@ -12898,7 +12948,9 @@
     "title": "Ovid Therapeutics Inc. Form 10-Q for the quarter ended June 30, 2023 (Healx License and Option Agreement)"
    },
    "checked": "opened",
-   "note": "The two OV101 Angelman trials (NCT02996305, NCT03882918; the Phase 3 failed in 2020) were run by Ovid before the deal; the registry now lists 'Healx AI' as their sponsor, which is why they are attributed to Healx. No page opened says Healx's AI selected gaboxadol. The Healx Fragile X combination trial (NCT04823052) was withdrawn."
+   "note": "The two OV101 Angelman trials (NCT02996305, NCT03882918; the Phase 3 failed in 2020) were run by Ovid before the deal; the registry now lists 'Healx AI' as their sponsor, which is why they are attributed to Healx. No page opened says Healx's AI selected gaboxadol. The Healx Fragile X combination trial (NCT04823052) was withdrawn.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "healx",
@@ -12912,7 +12964,9 @@
     "title": "Healx receives IND and Orphan Drug Designation for fragile X clinical trial"
    },
    "checked": "opened",
-   "note": "The release does not name sulindac; the trial registry (NCT04823052) gives HLX-0201 = sulindac. Trial withdrawn before enrolment."
+   "note": "The release does not name sulindac; the trial registry (NCT04823052) gives HLX-0201 = sulindac. Trial withdrawn before enrolment.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "healx",
@@ -12926,7 +12980,9 @@
     "title": "Healx, an AI-enabled drug discovery platform for rare diseases, raises $47M"
    },
    "checked": "opened",
-   "note": "Healx has not disclosed which compound HLX-1502 is. GEN (genengnews.com, opened) quotes only 'HLX-1502 was discovered using Healx's AI platform' without saying it is an existing drug."
+   "note": "Healx has not disclosed which compound HLX-1502 is. GEN (genengnews.com, opened) quotes only 'HLX-1502 was discovered using Healx's AI platform' without saying it is an existing drug.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "generate",
@@ -12940,7 +12996,9 @@
     "title": "Generate Biomedicines, Inc. prospectus (Rule 424(b)(4))"
    },
    "checked": "opened",
-   "note": "An optimisation of an existing reference antibody, not a de novo design; the prospectus does not name the reference (a search summary says it was Amgen's tezepelumab: snippet only)."
+   "note": "An optimisation of an existing reference antibody, not a de novo design; the prospectus does not name the reference (a search summary says it was Amgen's tezepelumab: snippet only).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "generate",
@@ -12954,7 +13012,9 @@
     "title": "Generate Biomedicines, Inc. prospectus (Rule 424(b)(4))"
    },
    "checked": "opened",
-   "note": "Development paused after Phase 1 for commercial reasons, per the prospectus."
+   "note": "Development paused after Phase 1 for commercial reasons, per the prospectus.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "generate",
@@ -12968,7 +13028,9 @@
     "title": "Generate Biomedicines, Inc. prospectus (Rule 424(b)(4))"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "generate",
@@ -12982,7 +13044,9 @@
     "title": "Generate Biomedicines, Inc. prospectus (Rule 424(b)(4))"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "ensem",
@@ -12996,7 +13060,9 @@
     "title": "Ensem Therapeutics Announces ETX-636 Granted Fast Track Designation by the FDA for Advanced Breast Cancer"
    },
    "checked": "opened",
-   "note": "Two registry arms include fulvestrant (a marketed drug, origin other) as the combination partner. That Kinetic Ensemble combines AI/ML with computational and experimental tools is from a search summary of Ensem releases, not from the opened page (snippet)."
+   "note": "Two registry arms include fulvestrant (a marketed drug, origin other) as the combination partner. That Kinetic Ensemble combines AI/ML with computational and experimental tools is from a search summary of Ensem releases, not from the opened page (snippet).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "ensem",
@@ -13010,7 +13076,9 @@
     "title": "Ensem Therapeutics Highlights Novel, Potent, and Selective Oral pan-KRAS and WRN Inhibitors with Best-in-Class Potential"
    },
    "checked": "opened",
-   "note": "One registry arm includes cetuximab (a marketed drug, origin other). The original Business Wire page returned HTTP 403; this is a repost of the same release."
+   "note": "One registry arm includes cetuximab (a marketed drug, origin other). The original Business Wire page returned HTTP 403; this is a repost of the same release.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "mindrank",
@@ -13024,7 +13092,9 @@
     "title": "MindRank Initiates Phase III MOBILE Trial of MDR-001, Oral GLP-1RA Small Molecule"
    },
    "checked": "opened",
-   "note": "Company press release carried by a newswire repost; 'first AI-designed molecule in Phase III' is the company's own claim."
+   "note": "Company press release carried by a newswire repost; 'first AI-designed molecule in Phase III' is the company's own claim.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "oncocross",
@@ -13038,7 +13108,9 @@
     "title": "온코크로스, 'AI' 근감소증 후보물질 \"호주 1상 시작\""
    },
    "checked": "opened",
-   "note": "Korean trade article of 2022-02-23 ('기존의 다른 두 약물을 혼합해 새로운 적응증의 약물로 개발된 복합제'). The two ingredients are not disclosed. Korean rights were licensed to Korea Pharma in 2020 (search summary only)."
+   "note": "Korean trade article of 2022-02-23 ('기존의 다른 두 약물을 혼합해 새로운 적응증의 약물로 개발된 복합제'). The two ingredients are not disclosed. Korean rights were licensed to Korea Pharma in 2020 (search summary only).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "abcellera",
@@ -13052,7 +13124,9 @@
     "title": "ABCL635 (Internal Program) pipeline page"
    },
    "checked": "opened",
-   "note": "AbCellera's platform is antibody discovery (screening plus data science), not presented as an AI design platform."
+   "note": "AbCellera's platform is antibody discovery (screening plus data science), not presented as an AI design platform.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "abcellera",
@@ -13066,7 +13140,9 @@
     "title": "ABCL575 (Internal Program) pipeline page"
    },
    "checked": "opened",
-   "note": "Labelled 'Internal Program' with no partner, which suggests in-house discovery, but that is not stated. The page says AbCellera does not intend to pursue further clinical development of ABCL575."
+   "note": "Labelled 'Internal Program' with no partner, which suggests in-house discovery, but that is not stated. The page says AbCellera does not intend to pursue further clinical development of ABCL575.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "absci",
@@ -13080,7 +13156,9 @@
     "title": "Absci Announces First Participants Dosed in Phase 1/2a HEADLINE Trial of AI-Designed Antibody ABS-201 for Androgenetic Alopecia"
    },
    "checked": "opened",
-   "note": "Absci's own investor page returned HTTP 403; this is the same release. Absci's case-study page (absci.com/abs-201-case-study) says only that its Integrated Drug Creation platform was applied to design the antibody."
+   "note": "Absci's own investor page returned HTTP 403; this is the same release. Absci's case-study page (absci.com/abs-201-case-study) says only that its Integrated Drug Creation platform was applied to design the antibody.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "charm",
@@ -13094,7 +13172,9 @@
     "title": "CHARM Therapeutics Advances CHM-029, a Next-Generation Menin Inhibitor Designed to Overcome Resistance Mutations, as its First Clinical Candidate for Acute Myeloid Leukaemia (AML)"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "compugen",
@@ -13108,7 +13188,9 @@
     "title": "COM701/Fc reduced Anti-PVRIG antibody"
    },
    "checked": "opened",
-   "note": "The computation found the target, not the antibody: no page opened says the antibody itself was computationally designed. One registry name combines COM701 with BMS-986207 (Bristol Myers Squibb's anti-TIGIT) and nivolumab; it is filed here under COM701."
+   "note": "The computation found the target, not the antibody: no page opened says the antibody itself was computationally designed. One registry name combines COM701 with BMS-986207 (Bristol Myers Squibb's anti-TIGIT) and nivolumab; it is filed here under COM701.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "compugen",
@@ -13122,7 +13204,9 @@
     "title": "COM902 anti-TIGIT antibody"
    },
    "checked": "opened",
-   "note": "Target discovery only, and Compugen itself says 'and others': TIGIT is a widely pursued target. Two registry names are the COM902 + COM701 combination arms of the COM902 trial NCT04354246; they are filed here under COM902."
+   "note": "Target discovery only, and Compugen itself says 'and others': TIGIT is a widely pursued target. Two registry names are the COM902 + COM701 combination arms of the COM902 trial NCT04354246; they are filed here under COM902.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "compugen",
@@ -13136,7 +13220,9 @@
     "title": "Compugen Publishes Paper in Cancer Immunology Research Demonstrating Therapeutic Potential of COM503"
    },
    "checked": "opened",
-   "note": "Target discovery only. Licensed to Gilead, which calls it GS-0321; Compugen runs the Phase 1 trial."
+   "note": "Target discovery only. Licensed to Gilead, which calls it GS-0321; Compugen runs the Phase 1 trial.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "relay",
@@ -13150,7 +13236,9 @@
     "title": "Relay Therapeutics Reports First Quarter 2026 Financial Results and Corporate Updates"
    },
    "checked": "opened",
-   "note": "Physics-based / structure-based computation rather than machine learning alone. Also stated on relaytx.com/pipeline and in Relay's 2022 prospectus supplement ('a novel allosteric site discovered by the Dynamo platform')."
+   "note": "Physics-based / structure-based computation rather than machine learning alone. Also stated on relaytx.com/pipeline and in Relay's 2022 prospectus supplement ('a novel allosteric site discovered by the Dynamo platform').",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "relay",
@@ -13164,7 +13252,9 @@
     "title": "Form 10-Q for the quarter ended March 31, 2023"
    },
    "checked": "opened",
-   "note": "In-house molecule from the same PI3Kα programme as zovegalisib, so a Dynamo origin is likely, but only a third-party database (MedPath, seen as a search summary) says 'designed on the Dynamo platform'. Deprioritised in 2024 in favour of RLY-2608 (search summary, not opened)."
+   "note": "In-house molecule from the same PI3Kα programme as zovegalisib, so a Dynamo origin is likely, but only a third-party database (MedPath, seen as a search summary) says 'designed on the Dynamo platform'. Deprioritised in 2024 in favour of RLY-2608 (search summary, not opened).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "relay",
@@ -13178,7 +13268,9 @@
     "title": "Pipeline"
    },
    "checked": "opened",
-   "note": "In-house molecule ('We have created...'); the same page and the Q1 2026 release credit Dynamo by name only for zovegalisib and lirafugratinib. Relay's own press release on the trial start (allsci.com copy) returned 403."
+   "note": "In-house molecule ('We have created...'); the same page and the Q1 2026 release credit Dynamo by name only for zovegalisib and lirafugratinib. Relay's own press release on the trial start (allsci.com copy) returned 403.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "helixon",
@@ -13192,7 +13284,9 @@
     "title": "Study of HX15001 in Adult Healthy Volunteers"
    },
    "checked": "opened",
-   "note": "Helixon and its affiliate Earendil Labs describe themselves as AI biologics companies (trade press on the Sanofi deals for HXN-1002 / HXN-1003), but that is a company-level claim about other molecules, not a statement about this drug."
+   "note": "Helixon and its affiliate Earendil Labs describe themselves as AI biologics companies (trade press on the Sanofi deals for HXN-1002 / HXN-1003), but that is a company-level claim about other molecules, not a statement about this drug.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "helixon",
@@ -13206,7 +13300,9 @@
     "title": "Study of HXN-1013 in Healthy Participants and Participants With Mild-to-Moderate Asthma"
    },
    "checked": "opened",
-   "note": "Helixon and its affiliate Earendil Labs describe themselves as AI biologics companies (trade press on the Sanofi deals for HXN-1002 / HXN-1003), but that is a company-level claim about other molecules, not a statement about this drug. Databases (search summaries only) describe HXN-1013 as an IL-33 x TSLP bispecific antibody."
+   "note": "Helixon and its affiliate Earendil Labs describe themselves as AI biologics companies (trade press on the Sanofi deals for HXN-1002 / HXN-1003), but that is a company-level claim about other molecules, not a statement about this drug. Databases (search summaries only) describe HXN-1013 as an IL-33 x TSLP bispecific antibody.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "helixon",
@@ -13220,7 +13316,9 @@
     "title": "A Dose Escalation Phase 1 Study of HXN5003 in Healthy Participants"
    },
    "checked": "opened",
-   "note": "Helixon and its affiliate Earendil Labs describe themselves as AI biologics companies (trade press on the Sanofi deals for HXN-1002 / HXN-1003), but that is a company-level claim about other molecules, not a statement about this drug."
+   "note": "Helixon and its affiliate Earendil Labs describe themselves as AI biologics companies (trade press on the Sanofi deals for HXN-1002 / HXN-1003), but that is a company-level claim about other molecules, not a statement about this drug.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "helixon",
@@ -13234,7 +13332,9 @@
     "title": "Phase I Study of HXN6005 in Adult Healthy Participants"
    },
    "checked": "opened",
-   "note": "Helixon and its affiliate Earendil Labs describe themselves as AI biologics companies (trade press on the Sanofi deals for HXN-1002 / HXN-1003), but that is a company-level claim about other molecules, not a statement about this drug."
+   "note": "Helixon and its affiliate Earendil Labs describe themselves as AI biologics companies (trade press on the Sanofi deals for HXN-1002 / HXN-1003), but that is a company-level claim about other molecules, not a statement about this drug.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "regor",
@@ -13248,7 +13348,9 @@
     "title": "Regor Releases Phase 2a Topline Results for RGT-075, an Oral Once-daily Small Molecule GLP-1R Agonist, and Begins Phase 2b Study in the US for the Treatment of Obesity"
    },
    "checked": "opened",
-   "note": "Weak attribution: in-house discovery is stated for the drug, the platform only at company level. Treat as 'not_stated' if a drug-specific platform statement is required. rCARD is computer-aided rational design, not presented as machine learning."
+   "note": "Weak attribution: in-house discovery is stated for the drug, the platform only at company level. Treat as 'not_stated' if a drug-specific platform statement is required. rCARD is computer-aided rational design, not presented as machine learning.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "regor",
@@ -13262,7 +13364,9 @@
     "title": "Regor Releases Phase 2a Topline Results for RGT-075, an Oral Once-daily Small Molecule GLP-1R Agonist, and Begins Phase 2b Study in the US for the Treatment of Obesity"
    },
    "checked": "opened",
-   "note": "Sold to Genentech / Roche in 2024 ($850M upfront) and now GDC-4198. The attribution is at portfolio level, not a description of how this molecule was designed."
+   "note": "Sold to Genentech / Roche in 2024 ($850M upfront) and now GDC-4198. The attribution is at portfolio level, not a description of how this molecule was designed.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "regor",
@@ -13276,7 +13380,9 @@
     "title": "A Phase I Study of RGT-264 in Subjects With Advanced Solid Tumors"
    },
    "checked": "opened",
-   "note": "Search summaries (not opened) call it an HPK1 inhibitor and list Regor's CTO, who built rCARD, as an inventor. The trial was terminated."
+   "note": "Search summaries (not opened) call it an HPK1 inhibitor and list Regor's CTO, who built rCARD, as an inventor. The trial was terminated.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "regor",
@@ -13290,7 +13396,9 @@
     "title": "Study of RGT-490 in Patients With PIK3CA-Mutated Advanced Solid Tumors"
    },
    "checked": "opened",
-   "note": "Described in a search summary as a mutant-selective PIK3CA inhibitor."
+   "note": "Described in a search summary as a mutant-selective PIK3CA inhibitor.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "aulos",
@@ -13304,7 +13412,9 @@
     "title": "About"
    },
    "checked": "opened",
-   "note": "The designer is Biolojic Design, not Aulos: Aulos was set up to develop this Biolojic-designed antibody, so 'platform' here means the platform of the sponsor's founding partner. Aulos press releases (Business Wire, 403 on opening; seen as search summaries) say 'Created by Biolojic Design' and call it the first computationally designed antibody to enter a human trial. The package's Biolojic entry lists only BD200, so AU-007 has one record, under Aulos."
+   "note": "The designer is Biolojic Design, not Aulos: Aulos was set up to develop this Biolojic-designed antibody, so 'platform' here means the platform of the sponsor's founding partner. Aulos press releases (Business Wire, 403 on opening; seen as search summaries) say 'Created by Biolojic Design' and call it the first computationally designed antibody to enter a human trial. The package's Biolojic entry lists only BD200, so AU-007 has one record, under Aulos.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "biolojic",
@@ -13318,7 +13428,9 @@
     "title": "FDA Clears IND for Biolojic's BD200, the First AI-Designed Multibody ADC to Enter Clinical Trials"
    },
    "checked": "opened",
-   "note": "Trade article reporting the company's announcement and quoting its CEO. AU-007, Biolojic's other clinical design, is recorded under Aulos."
+   "note": "Trade article reporting the company's announcement and quoting its CEO. AU-007, Biolojic's other clinical design, is recorded under Aulos.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "benevolent",
@@ -13332,7 +13444,9 @@
     "title": "BenevolentAI, cruel R&D: AI-enabled drug flunks midphase eczema trial to dent deal plans"
    },
    "checked": "snippet",
-   "note": "Snippet only: the fact that the platform identified the Trk receptors for atopic dermatitis comes from the search summary of the Fierce article (403 on opening); the opened Clinical Trials Arena and Citeline pages do not say how the drug was found. Target identification only. Failed Phase 2a on efficacy in April 2023; discontinued."
+   "note": "Snippet only: the fact that the platform identified the Trk receptors for atopic dermatitis comes from the search summary of the Fierce article (403 on opening); the opened Clinical Trials Arena and Citeline pages do not say how the drug was found. Target identification only. Failed Phase 2a on efficacy in April 2023; discontinued.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "benevolent",
@@ -13346,7 +13460,9 @@
     "title": "BenevolentAI poaches drug discovery executive from GlaxoSmithKline"
    },
    "checked": "snippet",
-   "note": "Snippet only: both facts (the JNJ-31001074 identity / J&J origin after a failed ADHD trial, and the AI platform choosing the Parkinson's use) come from search summaries; the Fierce page returned 403 and the opened NHS HRA trial summary names only bavisant and the sponsor. The licence terms were not found."
+   "note": "Snippet only: both facts (the JNJ-31001074 identity / J&J origin after a failed ADHD trial, and the AI platform choosing the Parkinson's use) come from search summaries; the Fierce page returned 403 and the opened NHS HRA trial summary names only bavisant and the sponsor. The licence terms were not found.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "benevolent",
@@ -13360,7 +13476,9 @@
     "title": "BenevolentAI Announces Positive Topline Safety and Pharmacokinetic Data from the Phase Ia Clinical Study of BEN-8744 in Healthy Volunteers"
    },
    "checked": "opened",
-   "note": "The platform is credited with the target; the molecule design is credited to the company's scientists."
+   "note": "The platform is credited with the target; the molecule design is credited to the company's scientists.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "valo",
@@ -13374,7 +13492,9 @@
     "title": "Efficacy and Safety of OPL-0301 Compared to Placebo in Adults With Post-Myocardial Infarction (MI)"
    },
    "checked": "opened",
-   "note": "Probably in-licensed but unproven: Valo signed a licence with Sanofi on 2021-02-08 (SEC exhibit opened; the schedule of licensed compounds is redacted) and Sanofi had its own S1P1 agonist, SAR247799, but no source ties the two. The only trial was withdrawn before enrolment."
+   "note": "Probably in-licensed but unproven: Valo signed a licence with Sanofi on 2021-02-08 (SEC exhibit opened; the schedule of licensed compounds is redacted) and Sanofi had its own S1P1 agonist, SAR247799, but no source ties the two. The only trial was withdrawn before enrolment.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "valo",
@@ -13388,7 +13508,9 @@
     "title": "Valo Health Announces Topline Results from Phase 2 SPECTRA Study of OPL-0401 in Patients with Diabetic Retinopathy"
    },
    "checked": "opened",
-   "note": "Sanofi as licensor: pharmaphorum (opened), 'originally licensed from Sanofi in 2021'. ROCK1/2 inhibitor; failed Phase 2 in diabetic retinopathy and development is suspended."
+   "note": "Sanofi as licensor: pharmaphorum (opened), 'originally licensed from Sanofi in 2021'. ROCK1/2 inhibitor; failed Phase 2 in diabetic retinopathy and development is suspended.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "peptilogics",
@@ -13402,7 +13524,9 @@
     "title": "Pitt news release on engineered cationic antimicrobial peptides (WLBU2)"
    },
    "checked": "opened",
-   "note": "The opened release says WLBU2 'was licensed by Pitt spin-off Peptilogics'; that PLG0206 is WLBU2 comes from a PLOS One paper by Peptilogics authors, seen as a search summary. That it predates the AI platform is my reading of the dates, not a company statement. The page title is paraphrased."
+   "note": "The opened release says WLBU2 'was licensed by Pitt spin-off Peptilogics'; that PLG0206 is WLBU2 comes from a PLOS One paper by Peptilogics authors, seen as a search summary. That it predates the AI platform is my reading of the dates, not a company statement. The page title is paraphrased.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "proteinqure",
@@ -13416,7 +13540,9 @@
     "title": "ProteinQure home page"
    },
    "checked": "opened",
-   "note": "The home page states 'fully AI-designed peptide-drug conjugate' and names PQ203 as the lead programme; the sortilin / MMAE detail is from the company's press release as reported by Targeted Oncology (opened)."
+   "note": "The home page states 'fully AI-designed peptide-drug conjugate' and names PQ203 as the lead programme; the sortilin / MMAE detail is from the company's press release as reported by Targeted Oncology (opened).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "recursion",
@@ -13430,7 +13556,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2025"
    },
    "checked": "opened",
-   "note": "Registry still uses the Exscientia code EXS73565; GEN (2023) also says it was one of four programmes 'designed using Exscientia's AI platform'. The EXS73565 = REC-3565 link rests on the matching target, indication and sponsor (the 10-K does not print the old code)."
+   "note": "Registry still uses the Exscientia code EXS73565; GEN (2023) also says it was one of four programmes 'designed using Exscientia's AI platform'. The EXS73565 = REC-3565 link rests on the matching target, indication and sponsor (the 10-K does not print the old code).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "recursion",
@@ -13444,7 +13572,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2025"
    },
    "checked": "opened",
-   "note": "The registry record (NCT07517198) itself lists REC-4539 as another name of EXS74539. Paused in May 2025, then restarted."
+   "note": "The registry record (NCT07517198) itself lists REC-4539 as another name of EXS74539. Paused in May 2025, then restarted.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "recursion",
@@ -13458,7 +13588,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2024"
    },
    "checked": "opened",
-   "note": "Developed by Exscientia in partnership with GT Apeiron (hence the GTA prefix); a search summary, not an opened page, says Exscientia bought out GT Apeiron's share in July 2024."
+   "note": "Developed by Exscientia in partnership with GT Apeiron (hence the GTA prefix); a search summary, not an opened page, says Exscientia bought out GT Apeiron's share in July 2024.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "recursion",
@@ -13472,7 +13604,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2025"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "recursion",
@@ -13486,7 +13620,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2024"
    },
    "checked": "opened",
-   "note": "Repurposing. The Phase 2/3 trial (NCT05130866) was terminated."
+   "note": "Repurposing. The Phase 2/3 trial (NCT05130866) was terminated.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "recursion",
@@ -13500,7 +13636,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2024"
    },
    "checked": "opened",
-   "note": "The Phase 2 trial (NCT06536465) was terminated."
+   "note": "The Phase 2 trial (NCT06536465) was terminated.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "recursion",
@@ -13514,7 +13652,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2024"
    },
    "checked": "opened",
-   "note": "Repurposing. Recursion's 2025 shareholder letter calls the FAP result its first AI-enabled clinical proof of concept (search summary only): the claim is about the platform-derived biology, not the molecule."
+   "note": "Repurposing. Recursion's 2025 shareholder letter calls the FAP result its first AI-enabled clinical proof of concept (search summary only): the claim is about the platform-derived biology, not the molecule.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "recursion",
@@ -13528,7 +13668,9 @@
     "title": "Recursion Reports Second Quarter Financial Results; Genentech Options First Neuroscience Target into Early Discovery Program"
    },
    "checked": "opened",
-   "note": "Press release of 2026-08-05, read on a syndicated copy because ir.recursion.com refused the request."
+   "note": "Press release of 2026-08-05, read on a syndicated copy because ir.recursion.com refused the request.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "recursion",
@@ -13542,7 +13684,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2024"
    },
    "checked": "opened",
-   "note": "Repurposing. That REC-994 is tempol is widely reported but was not confirmed on the page opened. Recursion's wording is that REC-994 'was discovered using' its platform, which a reader could mistake for design."
+   "note": "Repurposing. That REC-994 is tempol is widely reported but was not confirmed on the page opened. Recursion's wording is that REC-994 'was discovered using' its platform, which a reader could mistake for design.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "bioage",
@@ -13556,7 +13700,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2024"
    },
    "checked": "opened",
-   "note": "BioAge's former flagship; development terminated in January 2025 after liver enzyme elevations in the Phase 2 obesity trial."
+   "note": "BioAge's former flagship; development terminated in January 2025 after liver enzyme elevations in the Phase 2 obesity trial.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "bioage",
@@ -13570,7 +13716,9 @@
     "title": "BioAge Signs Exclusive License Agreement with Taisho to Develop and Commercialize Taisho's Phase 1 HIF-PH Inhibitor to Treat Aging"
    },
    "checked": "opened",
-   "note": "Both Phase 2 trials were withdrawn; no longer in BioAge's filings."
+   "note": "Both Phase 2 trials were withdrawn; no longer in BioAge's filings.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "bioage",
@@ -13584,7 +13732,9 @@
     "title": "Shionogi and BioAge conclude a license agreement aimed at treating COVID-19"
    },
    "checked": "opened",
-   "note": "Repurposing. The COVID-19 trial was terminated."
+   "note": "Repurposing. The COVID-19 trial was terminated.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "bioage",
@@ -13598,7 +13748,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2025"
    },
    "checked": "opened",
-   "note": "Borderline between 'platform' and 'partner': the target comes from BioAge's data platform, the molecule from a conventional DNA-encoded library screen with HitGen (one NLRP3 patent family is co-owned with HitGen). An internally discovered drug, but not an AI-designed one."
+   "note": "Borderline between 'platform' and 'partner': the target comes from BioAge's data platform, the molecule from a conventional DNA-encoded library screen with HitGen (one NLRP3 patent family is co-owned with HitGen). An internally discovered drug, but not an AI-designed one.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "structure",
@@ -13612,7 +13764,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2025"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "structure",
@@ -13626,7 +13780,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2025"
    },
    "checked": "opened",
-   "note": "Partner is Schrödinger (a co-founder of Structure). Could equally be read as 'platform': the drug is wholly owned through the subsidiary Aconcagua Bio."
+   "note": "Partner is Schrödinger (a co-founder of Structure). Could equally be read as 'platform': the drug is wholly owned through the subsidiary Aconcagua Bio.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "frontier",
@@ -13640,7 +13796,9 @@
     "title": "Frontier Medicines Announces Oversubscribed $80 Million Series C Financing to Support Progress of Clinical-Stage Pipeline"
    },
    "checked": "opened",
-   "note": "Also a combination agent in the FMC-242 trial NCT07944092."
+   "note": "Also a combination agent in the FMC-242 trial NCT07944092.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "frontier",
@@ -13654,7 +13812,9 @@
     "title": "Frontier Medicines Announces Third Precision Oncology Development Candidate"
    },
    "checked": "opened",
-   "note": null
+   "note": null,
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "totus",
@@ -13668,7 +13828,9 @@
     "title": "Totus Medicines Announces First Patient Dosed in Phase 1 Trial of TOS-358 for the Treatment Of Select Solid Tumors"
    },
    "checked": "opened",
-   "note": "The release describes the platform next to the drug rather than stating in one sentence that the platform designed the molecule; it speaks of 'machine learning', not AI."
+   "note": "The release describes the platform next to the drug rather than stating in one sentence that the platform designed the molecule; it speaks of 'machine learning', not AI.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "exscientia",
@@ -13682,7 +13844,9 @@
     "title": "Pipeline Pruning: Exscientia Cuts Programs to Sharpen Precision Oncology Focus"
    },
    "checked": "snippet",
-   "note": "Opened pages (GEN; Evotec's 14 June 2022 release at https://www.evotec.com/news/evotecs-partner-exscientia-reports-topline-data-from-exs-21546-phase-1a-study) confirm the co-invention with Evotec and the discontinuation. The 'AI-designed' wording and the split of roles come only from search summaries of Exscientia's Business Wire releases (2021-04-08, 2022-06-14), which refused to open. Internal development ended in October 2023; the Phase 1/2 trial was terminated."
+   "note": "Opened pages (GEN; Evotec's 14 June 2022 release at https://www.evotec.com/news/evotecs-partner-exscientia-reports-topline-data-from-exs-21546-phase-1a-study) confirm the co-invention with Evotec and the discontinuation. The 'AI-designed' wording and the split of roles come only from search summaries of Exscientia's Business Wire releases (2021-04-08, 2022-06-14), which refused to open. Internal development ended in October 2023; the Phase 1/2 trial was terminated.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "schrodinger",
@@ -13696,7 +13860,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2025"
    },
    "checked": "opened",
-   "note": "Physics-based computation, not specifically machine learning."
+   "note": "Physics-based computation, not specifically machine learning.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "schrodinger",
@@ -13710,7 +13876,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2024"
    },
    "checked": "opened",
-   "note": "Clinical development discontinued in August 2025 after two deaths in AML patients in which the drug was considered a contributing factor (FY2025 10-K)."
+   "note": "Clinical development discontinued in August 2025 after two deaths in AML patients in which the drug was considered a contributing factor (FY2025 10-K).",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "schrodinger",
@@ -13724,7 +13892,9 @@
     "title": "Form 10-K for the fiscal year ended December 31, 2025"
    },
    "checked": "opened",
-   "note": "Physics-based computation, not specifically machine learning."
+   "note": "Physics-based computation, not specifically machine learning.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "verge",
@@ -13738,7 +13908,9 @@
     "title": "Verge Genomics Initiates First-In-Human Dosing in Phase 1 Trial of VRG50635, a Novel Therapeutic for Amyotrophic Lateral Sclerosis"
    },
    "checked": "opened",
-   "note": "The specific AI claim is about finding the target; the release does not say AI designed the molecule. The ALS proof-of-concept trial (NCT06215755) was terminated."
+   "note": "The specific AI claim is about finding the target; the release does not say AI designed the molecule. The ALS proof-of-concept trial (NCT06215755) was terminated.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "stonewise",
@@ -13752,7 +13924,9 @@
     "title": "自研管线"
    },
    "checked": "opened",
-   "note": "A search summary of a trade note (allsci.com, could not be opened) describes SWA1211 as an HPK1 inhibitor. The company-wide claim would make it 'platform' if applied to this drug, but nothing ties the claim to SWA1211 by name."
+   "note": "A search summary of a trade note (allsci.com, could not be opened) describes SWA1211 as an HPK1 inhibitor. The company-wide claim would make it 'platform' if applied to this drug, but nothing ties the claim to SWA1211 by name.",
+   "added_by": null,
+   "added": null
   },
   {
    "sponsor_id": "superluminal",
@@ -13766,7 +13940,9 @@
     "title": "Superluminal Medicines Announces a Selective, Biased, MC4R Agonist is Advancing to IND-enabling Studies for the Treatment of Obesity"
    },
    "checked": "opened",
-   "note": "The release (July 2025) does not use the code SUN-0864; the link is inferred because this is the company's only clinical programme and the registry trial is in overweight and obese adults. No page opened names SUN-0864 and its origin together."
+   "note": "The release (July 2025) does not use the code SUN-0864; the link is inferred because this is the company's only clinical programme and the registry trial is in overweight and obese adults. No page opened names SUN-0864 and its origin together.",
+   "added_by": null,
+   "added": null
   }
  ],
  "glossary": [
@@ -14515,60 +14691,6 @@
     "date": "2026-11-18"
    }
   ],
-  "decodingbio": [
-   {
-    "title": "BioByte 180: Maps Against Cancer",
-    "url": "https://decodingbio.substack.com/p/biobyte-180-maps-against-cancer",
-    "date": "2026-11-19"
-   },
-   {
-    "title": "BioByte 179: Epilepsy Epilogue",
-    "url": "https://decodingbio.substack.com/p/biobyte-179-epilepsy-epilogue",
-    "date": "2026-11-12"
-   },
-   {
-    "title": "A Conversation with Michael Ehlers: Funding the Future of Drug Discovery and Development at Formation Bio",
-    "url": "https://decodingbio.substack.com/p/a-conversation-with-mike-ehlers-funding",
-    "date": "2026-11-10"
-   },
-   {
-    "title": "BioByte 178: The Expression Code",
-    "url": "https://decodingbio.substack.com/p/biobyte-178-the-expression-code",
-    "date": "2026-11-05"
-   },
-   {
-    "title": "BioByte 177: Evolution-Encoded Knowledge",
-    "url": "https://decodingbio.substack.com/p/biobyte-177-evolution-encoded-knowledge",
-    "date": "2026-10-29"
-   }
-  ],
-  "topol": [
-   {
-    "title": "Jo Chikwe: A Renowned Cardiac Surgeon, on Leadership, Diversity, And Much More",
-    "url": "https://erictopol.substack.com/p/jo-chikwe-a-renowned-cardiac-surgeon",
-    "date": "2026-11-15"
-   },
-   {
-    "title": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
-    "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
-    "date": "2026-11-10"
-   },
-   {
-    "title": "Vadim Gladyshev and the Science of Aging",
-    "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of",
-    "date": "2026-10-27"
-   },
-   {
-    "title": "Connecting Our Immune System and Healthspan",
-    "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells",
-    "date": "2026-10-11"
-   },
-   {
-    "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
-    "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery",
-    "date": "2026-10-06"
-   }
-  ],
   "lifespan": [
    {
     "title": "James Peyer on Turning Aging Biology Into Medicine",
@@ -14621,6 +14743,60 @@
     "title": "FGF13 Overexpression Improves Astrocyte Function to Slow Cognitive Aging in Mice",
     "url": "https://www.fightaging.org/archives/2026/11/fgf13-overexpression-improves-astrocyte-function-to-slow-cognitive-aging-in-mice/",
     "date": "2026-11-20"
+   }
+  ],
+  "decodingbio": [
+   {
+    "title": "BioByte 180: Maps Against Cancer",
+    "url": "https://decodingbio.substack.com/p/biobyte-180-maps-against-cancer",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "BioByte 179: Epilepsy Epilogue",
+    "url": "https://decodingbio.substack.com/p/biobyte-179-epilepsy-epilogue",
+    "date": "2026-11-12"
+   },
+   {
+    "title": "A Conversation with Michael Ehlers: Funding the Future of Drug Discovery and Development at Formation Bio",
+    "url": "https://decodingbio.substack.com/p/a-conversation-with-mike-ehlers-funding",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "BioByte 178: The Expression Code",
+    "url": "https://decodingbio.substack.com/p/biobyte-178-the-expression-code",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "BioByte 177: Evolution-Encoded Knowledge",
+    "url": "https://decodingbio.substack.com/p/biobyte-177-evolution-encoded-knowledge",
+    "date": "2026-10-29"
+   }
+  ],
+  "topol": [
+   {
+    "title": "Jo Chikwe: A Renowned Cardiac Surgeon, on Leadership, Diversity, And Much More",
+    "url": "https://erictopol.substack.com/p/jo-chikwe-a-renowned-cardiac-surgeon",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
+    "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "Vadim Gladyshev and the Science of Aging",
+    "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Connecting Our Immune System and Healthspan",
+    "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells",
+    "date": "2026-10-11"
+   },
+   {
+    "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
+    "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery",
+    "date": "2026-10-06"
    }
   ]
  }
