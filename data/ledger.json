@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "generated_at": "2026-11-23T11:28:02Z",
+ "generated_at": "2026-11-23T12:15:48Z",
  "today": "2026-11-23",
  "baseline": "2026-11-19",
  "sources": {
@@ -6079,6 +6079,11 @@
   ],
   "fightaging": [
    {
+    "title": "Evidence for NAD Levels to Remain Stable or Increase with Age in Healthy Individuals",
+    "url": "https://www.fightaging.org/archives/2026/11/evidence-for-nad-levels-to-remain-stable-or-increase-with-age-in-healthy-individuals/",
+    "date": "2026-11-23"
+   },
+   {
     "title": "The Central Dogma of Aging",
     "url": "https://www.fightaging.org/archives/2026/11/the-central-dogma-of-aging/",
     "date": "2026-11-23"
@@ -6096,11 +6101,6 @@
    {
     "title": "FGF13 Overexpression Improves Astrocyte Function to Slow Cognitive Aging in Mice",
     "url": "https://www.fightaging.org/archives/2026/11/fgf13-overexpression-improves-astrocyte-function-to-slow-cognitive-aging-in-mice/",
-    "date": "2026-11-20"
-   },
-   {
-    "title": "Cerebrospinal Fluid Flow Waves Decline in the Aging Brain",
-    "url": "https://www.fightaging.org/archives/2026/11/cerebrospinal-fluid-flow-waves-decline-in-the-aging-brain/",
     "date": "2026-11-20"
    }
   ],
