@@ -1,0 +1,5339 @@
+{
+ "schema_version": 1,
+ "generated_at": "2026-11-23T10:17:48Z",
+ "today": "2026-11-23",
+ "baseline": "2026-11-19",
+ "sources": {
+  "registry": "ok",
+  "feed:pipeline": "ok",
+  "feed:stat": "ok",
+  "feed:biopharmadive": "ok",
+  "feed:gen": "ok",
+  "feed:decodingbio": "ok",
+  "feed:topol": "ok",
+  "feed:lifespan": "ok",
+  "feed:fightaging": "ok"
+ },
+ "stats": {
+  "trials": 166,
+  "core_trials": 101,
+  "sponsors": 38,
+  "by_phase_core": {
+   "Early Phase 1": {
+    "active": 1,
+    "completed": 0,
+    "stopped": 0,
+    "unknown": 0,
+    "total": 1
+   },
+   "Phase 1": {
+    "active": 26,
+    "completed": 15,
+    "stopped": 5,
+    "unknown": 0,
+    "total": 46
+   },
+   "Phase 1/2": {
+    "active": 14,
+    "completed": 4,
+    "stopped": 2,
+    "unknown": 0,
+    "total": 20
+   },
+   "Phase 2": {
+    "active": 10,
+    "completed": 6,
+    "stopped": 9,
+    "unknown": 2,
+    "total": 27
+   },
+   "Phase 2/3": {
+    "active": 1,
+    "completed": 0,
+    "stopped": 1,
+    "unknown": 0,
+    "total": 2
+   },
+   "Phase 3": {
+    "active": 4,
+    "completed": 0,
+    "stopped": 1,
+    "unknown": 0,
+    "total": 5
+   },
+   "Phase 4": {
+    "active": 0,
+    "completed": 0,
+    "stopped": 0,
+    "unknown": 0,
+    "total": 0
+   },
+   "N/A": {
+    "active": 0,
+    "completed": 0,
+    "stopped": 0,
+    "unknown": 0,
+    "total": 0
+   }
+  },
+  "by_phase_all": {
+   "Early Phase 1": {
+    "active": 1,
+    "completed": 0,
+    "stopped": 0,
+    "unknown": 0,
+    "total": 1
+   },
+   "Phase 1": {
+    "active": 36,
+    "completed": 26,
+    "stopped": 7,
+    "unknown": 1,
+    "total": 70
+   },
+   "Phase 1/2": {
+    "active": 23,
+    "completed": 6,
+    "stopped": 2,
+    "unknown": 0,
+    "total": 31
+   },
+   "Phase 2": {
+    "active": 17,
+    "completed": 14,
+    "stopped": 10,
+    "unknown": 2,
+    "total": 43
+   },
+   "Phase 2/3": {
+    "active": 1,
+    "completed": 0,
+    "stopped": 1,
+    "unknown": 0,
+    "total": 2
+   },
+   "Phase 3": {
+    "active": 14,
+    "completed": 4,
+    "stopped": 1,
+    "unknown": 0,
+    "total": 19
+   },
+   "Phase 4": {
+    "active": 0,
+    "completed": 0,
+    "stopped": 0,
+    "unknown": 0,
+    "total": 0
+   },
+   "N/A": {
+    "active": 0,
+    "completed": 0,
+    "stopped": 0,
+    "unknown": 0,
+    "total": 0
+   }
+  },
+  "stopped": 21,
+  "with_results": 15,
+  "phase3": 7,
+  "phase2_core": 29,
+  "phase2_completed_randomised": 4,
+  "phase2_threshold": 100,
+  "verdict": "unproven",
+  "new_90d": 13
+ },
+ "sponsors": [
+  {
+   "id": "nimbus",
+   "name": "Nimbus Therapeutics",
+   "name_zh": null,
+   "tier": "computational",
+   "country": "US",
+   "trials": 28,
+   "stopped": 0,
+   "furthest": "Phase 3"
+  },
+  {
+   "id": "insilico",
+   "name": "Insilico Medicine",
+   "name_zh": "英矽智能",
+   "tier": "ai",
+   "country": "HK",
+   "trials": 12,
+   "stopped": 0,
+   "furthest": "Phase 3"
+  },
+  {
+   "id": "structure",
+   "name": "Structure Therapeutics",
+   "name_zh": "硕迪生物",
+   "tier": "computational",
+   "country": "US",
+   "trials": 12,
+   "stopped": 0,
+   "furthest": "Phase 3"
+  },
+  {
+   "id": "recursion",
+   "name": "Recursion (incl. Exscientia)",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 10,
+   "stopped": 3,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "bpgbio",
+   "name": "BPGbio (formerly BERG)",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 10,
+   "stopped": 1,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "helixon",
+   "name": "Helixon",
+   "name_zh": "华深智药",
+   "tier": "ai",
+   "country": "CN",
+   "trials": 7,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  },
+  {
+   "id": "bioage",
+   "name": "BioAge Labs",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 7,
+   "stopped": 4,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "regor",
+   "name": "Regor Pharmaceuticals",
+   "name_zh": "锐格医药",
+   "tier": "computational",
+   "country": "US",
+   "trials": 7,
+   "stopped": 2,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "generate",
+   "name": "Generate Biomedicines",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 6,
+   "stopped": 0,
+   "furthest": "Phase 3"
+  },
+  {
+   "id": "mindrank",
+   "name": "MindRank AI",
+   "name_zh": "德睿智药",
+   "tier": "ai",
+   "country": "CN",
+   "trials": 6,
+   "stopped": 0,
+   "furthest": "Phase 3"
+  },
+  {
+   "id": "accutar",
+   "name": "Accutar Biotechnology",
+   "name_zh": "冰洲石生物",
+   "tier": "ai",
+   "country": "US",
+   "trials": 6,
+   "stopped": 4,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "relay",
+   "name": "Relay Therapeutics",
+   "name_zh": null,
+   "tier": "computational",
+   "country": "US",
+   "trials": 5,
+   "stopped": 0,
+   "furthest": "Phase 3"
+  },
+  {
+   "id": "compugen",
+   "name": "Compugen",
+   "name_zh": null,
+   "tier": "computational",
+   "country": "IL",
+   "trials": 5,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  },
+  {
+   "id": "enveda",
+   "name": "Enveda",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 4,
+   "stopped": 0,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "healx",
+   "name": "Healx",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "GB",
+   "trials": 4,
+   "stopped": 2,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "benevolent",
+   "name": "BenevolentAI",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "GB",
+   "trials": 3,
+   "stopped": 0,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "lantern",
+   "name": "Lantern Pharma",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 3,
+   "stopped": 0,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "schrodinger",
+   "name": "Schrödinger",
+   "name_zh": "薛定谔",
+   "tier": "computational",
+   "country": "US",
+   "trials": 3,
+   "stopped": 1,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "exscientia",
+   "name": "Exscientia (before the Recursion merger)",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "GB",
+   "trials": 2,
+   "stopped": 1,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "verge",
+   "name": "Verge Genomics",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 2,
+   "stopped": 1,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "valo",
+   "name": "Valo Health",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 2,
+   "stopped": 1,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "evaxion",
+   "name": "Evaxion",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "DK",
+   "trials": 2,
+   "stopped": 1,
+   "furthest": "Phase 2"
+  },
+  {
+   "id": "peptilogics",
+   "name": "Peptilogics",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 2,
+   "stopped": 0,
+   "furthest": "Phase 2/3"
+  },
+  {
+   "id": "ensem",
+   "name": "Ensem Therapeutics",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 2,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  },
+  {
+   "id": "frontier",
+   "name": "Frontier Medicines",
+   "name_zh": null,
+   "tier": "computational",
+   "country": "US",
+   "trials": 2,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  },
+  {
+   "id": "abcellera",
+   "name": "AbCellera",
+   "name_zh": null,
+   "tier": "computational",
+   "country": "CA",
+   "trials": 2,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  },
+  {
+   "id": "absci",
+   "name": "Absci",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  },
+  {
+   "id": "iambic",
+   "name": "Iambic Therapeutics",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  },
+  {
+   "id": "bighat",
+   "name": "BigHat Biosciences",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  },
+  {
+   "id": "oncocross",
+   "name": "Oncocross",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "KR",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "charm",
+   "name": "Charm Therapeutics",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "GB",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "stonewise",
+   "name": "StoneWise",
+   "name_zh": "望石智慧",
+   "tier": "ai",
+   "country": "CN",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "totus",
+   "name": "Totus Medicines",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "superluminal",
+   "name": "Superluminal Medicines",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "biolojic",
+   "name": "Biolojic Design / Aulos Bioscience",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "IL",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "aulos",
+   "name": "Aulos Bioscience (Biolojic-designed antibody)",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  },
+  {
+   "id": "proteinqure",
+   "name": "ProteinQure",
+   "name_zh": null,
+   "tier": "ai",
+   "country": "CA",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1"
+  },
+  {
+   "id": "hotspot",
+   "name": "HotSpot Therapeutics",
+   "name_zh": null,
+   "tier": "computational",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2"
+  }
+ ],
+ "assets": [
+  {
+   "id": "zasocitinib",
+   "name": "zasocitinib (TAK-279)",
+   "origin": "nimbus",
+   "query": "zasocitinib OR TAK-279 OR NDI-034858",
+   "match": [
+    "zasocitinib",
+    "tak-279",
+    "ndi-034858"
+   ],
+   "note_en": "Discovered at Nimbus, bought by Takeda in 2023. Nimbus's own R&D head disputes the 'AI-discovered' label.",
+   "note_zh": "由 Nimbus 发现，2023 年被武田收购。Nimbus 的研发负责人本人不认同“AI 发现”这一说法。",
+   "source": "https://www.pharmavoice.com/news/nimbus-takeda-zasocitinib-ai-drug-discovery/831289/"
+  }
+ ],
+ "trials": [
+  {
+   "nct": "NCT05267626",
+   "title": "Study of AU-007, A Monoclonal Antibody That Binds to IL-2 and Inhibits IL-2Rα Binding, in Patients With Unresectable Locally Advanced or Metastatic Cancer",
+   "lead_sponsor": "Aulos Bioscience, Inc.",
+   "phase": "Phase 1/2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2022-03-04",
+   "last_update": "2026-11-20",
+   "primary_completion": "2027-02-28",
+   "completion": "2027-02-28",
+   "conditions": [
+    "Advanced Solid Tumor",
+    "Metastatic Cancer",
+    "Cutaneous Melanoma",
+    "Non-Small Cell Lung Cancer"
+   ],
+   "interventions": [
+    "AU-007",
+    "Aldesleukin",
+    "Avelumab",
+    "Nivolumab"
+   ],
+   "enrollment": 159,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "aulos",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05985655",
+   "title": "Study to Assess GTAEXS617 in Participants With Advanced Solid Tumors",
+   "lead_sponsor": "Exscientia AI Ltd., a wholly owned subsidiary of Recursion Pharmaceuticals, Inc.",
+   "phase": "Phase 1/2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2023-08-14",
+   "last_update": "2026-11-20",
+   "primary_completion": "2028-01-01",
+   "completion": "2028-05-01",
+   "conditions": [
+    "Head and Neck Squamous Cell Carcinoma (HNSCC)",
+    "Pancreatic Adenocarcinoma",
+    "Non-small Cell Lung Cancer (NSCLC)",
+    "Platinum-resistant High-grade Epithelial Ovarian, Primary Peritoneal, or Fallopian Tube Cancers (HGSOC)"
+   ],
+   "interventions": [
+    "GTAEXS617",
+    "SoC"
+   ],
+   "enrollment": 230,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07214311",
+   "title": "Evaluation of PLG0206 in Prevention of Recurrent Infection in Patients Undergoing Debridement, Antibiotics, and Implant Retention (DAIR) for Treatment of a Periprosthetic Joint Infection (PJI) Following Knee Arthroplasty",
+   "lead_sponsor": "Peptilogics",
+   "phase": "Phase 2/3",
+   "status": "RECRUITING",
+   "first_posted": "2025-10-09",
+   "last_update": "2026-11-20",
+   "primary_completion": "2028-09-01",
+   "completion": "2028-09-01",
+   "conditions": [
+    "Prosthetic-joint Infection"
+   ],
+   "interventions": [
+    "PLG0206"
+   ],
+   "enrollment": 240,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "peptilogics",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07524322",
+   "title": "Study of RGT-490 in Patients With PIK3CA-Mutated Advanced Solid Tumors",
+   "lead_sponsor": "Regor Pharmaceuticals Inc.",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2026-04-13",
+   "last_update": "2026-11-20",
+   "primary_completion": "2028-04-01",
+   "completion": "2028-10-01",
+   "conditions": [
+    "Breast Cancer",
+    "Ovarian Cancer",
+    "Endometrial Cancer",
+    "PIK3CA Mutation"
+   ],
+   "interventions": [
+    "RGT-490"
+   ],
+   "enrollment": 63,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "regor",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07932041",
+   "title": "Study Evaluation ISM9528 in Healthy Participants",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Early Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2026-11-12",
+   "last_update": "2026-11-20",
+   "primary_completion": "2026-12-03",
+   "completion": "2026-12-03",
+   "conditions": [
+    "Healthy Subjects (HS)"
+   ],
+   "interventions": [
+    "ISM9528 capsules"
+   ],
+   "enrollment": 1,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06678659",
+   "title": "A Study of REC-1245 in Participants With Unresectable, Locally Advanced, or Metastatic Cancer",
+   "lead_sponsor": "Recursion Pharmaceuticals Inc.",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2024-11-07",
+   "last_update": "2026-11-19",
+   "primary_completion": "2029-07-01",
+   "completion": "2029-07-01",
+   "conditions": [
+    "Unresectable",
+    "Locally Advanced",
+    "Metastatic Cancers",
+    "Relapsed/Refractory Lymphomas"
+   ],
+   "interventions": [
+    "REC-1245"
+   ],
+   "enrollment": 310,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06789913",
+   "title": "A Phase 2 Study of Mutant-selective PI3Kα Inhibitor, RLY-2608, in Adults and Children With PIK3CA Related Overgrowth Spectrum and Malformations Driven by PIK3CA Mutation (The ReInspire Study)",
+   "lead_sponsor": "Relay Therapeutics, Inc.",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2025-01-23",
+   "last_update": "2026-11-19",
+   "primary_completion": "2031-07-01",
+   "completion": "2031-10-01",
+   "conditions": [
+    "PIK3CA-Related Overgrowth Spectrum (PROS)",
+    "Lymphatic Malformations",
+    "Vascular Malformations",
+    "PIK3CA Mutation"
+   ],
+   "interventions": [
+    "RLY-2608"
+   ],
+   "enrollment": 277,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "relay",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07944092",
+   "title": "Ph 1/2 Study to Evaluate Safety & Tolerability of FMC-242 Alone and in Combination in Adults With Advanced Solid Tumors",
+   "lead_sponsor": "Frontier Medicines Corporation",
+   "phase": "Phase 1/2",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-11-18",
+   "last_update": "2026-11-18",
+   "primary_completion": "2029-01-01",
+   "completion": "2030-01-01",
+   "conditions": [
+    "Locally Advanced Solid Tumor"
+   ],
+   "interventions": [
+    "FMC-242",
+    "Trastuzumab (or biosimilar)",
+    "Fulvestrant (or generic)",
+    "Pan (K)RAS inhibitor"
+   ],
+   "enrollment": 282,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "frontier",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07946068",
+   "title": "Aleniglipron Renal Impairment Study",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-11-18",
+   "last_update": "2026-11-18",
+   "primary_completion": "2027-03-01",
+   "completion": "2027-03-01",
+   "conditions": [
+    "Renal Impairment",
+    "Severe Renal Impairment"
+   ],
+   "interventions": [
+    "Aleniglipron"
+   ],
+   "enrollment": 16,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05683418",
+   "title": "A Study to Evaluate the Safety and Tolerability of TOS-358 in Women With HR+ HER2- Breast Cancer",
+   "lead_sponsor": "Totus Medicines",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2023-01-13",
+   "last_update": "2026-11-17",
+   "primary_completion": "2027-12-01",
+   "completion": "2027-12-01",
+   "conditions": [
+    "HR+/HER2-negative Breast Cancer"
+   ],
+   "interventions": [
+    "TOS-358",
+    "Fulvestrant",
+    "Palbociclib",
+    "Ribociclib"
+   ],
+   "enrollment": 241,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "totus",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06253871",
+   "title": "A Phase 1/2 Study of IAM1363 in HER2 Cancers",
+   "lead_sponsor": "Iambic Therapeutics, Inc",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2024-02-12",
+   "last_update": "2026-11-17",
+   "primary_completion": "2028-10-01",
+   "completion": "2028-12-01",
+   "conditions": [
+    "HER2 Mutation-Related Tumors",
+    "HER2",
+    "HER2-positive Breast Cancer",
+    "HER2 + Breast Cancer"
+   ],
+   "interventions": [
+    "IAM1363",
+    "Oral treatment with IAM1363 capsules or tablets, administered in combination with capecitabine + trastuzumab",
+    "Oral treatment with IAM1363 capsules or tablets, administered in combination with capecitabine + zanidatamab",
+    "Oral treatment with IAM1363 capsules or tablets, administered in combination with T-Dxd"
+   ],
+   "enrollment": 463,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "iambic",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07359846",
+   "title": "A Study to Investigate GB-0895 Adjunctive Therapy in Adults and Adolescents With Severe Uncontrolled Asthma (SOLAIRIA-2)",
+   "lead_sponsor": "Generate Biomedicines",
+   "phase": "Phase 3",
+   "status": "RECRUITING",
+   "first_posted": "2026-01-22",
+   "last_update": "2026-11-17",
+   "primary_completion": "2029-01-01",
+   "completion": "2029-01-01",
+   "conditions": [
+    "Severe Asthma"
+   ],
+   "interventions": [
+    "GB-0895"
+   ],
+   "enrollment": 786,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "generate",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07872033",
+   "title": "Aleniglipron Hepatic Impairment Study",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2026-10-13",
+   "last_update": "2026-11-17",
+   "primary_completion": "2027-08-01",
+   "completion": "2027-12-01",
+   "conditions": [
+    "Hepatic Impairment"
+   ],
+   "interventions": [
+    "Aleniglipron"
+   ],
+   "enrollment": 36,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07250802",
+   "title": "A Long-Term Study of Zasocitinib in Children and Teenagers With Plaque Psoriasis",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "RECRUITING",
+   "first_posted": "2025-11-26",
+   "last_update": "2026-11-16",
+   "primary_completion": "2034-07-03",
+   "completion": "2034-07-03",
+   "conditions": [
+    "Plaque Psoriasis"
+   ],
+   "interventions": [
+    "Zasocitinib"
+   ],
+   "enrollment": 210,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07276724",
+   "title": "A Study to Investigate GB-0895 Adjunctive Therapy in Adults and Adolescents With Severe Uncontrolled Asthma (SOLAIRIA-1)",
+   "lead_sponsor": "Generate Biomedicines",
+   "phase": "Phase 3",
+   "status": "RECRUITING",
+   "first_posted": "2025-12-11",
+   "last_update": "2026-11-13",
+   "primary_completion": "2028-12-01",
+   "completion": "2028-12-01",
+   "conditions": [
+    "Severe Asthma"
+   ],
+   "interventions": [
+    "GB-0895"
+   ],
+   "enrollment": 786,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "generate",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06671483",
+   "title": "A Study of Zasocitinib in Adults With Psoriatic Arthritis Who Have Not Taken Biologic Medicines",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2024-11-04",
+   "last_update": "2026-11-12",
+   "primary_completion": "2027-05-18",
+   "completion": "2028-01-28",
+   "conditions": [
+    "Psoriatic Arthritis"
+   ],
+   "interventions": [
+    "Zasocitinib",
+    "Active Comparator"
+   ],
+   "enrollment": 1583,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07286058",
+   "title": "Continuation Study of Zasocitinib in Adults With Psoriatic Arthritis",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "RECRUITING",
+   "first_posted": "2025-12-16",
+   "last_update": "2026-11-12",
+   "primary_completion": "2029-12-18",
+   "completion": "2029-12-18",
+   "conditions": [
+    "Psoriatic Arthritis"
+   ],
+   "interventions": [
+    "Zasocitinib"
+   ],
+   "enrollment": 1182,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07912593",
+   "title": "A KRAS Inhibitor in Participants With Advanced Solid Tumors",
+   "lead_sponsor": "Ensem Therapeutics",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2026-11-03",
+   "last_update": "2026-11-12",
+   "primary_completion": "2028-10-30",
+   "completion": "2029-04-30",
+   "conditions": [
+    "Metastatic Colorectal Cancer (CRC)",
+    "Pancreatic Ductal Adenocarcinoma (PDAC)",
+    "Non-squamous, Non-Small Cell Lung Cancer",
+    "Endometrial Adenocarcinoma"
+   ],
+   "interventions": [
+    "ETX-929 dose escalation",
+    "ETX-929 dose escalation in combination with cetuximab"
+   ],
+   "enrollment": 320,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "ensem",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07751991",
+   "title": "A Study of CHM-029 in Participants With NPM1 Mutated, KMT2A or NUP98 Rearranged AML",
+   "lead_sponsor": "Charm Therapeutics",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2026-08-07",
+   "last_update": "2026-11-06",
+   "primary_completion": "2027-12-01",
+   "completion": "2029-03-01",
+   "conditions": [
+    "AML (Acute Myeloid Leukemia)"
+   ],
+   "interventions": [
+    "CHM-029"
+   ],
+   "enrollment": 40,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "charm",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06982521",
+   "title": "Phase 3 Study of RLY-2608 + Fulvestrant vs Capivasertib + Fulvestrant as Treatment for Locally Advanced or Metastatic PIK3CA-mutant HR+/HER2- Breast Cancer",
+   "lead_sponsor": "Relay Therapeutics, Inc.",
+   "phase": "Phase 3",
+   "status": "RECRUITING",
+   "first_posted": "2025-05-21",
+   "last_update": "2026-11-05",
+   "primary_completion": "2028-04-30",
+   "completion": "2031-12-31",
+   "conditions": [
+    "PIK3CA Mutation",
+    "HER2- Negative Breast Cancer",
+    "Hormone Receptor Positive Tumor",
+    "Breast Cancer"
+   ],
+   "interventions": [
+    "Zovegalisib",
+    "Capivasertib",
+    "Fulvestrant"
+   ],
+   "enrollment": 540,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "relay",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05309421",
+   "title": "A Single Arm Trial Evaluating the Efficacy and Safety of EVX-01 in Combination With Pembrolizumab in Adults With Unresectable or Metastatic Melanoma",
+   "lead_sponsor": "Evaxion Biotech A/S",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2022-04-04",
+   "last_update": "2026-11-04",
+   "primary_completion": "2026-04-07",
+   "completion": "2026-04-07",
+   "conditions": [
+    "Melanoma Stage IV",
+    "Unresectable Melanoma"
+   ],
+   "interventions": [
+    "EVX-01",
+    "Pembrolizumab 25 MG/ML"
+   ],
+   "enrollment": 17,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "evaxion",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06323356",
+   "title": "A Study of TAK-279 in Adult Participants With Generalized Pustular Psoriasis or Erythrodermic Psoriasis",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "COMPLETED",
+   "first_posted": "2024-03-21",
+   "last_update": "2026-11-04",
+   "primary_completion": "2025-10-17",
+   "completion": "2026-07-10",
+   "conditions": [
+    "Generalized Pustular Psoriasis",
+    "Erythrodermic Psoriasis"
+   ],
+   "interventions": [
+    "TAK-279"
+   ],
+   "enrollment": 18,
+   "randomised": false,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07244263",
+   "title": "A Study of Zasocitinib in Adults With Hidradenitis Suppurativa",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2025-11-24",
+   "last_update": "2026-11-04",
+   "primary_completion": "2027-02-05",
+   "completion": "2028-02-22",
+   "conditions": [
+    "Hidradenitis Suppurativa"
+   ],
+   "interventions": [
+    "Zasocitinib (Dose A)"
+   ],
+   "enrollment": 91,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07752108",
+   "title": "A Study of Zasocitinib in Adults With Non-pustular Palmoplantar Psoriasis",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-08-07",
+   "last_update": "2026-11-04",
+   "primary_completion": "2027-05-30",
+   "completion": "2029-02-15",
+   "conditions": [
+    "Palmoplantar Psoriasis"
+   ],
+   "interventions": [
+    "Zasocitinib"
+   ],
+   "enrollment": 40,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07108283",
+   "title": "A Study of Zasocitinib in Adults With Nonsegmental Vitiligo",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2025-08-07",
+   "last_update": "2026-11-03",
+   "primary_completion": "2027-03-26",
+   "completion": "2027-11-09",
+   "conditions": [
+    "Nonsegmental Vitiligo"
+   ],
+   "interventions": [
+    "Zasocitinib"
+   ],
+   "enrollment": 207,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07584226",
+   "title": "A First-in-human Study of RLY-8161 in Advanced NRAS-Mutant Solid Tumors",
+   "lead_sponsor": "Relay Therapeutics, Inc.",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2026-05-13",
+   "last_update": "2026-11-03",
+   "primary_completion": "2029-05-31",
+   "completion": "2031-06-30",
+   "conditions": [
+    "Advanced NRAS-Mutant Melanoma",
+    "Advanced NRAS-Mutant Solid Tumors",
+    "NRAS Mutation",
+    "NRAS G12D"
+   ],
+   "interventions": [
+    "RLY-8161"
+   ],
+   "enrollment": 180,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "relay",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06233461",
+   "title": "A Study on the Safety of TAK-279 and Whether it Can Reduce Inflammation in the Bowel of Participants With Moderately to Severely Active Crohn's Disease",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2024-01-31",
+   "last_update": "2026-11-02",
+   "primary_completion": "2027-02-17",
+   "completion": "2027-07-23",
+   "conditions": [
+    "Crohn's Disease"
+   ],
+   "interventions": [
+    "TAK-279"
+   ],
+   "enrollment": 268,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07265570",
+   "title": "Study Evaluating ISM5411 Administered Orally to Subjects With Active Ulcerative Colitis (BETHESDA)",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2025-12-05",
+   "last_update": "2026-10-29",
+   "primary_completion": "2027-08-15",
+   "completion": "2027-08-30",
+   "conditions": [
+    "Ulcerative Colitis"
+   ],
+   "interventions": [
+    "ISM5411 tablets"
+   ],
+   "enrollment": 80,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07905560",
+   "title": "A Study of Safety of SUN-0864 and How it is Processed by and Affects the Body in Healthy Adults and Healthy Adults Who Are Overweight or Obese.",
+   "lead_sponsor": "Superluminal Medicines, Inc.",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-10-29",
+   "last_update": "2026-10-29",
+   "primary_completion": "2028-01-01",
+   "completion": "2028-02-01",
+   "conditions": [
+    "Healthy Participants"
+   ],
+   "interventions": [
+    "SUN-0864 (Formulation 1) or SUN-0864 (Formulation 2)"
+   ],
+   "enrollment": 138,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "superluminal",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07317544",
+   "title": "Study of ABS-201 Evaluating Single and Multiple Ascending Doses in Adults With and Without Androgenetic Alopecia",
+   "lead_sponsor": "Absci Pty Ltd.",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2026-01-05",
+   "last_update": "2026-10-28",
+   "primary_completion": "2028-07-01",
+   "completion": "2028-07-01",
+   "conditions": [
+    "Androgenetic Alopecia (AGA)",
+    "Healthy Volunteers - Male and Female"
+   ],
+   "interventions": [
+    "SAD IV Dose 1 - 150mg ABS201 IV Single Dose",
+    "ABS-201 SC Multiple Doses"
+   ],
+   "enrollment": 227,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "absci",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07900568",
+   "title": "Study of HXN-1013 in Healthy Participants and Participants With Mild-to-Moderate Asthma",
+   "lead_sponsor": "Helixon Biotechnology (Suzhou) Co., Ltd",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-10-28",
+   "last_update": "2026-10-28",
+   "primary_completion": "2028-02-15",
+   "completion": "2028-05-30",
+   "conditions": [
+    "Health Adults",
+    "Asthma"
+   ],
+   "interventions": [
+    "HXN-1013"
+   ],
+   "enrollment": 40,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "helixon",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07118891",
+   "title": "Study Evaluating ABCL635 for Vasomotor Symptoms of Menopause",
+   "lead_sponsor": "AbCellera Biologics Inc.",
+   "phase": "Phase 1/2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2025-08-12",
+   "last_update": "2026-10-27",
+   "primary_completion": "2027-02-01",
+   "completion": "2027-02-01",
+   "conditions": [
+    "Vasomotor Symptoms Associated With Menopause",
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "ABCL635"
+   ],
+   "enrollment": 136,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "abcellera",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07812090",
+   "title": "A Randomized, Phase 2 Study of Oral BGE-102 in Participants With Center-Involved Diabetic Macular Edema",
+   "lead_sponsor": "BioAge Labs, Inc.",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2026-09-10",
+   "last_update": "2026-10-27",
+   "primary_completion": "2027-11-01",
+   "completion": "2027-12-01",
+   "conditions": [
+    "Diabetic Macular Edema (DME)"
+   ],
+   "interventions": [
+    "Oral BGE-102",
+    "Anti-VEGF"
+   ],
+   "enrollment": 180,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bioage",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07871721",
+   "title": "A Study of Zasocitinib in Adults With Psoriatic Arthritis (LATITUDE PsA NeXt)",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-10-13",
+   "last_update": "2026-10-27",
+   "primary_completion": "2030-04-18",
+   "completion": "2030-12-30",
+   "conditions": [
+    "Psoriatic Arthritis"
+   ],
+   "interventions": [
+    "Zasocitinib"
+   ],
+   "enrollment": 644,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05085561",
+   "title": "The Symptomatic Cerebral Cavernous Malformation Trial of REC-994",
+   "lead_sponsor": "Recursion Pharmaceuticals Inc.",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2021-10-20",
+   "last_update": "2026-10-22",
+   "primary_completion": "2025-06-30",
+   "completion": "2025-06-30",
+   "conditions": [
+    "Cerebral Cavernous Malformation"
+   ],
+   "interventions": [
+    "REC-994"
+   ],
+   "enrollment": 62,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07400588",
+   "title": "Aleniglipron Phase 2 in Type 2 Diabetes Mellitus",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2026-02-10",
+   "last_update": "2026-10-21",
+   "primary_completion": "2026-09-18",
+   "completion": "2026-09-18",
+   "conditions": [
+    "Obese",
+    "Obesity",
+    "Obesity Type 2 Diabetes Mellitus",
+    "Weight Loss"
+   ],
+   "interventions": [
+    "Aleniglipron"
+   ],
+   "enrollment": 58,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07529808",
+   "title": "Phase 1/2 Study of BHB810 in Advanced Gastric and GEJ Adenocarcinoma",
+   "lead_sponsor": "BigHat Biosciences, Inc.",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2026-04-14",
+   "last_update": "2026-10-20",
+   "primary_completion": "2028-12-01",
+   "completion": "2028-12-01",
+   "conditions": [
+    "Gastric Cancer",
+    "Gastric Adenocarcinoma",
+    "Gastric (Stomach) Cancer",
+    "Gastroesophageal Adenocarcinoma"
+   ],
+   "interventions": [
+    "BHB810"
+   ],
+   "enrollment": 164,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bighat",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07654374",
+   "title": "A Study of Aleniglipron in Adults With Obesity or Overweight and Type 2 Diabetes Mellitus (ACCOMPLISH-2)",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 3",
+   "status": "RECRUITING",
+   "first_posted": "2026-06-17",
+   "last_update": "2026-10-20",
+   "primary_completion": "2028-09-01",
+   "completion": "2028-11-01",
+   "conditions": [
+    "Obesity",
+    "Overweight",
+    "Chronic Weight Management",
+    "Type2 Diabetes Mellitus"
+   ],
+   "interventions": [
+    "aleniglipron"
+   ],
+   "enrollment": 1100,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06244771",
+   "title": "A Study Evaluating FMC-376 in Participants With KRAS G12C Mutated Solid Tumors",
+   "lead_sponsor": "Frontier Medicines Corporation",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2024-02-06",
+   "last_update": "2026-10-19",
+   "primary_completion": "2027-10-01",
+   "completion": "2028-04-01",
+   "conditions": [
+    "Advanced Solid Tumors With KRAS G12C Mutations",
+    "Solid Tumor, Adult",
+    "Unresectable Solid Tumor",
+    "Metastatic Solid Tumor"
+   ],
+   "interventions": [
+    "FMC-376"
+   ],
+   "enrollment": 293,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "frontier",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06671496",
+   "title": "A Study of Zasocitinib in Adults With Psoriatic Arthritis Who Have or Have Not Been Treated With Biologic Medicines",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2024-11-04",
+   "last_update": "2026-10-14",
+   "primary_completion": "2027-05-18",
+   "completion": "2028-01-26",
+   "conditions": [
+    "Psoriatic Arthritis"
+   ],
+   "interventions": [
+    "Zasocitinib"
+   ],
+   "enrollment": 601,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07169942",
+   "title": "Aleniglipron Phase 2 Body Composition Study",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2025-09-12",
+   "last_update": "2026-10-14",
+   "primary_completion": "2026-09-09",
+   "completion": "2026-09-10",
+   "conditions": [
+    "Obesity, Overweight, or Chronic Weight Management"
+   ],
+   "interventions": [],
+   "enrollment": 71,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06993844",
+   "title": "Phase 1/2 Study of ETX-636 in Participants With Advanced Solid Tumors",
+   "lead_sponsor": "Ensem Therapeutics",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2025-05-29",
+   "last_update": "2026-10-13",
+   "primary_completion": "2027-06-30",
+   "completion": "2027-12-30",
+   "conditions": [
+    "Advanced Solid Tumors",
+    "Advanced Breast Cancer"
+   ],
+   "interventions": [
+    "ETX-636 dose escalation",
+    "ETX-636 dose escalation in combination with fulvestrant",
+    "ETX-636 dose expansion in combination with fulvestrant"
+   ],
+   "enrollment": 233,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "ensem",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07484022",
+   "title": "Study of GB-4362 With Enfortumab Vedotin and Pembrolizumab for Advanced Urothelial Cancer",
+   "lead_sponsor": "Generate Biomedicines",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2026-03-19",
+   "last_update": "2026-10-13",
+   "primary_completion": "2027-06-01",
+   "completion": "2027-12-01",
+   "conditions": [
+    "Advanced Urothelial Cancer",
+    "Metastatic Urothelial Carcinoma"
+   ],
+   "interventions": [
+    "GB-4362",
+    "enfortumab vedotin (EV)",
+    "Pembrolizumab"
+   ],
+   "enrollment": 37,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "generate",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07687459",
+   "title": "Study Evaluation Rentosertib (INS018_055) Administered Orally in Patients With Idiopathic Pulmonary Fibrosis (IPF)",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 3",
+   "status": "RECRUITING",
+   "first_posted": "2026-07-07",
+   "last_update": "2026-10-13",
+   "primary_completion": "2029-10-30",
+   "completion": "2029-10-30",
+   "conditions": [
+    "Idiopathic Pulmonary Fibrosis"
+   ],
+   "interventions": [
+    "INS018_055 tablets"
+   ],
+   "enrollment": 320,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06888921",
+   "title": "A Clinical Trial to Evaluate the Safety and Efficacy of COM701 in Relapsed Platinum Sensitive Ovarian Cancer",
+   "lead_sponsor": "Compugen Ltd",
+   "phase": "Phase 1/2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2025-03-21",
+   "last_update": "2026-10-06",
+   "primary_completion": "2027-03-01",
+   "completion": "2027-03-01",
+   "conditions": [
+    "Ovarian Cancer",
+    "Ovarian Cancer Recurrent"
+   ],
+   "interventions": [
+    "COM701",
+    "Normal Saline"
+   ],
+   "enrollment": 60,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "compugen",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07819136",
+   "title": "REC-7735 in Participants With Solid Tumors",
+   "lead_sponsor": "Recursion Pharmaceuticals Inc.",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2026-09-14",
+   "last_update": "2026-09-29",
+   "primary_completion": "2031-01-01",
+   "completion": "2031-01-01",
+   "conditions": [
+    "Solid Tumors"
+   ],
+   "interventions": [
+    "REC-7735"
+   ],
+   "enrollment": 90,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07298395",
+   "title": "Study of ENV-294 in Adults With Moderate-to-Severe Atopic Dermatitis",
+   "lead_sponsor": "Enveda Therapeutics",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2025-12-23",
+   "last_update": "2026-09-25",
+   "primary_completion": "2026-12-01",
+   "completion": "2026-12-01",
+   "conditions": [
+    "Atopic Dermatitis (AD)"
+   ],
+   "interventions": [
+    "ENV-294"
+   ],
+   "enrollment": 105,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "enveda",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07301255",
+   "title": "ENV-294 for Moderate-to-Severe Asthma: A 12-Week Study in Adults",
+   "lead_sponsor": "Enveda Therapeutics",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2025-12-24",
+   "last_update": "2026-09-24",
+   "primary_completion": "2026-12-01",
+   "completion": "2027-01-01",
+   "conditions": [
+    "Asthma"
+   ],
+   "interventions": [
+    "ENV-294"
+   ],
+   "enrollment": 50,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "enveda",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06778850",
+   "title": "A Phase I/IIa Clinical Study to Assess the Single and Multiple Ascending Doses of MDR-001 Tablets in Healthy Participants and Obese/ Overweight Participants",
+   "lead_sponsor": "MindRank AI Ltd",
+   "phase": "Phase 1/2",
+   "status": "COMPLETED",
+   "first_posted": "2025-01-16",
+   "last_update": "2026-09-18",
+   "primary_completion": "2024-07-15",
+   "completion": "2024-09-30",
+   "conditions": [
+    "Overweight and Obese Volunteers"
+   ],
+   "interventions": [
+    "MDR-001",
+    "palcebo"
+   ],
+   "enrollment": 128,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "mindrank",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06566079",
+   "title": "Study of ISM6331 in Participants With Advanced/Metastatic Mesothelioma or Other Advanced Solid Tumors",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2024-08-22",
+   "last_update": "2026-09-16",
+   "primary_completion": "2027-08-31",
+   "completion": "2028-02-28",
+   "conditions": [
+    "Malignant Mesothelioma",
+    "Metastatic Malignant Solid Tumor",
+    "Advanced Solid Tumor"
+   ],
+   "interventions": [
+    "ISM6331"
+   ],
+   "enrollment": 160,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07815678",
+   "title": "First-in-human Study of the Safety, Tolerability, Pharmacokinetics, and Food Effect of ACCG-2671",
+   "lead_sponsor": "Aconcagua Bio, Inc. a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2026-09-11",
+   "last_update": "2026-09-14",
+   "primary_completion": "2027-03-01",
+   "completion": "2027-04-01",
+   "conditions": [
+    "Obesity"
+   ],
+   "interventions": [
+    "ACCG-2671"
+   ],
+   "enrollment": 164,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07656727",
+   "title": "A Phase 2 Study to Evaluate the Pharmacodynamics, Safety and Tolerability of BGE-102 in Participants With Obesity and Cardiovascular Risk Factors",
+   "lead_sponsor": "BioAge Labs, Inc.",
+   "phase": "Phase 2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2026-06-18",
+   "last_update": "2026-09-10",
+   "primary_completion": "2026-11-30",
+   "completion": "2026-12-01",
+   "conditions": [
+    "Obesity and Cardiovascular Risk"
+   ],
+   "interventions": [
+    "Oral BGE-102"
+   ],
+   "enrollment": 160,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bioage",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07801612",
+   "title": "A Phase I Study of HXN5003 in Healthy Participants and Patients With Moderate-to-Severe Atopic Dermatitis",
+   "lead_sponsor": "Helixon Biotechnology (Suzhou) Co., Ltd",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-09-03",
+   "last_update": "2026-09-03",
+   "primary_completion": "2027-10-01",
+   "completion": "2028-01-01",
+   "conditions": [
+    "Health Adult Subjects",
+    "Moderate-to-Severe Atopic Dermatitis"
+   ],
+   "interventions": [
+    "HXN5003"
+   ],
+   "enrollment": 68,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "helixon",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06414460",
+   "title": "Study of ISM3412 in Participants With Locally Advanced/Metastatic Solid Tumors",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2024-05-16",
+   "last_update": "2026-09-01",
+   "primary_completion": "2028-03-31",
+   "completion": "2029-03-31",
+   "conditions": [
+    "Locally Advanced/Metastatic Solid Tumors"
+   ],
+   "interventions": [
+    "ISM3412"
+   ],
+   "enrollment": 146,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07797907",
+   "title": "This Clinical Study is to Evaluate the Safety, Tolerability, Pharmacokinetics (PK), Pharmacodynamics (PD), and Preliminary Antitumor Activity of BD200 in Participants With Advanced or Metastatic Cancer.",
+   "lead_sponsor": "Biolojic Design Ltd.",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-09-01",
+   "last_update": "2026-09-01",
+   "primary_completion": "2028-12-31",
+   "completion": "2030-12-31",
+   "conditions": [
+    "Solid Tumor (Phase I)"
+   ],
+   "interventions": [
+    "BD200"
+   ],
+   "enrollment": 110,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "biolojic",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06299124",
+   "title": "A Phase I Study of RGT-419B in Patients With HR-Positive, HER2-Negative Advanced Breast Cancer or Other Solid Tumors",
+   "lead_sponsor": "Regor Pharmaceuticals Inc.",
+   "phase": "Phase 1",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2024-03-07",
+   "last_update": "2026-08-27",
+   "primary_completion": "2026-12-30",
+   "completion": "2026-12-30",
+   "conditions": [
+    "Breast Cancer",
+    "Advanced Solid Tumor"
+   ],
+   "interventions": [
+    "RGT-419B"
+   ],
+   "enrollment": 40,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "regor",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07403968",
+   "title": "A Study of Zasocitinib (TAK-279) in Adults With Active Crohn's Disease",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2026-02-11",
+   "last_update": "2026-08-24",
+   "primary_completion": "2028-03-30",
+   "completion": "2028-03-30",
+   "conditions": [
+    "Crohn's Disease"
+   ],
+   "interventions": [
+    "Zasocitinib"
+   ],
+   "enrollment": 20,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07782476",
+   "title": "Study of HXN6005 in Healthy Participants and Patients With Moderate-to-Severe Atopic Dermatitis",
+   "lead_sponsor": "Helixon Biotechnology (Suzhou) Co., Ltd",
+   "phase": "Phase 1/2",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-08-24",
+   "last_update": "2026-08-24",
+   "primary_completion": "2027-10-01",
+   "completion": "2028-01-01",
+   "conditions": [
+    "Health Adult Subjects",
+    "Atopic Dermatitis (AD)"
+   ],
+   "interventions": [
+    "HXN6005"
+   ],
+   "enrollment": 67,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "helixon",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT01588522",
+   "title": "Compound 31543 (Calcitriol, USP) in Patients Receiving Taxane-based Chemotherapy Regimens for the Treatment of Chemotherapy-Induced Alopecia",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2012-05-01",
+   "last_update": "2026-08-17",
+   "primary_completion": "2017-02-16",
+   "completion": "2017-02-16",
+   "conditions": [
+    "Chemotherapy-Induced Alopecia"
+   ],
+   "interventions": [
+    "Compound 31543 Calcitriol 5 μg/mL",
+    "Compound 31543 Calcitriol 10 μg/mL",
+    "Compound 31543 Calcitriol 20 μg/mL",
+    "Compound 31543 Calcitriol 40 μg/mL"
+   ],
+   "enrollment": 28,
+   "randomised": false,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05130866",
+   "title": "Efficacy and Safety of REC-2282 in Patients With Progressive Neurofibromatosis Type 2 (NF2) Mutated Meningiomas",
+   "lead_sponsor": "Recursion Pharmaceuticals Inc.",
+   "phase": "Phase 2/3",
+   "status": "TERMINATED",
+   "first_posted": "2021-11-23",
+   "last_update": "2026-08-17",
+   "primary_completion": "2025-08-18",
+   "completion": "2025-08-18",
+   "conditions": [
+    "Neurofibromatosis Type 2"
+   ],
+   "interventions": [
+    "REC-2282"
+   ],
+   "enrollment": 25,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": "Study was terminated due to sponsor decision. This decision was not related to safety concerns with REC-2282.",
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06254950",
+   "title": "A Study on the Safety of TAK-279 and Whether it Can Reduce Inflammation in the Bowel of Participants With Moderately to Severely Active Ulcerative Colitis",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2024-02-12",
+   "last_update": "2026-08-17",
+   "primary_completion": "2026-07-14",
+   "completion": "2027-08-04",
+   "conditions": [
+    "Ulcerative Colitis"
+   ],
+   "interventions": [
+    "TAK-279"
+   ],
+   "enrollment": 213,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07768254",
+   "title": "A Study to Evaluate the Safety, Tolerability, PK and Preliminary Efficacy of HX15001 Combined With Etrasimod in Moderate-severe Ulcerative Colitis",
+   "lead_sponsor": "Helixon Biotechnology (Suzhou) Co., Ltd",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-08-17",
+   "last_update": "2026-08-17",
+   "primary_completion": "2028-04-15",
+   "completion": "2028-04-15",
+   "conditions": [
+    "Colitis, Ulcerative"
+   ],
+   "interventions": [
+    "Biological: HX15001"
+   ],
+   "enrollment": 32,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "helixon",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06980116",
+   "title": "Dose Determining Study of EXS73565 in Participants With Relapsed or Refractory B-Cell Malignancies",
+   "lead_sponsor": "Exscientia AI Ltd., a wholly owned subsidiary of Recursion Pharmaceuticals, Inc.",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2025-05-20",
+   "last_update": "2026-08-13",
+   "primary_completion": "2028-06-01",
+   "completion": "2028-12-01",
+   "conditions": [
+    "Relapsed or Refractory B-cell Malignancies",
+    "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL)",
+    "Follicular Lymphoma (FL)",
+    "Marginal Zone Lymphoma (MZL)"
+   ],
+   "interventions": [
+    "EXS73565"
+   ],
+   "enrollment": 85,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT04354246",
+   "title": "COM902 (A TIGIT Inhibitor) in Subjects With Advanced Malignancies",
+   "lead_sponsor": "Compugen Ltd",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2020-04-21",
+   "last_update": "2026-08-12",
+   "primary_completion": "2026-04-01",
+   "completion": "2026-04-01",
+   "conditions": [
+    "Advanced Cancer",
+    "Ovarian Cancer",
+    "Lung Cancer",
+    "Colon Cancer"
+   ],
+   "interventions": [
+    "Dose escalation: COM902 monotherapy.",
+    "Evaluation of safety/tolerability: COM902 in combination with COM701 (both at the RDFE)",
+    "Cohort expansion: COM902 (RDFE) monotherapy.",
+    "Cohort expansion: COM902 in combination with COM701 (both at the RDFE)."
+   ],
+   "enrollment": 94,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "compugen",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05304962",
+   "title": "FIH Study of RGT-419B Alone and With Endocrine Therapy in HR-Positive, HER2-Negative Advanced/Metastatic Breast Cancer",
+   "lead_sponsor": "Regor Pharmaceuticals Inc.",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2022-03-31",
+   "last_update": "2026-08-12",
+   "primary_completion": "2026-12-30",
+   "completion": "2027-03-31",
+   "conditions": [
+    "Breast Cancer"
+   ],
+   "interventions": [
+    "RGT-419B",
+    "RGT-419B in combination with hormonal therapy"
+   ],
+   "enrollment": 64,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "regor",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06759649",
+   "title": "A Clinical Trial to Assess COM503 in Participants With Advanced Solid Malignancies",
+   "lead_sponsor": "Compugen Ltd",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2025-01-06",
+   "last_update": "2026-08-12",
+   "primary_completion": "2027-11-22",
+   "completion": "2027-11-22",
+   "conditions": [
+    "Neoplasm",
+    "Cancer, Malignant Tumors"
+   ],
+   "interventions": [
+    "COM503",
+    "Zimberelimab"
+   ],
+   "enrollment": 200,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "compugen",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06693843",
+   "title": "A Phase 2b, Dose-range Finding Study of the Efficacy and Safety of Multiple Doses of Aleniglipron (GSBR-1290) in Participants Living With Obesity or Overweight With at Least One Weight-related Comorbidity",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2024-11-18",
+   "last_update": "2026-08-10",
+   "primary_completion": "2025-10-24",
+   "completion": "2026-07-09",
+   "conditions": [
+    "Obesity, Overweight, or Chronic Weight Management"
+   ],
+   "interventions": [
+    "Aleniglipron"
+   ],
+   "enrollment": 230,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07654361",
+   "title": "Efficacy and Safety of Aleniglipron in Participants With Obesity or Overweight With a Weight-Related Comorbidity (ACCOMPLISH-1)",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 3",
+   "status": "RECRUITING",
+   "first_posted": "2026-06-17",
+   "last_update": "2026-08-10",
+   "primary_completion": "2028-09-01",
+   "completion": "2028-11-01",
+   "conditions": [
+    "Obesity",
+    "Overweight",
+    "Chronic Weight Management"
+   ],
+   "interventions": [
+    "Aleniglipron"
+   ],
+   "enrollment": 3600,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07643766",
+   "title": "A Phase 2b Dose-Ranging Study to Evaluate the Efficacy and Safety of ENV-294 in Adults With Moderate-to-Severe Atopic Dermatitis",
+   "lead_sponsor": "Enveda Therapeutics",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2026-06-12",
+   "last_update": "2026-08-06",
+   "primary_completion": "2027-12-01",
+   "completion": "2028-05-01",
+   "conditions": [
+    "Atopic Dermatitis"
+   ],
+   "interventions": [
+    "ENV-294"
+   ],
+   "enrollment": 200,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "enveda",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06541847",
+   "title": "A Phase 2, Open-Label Study to Evaluate the Safety and Effects of HLX-1502 in Patients With Neurofibromatosis Type 1",
+   "lead_sponsor": "Healx Limited",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2024-08-07",
+   "last_update": "2026-07-29",
+   "primary_completion": "2027-06-01",
+   "completion": "2028-01-01",
+   "conditions": [
+    "Neurofibromatosis Type 1"
+   ],
+   "interventions": [
+    "HLX-1502"
+   ],
+   "enrollment": 25,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "healx",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06445517",
+   "title": "Study Evaluating ISM8207 in Participants With Advanced Solid Tumors and Relapsed/Refractory B-Cell Lymphoma",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2024-06-06",
+   "last_update": "2026-07-24",
+   "primary_completion": "2026-11-30",
+   "completion": "2027-02-28",
+   "conditions": [
+    "Advanced Solid Tumors",
+    "Relapsed/Refractory B-cell Lymphoma"
+   ],
+   "interventions": [
+    "ISM8207"
+   ],
+   "enrollment": 60,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06724042",
+   "title": "Study of ISM5939 in Patients With Advanced and/or Metastatic Solid Tumors",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2024-12-09",
+   "last_update": "2026-07-23",
+   "primary_completion": "2029-12-30",
+   "completion": "2030-12-30",
+   "conditions": [
+    "Advanced Solid Tumor",
+    "Metastatic Solid Tumor",
+    "Advanced and/or Metastatic Solid Tumors"
+   ],
+   "interventions": [
+    "ISM5939",
+    "Cisplatin",
+    "Docetaxel",
+    "Pembrolizumab"
+   ],
+   "enrollment": 159,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07581431",
+   "title": "A Phase 1, Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ISM8969",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2026-05-12",
+   "last_update": "2026-06-22",
+   "primary_completion": "2027-01-29",
+   "completion": "2027-03-31",
+   "conditions": [
+    "Healthy Subjects (HS)",
+    "Obese Adult Participants at Risk of Cardiovascular Disease"
+   ],
+   "interventions": [],
+   "enrollment": 100,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07108894",
+   "title": "A First-in-Human Phase 1 Single-Ascending Dose Study of ABCL575 in Healthy Participants",
+   "lead_sponsor": "AbCellera Biologics Inc.",
+   "phase": "Phase 1",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2025-08-07",
+   "last_update": "2026-06-16",
+   "primary_completion": "2027-04-01",
+   "completion": "2027-04-01",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "ABCL575"
+   ],
+   "enrollment": 40,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "abcellera",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07517198",
+   "title": "Dose Determining Study of EXS74539 (REC-4539) in Participants With Select Solid Tumors",
+   "lead_sponsor": "Exscientia AI Ltd., a wholly owned subsidiary of Recursion Pharmaceuticals, Inc.",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2026-04-08",
+   "last_update": "2026-06-10",
+   "primary_completion": "2029-03-01",
+   "completion": "2029-03-01",
+   "conditions": [
+    "Solid Tumor",
+    "Small Cell Lung Cancer (SCLC)",
+    "High Grade Neuroendocrine Cancer",
+    "Small Cell Carcinomas of Non-lung Origin"
+   ],
+   "interventions": [
+    "EXS74539"
+   ],
+   "enrollment": 40,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05552755",
+   "title": "Evaluate REC-4881 in Participants With Familial Adenomatous Polyposis (FAP)",
+   "lead_sponsor": "Recursion Pharmaceuticals Inc.",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2022-09-23",
+   "last_update": "2026-06-05",
+   "primary_completion": "2027-06-01",
+   "completion": "2027-09-01",
+   "conditions": [
+    "Familial Adenomatous Polyposis"
+   ],
+   "interventions": [
+    "REC-4881"
+   ],
+   "enrollment": 67,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06550076",
+   "title": "A Study of TAK-279 in Participants With Moderate-to-Severe Plaque Psoriasis",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2024-08-12",
+   "last_update": "2026-06-02",
+   "primary_completion": "2029-08-05",
+   "completion": "2029-08-05",
+   "conditions": [
+    "Plaque Psoriasis"
+   ],
+   "interventions": [
+    "TAK-279"
+   ],
+   "enrollment": 2099,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06867718",
+   "title": "Study of Once-Daily Oral RGT001-075 Compared With Placebo in Adults With Obesity or Are Overweight With Weight-Related Health Conditions",
+   "lead_sponsor": "Regor Pharmaceuticals Inc.",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2025-03-10",
+   "last_update": "2026-05-28",
+   "primary_completion": "2025-11-06",
+   "completion": "2025-11-06",
+   "conditions": [
+    "Obesity or Overweight"
+   ],
+   "interventions": [
+    "RGT001-075"
+   ],
+   "enrollment": 267,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "regor",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06764615",
+   "title": "A Continuation Study of TAK-279 in Adults With Ulcerative Colitis (UC) and Crohn's Disease (CD)",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2025-01-08",
+   "last_update": "2026-05-22",
+   "primary_completion": "2029-12-30",
+   "completion": "2029-12-30",
+   "conditions": [
+    "Crohn's Disease",
+    "Ulcerative Colitis"
+   ],
+   "interventions": [
+    "Zasocitinib"
+   ],
+   "enrollment": 192,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06898450",
+   "title": "A Study to Assess the Safety, Tolerability, and Efficacy of NDI-219216 in Patients With Advanced Solid Tumors.",
+   "lead_sponsor": "Nimbus Wadjet, Inc.",
+   "phase": "Phase 1/2",
+   "status": "RECRUITING",
+   "first_posted": "2025-03-27",
+   "last_update": "2026-05-06",
+   "primary_completion": "2031-10-01",
+   "completion": "2031-12-01",
+   "conditions": [
+    "Advanced Solid Tumors Cancer",
+    "MSI-H Cancer"
+   ],
+   "interventions": [
+    "NDI-219216"
+   ],
+   "enrollment": 134,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05456256",
+   "title": "A Study of LP-300 With Carboplatin and Pemetrexed in Never Smokers With Advanced Lung Adenocarcinoma",
+   "lead_sponsor": "Lantern Pharma Inc.",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2022-07-13",
+   "last_update": "2026-05-04",
+   "primary_completion": "2026-12-01",
+   "completion": "2027-06-01",
+   "conditions": [
+    "Adenocarcinoma of Lung",
+    "Carcinoma, Non-Small-Cell Lung"
+   ],
+   "interventions": [
+    "LP-300",
+    "Pemetrexed",
+    "Carboplatin"
+   ],
+   "enrollment": 90,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "lantern",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05933265",
+   "title": "Study of LP-184 in Patients With Advanced Solid Tumors",
+   "lead_sponsor": "Lantern Pharma Inc.",
+   "phase": "Phase 1/2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2023-07-06",
+   "last_update": "2026-05-04",
+   "primary_completion": "2026-07-28",
+   "completion": "2026-07-28",
+   "conditions": [
+    "Advanced Solid Tumor",
+    "Metastatic Solid Tumor",
+    "GBM",
+    "TNBC - Triple-Negative Breast Cancer"
+   ],
+   "interventions": [
+    "LP-184",
+    "Olaparib",
+    "Nivolumab & Ipilimumab"
+   ],
+   "enrollment": 64,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "lantern",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06132503",
+   "title": "Safety, Pharmacokinetics, and Clinical Activity of LP-284 in Adult Patients With Relapsed or Refractory Lymphomas and Solid Tumors",
+   "lead_sponsor": "Lantern Pharma Inc.",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2023-11-15",
+   "last_update": "2026-05-04",
+   "primary_completion": "2028-11-30",
+   "completion": "2028-11-30",
+   "conditions": [
+    "Relapsed or Refractory Lymphomas",
+    "Advanced Solid Tumor"
+   ],
+   "interventions": [
+    "LP-284"
+   ],
+   "enrollment": 110,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "lantern",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06973291",
+   "title": "A Study Comparing Zasocitinib (TAK-279) With Deucravacitinib in Adults With Plaque Psoriasis",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "COMPLETED",
+   "first_posted": "2025-05-15",
+   "last_update": "2026-05-01",
+   "primary_completion": "2026-04-22",
+   "completion": "2026-04-22",
+   "conditions": [
+    "Plaque Psoriasis"
+   ],
+   "interventions": [
+    "Zasocitinib",
+    "Deucravacitinib"
+   ],
+   "enrollment": 606,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06703021",
+   "title": "A Dose-Range Study of Aleniglipron (GSBR-1290) in Participants Living With Obesity or Overweight With at Least One Weight-related Comorbidity",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2024-11-25",
+   "last_update": "2026-04-28",
+   "primary_completion": "2026-01-12",
+   "completion": "2026-01-12",
+   "conditions": [
+    "Obesity",
+    "Overweight",
+    "Chronic Weight Management"
+   ],
+   "interventions": [],
+   "enrollment": 85,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT07449741",
+   "title": "Phase I Study of HXN6005 in Adult Healthy Participants",
+   "lead_sponsor": "Helixon Biotechnology (Suzhou) Co., Ltd",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2026-03-04",
+   "last_update": "2026-04-24",
+   "primary_completion": "2027-03-13",
+   "completion": "2027-03-13",
+   "conditions": [
+    "Healthy Volunteers (HV)"
+   ],
+   "interventions": [
+    "HXN6005"
+   ],
+   "enrollment": 32,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "helixon",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07549750",
+   "title": "A Dose Escalation Phase 1 Study of HXN5003 in Healthy Participants",
+   "lead_sponsor": "Helixon Biotechnology (Suzhou) Co., Ltd",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-04-24",
+   "last_update": "2026-04-24",
+   "primary_completion": "2027-03-18",
+   "completion": "2027-04-16",
+   "conditions": [
+    "Atopic Dermatitis"
+   ],
+   "interventions": [
+    "HXN5003"
+   ],
+   "enrollment": 28,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "helixon",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07550621",
+   "title": "Drug-Drug Interaction Study of MDR-001 With Rifampin and Itraconazole in Healthy Adult Participants",
+   "lead_sponsor": "MindRank AI Ltd",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-04-24",
+   "last_update": "2026-04-24",
+   "primary_completion": "2026-05-31",
+   "completion": "2026-06-08",
+   "conditions": [
+    "Healthy Volunteers (HV)"
+   ],
+   "interventions": [
+    "MDR-001",
+    "Rifampin",
+    "Itraconazole"
+   ],
+   "enrollment": 28,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "mindrank",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07550634",
+   "title": "Pharmacokinetics and Safety of MDR-001 in Mild and Moderate Hepatic Impairment",
+   "lead_sponsor": "MindRank AI Ltd",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2026-04-24",
+   "last_update": "2026-04-24",
+   "primary_completion": "2026-07-08",
+   "completion": "2026-10-30",
+   "conditions": [
+    "Hepatic Impairment (Mild and Moderate, Child-Pugh Class A and B)",
+    "Hepatic Insufficiency (MeSH ID: D048550)"
+   ],
+   "interventions": [
+    "MDR-001"
+   ],
+   "enrollment": 32,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "mindrank",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07336940",
+   "title": "Study of ENV-294 in Healthy Adults and in Adults With Moderate-to-Severe Atopic Dermatitis",
+   "lead_sponsor": "Enveda Therapeutics",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2026-01-13",
+   "last_update": "2026-04-01",
+   "primary_completion": "2026-01-13",
+   "completion": "2026-01-13",
+   "conditions": [
+    "Atopic Dermatitis (AD)"
+   ],
+   "interventions": [
+    "ENV-294 Capsule"
+   ],
+   "enrollment": 9,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "enveda",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06005974",
+   "title": "A Study of REC-4881 in Participants With Cancers Which Have an AXIN1 or APC Mutation",
+   "lead_sponsor": "Recursion Pharmaceuticals Inc.",
+   "phase": "Phase 2",
+   "status": "TERMINATED",
+   "first_posted": "2023-08-23",
+   "last_update": "2026-02-23",
+   "primary_completion": "2025-02-24",
+   "completion": "2025-02-24",
+   "conditions": [
+    "AXIN1 Gene Mutation",
+    "APC Gene Mutation",
+    "Solid Tumor"
+   ],
+   "interventions": [
+    "REC-4881"
+   ],
+   "enrollment": 18,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Study was terminated due to sponsor decision. This decision was not related to safety concerns.",
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07190469",
+   "title": "PQ203 in Advanced Malignant Tumors Including Triple Negative Breast Cancer",
+   "lead_sponsor": "ProteinQure Inc.",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2025-09-24",
+   "last_update": "2026-02-23",
+   "primary_completion": "2028-12-01",
+   "completion": "2029-02-01",
+   "conditions": [
+    "Triple Negative Breast Cancer (TNBC)",
+    "Advanced Solid Tumors Cancer"
+   ],
+   "interventions": [
+    "PQ203"
+   ],
+   "enrollment": 80,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "proteinqure",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05544019",
+   "title": "Study of SGR-1505 in Mature B-Cell Neoplasms",
+   "lead_sponsor": "Schrödinger, Inc.",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2022-09-16",
+   "last_update": "2026-02-13",
+   "primary_completion": "2027-11-01",
+   "completion": "2027-11-01",
+   "conditions": [
+    "Mature B-Cell Neoplasm",
+    "Non Hodgkin Lymphoma",
+    "DLBCL",
+    "Waldenstrom Macroglobulinemia"
+   ],
+   "interventions": [
+    "SGR-1505"
+   ],
+   "enrollment": 98,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "schrodinger",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT04752813",
+   "title": "A Study of BPM31510 With Vitamin K1 in Subjects With Newly Diagnosed Glioblastoma (GB)",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2021-02-12",
+   "last_update": "2026-01-26",
+   "primary_completion": "2026-08-25",
+   "completion": "2030-08-26",
+   "conditions": [
+    "Glioblastoma",
+    "Glioblastoma Multiforme"
+   ],
+   "interventions": [
+    "BPM31510",
+    "Temozolomide (TMZ)"
+   ],
+   "enrollment": 50,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07363967",
+   "title": "A Phase I First-in-Human Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Preliminary Anti-Tumor Activity of SWA1211 Tablets in Subjects With Advanced Solid Tumors",
+   "lead_sponsor": "Beijing StoneWise Technology Co., Ltd",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2026-01-23",
+   "last_update": "2026-01-23",
+   "primary_completion": "2027-09-01",
+   "completion": "2028-02-01",
+   "conditions": [
+    "Solid Tumor Malignancies"
+   ],
+   "interventions": [
+    "SWA1211"
+   ],
+   "enrollment": 60,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "stonewise",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07274137",
+   "title": "A Phase III Study to Evaluate the Efficacy and Safety of MDR-001 in Adult Participants With Overweight or Obesity (MOBILE）",
+   "lead_sponsor": "MindRank AI Ltd",
+   "phase": "Phase 3",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2025-12-10",
+   "last_update": "2025-12-22",
+   "primary_completion": "2027-06-01",
+   "completion": "2027-07-01",
+   "conditions": [
+    "Overweight or Obesity"
+   ],
+   "interventions": [
+    "MDR-001"
+   ],
+   "enrollment": 738,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "mindrank",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06215755",
+   "title": "A Study of VRG50635 in Participants With Amyotrophic Lateral Sclerosis (ALS)",
+   "lead_sponsor": "Verge Genomics",
+   "phase": "Phase 1",
+   "status": "TERMINATED",
+   "first_posted": "2024-01-22",
+   "last_update": "2025-12-15",
+   "primary_completion": "2025-07-07",
+   "completion": "2025-07-07",
+   "conditions": [
+    "Amyotrophic Lateral Sclerosis"
+   ],
+   "interventions": [
+    "VRG50635"
+   ],
+   "enrollment": 54,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Study terminated by Sponsor due to lack of risk-benefit data.",
+   "sponsor_id": "verge",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06286475",
+   "title": "A Study of VRG50635 in Healthy Volunteers",
+   "lead_sponsor": "Verge Genomics",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2024-02-29",
+   "last_update": "2025-12-15",
+   "primary_completion": "2024-03-25",
+   "completion": "2024-04-08",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "VRG50635"
+   ],
+   "enrollment": 22,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "verge",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05938920",
+   "title": "Study Evaluating INS018_055 Administered Orally to Subjects With Idiopathic Pulmonary Fibrosis (IPF)",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2023-07-11",
+   "last_update": "2025-12-11",
+   "primary_completion": "2024-08-08",
+   "completion": "2024-08-08",
+   "conditions": [
+    "Idiopathic Pulmonary Fibrosis (IPF)"
+   ],
+   "interventions": [
+    "INS018_055"
+   ],
+   "enrollment": 71,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06920693",
+   "title": "Study to Investigate the Safety, Tolerability, and Pharmacokinetics of GB-7624 in Healthy Adult Participants",
+   "lead_sponsor": "Generate Biomedicines",
+   "phase": "Phase 1",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2025-04-10",
+   "last_update": "2025-12-05",
+   "primary_completion": "2026-08-30",
+   "completion": "2026-12-30",
+   "conditions": [
+    "Atopic Dermatitis (AD)"
+   ],
+   "interventions": [
+    "GB-7624"
+   ],
+   "enrollment": 40,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "generate",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06108544",
+   "title": "A Study About How Well TAK-279 Works and Its Safety in Participants With Moderate-to-severe Plaque Psoriasis During 60 Weeks of Treatment With a Withdrawal and Retreatment Period",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "COMPLETED",
+   "first_posted": "2023-10-31",
+   "last_update": "2025-11-20",
+   "primary_completion": "2024-12-06",
+   "completion": "2025-11-07",
+   "conditions": [
+    "Plaque Psoriasis"
+   ],
+   "interventions": [
+    "TAK-279",
+    "Apremilast"
+   ],
+   "enrollment": 1108,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06536465",
+   "title": "The Clostridioides Difficile Trial of REC-3964",
+   "lead_sponsor": "Recursion Pharmaceuticals Inc.",
+   "phase": "Phase 2",
+   "status": "TERMINATED",
+   "first_posted": "2024-08-05",
+   "last_update": "2025-11-17",
+   "primary_completion": "2025-05-06",
+   "completion": "2025-05-06",
+   "conditions": [
+    "Recurrent Clostridioides Difficile Infection"
+   ],
+   "interventions": [
+    "REC-3964"
+   ],
+   "enrollment": 3,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": "Study was terminated due to sponsor decision. This decision was not related to safety concerns.",
+   "sponsor_id": "recursion",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05975983",
+   "title": "Study Evaluating INS018_055 Administered Orally to Subjects With Idiopathic Pulmonary Fibrosis",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 2",
+   "status": "RECRUITING",
+   "first_posted": "2023-08-04",
+   "last_update": "2025-11-12",
+   "primary_completion": "2026-02-28",
+   "completion": "2026-02-28",
+   "conditions": [
+    "Idiopathic Pulmonary Fibrosis (IPF)"
+   ],
+   "interventions": [
+    "INS018_055"
+   ],
+   "enrollment": 40,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07116889",
+   "title": "A Study to Investigate GB-0895 in Adults With Mild to Moderate Asthma or COPD",
+   "lead_sponsor": "Generate Biomedicines",
+   "phase": "Phase 1",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2025-08-12",
+   "last_update": "2025-11-05",
+   "primary_completion": "2027-05-01",
+   "completion": "2027-05-01",
+   "conditions": [
+    "Asthma",
+    "COPD (Chronic Obstructive Pulmonary Disease)"
+   ],
+   "interventions": [
+    "GB-0895 (SC)"
+   ],
+   "enrollment": 156,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "generate",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06088043",
+   "title": "A Study About How Well TAK-279 Works and Its Safety in Participants With Moderate-to-severe Plaque Psoriasis During 52 Weeks of Treatment",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 3",
+   "status": "COMPLETED",
+   "first_posted": "2023-10-18",
+   "last_update": "2025-10-24",
+   "primary_completion": "2025-01-22",
+   "completion": "2025-10-22",
+   "conditions": [
+    "Plaque Psoriasis"
+   ],
+   "interventions": [
+    "TAK-279",
+    "Apremilast"
+   ],
+   "enrollment": 693,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05780034",
+   "title": "A Study of AC676 for the Treatment of Relapsed/Refractory B-Cell Malignancies",
+   "lead_sponsor": "Accutar Biotechnology Inc",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2023-03-22",
+   "last_update": "2025-10-02",
+   "primary_completion": "2026-03-31",
+   "completion": "2026-05-31",
+   "conditions": [
+    "Relapsed/Refractory B-cell Malignancies"
+   ],
+   "interventions": [
+    "AC676"
+   ],
+   "enrollment": 60,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "accutar",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05654532",
+   "title": "Study of AC699 in Patients With Estrogen Receptor Positive/Human Epidermal Growth Factor Receptor 2 Negative (ER+/HER2-) Locally Advanced or Metastatic Breast Cancer",
+   "lead_sponsor": "Accutar Biotechnology Inc",
+   "phase": "Phase 1",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2022-12-16",
+   "last_update": "2025-09-30",
+   "primary_completion": "2026-03-31",
+   "completion": "2026-05-31",
+   "conditions": [
+    "Breast Cancer"
+   ],
+   "interventions": [
+    "AC699"
+   ],
+   "enrollment": 100,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "accutar",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05216432",
+   "title": "First-in-Human Study of Mutant-selective PI3Kα Inhibitor, RLY-2608, as a Single Agent in Patients With Advanced Solid Tumors and in Combination With Endocrine Therapy +/- a CDK4/6 or CDK4 Inhibitor in Patients With Advanced Solid Tumors or Advanced Breast Cancer",
+   "lead_sponsor": "Relay Therapeutics, Inc.",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2022-01-31",
+   "last_update": "2025-09-22",
+   "primary_completion": "2027-04-30",
+   "completion": "2027-04-30",
+   "conditions": [
+    "PIK3CA Mutation",
+    "Solid Tumor, Adult",
+    "HER2-negative Breast Cancer",
+    "Breast Cancer"
+   ],
+   "interventions": [
+    "RLY-2608",
+    "Fulvestrant",
+    "Palbociclib 125mg",
+    "Ribociclib 400mg"
+   ],
+   "enrollment": 930,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "relay",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05961839",
+   "title": "Study of SGR-2921 in Relapsed/Refractory Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+   "lead_sponsor": "Schrödinger, Inc.",
+   "phase": "Phase 1",
+   "status": "TERMINATED",
+   "first_posted": "2023-07-27",
+   "last_update": "2025-09-22",
+   "primary_completion": "2025-08-14",
+   "completion": "2025-09-09",
+   "conditions": [
+    "Acute Myeloid Leukemia",
+    "High-Risk and Very High-Risk Myelodysplastic Syndromes"
+   ],
+   "interventions": [
+    "SGR-2921"
+   ],
+   "enrollment": 66,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Company decision",
+   "sponsor_id": "schrodinger",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06999720",
+   "title": "Study of HX15001 in Adult Healthy Volunteers.",
+   "lead_sponsor": "Helixon Biotechnology (Suzhou) Co., Ltd",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2025-05-31",
+   "last_update": "2025-08-24",
+   "primary_completion": "2026-09-30",
+   "completion": "2026-09-30",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "HX15001 (SAD)",
+    "HX15001 (MAD)"
+   ],
+   "enrollment": 62,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "helixon",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07110766",
+   "title": "Phase Ib Clinical Study on the Efficacy and Safety of MDR-001 in Patients Who Are Obesity or Overweight",
+   "lead_sponsor": "MindRank AI Ltd",
+   "phase": "Phase 1",
+   "status": "NOT_YET_RECRUITING",
+   "first_posted": "2025-08-08",
+   "last_update": "2025-08-08",
+   "primary_completion": "2025-09-15",
+   "completion": "2025-10-30",
+   "conditions": [
+    "Obesity &Amp; Overweight"
+   ],
+   "interventions": [
+    "MDR-001"
+   ],
+   "enrollment": 24,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "mindrank",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06277934",
+   "title": "A Study of RGT001-075 in Participants With Obesity or Overweight With Weight-Related Comorbidities",
+   "lead_sponsor": "Regor Pharmaceuticals Inc.",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2024-02-26",
+   "last_update": "2025-08-07",
+   "primary_completion": "2024-08-13",
+   "completion": "2024-08-13",
+   "conditions": [
+    "Obesity"
+   ],
+   "interventions": [
+    "RGT001-075"
+   ],
+   "enrollment": 73,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "regor",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT02996305",
+   "title": "A Study in Adults and Adolescents With Angelman Syndrome (STARS)",
+   "lead_sponsor": "Healx AI",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2016-12-19",
+   "last_update": "2025-08-03",
+   "primary_completion": "2018-06-07",
+   "completion": "2018-08-06",
+   "conditions": [
+    "Angelman Syndrome"
+   ],
+   "interventions": [
+    "OV101 Regimen 1",
+    "OV101 regimen 2"
+   ],
+   "enrollment": 88,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "healx",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06463340",
+   "title": "Study of SGR-3515 In Participants With Advanced Solid Tumors.",
+   "lead_sponsor": "Schrödinger, Inc.",
+   "phase": "Phase 1",
+   "status": "RECRUITING",
+   "first_posted": "2024-06-17",
+   "last_update": "2025-08-01",
+   "primary_completion": "2026-10-31",
+   "completion": "2026-12-31",
+   "conditions": [
+    "Advanced Solid Tumor"
+   ],
+   "interventions": [
+    "SGR-3515"
+   ],
+   "enrollment": 52,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "schrodinger",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT03882918",
+   "title": "An Open-Label Study to Evaluate the Long-Term Safety, Tolerability, and Efficacy of OV101 in Individuals With Angelman Syndrome",
+   "lead_sponsor": "Healx AI",
+   "phase": "Phase 3",
+   "status": "TERMINATED",
+   "first_posted": "2019-03-20",
+   "last_update": "2025-07-18",
+   "primary_completion": "2021-06-04",
+   "completion": "2021-06-30",
+   "conditions": [
+    "Angelman Syndrome"
+   ],
+   "interventions": [
+    "OV101"
+   ],
+   "enrollment": 141,
+   "randomised": false,
+   "has_results": true,
+   "why_stopped": "Company decision",
+   "sponsor_id": "healx",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT07050511",
+   "title": "Study to Investigate the Safety, Tolerability, and Pharmacokinetics of GB-0669 in Healthy Adult Participants",
+   "lead_sponsor": "Generate Biomedicines",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2025-07-03",
+   "last_update": "2025-07-03",
+   "primary_completion": "2024-11-22",
+   "completion": "2024-11-22",
+   "conditions": [
+    "SARS CoV-2"
+   ],
+   "interventions": [
+    "GB-0669"
+   ],
+   "enrollment": 51,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "generate",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05137314",
+   "title": "Study in Patients Undergoing Debridement, Antibiotics, and Implant Retention (DAIR) for Treatment of a Periprosthetic Joint Infection (PJI) Occurring After Total Knee Arthroplasty (TKA)",
+   "lead_sponsor": "Peptilogics",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2021-11-30",
+   "last_update": "2025-05-21",
+   "primary_completion": "2024-03-19",
+   "completion": "2024-03-19",
+   "conditions": [
+    "Joint Infection"
+   ],
+   "interventions": [
+    "PLG0206"
+   ],
+   "enrollment": 14,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "peptilogics",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05759949",
+   "title": "First-in-Human Study of RLY-5836 in Advanced Breast Cancer and Other Solid Tumors",
+   "lead_sponsor": "Relay Therapeutics, Inc.",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2023-03-08",
+   "last_update": "2025-05-16",
+   "primary_completion": "2025-03-18",
+   "completion": "2025-04-11",
+   "conditions": [
+    "PIK3CA Mutation",
+    "Solid Tumor, Adult",
+    "HER2-negative Breast Cancer",
+    "Breast Cancer"
+   ],
+   "interventions": [
+    "RLY-5836",
+    "Fulvestrant",
+    "Palbociclib",
+    "Ribociclib"
+   ],
+   "enrollment": 41,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "relay",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06118385",
+   "title": "Study Investigating the Safety, Tolerability, PK and Food Effect of BEN8744.",
+   "lead_sponsor": "BenevolentAI Bio",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2023-11-07",
+   "last_update": "2025-05-07",
+   "primary_completion": "2024-03-14",
+   "completion": "2024-03-18",
+   "conditions": [
+    "Healthy Volunteer Study"
+   ],
+   "interventions": [
+    "BEN8744"
+   ],
+   "enrollment": 76,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "benevolent",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06793943",
+   "title": "A Study of Interaction of Zasocitinib (TAK-279) With Other Medicines in Healthy Adults",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2025-01-27",
+   "last_update": "2025-04-04",
+   "primary_completion": "2025-03-11",
+   "completion": "2025-03-30",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "Zasocitinib",
+    "COC",
+    "Metformin",
+    "Digoxin"
+   ],
+   "enrollment": 78,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT02650804",
+   "title": "BPM31510 Administered Intravenously With Gemcitabine in Advanced Pancreatic Cancer Patients",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2016-01-08",
+   "last_update": "2025-03-26",
+   "primary_completion": "2019-06-11",
+   "completion": "2019-06-11",
+   "conditions": [
+    "Pancreatic Cancer"
+   ],
+   "interventions": [
+    "BPM31510 Nanosuspension Injection",
+    "Gemcitabine"
+   ],
+   "enrollment": 45,
+   "randomised": false,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06515418",
+   "title": "Efficacy and Safety of Oral Azelaprag Plus Once Weekly Tirzepatide Compared with Tirzepatide Alone in Participants with Obesity Aged 55 Years and Over",
+   "lead_sponsor": "BioAge Labs, Inc.",
+   "phase": "Phase 2",
+   "status": "TERMINATED",
+   "first_posted": "2024-07-23",
+   "last_update": "2025-03-13",
+   "primary_completion": "2025-02-06",
+   "completion": "2025-02-12",
+   "conditions": [
+    "Obesity"
+   ],
+   "interventions": [
+    "Oral Azelaprag (BGE-105)",
+    "Tirzepatide"
+   ],
+   "enrollment": 204,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": "Dosing of both study drugs has been discontinued due to observation of liver transaminitis without clinically significant symptoms in some subjects receiving azelaprag. All participant visits have been completed.",
+   "sponsor_id": "bioage",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT03194217",
+   "title": "BEN-2001 in Parkinson Disease Patients With Excessive Daytime Sleepiness",
+   "lead_sponsor": "BenevolentAI Bio",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2017-06-21",
+   "last_update": "2025-03-10",
+   "primary_completion": "2019-05-28",
+   "completion": "2019-05-28",
+   "conditions": [
+    "Excessive Daytime Sleepiness",
+    "Parkinson Disease"
+   ],
+   "interventions": [
+    "BEN-2001"
+   ],
+   "enrollment": 244,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "benevolent",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT00604890",
+   "title": "Dose-Ranging Clinical Trial of Topical Creams Containing API 31510 for the Treatment of Superficial Basal Cell Carcinoma",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 1/2",
+   "status": "COMPLETED",
+   "first_posted": "2008-01-30",
+   "last_update": "2025-02-28",
+   "primary_completion": "2010-01-01",
+   "completion": "2010-01-01",
+   "conditions": [
+    "Superficial Basal Cell Carcinoma"
+   ],
+   "interventions": [
+    "API 31510 3% Topical Cream",
+    "API 31510 1.5% Topical Cream"
+   ],
+   "enrollment": 186,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT01251562",
+   "title": "Safety Study of Sterile Compound C31510 for Injection to Subjects With Solid Tumors",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2010-12-02",
+   "last_update": "2025-02-19",
+   "primary_completion": "2012-08-01",
+   "completion": "2014-05-01",
+   "conditions": [
+    "Solid Tumors"
+   ],
+   "interventions": [
+    "Sterile Compound C31510 for Injection"
+   ],
+   "enrollment": 50,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT01957735",
+   "title": "BP31510 (Ubidecarenone,USP) Nanosuspension for Intravenous Injection to Patients With Solid Tumors",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2013-10-08",
+   "last_update": "2025-02-19",
+   "primary_completion": "2017-02-01",
+   "completion": "2017-02-01",
+   "conditions": [
+    "Metastatic Cancer",
+    "Cancer",
+    "Solid Tumor"
+   ],
+   "interventions": [
+    "BP31510 monotherapy",
+    "BP31510 in combination with chemotherapy"
+   ],
+   "enrollment": 97,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05080842",
+   "title": "A Study of AC682 for the Treatment of Locally Advanced or Metastatic ER+ Breast Cancer",
+   "lead_sponsor": "Accutar Biotechnology Inc",
+   "phase": "Phase 1",
+   "status": "TERMINATED",
+   "first_posted": "2021-10-18",
+   "last_update": "2025-02-13",
+   "primary_completion": "2024-04-04",
+   "completion": "2024-04-04",
+   "conditions": [
+    "Breast Cancer"
+   ],
+   "interventions": [
+    "AC682"
+   ],
+   "enrollment": 21,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Voluntarily terminate the study since the sponsor's development strategy was adjusted.",
+   "sponsor_id": "accutar",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05241613",
+   "title": "A Study of AC176 for the Treatment of Metastatic Castration Resistant Prostate Cancer",
+   "lead_sponsor": "Accutar Biotechnology Inc",
+   "phase": "Phase 1",
+   "status": "TERMINATED",
+   "first_posted": "2022-02-16",
+   "last_update": "2025-02-13",
+   "primary_completion": "2024-03-05",
+   "completion": "2024-03-05",
+   "conditions": [
+    "Metastatic Castration Resistant Prostate Cancer"
+   ],
+   "interventions": [
+    "AC176"
+   ],
+   "enrollment": 28,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Subject benefit-risk ratio changes, sponsor decides to voluntarily terminate study",
+   "sponsor_id": "accutar",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05662397",
+   "title": "A Study of HST-1011 Given as Monotherapy and in Combination With an Anti-PD1 Antibody",
+   "lead_sponsor": "HotSpot Therapeutics, Inc",
+   "phase": "Phase 1/2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2022-12-22",
+   "last_update": "2025-02-04",
+   "primary_completion": "2025-12-31",
+   "completion": "2026-12-31",
+   "conditions": [
+    "Solid Tumor, Adult",
+    "Relapsed Cancer",
+    "Refractory Cancer"
+   ],
+   "interventions": [
+    "HST-1011",
+    "Cemiplimab"
+   ],
+   "enrollment": 77,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "hotspot",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT03667716",
+   "title": "COM701 (an Inhibitor of PVRIG) in Subjects With Advanced Solid Tumors.",
+   "lead_sponsor": "Compugen Ltd",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2018-09-12",
+   "last_update": "2025-01-17",
+   "primary_completion": "2024-01-30",
+   "completion": "2024-01-30",
+   "conditions": [
+    "Advanced Cancer",
+    "Ovarian Cancer",
+    "Breast Cancer",
+    "Lung Cancer"
+   ],
+   "interventions": [
+    "COM701",
+    "COM701 with Opdivo (Nivolumab)."
+   ],
+   "enrollment": 121,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "compugen",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05128487",
+   "title": "A Study of NDI 1150-101 in Patients With Solid Tumors",
+   "lead_sponsor": "Nimbus Saturn, Inc.",
+   "phase": "Phase 1/2",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "first_posted": "2021-11-22",
+   "last_update": "2024-11-25",
+   "primary_completion": "2025-02-01",
+   "completion": "2025-05-01",
+   "conditions": [
+    "Solid Tumor",
+    "Renal Cell Carcinoma (Kidney Cancer)",
+    "Gastric and Gastroesophageal Junction (GEJ) Adenocarcinoma",
+    "Non-Small Cell Lung Cancer"
+   ],
+   "interventions": [
+    "NDI-101150",
+    "Pembrolizumab"
+   ],
+   "enrollment": 106,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "sponsor",
+   "bucket": "active",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06012578",
+   "title": "Study Evaluating ISM5411 Administered Orally to Healthy Volunteers",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2023-08-25",
+   "last_update": "2024-11-07",
+   "primary_completion": "2024-09-04",
+   "completion": "2024-09-04",
+   "conditions": [
+    "Healthy Subjects"
+   ],
+   "interventions": [
+    "ISM5411"
+   ],
+   "enrollment": 79,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06606483",
+   "title": "A Study to Evaluate the Efficacy and Safety of MDR-001 in Subjects Who Are Obesity or Overweight",
+   "lead_sponsor": "MindRank AI Ltd",
+   "phase": "Phase 2",
+   "status": "UNKNOWN",
+   "first_posted": "2024-09-23",
+   "last_update": "2024-09-24",
+   "primary_completion": "2025-07-30",
+   "completion": "2025-09-30",
+   "conditions": [
+    "Obesity",
+    "Overweight and Obesity"
+   ],
+   "interventions": [
+    "MDR-001"
+   ],
+   "enrollment": 300,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "mindrank",
+   "via": "sponsor",
+   "bucket": "unknown",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05976321",
+   "title": "A Study of TAK-279 in Adults With or Without Liver Damage",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2023-08-04",
+   "last_update": "2024-08-29",
+   "primary_completion": "2024-04-15",
+   "completion": "2024-04-15",
+   "conditions": [
+    "Hepatic Impairment",
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "TAK-279"
+   ],
+   "enrollment": 27,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06111547",
+   "title": "A Study of TAK-279 in Healthy Chinese Adults",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2023-11-01",
+   "last_update": "2024-08-07",
+   "primary_completion": "2024-07-23",
+   "completion": "2024-08-04",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "TAK-279"
+   ],
+   "enrollment": 24,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05764915",
+   "title": "A Phase I Study of RGT-264 in Subjects With Advanced Solid Tumors",
+   "lead_sponsor": "Regor Pharmaceuticals Inc.",
+   "phase": "Phase 1",
+   "status": "TERMINATED",
+   "first_posted": "2023-03-13",
+   "last_update": "2024-08-01",
+   "primary_completion": "2024-02-20",
+   "completion": "2024-02-20",
+   "conditions": [
+    "Advanced Solid Tumor"
+   ],
+   "interventions": [
+    "RGT-264 phosphate tablets"
+   ],
+   "enrollment": 11,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Due to the change in study plan and not due to safety reasons",
+   "sponsor_id": "regor",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT04570839",
+   "title": "COM701 in Combination With BMS-986207 and Nivolumab in Subjects With Advanced Solid Tumors.",
+   "lead_sponsor": "Compugen Ltd",
+   "phase": "Phase 1/2",
+   "status": "COMPLETED",
+   "first_posted": "2020-09-30",
+   "last_update": "2024-07-18",
+   "primary_completion": "2024-05-15",
+   "completion": "2024-05-15",
+   "conditions": [
+    "Endometrial Neoplasms",
+    "Ovarian Cancer",
+    "Solid Tumor",
+    "Head and Neck Cancer"
+   ],
+   "interventions": [
+    "COM701 in combination with BMS-986207 and nivolumab."
+   ],
+   "enrollment": 48,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "compugen",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06258265",
+   "title": "A Study of TAK-279 in Healthy Adults on the Effect on ECG Measurements",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2024-02-14",
+   "last_update": "2024-07-11",
+   "primary_completion": "2024-06-25",
+   "completion": "2024-07-09",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "TAK-279",
+    "Moxifloxacin"
+   ],
+   "enrollment": 120,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05992155",
+   "title": "A Study of TAK-279 in Adults With or Without Kidney Problems",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2023-08-15",
+   "last_update": "2024-06-27",
+   "primary_completion": "2024-05-22",
+   "completion": "2024-05-28",
+   "conditions": [
+    "Renal Impairment",
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "TAK-279"
+   ],
+   "enrollment": 24,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05393284",
+   "title": "Phase 2 Spectra Study to Evaluate the Safety and Efficacy of OPL-0401 in Patients With Diabetic Retinopathy",
+   "lead_sponsor": "Valo Health, Inc.",
+   "phase": "Phase 2",
+   "status": "UNKNOWN",
+   "first_posted": "2022-05-26",
+   "last_update": "2024-06-17",
+   "primary_completion": "2024-08-01",
+   "completion": "2024-08-01",
+   "conditions": [
+    "Non-proliferative Diabetic Retinopathy",
+    "Proliferative Diabetic Retinopathy"
+   ],
+   "interventions": [
+    "OPL-0401 Dose 1"
+   ],
+   "enrollment": 114,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "valo",
+   "via": "sponsor",
+   "bucket": "unknown",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05153148",
+   "title": "A Study to Evaluate the Efficacy, Safety, and Tolerability of NDI-034858 in Participants With Active Psoriatic Arthritis",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2021-12-10",
+   "last_update": "2024-05-31",
+   "primary_completion": "2023-05-04",
+   "completion": "2023-06-02",
+   "conditions": [
+    "Psoriatic Arthritis"
+   ],
+   "interventions": [
+    "NDI-034858"
+   ],
+   "enrollment": 305,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06290050",
+   "title": "A Study of the Interaction of Other Drugs With TAK-279 in Healthy Adults",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2024-03-04",
+   "last_update": "2024-05-23",
+   "primary_completion": "2024-05-03",
+   "completion": "2024-05-16",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "Midazolam",
+    "Repaglinide",
+    "TAK-279"
+   ],
+   "enrollment": 20,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05762471",
+   "title": "Phase 1b/2a Study of GSBR-1290 in Adult Overweight or Obese Healthy Subjects and Subjects With Type 2 Diabetes Mellitus",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 1/2",
+   "status": "COMPLETED",
+   "first_posted": "2023-03-09",
+   "last_update": "2024-04-25",
+   "primary_completion": "2024-04-11",
+   "completion": "2024-04-11",
+   "conditions": [
+    "Overweight or Obesity",
+    "Type2 Diabetes Mellitus"
+   ],
+   "interventions": [
+    "GSBR-1290"
+   ],
+   "enrollment": 142,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT06141889",
+   "title": "Pharmacokinetics Study of Azelaprag (BGE-105) in Older Adult Healthy Volunteers",
+   "lead_sponsor": "BioAge Labs, Inc.",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2023-11-21",
+   "last_update": "2024-02-23",
+   "primary_completion": "2024-01-26",
+   "completion": "2024-02-02",
+   "conditions": [
+    "Healthy Volunteer Study"
+   ],
+   "interventions": [
+    "Azelaprag"
+   ],
+   "enrollment": 16,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bioage",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT04455503",
+   "title": "Study of Adjuvant Immunotherapy With EVX-02 and Anti-PD-1",
+   "lead_sponsor": "Evaxion Biotech A/S",
+   "phase": "Phase 1/2",
+   "status": "TERMINATED",
+   "first_posted": "2020-07-02",
+   "last_update": "2024-02-21",
+   "primary_completion": "2023-02-28",
+   "completion": "2023-03-28",
+   "conditions": [
+    "Melanoma Stage IV",
+    "Melanoma Stage III"
+   ],
+   "interventions": [
+    "EVX-02A",
+    "EVX-02B",
+    "EVX-02A OR EVX-02B"
+   ],
+   "enrollment": 15,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Based on the promising interim results of study part 1, it was decided to further accelerate the development of the 2nd generation DNA plasmid immunotherapy. Therefore enrolment of patients was completed after study part 1",
+   "sponsor_id": "evaxion",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT06139055",
+   "title": "A Study of Multiple-ascending Doses of GSBR-1290 in Healthy Overweight/Obese Participants",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 1",
+   "status": "UNKNOWN",
+   "first_posted": "2023-11-18",
+   "last_update": "2024-02-15",
+   "primary_completion": "2024-03-01",
+   "completion": "2024-03-01",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "GSBR-1290 (Capsule/Tablet)",
+    "GSBR-1290"
+   ],
+   "enrollment": 70,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "unknown",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05995249",
+   "title": "A Study of the Interaction of TAK-279 With Substances That Have an Impact on Metabolism in Healthy Adults",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2023-08-16",
+   "last_update": "2024-02-06",
+   "primary_completion": "2023-12-18",
+   "completion": "2023-12-31",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "TAK-279",
+    "Erythromycin",
+    "Phenytoin",
+    "Efavirenz"
+   ],
+   "enrollment": 172,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05489679",
+   "title": "A Study of AC682 In Chinese Patients With ER+/HER2- Locally Advanced or Metastatic Breast Cancer",
+   "lead_sponsor": "Accutar Biotechnology Inc",
+   "phase": "Phase 1",
+   "status": "TERMINATED",
+   "first_posted": "2022-08-05",
+   "last_update": "2024-01-25",
+   "primary_completion": "2023-09-28",
+   "completion": "2023-09-28",
+   "conditions": [
+    "Breast Cancer"
+   ],
+   "interventions": [
+    "AC682"
+   ],
+   "enrollment": 6,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Voluntarily terminate the study since the sponsor's development strategy was adjusted.",
+   "sponsor_id": "accutar",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05673109",
+   "title": "A Study of AC176 for the Treatment of Metastatic Castration Resistant Prostate Cancer",
+   "lead_sponsor": "Accutar Biotechnology Inc",
+   "phase": "Phase 1",
+   "status": "TERMINATED",
+   "first_posted": "2023-01-06",
+   "last_update": "2024-01-25",
+   "primary_completion": "2023-10-08",
+   "completion": "2023-10-08",
+   "conditions": [
+    "Metastatic Castration Resistant Prostate Cancer"
+   ],
+   "interventions": [
+    "AC176"
+   ],
+   "enrollment": 8,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Subject benefit-risk ratio changes, sponsor decides to voluntarily terminate study",
+   "sponsor_id": "accutar",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05297045",
+   "title": "A Study of Oral GLP1RA RGT001-075 in Adults With Type 2 Diabetes",
+   "lead_sponsor": "Regor Pharmaceuticals Inc.",
+   "phase": "Phase 2",
+   "status": "TERMINATED",
+   "first_posted": "2022-03-25",
+   "last_update": "2023-11-18",
+   "primary_completion": "2023-05-30",
+   "completion": "2023-05-30",
+   "conditions": [
+    "Type 2 Diabetes Mellitus"
+   ],
+   "interventions": [
+    "RGT001-075"
+   ],
+   "enrollment": 17,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": "Terminated due to financial constraint.",
+   "sponsor_id": "regor",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05920408",
+   "title": "Study to Assess EXS21546 in Combination in Patients With Advanced Solid Tumours",
+   "lead_sponsor": "Exscientia AI Limited",
+   "phase": "Phase 1/2",
+   "status": "TERMINATED",
+   "first_posted": "2023-06-27",
+   "last_update": "2023-11-08",
+   "primary_completion": "2023-09-27",
+   "completion": "2023-10-23",
+   "conditions": [
+    "Advanced Solid Tumours"
+   ],
+   "interventions": [
+    "EXS21546"
+   ],
+   "enrollment": 6,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": "Emerging data demonstrates challenge for EXS21546 to reach suitable therapeutic index.",
+   "sponsor_id": "exscientia",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT04999839",
+   "title": "Study of NDI-034858 in Participants With Moderate to Severe Plaque Psoriasis",
+   "lead_sponsor": "Takeda",
+   "phase": "Phase 2",
+   "status": "COMPLETED",
+   "first_posted": "2021-08-11",
+   "last_update": "2023-09-28",
+   "primary_completion": "2022-08-19",
+   "completion": "2022-09-12",
+   "conditions": [
+    "Moderate to Severe Plaque Psoriasis"
+   ],
+   "interventions": [
+    "NDI-034858 study drug"
+   ],
+   "enrollment": 259,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "nimbus",
+   "via": "asset:zasocitinib",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT05893043",
+   "title": "A Study of Multiple Ascending Doses of GSBR-1290 in Japanese and Non-Japanese Healthy Participants",
+   "lead_sponsor": "Gasherbrum Bio, Inc., a wholly owned subsidiary of Structure Therapeutics",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2023-06-07",
+   "last_update": "2023-07-14",
+   "primary_completion": "2023-06-28",
+   "completion": "2023-06-28",
+   "conditions": [
+    "Healthy Volunteers"
+   ],
+   "interventions": [
+    "GSBR-1290"
+   ],
+   "enrollment": 18,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "structure",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "computational"
+  },
+  {
+   "nct": "NCT04705597",
+   "title": "Study to Evaluate the Safety, Tolerability, and Efficacy of BGE-175 in Hospitalized Adults With Coronavirus Disease 2019 (COVID-19) That Are Not in Respiratory Failure",
+   "lead_sponsor": "BioAge Labs, Inc.",
+   "phase": "Phase 2",
+   "status": "TERMINATED",
+   "first_posted": "2021-01-12",
+   "last_update": "2023-07-03",
+   "primary_completion": "2022-04-20",
+   "completion": "2022-05-19",
+   "conditions": [
+    "Covid19"
+   ],
+   "interventions": [
+    "BGE-175"
+   ],
+   "enrollment": 194,
+   "randomised": true,
+   "has_results": true,
+   "why_stopped": "The incidence of COVID-19 hospitalization cases decreased to a level that continued enrollment was no longer feasible",
+   "sponsor_id": "bioage",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05154240",
+   "title": "A Phase 1, Evaluate the Safety, Tolerability, and Pharmacokinetics of INS018_055 in Healthy Subjects",
+   "lead_sponsor": "InSilico Medicine Hong Kong Limited",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2021-12-13",
+   "last_update": "2023-06-29",
+   "primary_completion": "2022-12-02",
+   "completion": "2022-12-02",
+   "conditions": [
+    "Idiopathic Pulmonary Fibrosis"
+   ],
+   "interventions": [
+    "INS018_055"
+   ],
+   "enrollment": 78,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "insilico",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT04737304",
+   "title": "A First-in-Human PoC Study With BEN2293 in Patients With Mild to Moderate Atopic Dermatitis",
+   "lead_sponsor": "BenevolentAI Bio",
+   "phase": "Phase 1/2",
+   "status": "COMPLETED",
+   "first_posted": "2021-02-03",
+   "last_update": "2023-06-18",
+   "primary_completion": "2023-01-12",
+   "completion": "2023-01-26",
+   "conditions": [
+    "Atopic Dermatitis"
+   ],
+   "interventions": [],
+   "enrollment": 123,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "benevolent",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05264038",
+   "title": "A First in Human Study to Evaluate the Safety, Pharmacokinetics, and Pharmacodynamics Effects of OC514",
+   "lead_sponsor": "Oncocross Australia Pty Ltd.",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2022-03-03",
+   "last_update": "2023-03-20",
+   "primary_completion": "2022-09-07",
+   "completion": "2023-03-13",
+   "conditions": [
+    "Cancer Cachexia"
+   ],
+   "interventions": [
+    "OC514 (Low dose)",
+    "OC514 (Mid dose)",
+    "OC514 (High dose)"
+   ],
+   "enrollment": 23,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "oncocross",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05327855",
+   "title": "Efficacy and Safety of OPL-0301 Compared to Placebo in Adults With Post-Myocardial Infarction (MI)",
+   "lead_sponsor": "Valo Health, Inc.",
+   "phase": "Phase 2",
+   "status": "WITHDRAWN",
+   "first_posted": "2022-04-14",
+   "last_update": "2023-02-21",
+   "primary_completion": "2024-08-01",
+   "completion": "2024-11-01",
+   "conditions": [
+    "Myocardial Infarction"
+   ],
+   "interventions": [
+    "OPL-0301 Dose 1",
+    "OPL-0301 Dose 2"
+   ],
+   "enrollment": 0,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": "Withdrawn based on business decision, no participants enrolled",
+   "sponsor_id": "valo",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT04823052",
+   "title": "Investigation of Sulindac (HLX-0201) and Gaboxadol (HLX-0206) in Male Fragile X Syndrome Patients Aged 13-40",
+   "lead_sponsor": "Healx Limited",
+   "phase": "Phase 2",
+   "status": "WITHDRAWN",
+   "first_posted": "2021-03-30",
+   "last_update": "2022-12-08",
+   "primary_completion": "2022-10-19",
+   "completion": "2022-10-19",
+   "conditions": [
+    "Fragile X Syndrome"
+   ],
+   "interventions": [
+    "Sulindac (HLX-0201), dose strength 1",
+    "Sulindac (HLX-0201), dose strength 2",
+    "Gaboxadol (HLX-0206)"
+   ],
+   "enrollment": 0,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": "Healx has experienced delays to the site activation of the study and this has had an adverse impact on the recruitment timeline which is delaying the progress of other projects in our FXS programme.",
+   "sponsor_id": "healx",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT04727138",
+   "title": "3-part Study to Assess Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of EXS21546",
+   "lead_sponsor": "Exscientia AI Limited",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2021-01-27",
+   "last_update": "2022-05-16",
+   "primary_completion": "2022-04-16",
+   "completion": "2022-05-12",
+   "conditions": [
+    "Oncology"
+   ],
+   "interventions": [
+    "EXS21546 Powder for Oral Suspension",
+    "EXS21546 Granule in Capsule"
+   ],
+   "enrollment": 64,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "exscientia",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT04815603",
+   "title": "Study to Evaluate Efficacy and Safety of BGE-117 in the Treatment of Anemia of Aging",
+   "lead_sponsor": "BioAge Labs, Inc.",
+   "phase": "Phase 2",
+   "status": "WITHDRAWN",
+   "first_posted": "2021-03-25",
+   "last_update": "2022-05-05",
+   "primary_completion": "2022-04-01",
+   "completion": "2022-04-01",
+   "conditions": [
+    "Anemia"
+   ],
+   "interventions": [
+    "BGE-117"
+   ],
+   "enrollment": 0,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": "The program priority for execution of this clinical trial changed prior to enrollment of the first patient. The study was not withdrawn due to any safety concerns.",
+   "sponsor_id": "bioage",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT05152641",
+   "title": "Study to Evaluate Efficacy and Safety of BGE-117 in Moderately to Severely Anemic Older Individuals After Major Hip Surgery",
+   "lead_sponsor": "BioAge Labs, Inc.",
+   "phase": "Phase 2",
+   "status": "WITHDRAWN",
+   "first_posted": "2021-12-10",
+   "last_update": "2022-05-05",
+   "primary_completion": "2023-04-01",
+   "completion": "2024-07-01",
+   "conditions": [
+    "Acute Posthemorrhagic Anemia"
+   ],
+   "interventions": [
+    "BGE-117, 4mg",
+    "BGE-117, 12mg"
+   ],
+   "enrollment": 0,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": "The program priority for execution of this clinical trial changed prior to enrollment of the first patient. The study was not withdrawn due to any safety concerns.",
+   "sponsor_id": "bioage",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT00652080",
+   "title": "An Open-Label Safety Study of API 31510 in a Topical Cream for in Situ Cutaneous Squamous Cell Carcinoma (SCCIS)",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 1/2",
+   "status": "COMPLETED",
+   "first_posted": "2008-04-03",
+   "last_update": "2019-03-05",
+   "primary_completion": "2010-01-01",
+   "completion": "2010-01-01",
+   "conditions": [
+    "Squamous Cell Carcinoma"
+   ],
+   "interventions": [
+    "API 31510"
+   ],
+   "enrollment": 35,
+   "randomised": false,
+   "has_results": true,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT03002935",
+   "title": "A Safety Study of Orally Administered BPM31510 in Healthy Subjects",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2016-12-26",
+   "last_update": "2017-04-05",
+   "primary_completion": "2017-03-01",
+   "completion": "2017-03-01",
+   "conditions": [
+    "Healthy"
+   ],
+   "interventions": [
+    "BPM31510 Oral Nanosuspension 4%"
+   ],
+   "enrollment": 25,
+   "randomised": false,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT02486055",
+   "title": "A Safety Study of Orally Administered BPM31510 in Healthy Subjects",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 1",
+   "status": "COMPLETED",
+   "first_posted": "2015-07-01",
+   "last_update": "2016-12-22",
+   "primary_completion": "2016-01-01",
+   "completion": "2016-01-01",
+   "conditions": [
+    "Healthy"
+   ],
+   "interventions": [
+    "BPM31510 Oral Nanosuspension 4%"
+   ],
+   "enrollment": 20,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "completed",
+   "tier": "ai"
+  },
+  {
+   "nct": "NCT00605709",
+   "title": "Dose-Ranging Safety and Efficacy Study of Topical Creams Containing API 31510 for the Treatment of in Situ Cutaneous Squamous Cell Carcinoma",
+   "lead_sponsor": "BPGbio",
+   "phase": "Phase 2",
+   "status": "WITHDRAWN",
+   "first_posted": "2008-01-31",
+   "last_update": "2012-07-25",
+   "primary_completion": "2008-07-01",
+   "completion": null,
+   "conditions": [
+    "Squamous Cell Carcinoma"
+   ],
+   "interventions": [
+    "API 31510 Topical Cream"
+   ],
+   "enrollment": 0,
+   "randomised": true,
+   "has_results": false,
+   "why_stopped": null,
+   "sponsor_id": "bpgbio",
+   "via": "sponsor",
+   "bucket": "stopped",
+   "tier": "ai"
+  }
+ ],
+ "events": [
+  {
+   "id": "NCT07932041:phase:Early Phase 1",
+   "date": "2026-11-20",
+   "detected": "2026-11-23",
+   "nct": "NCT07932041",
+   "sponsor_id": "insilico",
+   "title": "Study Evaluation ISM9528 in Healthy Participants",
+   "phase": "Early Phase 1",
+   "type": "phase",
+   "direction": "down",
+   "from": "Phase 1",
+   "to": "Early Phase 1"
+  },
+  {
+   "id": "NCT05985655:status:ACTIVE_NOT_RECRUITING",
+   "date": "2026-11-20",
+   "detected": "2026-11-23",
+   "nct": "NCT05985655",
+   "sponsor_id": "recursion",
+   "title": "Study to Assess GTAEXS617 in Participants With Advanced Solid Tumors",
+   "phase": "Phase 1/2",
+   "type": "status",
+   "direction": "neutral",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  },
+  {
+   "id": "NCT05267626:status:ACTIVE_NOT_RECRUITING",
+   "date": "2026-11-20",
+   "detected": "2026-11-23",
+   "nct": "NCT05267626",
+   "sponsor_id": "aulos",
+   "title": "Study of AU-007, A Monoclonal Antibody That Binds to IL-2 and Inhibits IL-2Rα Binding, in Patients With Unresectable Locally Advanced or Metastatic Cancer",
+   "phase": "Phase 1/2",
+   "type": "status",
+   "direction": "neutral",
+   "from": "RECRUITING",
+   "to": "ACTIVE_NOT_RECRUITING"
+  }
+ ],
+ "longevity": [
+  {
+   "id": "fda-endpoint",
+   "title_en": "A regulatory endpoint for ageing",
+   "title_zh": "针对衰老的监管终点",
+   "status": "none",
+   "state_en": "None exists. A July 2026 Reagan-Udall / FDA meeting summary records no ageing indication, no validated ageing biomarker and no accepted endpoint.",
+   "state_zh": "尚不存在。2026 年 7 月 Reagan-Udall 基金会与 FDA 的会议纪要确认：没有衰老适应症，没有经验证的衰老生物标志物，也没有公认终点。",
+   "signal_en": "FDA qualifies a biomarker of ageing, or accepts a composite endpoint for a trial.",
+   "signal_zh": "FDA 认定某个衰老生物标志物，或接受某项试验的复合终点。",
+   "source": "https://reaganudall.org/sites/default/files/2026-07/073126_Affecting%20the%20Aging%20Trajectory%20Public%20Meeting%20Summary.pdf",
+   "as_of": "2026-07-31"
+  },
+  {
+   "id": "loyal-loy002",
+   "title_en": "Loyal LOY-002: a lifespan drug for senior dogs",
+   "title_zh": "Loyal LOY-002：老年犬延寿药",
+   "status": "in_progress",
+   "state_en": "FDA has accepted the efficacy-expectation and safety sections; the manufacturing section is outstanding. Not approved, and the STAY study has no efficacy readout yet.",
+   "state_zh": "FDA 已接受“合理预期有效性”和安全性部分，生产部分尚待审评。尚未获批，STAY 研究也还没有疗效数据。",
+   "signal_en": "Conditional approval, then a positive STAY lifespan readout: the first lifespan-extension approval in any species.",
+   "signal_zh": "获得有条件批准，随后 STAY 研究读出延寿阳性结果：这将是任何物种中首个延寿药物获批。",
+   "source": "https://loyal.com/posts/loy-002-tas-announcement",
+   "as_of": "2026-01-31"
+  },
+  {
+   "id": "tame",
+   "title_en": "TAME: metformin against age-related disease",
+   "title_zh": "TAME：二甲双胍对抗衰老相关疾病",
+   "status": "stalled",
+   "state_en": "Still not fully funded about a decade after it was designed; no results.",
+   "state_zh": "设计完成约十年后仍未筹足经费，没有结果。",
+   "signal_en": "Full funding and first enrolment; its composite endpoint is the template for an ageing indication.",
+   "signal_zh": "经费到位并开始入组；其复合终点是衰老适应症的范本。",
+   "source": "https://www.afar.org/research/TAME/",
+   "as_of": "2026-11-19"
+  },
+  {
+   "id": "xprize-healthspan",
+   "title_en": "XPRIZE Healthspan",
+   "title_zh": "XPRIZE 健康寿命大奖",
+   "status": "in_progress",
+   "state_en": "Twenty finalist teams named in August 2026; one-year trials run to 2029 and the prize is awarded in 2030. It measures muscle, cognition and immune function, not lifespan.",
+   "state_zh": "2026 年 8 月公布 20 支决赛队伍；为期一年的试验持续到 2029 年，2030 年颁奖。衡量的是肌肉、认知和免疫功能，而不是寿命。",
+   "signal_en": "A finalist restores function by 10 years or more in a controlled trial that others replicate.",
+   "signal_zh": "某支决赛队伍在对照试验中使功能恢复 10 年以上，并被他人重复验证。",
+   "source": "https://www.xprize.org/news/20-healthspan-finalist-teams-advance-in-the-race-to-extend-healthy-aging",
+   "as_of": "2026-08-31"
+  },
+  {
+   "id": "reprogramming-er100",
+   "title_en": "Partial reprogramming in humans (Life Biosciences ER-100)",
+   "title_zh": "人体部分重编程（Life Biosciences ER-100）",
+   "status": "in_progress",
+   "state_en": "IND cleared in January 2026 and the first participant dosed in June 2026, ten years after the founding mouse paper. A safety study in eye disease only.",
+   "state_zh": "2026 年 1 月获得 IND 许可，6 月首例受试者给药，距奠基性小鼠论文已十年。目前只是眼病领域的安全性研究。",
+   "signal_en": "Efficacy on vision in a controlled trial.",
+   "signal_zh": "在对照试验中显示出改善视力的疗效。",
+   "source": "https://longevity.technology/news/fda-clears-first-human-trial-of-epigenetic-reprogramming-therapy/",
+   "as_of": "2026-06-30"
+  },
+  {
+   "id": "retro-rtr242",
+   "title_en": "Retro Biosciences RTR242 (autophagy)",
+   "title_zh": "Retro Biosciences RTR242（自噬）",
+   "status": "in_progress",
+   "state_en": "Phase 1 safety trial running since December 2025.",
+   "state_zh": "一期安全性试验自 2025 年 12 月起进行。",
+   "signal_en": "A Phase 2 efficacy result in a named disease.",
+   "signal_zh": "在明确疾病中取得二期疗效结果。",
+   "source": "https://www.fightaging.org/archives/2026/01/retro-biosciences-starts-a-safety-trial-for-an-autophagy-promoter/",
+   "as_of": "2026-01-31"
+  },
+  {
+   "id": "senolytics-unity",
+   "title_en": "Senolytics: Unity Biotechnology",
+   "title_zh": "衰老细胞清除疗法：Unity Biotechnology",
+   "status": "failed",
+   "state_en": "UBX0101 showed no benefit over placebo in Phase 2 (2020); UBX1325 missed in Phase 2b and the company laid off all staff in May 2025.",
+   "state_zh": "UBX0101 二期试验未优于安慰剂（2020 年）；UBX1325 在 2b 期未达终点，公司于 2025 年 5 月裁撤全部员工。",
+   "signal_en": "A reminder: its valuation rested on mouse data. A different senolytic passing a randomised human trial would reopen the field.",
+   "signal_zh": "前车之鉴：其估值建立在小鼠数据之上。若有另一种同类疗法通过随机人体试验，这一方向才会重启。",
+   "source": "https://www.fiercebiotech.com/biotech/buzzy-anti-ageing-biotech-unity-drops-leading-program-after-flop-shares-freefall",
+   "as_of": "2025-05-31"
+  }
+ ],
+ "reading": [
+  {
+   "id": "pipeline",
+   "name": "In the Pipeline (Derek Lowe)",
+   "url": "https://www.science.org/blogs/pipeline",
+   "feed": "https://www.science.org/blogs/pipeline/feed",
+   "lang": "en",
+   "cadence": "several a week",
+   "why_en": "The scepticism filter. A working medicinal chemist who reads the actual data behind drug claims.",
+   "why_zh": "用来过滤炒作。作者是一线药物化学家，会去读药物声明背后的原始数据。"
+  },
+  {
+   "id": "stat",
+   "name": "STAT",
+   "url": "https://www.statnews.com",
+   "feed": "https://www.statnews.com/feed/",
+   "lang": "en",
+   "cadence": "daily",
+   "keywords": [
+    "AI",
+    "A.I.",
+    "artificial intelligence",
+    "machine learning",
+    "Anthropic",
+    "OpenAI",
+    "DeepMind",
+    "Isomorphic",
+    "Insilico",
+    "Recursion",
+    "longevity",
+    "aging",
+    "ageing"
+   ],
+   "why_en": "Fastest reliable news on trial readouts and FDA decisions.",
+   "why_zh": "试验读出和 FDA 决定方面最快且可靠的新闻。"
+  },
+  {
+   "id": "biopharmadive",
+   "name": "BioPharma Dive",
+   "url": "https://www.biopharmadive.com",
+   "feed": "https://www.biopharmadive.com/feeds/news/",
+   "lang": "en",
+   "cadence": "daily",
+   "keywords": [
+    "AI",
+    "A.I.",
+    "artificial intelligence",
+    "machine learning",
+    "Anthropic",
+    "OpenAI",
+    "DeepMind",
+    "Isomorphic",
+    "Insilico",
+    "Recursion",
+    "longevity",
+    "aging",
+    "ageing"
+   ],
+   "why_en": "Industry news, free; good on deals and pipeline cuts.",
+   "why_zh": "免费行业新闻，交易和管线裁撤报道较好。"
+  },
+  {
+   "id": "gen",
+   "name": "GEN",
+   "url": "https://www.genengnews.com",
+   "feed": "https://www.genengnews.com/feed/",
+   "lang": "en",
+   "cadence": "daily",
+   "keywords": [
+    "AI",
+    "A.I.",
+    "artificial intelligence",
+    "machine learning",
+    "Anthropic",
+    "OpenAI",
+    "DeepMind",
+    "Isomorphic",
+    "Insilico",
+    "Recursion",
+    "longevity",
+    "aging",
+    "ageing"
+   ],
+   "why_en": "Covers the AI-scientist companies (Edison, Isomorphic, Lila) in more technical depth.",
+   "why_zh": "对 AI 科学家类公司（Edison、Isomorphic、Lila）的技术报道更深入。"
+  },
+  {
+   "id": "decodingbio",
+   "name": "Decoding Bio",
+   "url": "https://decodingbio.substack.com",
+   "feed": "https://decodingbio.substack.com/feed",
+   "lang": "en",
+   "cadence": "weekly",
+   "why_en": "Weekly digest of AI-for-biology papers and deals; the early technical signal.",
+   "why_zh": "每周梳理 AI 生物学论文与交易，是较早的技术信号。"
+  },
+  {
+   "id": "topol",
+   "name": "Ground Truths (Eric Topol)",
+   "url": "https://erictopol.substack.com",
+   "feed": "https://erictopol.substack.com/feed",
+   "lang": "en",
+   "cadence": "weekly",
+   "why_en": "A cardiologist's reading of new medical and AI evidence.",
+   "why_zh": "一位心脏病学家对医学与 AI 新证据的解读。"
+  },
+  {
+   "id": "lifespan",
+   "name": "Lifespan.io news and Rejuvenation Roadmap",
+   "url": "https://www.lifespan.io/road-maps/the-rejuvenation-roadmap/",
+   "feed": "https://www.lifespan.io/feed/",
+   "lang": "en",
+   "cadence": "daily",
+   "why_en": "The best free longevity pipeline tracker, with sober news coverage.",
+   "why_zh": "最好的免费长寿管线追踪，新闻报道也较克制。"
+  },
+  {
+   "id": "fightaging",
+   "name": "Fight Aging!",
+   "url": "https://www.fightaging.org",
+   "feed": "https://www.fightaging.org/feed/",
+   "lang": "en",
+   "cadence": "daily",
+   "why_en": "Daily digest of ageing research papers; advocacy-minded, so read with that in mind.",
+   "why_zh": "每日衰老研究论文摘要；立场偏倡导，阅读时需留意。"
+  },
+  {
+   "id": "aiindex",
+   "name": "Stanford AI Index (Science and Medicine chapters)",
+   "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report/science",
+   "feed": null,
+   "lang": "en",
+   "cadence": "yearly, April",
+   "why_en": "The annual baseline for what AI has actually done in science.",
+   "why_zh": "了解 AI 在科学领域实际进展的年度基准。"
+  },
+  {
+   "id": "stateofai",
+   "name": "State of AI Report",
+   "url": "https://www.stateof.ai",
+   "feed": null,
+   "lang": "en",
+   "cadence": "yearly, October",
+   "why_en": "Annual review with predictions it scores the following year.",
+   "why_zh": "年度综述，并在次年给自己的预测打分。"
+  },
+  {
+   "id": "vcbeat",
+   "name": "动脉网",
+   "url": "https://www.vcbeat.top",
+   "feed": null,
+   "lang": "zh",
+   "cadence": "daily",
+   "why_en": "Chinese-language coverage of AI drug discovery, including China-origin assets English trackers miss.",
+   "why_zh": "中文 AI 制药报道，覆盖英文追踪常漏掉的中国原研项目。"
+  }
+ ],
+ "headlines": {
+  "pipeline": [
+   {
+    "title": "Detonating A Huge Pile of Lead Azide. Really.",
+    "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "We're Getting Less Demented. Why?",
+    "url": "https://www.science.org/content/blog-post/we-re-getting-less-demented-why",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "Vintage Mistakes",
+    "url": "https://www.science.org/content/blog-post/vintage-mistakes",
+    "date": "2026-11-18"
+   },
+   {
+    "title": "New Drug Technologies and Their Histories",
+    "url": "https://www.science.org/content/blog-post/new-drug-technologies-and-their-histories",
+    "date": "2026-11-17"
+   },
+   {
+    "title": "Stop It. Just Stop It.",
+    "url": "https://www.science.org/content/blog-post/stop-it-just-stop-it",
+    "date": "2026-11-13"
+   }
+  ],
+  "stat": [
+   {
+    "title": "Opinion: If the AI bubble bursts, it could create a serious problem for health care",
+    "url": "https://www.statnews.com/2026/11/23/ai-bubble-medical-artificial-intelligence-health/?utm_campaign=rss",
+    "date": "2026-11-23"
+   },
+   {
+    "title": "STAT+: Pharmalittle: We’re reading about Sanofi eyeing Insmed, AI speeding drug development, and more",
+    "url": "https://www.statnews.com/pharmalot/2026/11/20/sanofi-eyeing-insmed-ai-speeding-drug-development/?utm_campaign=rss",
+    "date": "2026-11-20"
+   }
+  ],
+  "biopharmadive": [],
+  "gen": [
+   {
+    "title": "Immune Aging Study in Mice Reveals Clues to T Cell Dysfunction and Cancer Development",
+    "url": "https://www.genengnews.com/topics/cancer/immune-aging-study-in-mice-reveals-clues-to-t-cell-dysfunction-and-cancer-development/",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Former Verily Leaders Build AI Platform to Get More from Proteomics Data",
+    "url": "https://www.genengnews.com/topics/artificial-intelligence/former-verily-leaders-build-ai-platform-to-get-more-from-proteomics-data/",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "Alzheimer’s Disease and Aging Linked to Changes in the Hypothalamus",
+    "url": "https://www.genengnews.com/topics/translational-medicine/alzheimers-disease-and-aging-linked-to-changes-in-the-hypothalamus/",
+    "date": "2026-11-18"
+   },
+   {
+    "title": "London Calling: Flagship Expands in U.K. to Build AI-Native Platform Companies",
+    "url": "https://www.genengnews.com/topics/artificial-intelligence/london-calling-flagship-expands-in-u-k-to-build-ai-native-platform-companies/",
+    "date": "2026-11-18"
+   }
+  ],
+  "decodingbio": [
+   {
+    "title": "BioByte 180: Maps Against Cancer",
+    "url": "https://decodingbio.substack.com/p/biobyte-180-maps-against-cancer",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "BioByte 179: Epilepsy Epilogue",
+    "url": "https://decodingbio.substack.com/p/biobyte-179-epilepsy-epilogue",
+    "date": "2026-11-12"
+   },
+   {
+    "title": "A Conversation with Michael Ehlers: Funding the Future of Drug Discovery and Development at Formation Bio",
+    "url": "https://decodingbio.substack.com/p/a-conversation-with-mike-ehlers-funding",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "BioByte 178: The Expression Code",
+    "url": "https://decodingbio.substack.com/p/biobyte-178-the-expression-code",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "BioByte 177: Evolution-Encoded Knowledge",
+    "url": "https://decodingbio.substack.com/p/biobyte-177-evolution-encoded-knowledge",
+    "date": "2026-10-29"
+   }
+  ],
+  "topol": [
+   {
+    "title": "Jo Chikwe: A Renowned Cardiac Surgeon, on Leadership, Diversity, And Much More",
+    "url": "https://erictopol.substack.com/p/jo-chikwe-a-renowned-cardiac-surgeon",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
+    "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "Vadim Gladyshev and the Science of Aging",
+    "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Connecting Our Immune System and Healthspan",
+    "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells",
+    "date": "2026-10-11"
+   },
+   {
+    "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
+    "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery",
+    "date": "2026-10-06"
+   }
+  ],
+  "lifespan": [
+   {
+    "title": "James Peyer on Turning Aging Biology Into Medicine",
+    "url": "https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "One Way That Aged T Cells Age the Whole Body",
+    "url": "https://lifespan.io/one-way-that-aged-t-cells-age-the-whole-body/",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "Partial Reprogramming’s Outcome Depends on Cell Type",
+    "url": "https://lifespan.io/partial-reprogrammings-outcome-depends-on-cell-type/",
+    "date": "2026-11-17"
+   },
+   {
+    "title": "Fat Cells Can Secrete a Senescence Promoter",
+    "url": "https://lifespan.io/fat-cells-can-secrete-a-senescence-promoter/",
+    "date": "2026-11-16"
+   },
+   {
+    "title": "Serotonin Signals Suppress Physical Activity in Aging Mice",
+    "url": "https://lifespan.io/serotonin-signals-suppress-physical-activity-in-aging-mice/",
+    "date": "2026-11-13"
+   }
+  ],
+  "fightaging": [
+   {
+    "title": "Fight Aging! Newsletter, November 23rd 2026",
+    "url": "https://www.fightaging.org/archives/2026/11/fight-aging-newsletter-november-23rd-2026/",
+    "date": "2026-11-22"
+   },
+   {
+    "title": "Granzyme K Knockout Mice Exhibit Reduced Loss of Function with Age",
+    "url": "https://www.fightaging.org/archives/2026/11/granzyme-k-knockout-mice-exhibit-reduced-loss-of-function-with-age/",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "FGF13 Overexpression Improves Astrocyte Function to Slow Cognitive Aging in Mice",
+    "url": "https://www.fightaging.org/archives/2026/11/fgf13-overexpression-improves-astrocyte-function-to-slow-cognitive-aging-in-mice/",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Cerebrospinal Fluid Flow Waves Decline in the Aging Brain",
+    "url": "https://www.fightaging.org/archives/2026/11/cerebrospinal-fluid-flow-waves-decline-in-the-aging-brain/",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "Aging Clocks May Reflect Disease Burden in Addition to Aging in Many Circumstances",
+    "url": "https://www.fightaging.org/archives/2026/11/aging-clocks-may-reflect-disease-burden-in-addition-to-aging-in-many-circumstances/",
+    "date": "2026-11-19"
+   }
+  ]
+ }
+}
