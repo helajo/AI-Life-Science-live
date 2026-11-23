@@ -1,6 +1,6 @@
 {
- "schema_version": 2,
- "generated_at": "2026-11-23T12:16:28Z",
+ "schema_version": 3,
+ "generated_at": "2026-11-23T12:54:52Z",
  "today": "2026-11-23",
  "baseline": "2026-11-19",
  "sources": {
@@ -611,8 +611,11 @@
    "sponsor_id": "aulos",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "aulos",
+   "search": "nct05267626 study of au-007, a monoclonal antibody that binds to il-2 and inhibits il-2rα binding, in patients with unresectable locally advanced or metastatic cancer au-007 aldesleukin avelumab nivolumab advanced solid tumor metastatic cancer cutaneous melanoma non-small cell lung cancer aulos bioscience, inc. aulos bioscience (biolojic-designed antibody)"
   },
   {
    "nct": "NCT05985655",
@@ -641,8 +644,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct05985655 study to assess gtaexs617 in participants with advanced solid tumors gtaexs617 soc head and neck squamous cell carcinoma (hnscc) pancreatic adenocarcinoma non-small cell lung cancer (nsclc) platinum-resistant high-grade epithelial ovarian, primary peritoneal, or fallopian tube cancers (hgsoc) exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT07214311",
@@ -667,8 +673,11 @@
    "sponsor_id": "peptilogics",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 4,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "peptilogics",
+   "search": "nct07214311 evaluation of plg0206 in prevention of recurrent infection in patients undergoing debridement, antibiotics, and implant retention (dair) for treatment of a periprosthetic joint infection (pji) following knee arthroplasty plg0206 prosthetic-joint infection peptilogics peptilogics"
   },
   {
    "nct": "NCT07524322",
@@ -696,8 +705,11 @@
    "sponsor_id": "regor",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "regor",
+   "search": "nct07524322 study of rgt-490 in patients with pik3ca-mutated advanced solid tumors rgt-490 breast cancer ovarian cancer endometrial cancer pik3ca mutation regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT07932041",
@@ -722,8 +734,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 0,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct07932041 study evaluation ism9528 in healthy participants ism9528 capsules healthy subjects (hs) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06678659",
@@ -751,8 +766,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct06678659 a study of rec-1245 in participants with unresectable, locally advanced, or metastatic cancer rec-1245 unresectable locally advanced metastatic cancers relapsed/refractory lymphomas recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT06789913",
@@ -780,8 +798,11 @@
    "sponsor_id": "relay",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "RLAY"
+   "ticker": "RLAY",
+   "co": "RLAY",
+   "search": "nct06789913 a phase 2 study of mutant-selective pi3kα inhibitor, rly-2608, in adults and children with pik3ca related overgrowth spectrum and malformations driven by pik3ca mutation (the reinspire study) rly-2608 pik3ca-related overgrowth spectrum (pros) lymphatic malformations vascular malformations pik3ca mutation relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT07944092",
@@ -809,8 +830,11 @@
    "sponsor_id": "frontier",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "frontier",
+   "search": "nct07944092 ph 1/2 study to evaluate safety & tolerability of fmc-242 alone and in combination in adults with advanced solid tumors fmc-242 trastuzumab (or biosimilar) fulvestrant (or generic) pan (k)ras inhibitor locally advanced solid tumor frontier medicines corporation frontier medicines"
   },
   {
    "nct": "NCT07946068",
@@ -836,8 +860,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct07946068 aleniglipron renal impairment study aleniglipron renal impairment severe renal impairment gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT05683418",
@@ -865,8 +892,11 @@
    "sponsor_id": "totus",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "totus",
+   "search": "nct05683418 a study to evaluate the safety and tolerability of tos-358 in women with hr+ her2- breast cancer tos-358 fulvestrant palbociclib ribociclib hr+/her2-negative breast cancer totus medicines totus medicines"
   },
   {
    "nct": "NCT06253871",
@@ -897,8 +927,11 @@
    "sponsor_id": "iambic",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "IAM"
+   "ticker": "IAM",
+   "co": "IAM",
+   "search": "nct06253871 a phase 1/2 study of iam1363 in her2 cancers iam1363 oral treatment with iam1363 capsules or tablets, administered in combination with capecitabine + trastuzumab oral treatment with iam1363 capsules or tablets, administered in combination with capecitabine + zanidatamab oral treatment with iam1363 capsules or tablets, administered in combination with t-dxd her2 mutation-related tumors her2 her2-positive breast cancer her2 + breast cancer iambic therapeutics, inc iambic therapeutics iam"
   },
   {
    "nct": "NCT07359846",
@@ -923,8 +956,11 @@
    "sponsor_id": "generate",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "ai",
-   "ticker": "GENB"
+   "ticker": "GENB",
+   "co": "GENB",
+   "search": "nct07359846 a study to investigate gb-0895 adjunctive therapy in adults and adolescents with severe uncontrolled asthma (solairia-2) gb-0895 severe asthma generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT07872033",
@@ -949,8 +985,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct07872033 aleniglipron hepatic impairment study aleniglipron hepatic impairment gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07250802",
@@ -975,8 +1014,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct07250802 a long-term study of zasocitinib in children and teenagers with plaque psoriasis zasocitinib plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07276724",
@@ -1001,8 +1043,11 @@
    "sponsor_id": "generate",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "ai",
-   "ticker": "GENB"
+   "ticker": "GENB",
+   "co": "GENB",
+   "search": "nct07276724 a study to investigate gb-0895 adjunctive therapy in adults and adolescents with severe uncontrolled asthma (solairia-1) gb-0895 severe asthma generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT06671483",
@@ -1028,8 +1073,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06671483 a study of zasocitinib in adults with psoriatic arthritis who have not taken biologic medicines zasocitinib active comparator psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07286058",
@@ -1054,8 +1102,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct07286058 continuation study of zasocitinib in adults with psoriatic arthritis zasocitinib psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07912593",
@@ -1084,8 +1135,11 @@
    "sponsor_id": "ensem",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "ensem",
+   "search": "nct07912593 a kras inhibitor in participants with advanced solid tumors etx-929 dose escalation etx-929 dose escalation in combination with cetuximab metastatic colorectal cancer (crc) pancreatic ductal adenocarcinoma (pdac) non-squamous, non-small cell lung cancer endometrial adenocarcinoma ensem therapeutics ensem therapeutics"
   },
   {
    "nct": "NCT07751991",
@@ -1110,8 +1164,11 @@
    "sponsor_id": "charm",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "charm",
+   "search": "nct07751991 a study of chm-029 in participants with npm1 mutated, kmt2a or nup98 rearranged aml chm-029 aml (acute myeloid leukemia) charm therapeutics charm therapeutics"
   },
   {
    "nct": "NCT06982521",
@@ -1141,8 +1198,11 @@
    "sponsor_id": "relay",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "RLAY"
+   "ticker": "RLAY",
+   "co": "RLAY",
+   "search": "nct06982521 phase 3 study of rly-2608 + fulvestrant vs capivasertib + fulvestrant as treatment for locally advanced or metastatic pik3ca-mutant hr+/her2- breast cancer zovegalisib capivasertib fulvestrant pik3ca mutation her2- negative breast cancer hormone receptor positive tumor breast cancer relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT05309421",
@@ -1169,8 +1229,11 @@
    "sponsor_id": "evaxion",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "EVAX"
+   "ticker": "EVAX",
+   "co": "EVAX",
+   "search": "nct05309421 a single arm trial evaluating the efficacy and safety of evx-01 in combination with pembrolizumab in adults with unresectable or metastatic melanoma evx-01 pembrolizumab 25 mg/ml melanoma stage iv unresectable melanoma evaxion biotech a/s evaxion evax"
   },
   {
    "nct": "NCT06323356",
@@ -1196,8 +1259,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06323356 a study of tak-279 in adult participants with generalized pustular psoriasis or erythrodermic psoriasis tak-279 generalized pustular psoriasis erythrodermic psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07244263",
@@ -1222,8 +1288,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct07244263 a study of zasocitinib in adults with hidradenitis suppurativa zasocitinib (dose a) hidradenitis suppurativa takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07752108",
@@ -1248,8 +1317,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct07752108 a study of zasocitinib in adults with non-pustular palmoplantar psoriasis zasocitinib palmoplantar psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07108283",
@@ -1274,8 +1346,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct07108283 a study of zasocitinib in adults with nonsegmental vitiligo zasocitinib nonsegmental vitiligo takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07584226",
@@ -1303,8 +1378,11 @@
    "sponsor_id": "relay",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": "RLAY"
+   "ticker": "RLAY",
+   "co": "RLAY",
+   "search": "nct07584226 a first-in-human study of rly-8161 in advanced nras-mutant solid tumors rly-8161 advanced nras-mutant melanoma advanced nras-mutant solid tumors nras mutation nras g12d relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT06233461",
@@ -1329,8 +1407,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06233461 a study on the safety of tak-279 and whether it can reduce inflammation in the bowel of participants with moderately to severely active crohn's disease tak-279 crohn's disease takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07265570",
@@ -1355,8 +1436,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct07265570 study evaluating ism5411 administered orally to subjects with active ulcerative colitis (bethesda) ism5411 tablets ulcerative colitis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07905560",
@@ -1381,8 +1465,11 @@
    "sponsor_id": "superluminal",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "superluminal",
+   "search": "nct07905560 a study of safety of sun-0864 and how it is processed by and affects the body in healthy adults and healthy adults who are overweight or obese. sun-0864 (formulation 1) or sun-0864 (formulation 2) healthy participants superluminal medicines, inc. superluminal medicines"
   },
   {
    "nct": "NCT07317544",
@@ -1409,8 +1496,11 @@
    "sponsor_id": "absci",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "ABSI"
+   "ticker": "ABSI",
+   "co": "ABSI",
+   "search": "nct07317544 study of abs-201 evaluating single and multiple ascending doses in adults with and without androgenetic alopecia sad iv dose 1 - 150mg abs201 iv single dose abs-201 sc multiple doses androgenetic alopecia (aga) healthy volunteers - male and female absci pty ltd. absci absi"
   },
   {
    "nct": "NCT07900568",
@@ -1436,8 +1526,11 @@
    "sponsor_id": "helixon",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "helixon",
+   "search": "nct07900568 study of hxn-1013 in healthy participants and participants with mild-to-moderate asthma hxn-1013 health adults asthma helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT07118891",
@@ -1463,8 +1556,11 @@
    "sponsor_id": "abcellera",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": "ABCL"
+   "ticker": "ABCL",
+   "co": "ABCL",
+   "search": "nct07118891 study evaluating abcl635 for vasomotor symptoms of menopause abcl635 vasomotor symptoms associated with menopause healthy volunteers abcellera biologics inc. abcellera abcl"
   },
   {
    "nct": "NCT07812090",
@@ -1490,8 +1586,11 @@
    "sponsor_id": "bioage",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "BIOA"
+   "ticker": "BIOA",
+   "co": "BIOA",
+   "search": "nct07812090 a randomized, phase 2 study of oral bge-102 in participants with center-involved diabetic macular edema oral bge-102 anti-vegf diabetic macular edema (dme) bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT07871721",
@@ -1516,8 +1615,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct07871721 a study of zasocitinib in adults with psoriatic arthritis (latitude psa next) zasocitinib psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05085561",
@@ -1542,8 +1644,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct05085561 the symptomatic cerebral cavernous malformation trial of rec-994 rec-994 cerebral cavernous malformation recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT07400588",
@@ -1571,8 +1676,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct07400588 aleniglipron phase 2 in type 2 diabetes mellitus aleniglipron obese obesity obesity type 2 diabetes mellitus weight loss gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07529808",
@@ -1600,8 +1708,11 @@
    "sponsor_id": "bighat",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bighat",
+   "search": "nct07529808 phase 1/2 study of bhb810 in advanced gastric and gej adenocarcinoma bhb810 gastric cancer gastric adenocarcinoma gastric (stomach) cancer gastroesophageal adenocarcinoma bighat biosciences, inc. bighat biosciences"
   },
   {
    "nct": "NCT07654374",
@@ -1629,8 +1740,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct07654374 a study of aleniglipron in adults with obesity or overweight and type 2 diabetes mellitus (accomplish-2) aleniglipron obesity overweight chronic weight management type2 diabetes mellitus gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT06244771",
@@ -1658,8 +1772,11 @@
    "sponsor_id": "frontier",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "frontier",
+   "search": "nct06244771 a study evaluating fmc-376 in participants with kras g12c mutated solid tumors fmc-376 advanced solid tumors with kras g12c mutations solid tumor, adult unresectable solid tumor metastatic solid tumor frontier medicines corporation frontier medicines"
   },
   {
    "nct": "NCT06671496",
@@ -1684,8 +1801,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06671496 a study of zasocitinib in adults with psoriatic arthritis who have or have not been treated with biologic medicines zasocitinib psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07169942",
@@ -1708,8 +1828,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct07169942 aleniglipron phase 2 body composition study obesity, overweight, or chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT06993844",
@@ -1737,8 +1860,11 @@
    "sponsor_id": "ensem",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "ensem",
+   "search": "nct06993844 phase 1/2 study of etx-636 in participants with advanced solid tumors etx-636 dose escalation etx-636 dose escalation in combination with fulvestrant etx-636 dose expansion in combination with fulvestrant advanced solid tumors advanced breast cancer ensem therapeutics ensem therapeutics"
   },
   {
    "nct": "NCT07484022",
@@ -1766,8 +1892,11 @@
    "sponsor_id": "generate",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "GENB"
+   "ticker": "GENB",
+   "co": "GENB",
+   "search": "nct07484022 study of gb-4362 with enfortumab vedotin and pembrolizumab for advanced urothelial cancer gb-4362 enfortumab vedotin (ev) pembrolizumab advanced urothelial cancer metastatic urothelial carcinoma generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT07687459",
@@ -1792,8 +1921,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct07687459 study evaluation rentosertib (ins018_055) administered orally in patients with idiopathic pulmonary fibrosis (ipf) ins018_055 tablets idiopathic pulmonary fibrosis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06888921",
@@ -1820,8 +1952,11 @@
    "sponsor_id": "compugen",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": "CGEN"
+   "ticker": "CGEN",
+   "co": "CGEN",
+   "search": "nct06888921 a clinical trial to evaluate the safety and efficacy of com701 in relapsed platinum sensitive ovarian cancer com701 normal saline ovarian cancer ovarian cancer recurrent compugen ltd compugen cgen"
   },
   {
    "nct": "NCT07819136",
@@ -1846,8 +1981,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct07819136 rec-7735 in participants with solid tumors rec-7735 solid tumors recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT07298395",
@@ -1872,8 +2010,11 @@
    "sponsor_id": "enveda",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "enveda",
+   "search": "nct07298395 study of env-294 in adults with moderate-to-severe atopic dermatitis env-294 atopic dermatitis (ad) enveda therapeutics enveda"
   },
   {
    "nct": "NCT07301255",
@@ -1898,8 +2039,11 @@
    "sponsor_id": "enveda",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "enveda",
+   "search": "nct07301255 env-294 for moderate-to-severe asthma: a 12-week study in adults env-294 asthma enveda therapeutics enveda"
   },
   {
    "nct": "NCT06778850",
@@ -1925,8 +2069,11 @@
    "sponsor_id": "mindrank",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "mindrank",
+   "search": "nct06778850 a phase i/iia clinical study to assess the single and multiple ascending doses of mdr-001 tablets in healthy participants and obese/ overweight participants mdr-001 palcebo overweight and obese volunteers mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT06566079",
@@ -1953,8 +2100,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct06566079 study of ism6331 in participants with advanced/metastatic mesothelioma or other advanced solid tumors ism6331 malignant mesothelioma metastatic malignant solid tumor advanced solid tumor insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07815678",
@@ -1979,8 +2129,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct07815678 first-in-human study of the safety, tolerability, pharmacokinetics, and food effect of accg-2671 accg-2671 obesity aconcagua bio, inc. a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07656727",
@@ -2005,8 +2158,11 @@
    "sponsor_id": "bioage",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "BIOA"
+   "ticker": "BIOA",
+   "co": "BIOA",
+   "search": "nct07656727 a phase 2 study to evaluate the pharmacodynamics, safety and tolerability of bge-102 in participants with obesity and cardiovascular risk factors oral bge-102 obesity and cardiovascular risk bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT07801612",
@@ -2032,8 +2188,11 @@
    "sponsor_id": "helixon",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "helixon",
+   "search": "nct07801612 a phase i study of hxn5003 in healthy participants and patients with moderate-to-severe atopic dermatitis hxn5003 health adult subjects moderate-to-severe atopic dermatitis helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT06414460",
@@ -2058,8 +2217,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct06414460 study of ism3412 in participants with locally advanced/metastatic solid tumors ism3412 locally advanced/metastatic solid tumors insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07797907",
@@ -2084,8 +2246,11 @@
    "sponsor_id": "biolojic",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "biolojic",
+   "search": "nct07797907 this clinical study is to evaluate the safety, tolerability, pharmacokinetics (pk), pharmacodynamics (pd), and preliminary antitumor activity of bd200 in participants with advanced or metastatic cancer. bd200 solid tumor (phase i) biolojic design ltd. biolojic design / aulos bioscience"
   },
   {
    "nct": "NCT06299124",
@@ -2111,8 +2276,11 @@
    "sponsor_id": "regor",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "regor",
+   "search": "nct06299124 a phase i study of rgt-419b in patients with hr-positive, her2-negative advanced breast cancer or other solid tumors rgt-419b breast cancer advanced solid tumor regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT07403968",
@@ -2137,8 +2305,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct07403968 a study of zasocitinib (tak-279) in adults with active crohn's disease zasocitinib crohn's disease takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07782476",
@@ -2164,8 +2335,11 @@
    "sponsor_id": "helixon",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "helixon",
+   "search": "nct07782476 study of hxn6005 in healthy participants and patients with moderate-to-severe atopic dermatitis hxn6005 health adult subjects atopic dermatitis (ad) helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT01588522",
@@ -2193,8 +2367,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct01588522 compound 31543 (calcitriol, usp) in patients receiving taxane-based chemotherapy regimens for the treatment of chemotherapy-induced alopecia compound 31543 calcitriol 5 μg/ml compound 31543 calcitriol 10 μg/ml compound 31543 calcitriol 20 μg/ml compound 31543 calcitriol 40 μg/ml chemotherapy-induced alopecia bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT05130866",
@@ -2219,8 +2396,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 4,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct05130866 efficacy and safety of rec-2282 in patients with progressive neurofibromatosis type 2 (nf2) mutated meningiomas rec-2282 neurofibromatosis type 2 recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT06254950",
@@ -2245,8 +2425,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06254950 a study on the safety of tak-279 and whether it can reduce inflammation in the bowel of participants with moderately to severely active ulcerative colitis tak-279 ulcerative colitis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT07768254",
@@ -2271,8 +2454,11 @@
    "sponsor_id": "helixon",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "helixon",
+   "search": "nct07768254 a study to evaluate the safety, tolerability, pk and preliminary efficacy of hx15001 combined with etrasimod in moderate-severe ulcerative colitis biological: hx15001 colitis, ulcerative helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT06980116",
@@ -2300,8 +2486,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct06980116 dose determining study of exs73565 in participants with relapsed or refractory b-cell malignancies exs73565 relapsed or refractory b-cell malignancies chronic lymphocytic leukemia/small lymphocytic lymphoma (cll/sll) follicular lymphoma (fl) marginal zone lymphoma (mzl) exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT04354246",
@@ -2332,8 +2521,11 @@
    "sponsor_id": "compugen",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "CGEN"
+   "ticker": "CGEN",
+   "co": "CGEN",
+   "search": "nct04354246 com902 (a tigit inhibitor) in subjects with advanced malignancies dose escalation: com902 monotherapy. evaluation of safety/tolerability: com902 in combination with com701 (both at the rdfe) cohort expansion: com902 (rdfe) monotherapy. cohort expansion: com902 in combination with com701 (both at the rdfe). advanced cancer ovarian cancer lung cancer colon cancer compugen ltd compugen cgen"
   },
   {
    "nct": "NCT05304962",
@@ -2359,8 +2551,11 @@
    "sponsor_id": "regor",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "regor",
+   "search": "nct05304962 fih study of rgt-419b alone and with endocrine therapy in hr-positive, her2-negative advanced/metastatic breast cancer rgt-419b rgt-419b in combination with hormonal therapy breast cancer regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT06759649",
@@ -2387,8 +2582,11 @@
    "sponsor_id": "compugen",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "CGEN"
+   "ticker": "CGEN",
+   "co": "CGEN",
+   "search": "nct06759649 a clinical trial to assess com503 in participants with advanced solid malignancies com503 zimberelimab neoplasm cancer, malignant tumors compugen ltd compugen cgen"
   },
   {
    "nct": "NCT06693843",
@@ -2413,8 +2611,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct06693843 a phase 2b, dose-range finding study of the efficacy and safety of multiple doses of aleniglipron (gsbr-1290) in participants living with obesity or overweight with at least one weight-related comorbidity aleniglipron obesity, overweight, or chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07654361",
@@ -2441,8 +2642,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct07654361 efficacy and safety of aleniglipron in participants with obesity or overweight with a weight-related comorbidity (accomplish-1) aleniglipron obesity overweight chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07643766",
@@ -2467,8 +2671,11 @@
    "sponsor_id": "enveda",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "enveda",
+   "search": "nct07643766 a phase 2b dose-ranging study to evaluate the efficacy and safety of env-294 in adults with moderate-to-severe atopic dermatitis env-294 atopic dermatitis enveda therapeutics enveda"
   },
   {
    "nct": "NCT06541847",
@@ -2493,8 +2700,11 @@
    "sponsor_id": "healx",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "healx",
+   "search": "nct06541847 a phase 2, open-label study to evaluate the safety and effects of hlx-1502 in patients with neurofibromatosis type 1 hlx-1502 neurofibromatosis type 1 healx limited healx"
   },
   {
    "nct": "NCT06445517",
@@ -2520,8 +2730,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct06445517 study evaluating ism8207 in participants with advanced solid tumors and relapsed/refractory b-cell lymphoma ism8207 advanced solid tumors relapsed/refractory b-cell lymphoma insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06724042",
@@ -2551,8 +2764,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct06724042 study of ism5939 in patients with advanced and/or metastatic solid tumors ism5939 cisplatin docetaxel pembrolizumab advanced solid tumor metastatic solid tumor advanced and/or metastatic solid tumors insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07581431",
@@ -2576,8 +2792,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct07581431 a phase 1, evaluate the safety, tolerability, pharmacokinetics, and pharmacodynamics of ism8969 healthy subjects (hs) obese adult participants at risk of cardiovascular disease insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07108894",
@@ -2602,8 +2821,11 @@
    "sponsor_id": "abcellera",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "ABCL"
+   "ticker": "ABCL",
+   "co": "ABCL",
+   "search": "nct07108894 a first-in-human phase 1 single-ascending dose study of abcl575 in healthy participants abcl575 healthy volunteers abcellera biologics inc. abcellera abcl"
   },
   {
    "nct": "NCT07517198",
@@ -2631,8 +2853,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct07517198 dose determining study of exs74539 (rec-4539) in participants with select solid tumors exs74539 solid tumor small cell lung cancer (sclc) high grade neuroendocrine cancer small cell carcinomas of non-lung origin exscientia ai ltd., a wholly owned subsidiary of recursion pharmaceuticals, inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT05552755",
@@ -2657,8 +2882,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct05552755 evaluate rec-4881 in participants with familial adenomatous polyposis (fap) rec-4881 familial adenomatous polyposis recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT06550076",
@@ -2683,8 +2911,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06550076 a study of tak-279 in participants with moderate-to-severe plaque psoriasis tak-279 plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06867718",
@@ -2709,8 +2940,11 @@
    "sponsor_id": "regor",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "regor",
+   "search": "nct06867718 study of once-daily oral rgt001-075 compared with placebo in adults with obesity or are overweight with weight-related health conditions rgt001-075 obesity or overweight regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT06764615",
@@ -2736,8 +2970,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06764615 a continuation study of tak-279 in adults with ulcerative colitis (uc) and crohn's disease (cd) zasocitinib crohn's disease ulcerative colitis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06898450",
@@ -2763,8 +3000,11 @@
    "sponsor_id": "nimbus",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "nimbus",
+   "search": "nct06898450 a study to assess the safety, tolerability, and efficacy of ndi-219216 in patients with advanced solid tumors. ndi-219216 advanced solid tumors cancer msi-h cancer nimbus wadjet, inc. nimbus therapeutics"
   },
   {
    "nct": "NCT05456256",
@@ -2792,8 +3032,11 @@
    "sponsor_id": "lantern",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "LTRN"
+   "ticker": "LTRN",
+   "co": "LTRN",
+   "search": "nct05456256 a study of lp-300 with carboplatin and pemetrexed in never smokers with advanced lung adenocarcinoma lp-300 pemetrexed carboplatin adenocarcinoma of lung carcinoma, non-small-cell lung lantern pharma inc. lantern pharma ltrn"
   },
   {
    "nct": "NCT05933265",
@@ -2823,8 +3066,11 @@
    "sponsor_id": "lantern",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "LTRN"
+   "ticker": "LTRN",
+   "co": "LTRN",
+   "search": "nct05933265 study of lp-184 in patients with advanced solid tumors lp-184 olaparib nivolumab & ipilimumab advanced solid tumor metastatic solid tumor gbm tnbc - triple-negative breast cancer lantern pharma inc. lantern pharma ltrn"
   },
   {
    "nct": "NCT06132503",
@@ -2850,8 +3096,11 @@
    "sponsor_id": "lantern",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "LTRN"
+   "ticker": "LTRN",
+   "co": "LTRN",
+   "search": "nct06132503 safety, pharmacokinetics, and clinical activity of lp-284 in adult patients with relapsed or refractory lymphomas and solid tumors lp-284 relapsed or refractory lymphomas advanced solid tumor lantern pharma inc. lantern pharma ltrn"
   },
   {
    "nct": "NCT06973291",
@@ -2877,8 +3126,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06973291 a study comparing zasocitinib (tak-279) with deucravacitinib in adults with plaque psoriasis zasocitinib deucravacitinib plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06703021",
@@ -2903,8 +3155,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct06703021 a dose-range study of aleniglipron (gsbr-1290) in participants living with obesity or overweight with at least one weight-related comorbidity obesity overweight chronic weight management gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT07449741",
@@ -2929,8 +3184,11 @@
    "sponsor_id": "helixon",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "helixon",
+   "search": "nct07449741 phase i study of hxn6005 in adult healthy participants hxn6005 healthy volunteers (hv) helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT07549750",
@@ -2955,8 +3213,11 @@
    "sponsor_id": "helixon",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "helixon",
+   "search": "nct07549750 a dose escalation phase 1 study of hxn5003 in healthy participants hxn5003 atopic dermatitis helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT07550621",
@@ -2983,8 +3244,11 @@
    "sponsor_id": "mindrank",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "mindrank",
+   "search": "nct07550621 drug-drug interaction study of mdr-001 with rifampin and itraconazole in healthy adult participants mdr-001 rifampin itraconazole healthy volunteers (hv) mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT07550634",
@@ -3010,8 +3274,11 @@
    "sponsor_id": "mindrank",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "mindrank",
+   "search": "nct07550634 pharmacokinetics and safety of mdr-001 in mild and moderate hepatic impairment mdr-001 hepatic impairment (mild and moderate, child-pugh class a and b) hepatic insufficiency (mesh id: d048550) mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT07336940",
@@ -3036,8 +3303,11 @@
    "sponsor_id": "enveda",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "enveda",
+   "search": "nct07336940 study of env-294 in healthy adults and in adults with moderate-to-severe atopic dermatitis env-294 capsule atopic dermatitis (ad) enveda therapeutics enveda"
   },
   {
    "nct": "NCT06005974",
@@ -3064,8 +3334,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct06005974 a study of rec-4881 in participants with cancers which have an axin1 or apc mutation rec-4881 axin1 gene mutation apc gene mutation solid tumor recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT07190469",
@@ -3091,8 +3364,11 @@
    "sponsor_id": "proteinqure",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "proteinqure",
+   "search": "nct07190469 pq203 in advanced malignant tumors including triple negative breast cancer pq203 triple negative breast cancer (tnbc) advanced solid tumors cancer proteinqure inc. proteinqure"
   },
   {
    "nct": "NCT05544019",
@@ -3120,8 +3396,11 @@
    "sponsor_id": "schrodinger",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "SDGR"
+   "ticker": "SDGR",
+   "co": "SDGR",
+   "search": "nct05544019 study of sgr-1505 in mature b-cell neoplasms sgr-1505 mature b-cell neoplasm non hodgkin lymphoma dlbcl waldenstrom macroglobulinemia schrödinger, inc. schrödinger 薛定谔 sdgr"
   },
   {
    "nct": "NCT04752813",
@@ -3148,8 +3427,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct04752813 a study of bpm31510 with vitamin k1 in subjects with newly diagnosed glioblastoma (gb) bpm31510 temozolomide (tmz) glioblastoma glioblastoma multiforme bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT07363967",
@@ -3174,8 +3456,11 @@
    "sponsor_id": "stonewise",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "stonewise",
+   "search": "nct07363967 a phase i first-in-human open-label study to evaluate the safety, tolerability, pharmacokinetics, and preliminary anti-tumor activity of swa1211 tablets in subjects with advanced solid tumors swa1211 solid tumor malignancies beijing stonewise technology co., ltd stonewise 望石智慧"
   },
   {
    "nct": "NCT07274137",
@@ -3200,8 +3485,11 @@
    "sponsor_id": "mindrank",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 5,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "mindrank",
+   "search": "nct07274137 a phase iii study to evaluate the efficacy and safety of mdr-001 in adult participants with overweight or obesity (mobile） mdr-001 overweight or obesity mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT06215755",
@@ -3226,8 +3514,11 @@
    "sponsor_id": "verge",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "verge",
+   "search": "nct06215755 a study of vrg50635 in participants with amyotrophic lateral sclerosis (als) vrg50635 amyotrophic lateral sclerosis verge genomics verge genomics"
   },
   {
    "nct": "NCT06286475",
@@ -3252,8 +3543,11 @@
    "sponsor_id": "verge",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "verge",
+   "search": "nct06286475 a study of vrg50635 in healthy volunteers vrg50635 healthy volunteers verge genomics verge genomics"
   },
   {
    "nct": "NCT05938920",
@@ -3278,8 +3572,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct05938920 study evaluating ins018_055 administered orally to subjects with idiopathic pulmonary fibrosis (ipf) ins018_055 idiopathic pulmonary fibrosis (ipf) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06920693",
@@ -3304,8 +3601,11 @@
    "sponsor_id": "generate",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "GENB"
+   "ticker": "GENB",
+   "co": "GENB",
+   "search": "nct06920693 study to investigate the safety, tolerability, and pharmacokinetics of gb-7624 in healthy adult participants gb-7624 atopic dermatitis (ad) generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT06108544",
@@ -3331,8 +3631,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06108544 a study about how well tak-279 works and its safety in participants with moderate-to-severe plaque psoriasis during 60 weeks of treatment with a withdrawal and retreatment period tak-279 apremilast plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06536465",
@@ -3357,8 +3660,11 @@
    "sponsor_id": "recursion",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct06536465 the clostridioides difficile trial of rec-3964 rec-3964 recurrent clostridioides difficile infection recursion pharmaceuticals inc. recursion (incl. exscientia) rxrx"
   },
   {
    "nct": "NCT05975983",
@@ -3383,8 +3689,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct05975983 study evaluating ins018_055 administered orally to subjects with idiopathic pulmonary fibrosis ins018_055 idiopathic pulmonary fibrosis (ipf) insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT07116889",
@@ -3410,8 +3719,11 @@
    "sponsor_id": "generate",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "GENB"
+   "ticker": "GENB",
+   "co": "GENB",
+   "search": "nct07116889 a study to investigate gb-0895 in adults with mild to moderate asthma or copd gb-0895 (sc) asthma copd (chronic obstructive pulmonary disease) generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT06088043",
@@ -3437,8 +3749,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 5,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06088043 a study about how well tak-279 works and its safety in participants with moderate-to-severe plaque psoriasis during 52 weeks of treatment tak-279 apremilast plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05780034",
@@ -3463,8 +3778,11 @@
    "sponsor_id": "accutar",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "accutar",
+   "search": "nct05780034 a study of ac676 for the treatment of relapsed/refractory b-cell malignancies ac676 relapsed/refractory b-cell malignancies accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05654532",
@@ -3489,8 +3807,11 @@
    "sponsor_id": "accutar",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "accutar",
+   "search": "nct05654532 study of ac699 in patients with estrogen receptor positive/human epidermal growth factor receptor 2 negative (er+/her2-) locally advanced or metastatic breast cancer ac699 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05216432",
@@ -3521,8 +3842,11 @@
    "sponsor_id": "relay",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "RLAY"
+   "ticker": "RLAY",
+   "co": "RLAY",
+   "search": "nct05216432 first-in-human study of mutant-selective pi3kα inhibitor, rly-2608, as a single agent in patients with advanced solid tumors and in combination with endocrine therapy +/- a cdk4/6 or cdk4 inhibitor in patients with advanced solid tumors or advanced breast cancer rly-2608 fulvestrant palbociclib 125mg ribociclib 400mg pik3ca mutation solid tumor, adult her2-negative breast cancer breast cancer relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT05961839",
@@ -3548,8 +3872,11 @@
    "sponsor_id": "schrodinger",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "SDGR"
+   "ticker": "SDGR",
+   "co": "SDGR",
+   "search": "nct05961839 study of sgr-2921 in relapsed/refractory acute myeloid leukemia or myelodysplastic syndrome sgr-2921 acute myeloid leukemia high-risk and very high-risk myelodysplastic syndromes schrödinger, inc. schrödinger 薛定谔 sdgr"
   },
   {
    "nct": "NCT06999720",
@@ -3575,8 +3902,11 @@
    "sponsor_id": "helixon",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "helixon",
+   "search": "nct06999720 study of hx15001 in adult healthy volunteers. hx15001 (sad) hx15001 (mad) healthy volunteers helixon biotechnology (suzhou) co., ltd helixon 华深智药"
   },
   {
    "nct": "NCT07110766",
@@ -3601,8 +3931,11 @@
    "sponsor_id": "mindrank",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "mindrank",
+   "search": "nct07110766 phase ib clinical study on the efficacy and safety of mdr-001 in patients who are obesity or overweight mdr-001 obesity &amp; overweight mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT06277934",
@@ -3627,8 +3960,11 @@
    "sponsor_id": "regor",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "regor",
+   "search": "nct06277934 a study of rgt001-075 in participants with obesity or overweight with weight-related comorbidities rgt001-075 obesity regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT02996305",
@@ -3654,8 +3990,11 @@
    "sponsor_id": "healx",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "healx",
+   "search": "nct02996305 a study in adults and adolescents with angelman syndrome (stars) ov101 regimen 1 ov101 regimen 2 angelman syndrome healx ai healx"
   },
   {
    "nct": "NCT06463340",
@@ -3680,8 +4019,11 @@
    "sponsor_id": "schrodinger",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "SDGR"
+   "ticker": "SDGR",
+   "co": "SDGR",
+   "search": "nct06463340 study of sgr-3515 in participants with advanced solid tumors. sgr-3515 advanced solid tumor schrödinger, inc. schrödinger 薛定谔 sdgr"
   },
   {
    "nct": "NCT03882918",
@@ -3706,8 +4048,11 @@
    "sponsor_id": "healx",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 5,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "healx",
+   "search": "nct03882918 an open-label study to evaluate the long-term safety, tolerability, and efficacy of ov101 in individuals with angelman syndrome ov101 angelman syndrome healx ai healx"
   },
   {
    "nct": "NCT07050511",
@@ -3732,8 +4077,11 @@
    "sponsor_id": "generate",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "GENB"
+   "ticker": "GENB",
+   "co": "GENB",
+   "search": "nct07050511 study to investigate the safety, tolerability, and pharmacokinetics of gb-0669 in healthy adult participants gb-0669 sars cov-2 generate biomedicines generate biomedicines genb"
   },
   {
    "nct": "NCT05137314",
@@ -3758,8 +4106,11 @@
    "sponsor_id": "peptilogics",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "peptilogics",
+   "search": "nct05137314 study in patients undergoing debridement, antibiotics, and implant retention (dair) for treatment of a periprosthetic joint infection (pji) occurring after total knee arthroplasty (tka) plg0206 joint infection peptilogics peptilogics"
   },
   {
    "nct": "NCT05759949",
@@ -3790,8 +4141,11 @@
    "sponsor_id": "relay",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "RLAY"
+   "ticker": "RLAY",
+   "co": "RLAY",
+   "search": "nct05759949 first-in-human study of rly-5836 in advanced breast cancer and other solid tumors rly-5836 fulvestrant palbociclib ribociclib pik3ca mutation solid tumor, adult her2-negative breast cancer breast cancer relay therapeutics, inc. relay therapeutics rlay"
   },
   {
    "nct": "NCT06118385",
@@ -3816,8 +4170,11 @@
    "sponsor_id": "benevolent",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "benevolent",
+   "search": "nct06118385 study investigating the safety, tolerability, pk and food effect of ben8744. ben8744 healthy volunteer study benevolentai bio benevolentai"
   },
   {
    "nct": "NCT06793943",
@@ -3845,8 +4202,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06793943 a study of interaction of zasocitinib (tak-279) with other medicines in healthy adults zasocitinib coc metformin digoxin healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT02650804",
@@ -3872,8 +4232,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct02650804 bpm31510 administered intravenously with gemcitabine in advanced pancreatic cancer patients bpm31510 nanosuspension injection gemcitabine pancreatic cancer bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT06515418",
@@ -3899,8 +4262,11 @@
    "sponsor_id": "bioage",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "BIOA"
+   "ticker": "BIOA",
+   "co": "BIOA",
+   "search": "nct06515418 efficacy and safety of oral azelaprag plus once weekly tirzepatide compared with tirzepatide alone in participants with obesity aged 55 years and over oral azelaprag (bge-105) tirzepatide obesity bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT03194217",
@@ -3926,8 +4292,11 @@
    "sponsor_id": "benevolent",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "benevolent",
+   "search": "nct03194217 ben-2001 in parkinson disease patients with excessive daytime sleepiness ben-2001 excessive daytime sleepiness parkinson disease benevolentai bio benevolentai"
   },
   {
    "nct": "NCT00604890",
@@ -3953,8 +4322,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct00604890 dose-ranging clinical trial of topical creams containing api 31510 for the treatment of superficial basal cell carcinoma api 31510 3% topical cream api 31510 1.5% topical cream superficial basal cell carcinoma bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT01251562",
@@ -3979,8 +4351,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct01251562 safety study of sterile compound c31510 for injection to subjects with solid tumors sterile compound c31510 for injection solid tumors bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT01957735",
@@ -4008,8 +4383,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct01957735 bp31510 (ubidecarenone,usp) nanosuspension for intravenous injection to patients with solid tumors bp31510 monotherapy bp31510 in combination with chemotherapy metastatic cancer cancer solid tumor bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT05080842",
@@ -4034,8 +4412,11 @@
    "sponsor_id": "accutar",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "accutar",
+   "search": "nct05080842 a study of ac682 for the treatment of locally advanced or metastatic er+ breast cancer ac682 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05241613",
@@ -4060,8 +4441,11 @@
    "sponsor_id": "accutar",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "accutar",
+   "search": "nct05241613 a study of ac176 for the treatment of metastatic castration resistant prostate cancer ac176 metastatic castration resistant prostate cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05662397",
@@ -4089,8 +4473,11 @@
    "sponsor_id": "hotspot",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "hotspot",
+   "search": "nct05662397 a study of hst-1011 given as monotherapy and in combination with an anti-pd1 antibody hst-1011 cemiplimab solid tumor, adult relapsed cancer refractory cancer hotspot therapeutics, inc hotspot therapeutics"
   },
   {
    "nct": "NCT03667716",
@@ -4119,8 +4506,11 @@
    "sponsor_id": "compugen",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "CGEN"
+   "ticker": "CGEN",
+   "co": "CGEN",
+   "search": "nct03667716 com701 (an inhibitor of pvrig) in subjects with advanced solid tumors. com701 com701 with opdivo (nivolumab). advanced cancer ovarian cancer breast cancer lung cancer compugen ltd compugen cgen"
   },
   {
    "nct": "NCT05128487",
@@ -4149,8 +4539,11 @@
    "sponsor_id": "nimbus",
    "via": "sponsor",
    "bucket": "active",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "nimbus",
+   "search": "nct05128487 a study of ndi 1150-101 in patients with solid tumors ndi-101150 pembrolizumab solid tumor renal cell carcinoma (kidney cancer) gastric and gastroesophageal junction (gej) adenocarcinoma non-small cell lung cancer nimbus saturn, inc. nimbus therapeutics"
   },
   {
    "nct": "NCT06012578",
@@ -4175,8 +4568,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct06012578 study evaluating ism5411 administered orally to healthy volunteers ism5411 healthy subjects insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT06606483",
@@ -4202,8 +4598,11 @@
    "sponsor_id": "mindrank",
    "via": "sponsor",
    "bucket": "unknown",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "mindrank",
+   "search": "nct06606483 a study to evaluate the efficacy and safety of mdr-001 in subjects who are obesity or overweight mdr-001 obesity overweight and obesity mindrank ai ltd mindrank ai 德睿智药"
   },
   {
    "nct": "NCT05976321",
@@ -4229,8 +4628,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct05976321 a study of tak-279 in adults with or without liver damage tak-279 hepatic impairment healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06111547",
@@ -4255,8 +4657,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06111547 a study of tak-279 in healthy chinese adults tak-279 healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05764915",
@@ -4281,8 +4686,11 @@
    "sponsor_id": "regor",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "regor",
+   "search": "nct05764915 a phase i study of rgt-264 in subjects with advanced solid tumors rgt-264 phosphate tablets advanced solid tumor regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT04570839",
@@ -4310,8 +4718,11 @@
    "sponsor_id": "compugen",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": "CGEN"
+   "ticker": "CGEN",
+   "co": "CGEN",
+   "search": "nct04570839 com701 in combination with bms-986207 and nivolumab in subjects with advanced solid tumors. com701 in combination with bms-986207 and nivolumab. endometrial neoplasms ovarian cancer solid tumor head and neck cancer compugen ltd compugen cgen"
   },
   {
    "nct": "NCT06258265",
@@ -4337,8 +4748,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06258265 a study of tak-279 in healthy adults on the effect on ecg measurements tak-279 moxifloxacin healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05992155",
@@ -4364,8 +4778,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct05992155 a study of tak-279 in adults with or without kidney problems tak-279 renal impairment healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05393284",
@@ -4391,8 +4808,11 @@
    "sponsor_id": "valo",
    "via": "sponsor",
    "bucket": "unknown",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "valo",
+   "search": "nct05393284 phase 2 spectra study to evaluate the safety and efficacy of opl-0401 in patients with diabetic retinopathy opl-0401 dose 1 non-proliferative diabetic retinopathy proliferative diabetic retinopathy valo health, inc. valo health"
   },
   {
    "nct": "NCT05153148",
@@ -4417,8 +4837,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct05153148 a study to evaluate the efficacy, safety, and tolerability of ndi-034858 in participants with active psoriatic arthritis ndi-034858 psoriatic arthritis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT06290050",
@@ -4445,8 +4868,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct06290050 a study of the interaction of other drugs with tak-279 in healthy adults midazolam repaglinide tak-279 healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05762471",
@@ -4472,8 +4898,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 2,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct05762471 phase 1b/2a study of gsbr-1290 in adult overweight or obese healthy subjects and subjects with type 2 diabetes mellitus gsbr-1290 overweight or obesity type2 diabetes mellitus gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT06141889",
@@ -4498,8 +4927,11 @@
    "sponsor_id": "bioage",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "BIOA"
+   "ticker": "BIOA",
+   "co": "BIOA",
+   "search": "nct06141889 pharmacokinetics study of azelaprag (bge-105) in older adult healthy volunteers azelaprag healthy volunteer study bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT04455503",
@@ -4527,8 +4959,11 @@
    "sponsor_id": "evaxion",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "EVAX"
+   "ticker": "EVAX",
+   "co": "EVAX",
+   "search": "nct04455503 study of adjuvant immunotherapy with evx-02 and anti-pd-1 evx-02a evx-02b evx-02a or evx-02b melanoma stage iv melanoma stage iii evaxion biotech a/s evaxion evax"
   },
   {
    "nct": "NCT06139055",
@@ -4554,8 +4989,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "unknown",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct06139055 a study of multiple-ascending doses of gsbr-1290 in healthy overweight/obese participants gsbr-1290 (capsule/tablet) gsbr-1290 healthy volunteers gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT05995249",
@@ -4583,8 +5021,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct05995249 a study of the interaction of tak-279 with substances that have an impact on metabolism in healthy adults tak-279 erythromycin phenytoin efavirenz healthy volunteers takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05489679",
@@ -4609,8 +5050,11 @@
    "sponsor_id": "accutar",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "accutar",
+   "search": "nct05489679 a study of ac682 in chinese patients with er+/her2- locally advanced or metastatic breast cancer ac682 breast cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05673109",
@@ -4635,8 +5079,11 @@
    "sponsor_id": "accutar",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "accutar",
+   "search": "nct05673109 a study of ac176 for the treatment of metastatic castration resistant prostate cancer ac176 metastatic castration resistant prostate cancer accutar biotechnology inc accutar biotechnology 冰洲石生物"
   },
   {
    "nct": "NCT05297045",
@@ -4661,8 +5108,11 @@
    "sponsor_id": "regor",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": null
+   "ticker": null,
+   "co": "regor",
+   "search": "nct05297045 a study of oral glp1ra rgt001-075 in adults with type 2 diabetes rgt001-075 type 2 diabetes mellitus regor pharmaceuticals inc. regor pharmaceuticals 锐格医药"
   },
   {
    "nct": "NCT05920408",
@@ -4687,8 +5137,11 @@
    "sponsor_id": "exscientia",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct05920408 study to assess exs21546 in combination in patients with advanced solid tumours exs21546 advanced solid tumours exscientia ai limited exscientia (before the recursion merger) rxrx"
   },
   {
    "nct": "NCT04999839",
@@ -4713,8 +5166,11 @@
    "sponsor_id": "nimbus",
    "via": "asset:zasocitinib",
    "bucket": "completed",
+   "phase_rank": 3,
    "tier": "computational",
-   "ticker": "TAK"
+   "ticker": "TAK",
+   "co": "TAK",
+   "search": "nct04999839 study of ndi-034858 in participants with moderate to severe plaque psoriasis ndi-034858 study drug moderate to severe plaque psoriasis takeda nimbus therapeutics tak"
   },
   {
    "nct": "NCT05893043",
@@ -4739,8 +5195,11 @@
    "sponsor_id": "structure",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "computational",
-   "ticker": "GPCR"
+   "ticker": "GPCR",
+   "co": "GPCR",
+   "search": "nct05893043 a study of multiple ascending doses of gsbr-1290 in japanese and non-japanese healthy participants gsbr-1290 healthy volunteers gasherbrum bio, inc., a wholly owned subsidiary of structure therapeutics structure therapeutics 硕迪生物 gpcr"
   },
   {
    "nct": "NCT04705597",
@@ -4765,8 +5224,11 @@
    "sponsor_id": "bioage",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "BIOA"
+   "ticker": "BIOA",
+   "co": "BIOA",
+   "search": "nct04705597 study to evaluate the safety, tolerability, and efficacy of bge-175 in hospitalized adults with coronavirus disease 2019 (covid-19) that are not in respiratory failure bge-175 covid19 bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT05154240",
@@ -4791,8 +5253,11 @@
    "sponsor_id": "insilico",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "3696.HK"
+   "ticker": "3696.HK",
+   "co": "3696.HK",
+   "search": "nct05154240 a phase 1, evaluate the safety, tolerability, and pharmacokinetics of ins018_055 in healthy subjects ins018_055 idiopathic pulmonary fibrosis insilico medicine hong kong limited insilico medicine 英矽智能 3696.hk"
   },
   {
    "nct": "NCT04737304",
@@ -4815,8 +5280,11 @@
    "sponsor_id": "benevolent",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "benevolent",
+   "search": "nct04737304 a first-in-human poc study with ben2293 in patients with mild to moderate atopic dermatitis atopic dermatitis benevolentai bio benevolentai"
   },
   {
    "nct": "NCT05264038",
@@ -4843,8 +5311,11 @@
    "sponsor_id": "oncocross",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "oncocross",
+   "search": "nct05264038 a first in human study to evaluate the safety, pharmacokinetics, and pharmacodynamics effects of oc514 oc514 (low dose) oc514 (mid dose) oc514 (high dose) cancer cachexia oncocross australia pty ltd. oncocross"
   },
   {
    "nct": "NCT05327855",
@@ -4870,8 +5341,11 @@
    "sponsor_id": "valo",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "valo",
+   "search": "nct05327855 efficacy and safety of opl-0301 compared to placebo in adults with post-myocardial infarction (mi) opl-0301 dose 1 opl-0301 dose 2 myocardial infarction valo health, inc. valo health"
   },
   {
    "nct": "NCT04823052",
@@ -4898,8 +5372,11 @@
    "sponsor_id": "healx",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "healx",
+   "search": "nct04823052 investigation of sulindac (hlx-0201) and gaboxadol (hlx-0206) in male fragile x syndrome patients aged 13-40 sulindac (hlx-0201), dose strength 1 sulindac (hlx-0201), dose strength 2 gaboxadol (hlx-0206) fragile x syndrome healx limited healx"
   },
   {
    "nct": "NCT04727138",
@@ -4925,8 +5402,11 @@
    "sponsor_id": "exscientia",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": "RXRX"
+   "ticker": "RXRX",
+   "co": "RXRX",
+   "search": "nct04727138 3-part study to assess safety, tolerability, pharmacokinetics and pharmacodynamics of exs21546 exs21546 powder for oral suspension exs21546 granule in capsule oncology exscientia ai limited exscientia (before the recursion merger) rxrx"
   },
   {
    "nct": "NCT04815603",
@@ -4951,8 +5431,11 @@
    "sponsor_id": "bioage",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "BIOA"
+   "ticker": "BIOA",
+   "co": "BIOA",
+   "search": "nct04815603 study to evaluate efficacy and safety of bge-117 in the treatment of anemia of aging bge-117 anemia bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT05152641",
@@ -4978,8 +5461,11 @@
    "sponsor_id": "bioage",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": "BIOA"
+   "ticker": "BIOA",
+   "co": "BIOA",
+   "search": "nct05152641 study to evaluate efficacy and safety of bge-117 in moderately to severely anemic older individuals after major hip surgery bge-117, 4mg bge-117, 12mg acute posthemorrhagic anemia bioage labs, inc. bioage labs bioa"
   },
   {
    "nct": "NCT00652080",
@@ -5004,8 +5490,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 2,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct00652080 an open-label safety study of api 31510 in a topical cream for in situ cutaneous squamous cell carcinoma (sccis) api 31510 squamous cell carcinoma bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT03002935",
@@ -5030,8 +5519,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct03002935 a safety study of orally administered bpm31510 in healthy subjects bpm31510 oral nanosuspension 4% healthy bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT02486055",
@@ -5056,8 +5548,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "completed",
+   "phase_rank": 1,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct02486055 a safety study of orally administered bpm31510 in healthy subjects bpm31510 oral nanosuspension 4% healthy bpgbio bpgbio (formerly berg)"
   },
   {
    "nct": "NCT00605709",
@@ -5082,8 +5577,11 @@
    "sponsor_id": "bpgbio",
    "via": "sponsor",
    "bucket": "stopped",
+   "phase_rank": 3,
    "tier": "ai",
-   "ticker": null
+   "ticker": null,
+   "co": "bpgbio",
+   "search": "nct00605709 dose-ranging safety and efficacy study of topical creams containing api 31510 for the treatment of in situ cutaneous squamous cell carcinoma api 31510 topical cream squamous cell carcinoma bpgbio bpgbio (formerly berg)"
   }
  ],
  "events": [
@@ -5490,6 +5988,2222 @@
    }
   }
  ],
+ "companies": {
+  "ANT": {
+   "key": "ANT",
+   "sponsor_ids": [],
+   "name": "Anthropic",
+   "ticker": "ANT",
+   "market": "US",
+   "role": "lab",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "ANT",
+    "name": "Anthropic",
+    "hq": "San Francisco, US",
+    "founded": 2021,
+    "listed": "Nasdaq, 2026",
+    "what_en": "Anthropic builds the Claude family of AI models and sells access to them to businesses, developers and individuals. It listed on Nasdaq on 19 November 2026, raising $81.3 billion; it reported a large net loss for the first nine months of 2026.",
+    "what_zh": "Anthropic 开发 Claude 系列 AI 模型，并向企业、开发者和个人出售使用权。公司于 2026 年 11 月 19 日在纳斯达克上市，募资 813 亿美元；2026 年前九个月录得大额净亏损。",
+    "ai_en": "Life sciences is a small part of the business: Claude for Life Sciences (October 2025), the Claude Science workbench (June 2026), the reported purchase of Coefficient Bio and the acquisition of Mithril Medicine in 2026; Novo Nordisk and Sanofi are among its users.",
+    "ai_zh": "生命科学只占业务的一小部分：2025 年 10 月推出 Claude for Life Sciences，2026 年 6 月推出科研工作台 Claude Science；2026 年据报道收购 Coefficient Bio，并收购 Mithril Medicine；用户包括诺和诺德、赛诺菲。",
+    "source": {
+     "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo",
+     "publisher": "Al Jazeera",
+     "title": "Anthropic starts trading in the US after blockbuster IPO"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (how it earns revenue is from general knowledge, not the page opened)",
+     "ai_en (the Coefficient Bio purchase was reported by outlets and not confirmed by Anthropic when reported)"
+    ]
+   },
+   "quote": null
+  },
+  "openai": {
+   "key": "openai",
+   "sponsor_ids": [],
+   "name": "OpenAI",
+   "role": "lab",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": null,
+   "quote": null
+  },
+  "deepmind": {
+   "key": "deepmind",
+   "sponsor_ids": [],
+   "name": "Google DeepMind",
+   "name_zh": "谷歌 DeepMind",
+   "proxy": "GOOGL",
+   "role": "lab",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": null,
+   "quote": null
+  },
+  "isomorphic": {
+   "key": "isomorphic",
+   "sponsor_ids": [],
+   "name": "Isomorphic Labs",
+   "proxy": "GOOGL",
+   "role": "lab",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": null,
+   "quote": null
+  },
+  "NVDA": {
+   "key": "NVDA",
+   "sponsor_ids": [],
+   "name": "NVIDIA (BioNeMo)",
+   "name_zh": "英伟达（BioNeMo）",
+   "ticker": "NVDA",
+   "market": "US",
+   "role": "compute",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "hq": "Santa Clara, California, US",
+    "founded": 1993,
+    "listed": "Nasdaq, 1999",
+    "what_en": "NVIDIA designs the graphics processors (GPUs) and related systems and software on which most AI models are trained and run. Most of its revenue comes from selling these to data-centre operators.",
+    "what_zh": "英伟达设计图形处理器（GPU）及配套系统和软件，多数 AI 模型在其上训练和运行。公司大部分收入来自向数据中心运营方销售这些产品。",
+    "ai_en": "Life sciences is a small part of the business: BioNeMo is its software platform for biology and drug-discovery models, and in January 2026 it agreed a joint lab with Eli Lilly, with up to $1 billion to be invested over five years.",
+    "ai_zh": "生命科学只占业务的一小部分：BioNeMo 是其面向生物学和药物发现模型的软件平台；2026 年 1 月与礼来约定共建实验室，五年内最高投入 10 亿美元。",
+    "source": {
+     "url": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai",
+     "publisher": "NVIDIA",
+     "title": "NVIDIA and Lilly Announce Co-Innovation AI Lab to Reinvent Drug Discovery in the Age of AI"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (revenue mix is from general knowledge)"
+    ]
+   },
+   "quote": null
+  },
+  "LLY": {
+   "key": "LLY",
+   "sponsor_ids": [],
+   "name": "Eli Lilly",
+   "name_zh": "礼来",
+   "ticker": "LLY",
+   "market": "US",
+   "role": "pharma",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "LLY",
+    "name": "Eli Lilly",
+    "hq": "Indianapolis, US",
+    "founded": 1876,
+    "listed": "NYSE",
+    "what_en": "Eli Lilly discovers, makes and sells prescription medicines. Its products include Mounjaro and Zepbound for diabetes and obesity, Verzenio for breast cancer and Kisunla for Alzheimer's disease; revenue comes from selling them.",
+    "what_zh": "礼来研发、生产并销售处方药，产品包括治疗糖尿病和肥胖的 Mounjaro 和 Zepbound、治疗乳腺癌的 Verzenio 以及治疗阿尔茨海默病的 Kisunla；收入来自药品销售。",
+    "ai_en": "AI is a small part of the business: it runs an NVIDIA-built supercomputer with 1,016 GPUs, shares its models with biotechs through TuneLab, agreed a joint lab with NVIDIA (up to $1 billion over five years), and has deals with Isomorphic Labs and Insilico.",
+    "ai_zh": "AI 只占业务的一小部分：礼来拥有一台英伟达建造、配备 1016 块 GPU 的超级计算机，通过 TuneLab 向生物科技公司开放模型，与英伟达约定共建实验室（五年内最高 10 亿美元），并与 Isomorphic Labs、英矽智能签有合作。",
+    "source": {
+     "url": "https://blogs.nvidia.com/blog/lilly-ai-factory-live",
+     "publisher": "NVIDIA Blog",
+     "title": "Now Live: Lilly AI Factory for Pharmaceutical Discovery and Development"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "NVO": {
+   "key": "NVO",
+   "sponsor_ids": [],
+   "name": "Novo Nordisk",
+   "name_zh": "诺和诺德",
+   "ticker": "NVO",
+   "market": "US",
+   "role": "pharma",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "NVO",
+    "name": "Novo Nordisk",
+    "hq": "Bagsværd, Denmark",
+    "founded": 1923,
+    "listed": "Nasdaq Copenhagen; NYSE (ADR)",
+    "what_en": "Novo Nordisk makes and sells medicines for diabetes and obesity, including Wegovy, as well as insulin and treatments for rare blood and hormone disorders. Its revenue comes from selling them.",
+    "what_zh": "诺和诺德生产并销售糖尿病和肥胖药物（包括 Wegovy），以及胰岛素和罕见血液病、内分泌疾病药物；收入来自药品销售。",
+    "ai_en": "AI is a small part of the business: in September 2026 it agreed to test Anthropic's Claude Science on selected research problems, and since 2025 it has worked with NVIDIA using Denmark's Gefion supercomputer.",
+    "ai_zh": "AI 只占业务的一小部分：2026 年 9 月公司同意在选定的研究课题上试用 Anthropic 的 Claude Science；自 2025 年起与英伟达合作，使用丹麦的 Gefion 超级计算机。",
+    "source": {
+     "url": "https://finviz.com/news/392629/novo-nordisk-partners-with-anthropic-to-apply-ai-to-drug-discovery-and-research",
+     "publisher": "Finviz",
+     "title": "Novo Nordisk partners with Anthropic to apply AI to drug discovery and research"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "ai_en (the NVIDIA / Gefion partnership is from a search summary)",
+     "what_en (product range partly from general knowledge)"
+    ]
+   },
+   "quote": null
+  },
+  "RXRX": {
+   "key": "RXRX",
+   "sponsor_ids": [
+    "recursion",
+    "exscientia"
+   ],
+   "name": "Recursion",
+   "ticker": "RXRX",
+   "market": "US",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 12,
+   "stopped": 4,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 2,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 3
+    },
+    "Phase 1/2": {
+     "active": 4,
+     "completed": 0,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 5
+    },
+    "Phase 2": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 2,
+     "unknown": 0,
+     "total": 3
+    },
+    "Phase 2/3": {
+     "active": 0,
+     "completed": 0,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": {
+    "ticker": "RXRX",
+    "name": "Recursion",
+    "hq": "Salt Lake City, US",
+    "founded": 2013,
+    "listed": "Nasdaq, 2021",
+    "what_en": "Recursion uses AI and automated lab experiments to find and develop its own drugs. It has no product on sale; revenue comes mainly from research collaborations with drug makers such as Sanofi and Roche/Genentech.",
+    "what_zh": "Recursion 用 AI 和自动化实验室寻找并开发自有药物。公司尚无产品上市，收入主要来自与赛诺菲、罗氏/基因泰克等药企的研发合作。",
+    "ai_en": "Its platform, Recursion OS, covers drug discovery through development; it merged with the UK AI drug designer Exscientia in November 2024.",
+    "ai_zh": "其平台 Recursion OS 覆盖从药物发现到开发的全过程；2024 年 11 月与英国 AI 药物设计公司 Exscientia 合并。",
+    "lead_en": "As of November 2026: REC-4881 for familial adenomatous polyposis (inherited bowel polyps) is in a Phase 1b/2 trial. On 18 November 2026 Recursion said the FDA agreed its Phase 3 design (about 200 patients); start planned for second-half 2027.",
+    "lead_zh": "截至 2026 年 11 月：REC-4881 用于家族性腺瘤性息肉病（一种导致肠道多发息肉的遗传病），处于 1b/2 期试验。公司 2026 年 11 月 18 日称 FDA 已同意三期试验设计（约 200 名患者），计划 2027 年下半年启动。",
+    "source": {
+     "url": "https://finviz.com/news/424428/recursion-announces-alignment-with-fda-on-registrational-phase-3-trial-design-for-rec-4881-in-familial-adenomatous-polyposis",
+     "publisher": "Recursion (via Finviz / GlobeNewswire)",
+     "title": "Recursion Announces Alignment with FDA on Registrational Phase 3 Trial Design for REC-4881 in Familial Adenomatous Polyposis"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "3696.HK": {
+   "key": "3696.HK",
+   "sponsor_ids": [
+    "insilico"
+   ],
+   "name": "Insilico Medicine",
+   "name_zh": "英矽智能",
+   "ticker": "3696.HK",
+   "market": "HK",
+   "role": "platform",
+   "tier": "ai",
+   "country": "HK",
+   "trials": 12,
+   "stopped": 0,
+   "furthest": "Phase 3",
+   "by_phase": {
+    "Early Phase 1": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 1": {
+     "active": 3,
+     "completed": 2,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 5
+    },
+    "Phase 1/2": {
+     "active": 2,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    },
+    "Phase 2": {
+     "active": 2,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 3
+    },
+    "Phase 3": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": {
+    "ticker": "3696.HK",
+    "name": "Insilico Medicine",
+    "hq": "Cambridge, Massachusetts, US",
+    "founded": 2014,
+    "listed": "Hong Kong Stock Exchange, 2025",
+    "what_en": "Insilico Medicine designs drug candidates with its own AI software and develops them itself or licenses them to larger drug makers. It reported a net profit of about $35.5 million for the first half of 2026.",
+    "what_zh": "英矽智能用自研 AI 软件设计候选药物，自行开发或授权给大型药企。公司披露 2026 年上半年净利润约 0.36 亿美元。",
+    "ai_en": "Its platform is called Pharma.AI; in March 2026 it signed a collaboration with Eli Lilly worth up to $2.75 billion including milestones.",
+    "ai_zh": "其平台名为 Pharma.AI；2026 年 3 月与礼来签署合作协议，含里程碑付款最高 27.5 亿美元。",
+    "lead_en": "As of November 2026: rentosertib (INS018_055), a pill for idiopathic pulmonary fibrosis (scarring of the lungs), is in a Phase 3 trial in China that started in July 2026 and plans to enrol 320 patients.",
+    "lead_zh": "截至 2026 年 11 月：rentosertib（INS018_055）是治疗特发性肺纤维化（肺部瘢痕化）的口服药，三期试验已于 2026 年 7 月在中国启动，计划入组 320 名患者。",
+    "source": {
+     "url": "https://insilico.com/news/xmjsn4l091-insilico-initiates-phase-iii-clinical-tr",
+     "publisher": "Insilico Medicine",
+     "title": "Insilico Initiates Phase III Clinical Trial for Rentosertib, Its AI-Empowered TNIK Inhibitor for Idiopathic Pulmonary Fibrosis"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (revenue sources and first-half 2026 profit are from a search summary of the interim results)"
+    ]
+   },
+   "quote": null
+  },
+  "GENB": {
+   "key": "GENB",
+   "sponsor_ids": [
+    "generate"
+   ],
+   "name": "Generate Biomedicines",
+   "ticker": "GENB",
+   "market": "US",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 6,
+   "stopped": 0,
+   "furthest": "Phase 3",
+   "by_phase": {
+    "Phase 1": {
+     "active": 3,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 4
+    },
+    "Phase 3": {
+     "active": 2,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    }
+   },
+   "profile": {
+    "ticker": "GENB",
+    "name": "Generate Biomedicines",
+    "hq": "Somerville, Massachusetts, US",
+    "founded": 2018,
+    "listed": "Nasdaq, 2026",
+    "what_en": "Generate Biomedicines designs protein drugs, mainly antibodies, with machine-learning models and develops them itself. It has no product on sale; revenue comes from research programmes with Amgen and Novartis.",
+    "what_zh": "Generate Biomedicines 用机器学习模型设计蛋白质药物（主要是抗体）并自行开发。公司尚无产品上市，收入来自与安进、诺华的研究项目。",
+    "ai_en": "It calls its approach generative biology: models propose new protein sequences that its labs then test; partners include Novartis, Amgen and, since October 2026, Zealand Pharma.",
+    "ai_zh": "公司称其方法为“生成式生物学”：由模型提出新的蛋白质序列，再由实验室验证；合作方包括诺华、安进，以及 2026 年 10 月起的 Zealand Pharma。",
+    "lead_en": "As of November 2026: GB-0895, an antibody against TSLP designed for dosing twice a year, is in two global Phase 3 trials (SOLAIRIA-1 and SOLAIRIA-2) in severe asthma.",
+    "lead_zh": "截至 2026 年 11 月：GB-0895 是一种抗 TSLP 抗体，设计为每年给药两次，正在重度哮喘中进行两项全球三期试验（SOLAIRIA-1 和 SOLAIRIA-2）。",
+    "source": {
+     "url": "https://finviz.com/news/421549/generate-biomedicines-reports-third-quarter-2026-financial-results-and-provides-business-update",
+     "publisher": "Generate Biomedicines (via Finviz / GlobeNewswire)",
+     "title": "Generate Biomedicines Reports Third Quarter 2026 Financial Results and Provides Business Update"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "SDGR": {
+   "key": "SDGR",
+   "sponsor_ids": [
+    "schrodinger"
+   ],
+   "name": "Schrödinger",
+   "name_zh": "薛定谔",
+   "ticker": "SDGR",
+   "market": "US",
+   "role": "platform",
+   "tier": "computational",
+   "country": "US",
+   "trials": 3,
+   "stopped": 1,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 2,
+     "completed": 0,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 3
+    }
+   },
+   "profile": {
+    "ticker": "SDGR",
+    "name": "Schrödinger",
+    "hq": "New York, US",
+    "founded": 1990,
+    "listed": "Nasdaq, 2020",
+    "what_en": "Schrödinger sells software that simulates how molecules behave, used by drug and materials companies. It also earns fees, milestones and royalties from drug discovery collaborations and holds stakes in companies it helped start.",
+    "what_zh": "薛定谔销售模拟分子行为的软件，客户为药企和材料企业；公司还从药物发现合作中获得服务费、里程碑付款和特许权使用费，并持有其参与创办公司的股权。",
+    "ai_en": "Its platform combines physics-based simulation with machine learning; partners include Novartis, and it co-invented zasocitinib, now owned by Takeda and under FDA review.",
+    "ai_zh": "其平台把基于物理的模拟与机器学习结合；合作方包括诺华，公司还是 zasocitinib 的共同发明方，该药现归武田所有，正在接受 FDA 审评。",
+    "lead_en": "As of November 2026: SGR-1505, a MALT1 inhibitor for B-cell blood cancers, is in Phase 1; updated data are due at a haematology meeting in December 2026.",
+    "lead_zh": "截至 2026 年 11 月：SGR-1505 是一种 MALT1 抑制剂，用于 B 细胞血液肿瘤，处于一期试验；更新数据将于 2026 年 12 月在血液学会议上公布。",
+    "source": {
+     "url": "https://finviz.com/news/415915/schrodinger-reports-third-quarter-2026-financial-results",
+     "publisher": "Schrödinger (via Finviz / Business Wire)",
+     "title": "Schrödinger Reports Third Quarter 2026 Financial Results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "ABSI": {
+   "key": "ABSI",
+   "sponsor_ids": [
+    "absci"
+   ],
+   "name": "Absci",
+   "ticker": "ABSI",
+   "market": "US",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": {
+    "ticker": "ABSI",
+    "name": "Absci",
+    "hq": "Vancouver, Washington, US",
+    "founded": 2011,
+    "listed": "Nasdaq, 2021",
+    "what_en": "Absci designs antibody drugs with generative AI models and tests them in its own labs. It develops some itself and designs others for partners; revenue is small ($0.3 million in the third quarter of 2026).",
+    "what_zh": "Absci 用生成式 AI 模型设计抗体药物，并在自有实验室验证；部分自行开发，部分为合作方设计。收入规模很小（2026 年第三季度为 30 万美元）。",
+    "ai_en": "Its Integrated Drug Creation platform pairs AI models with a synthetic-biology lab that generates the training data.",
+    "ai_zh": "其 Integrated Drug Creation 平台把 AI 模型与产生训练数据的合成生物学实验室结合。",
+    "lead_en": "As of November 2026: ABS-201, an antibody for pattern hair loss, is in a Phase 1/2a trial; 13-week interim data are expected in December 2026 and full data in early 2027.",
+    "lead_zh": "截至 2026 年 11 月：ABS-201 是治疗雄激素性脱发的抗体，处于 1/2a 期试验；预计 2026 年 12 月公布 13 周中期数据，2027 年初公布完整数据。",
+    "source": {
+     "url": "https://finviz.com/news/421520/absci-reports-business-updates-and-third-quarter-2026-financial-and-operating-results",
+     "publisher": "Absci (via Finviz / GlobeNewswire)",
+     "title": "Absci Reports Business Updates and Third Quarter 2026 Financial and Operating Results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "ABCL": {
+   "key": "ABCL",
+   "sponsor_ids": [
+    "abcellera"
+   ],
+   "name": "AbCellera",
+   "ticker": "ABCL",
+   "market": "US",
+   "role": "platform",
+   "tier": "computational",
+   "country": "CA",
+   "trials": 2,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": {
+    "ticker": "ABCL",
+    "name": "AbCellera",
+    "hq": "Vancouver, Canada",
+    "founded": 2012,
+    "listed": "Nasdaq, 2020",
+    "what_en": "AbCellera discovers antibody drugs. It began by finding antibodies for partners in return for research fees and royalties, and now also develops its own; third-quarter 2026 revenue was $10.6 million, mostly research fees.",
+    "what_zh": "AbCellera 从事抗体药物发现。公司最初为合作方寻找抗体并收取研究费用和特许权使用费，现在也开发自有药物；2026 年第三季度收入 1060 万美元，主要为研究费用。",
+    "ai_en": "Its link to AI is indirect: it describes a discovery engine built on single-cell screening and high-throughput testing, and its November 2026 results release does not mention AI.",
+    "ai_zh": "它与 AI 的关联是间接的：公司介绍的发现平台以单细胞筛选和高通量检测为基础，2026 年 11 月的业绩公告未提及 AI。",
+    "lead_en": "As of November 2026: ABCL635, an injected antibody for menopausal hot flashes, reported positive top-line Phase 2 results; the company expects to start late-stage trials in 2027.",
+    "lead_zh": "截至 2026 年 11 月：ABCL635 是治疗更年期潮热的注射用抗体，已公布积极的二期顶线结果；公司预计 2027 年启动后期试验。",
+    "source": {
+     "url": "https://finviz.com/news/419505/abcellera-reports-q3-2026-business-results",
+     "publisher": "AbCellera (via Finviz / Business Wire)",
+     "title": "AbCellera Reports Q3 2026 Business Results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "RLAY": {
+   "key": "RLAY",
+   "sponsor_ids": [
+    "relay"
+   ],
+   "name": "Relay Therapeutics",
+   "ticker": "RLAY",
+   "market": "US",
+   "role": "platform",
+   "tier": "computational",
+   "country": "US",
+   "trials": 5,
+   "stopped": 0,
+   "furthest": "Phase 3",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    },
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 3": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": {
+    "ticker": "RLAY",
+    "name": "Relay Therapeutics",
+    "hq": "Cambridge, Massachusetts, US",
+    "founded": 2015,
+    "listed": "Nasdaq, 2020",
+    "what_en": "Relay Therapeutics develops pills for cancer and genetic diseases. It sells no product itself; its income is licence revenue, and the first drug from its platform, lirafugratinib, was approved in the US in 2026 and is sold by licensee Elevar Therapeutics.",
+    "what_zh": "Relay Therapeutics 开发治疗癌症和遗传病的口服药。公司自身没有在售产品，收入为授权收入；其平台产出的首个药物 lirafugratinib 于 2026 年在美国获批，由被授权方 Elevar Therapeutics 销售。",
+    "ai_en": "Its Dynamo platform combines computer simulation of how proteins move with lab experiments to design small-molecule drugs.",
+    "ai_zh": "其 Dynamo 平台把蛋白质运动的计算机模拟与实验结合，用于设计小分子药物。",
+    "lead_en": "As of November 2026: zovegalisib (RLY-2608) is in a Phase 3 trial (ReDiscover-2) in HR+/HER2- metastatic breast cancer with a PI3Kα mutation, compared against capivasertib, both given with fulvestrant.",
+    "lead_zh": "截至 2026 年 11 月：zovegalisib（RLY-2608）正在携带 PI3Kα 突变的 HR+/HER2- 转移性乳腺癌中进行三期试验（ReDiscover-2），与 capivasertib 对照，两者均联用氟维司群。",
+    "source": {
+     "url": "https://finviz.com/news/415858/relay-therapeutics-reports-third-quarter-2026-financial-results-and-corporate-updates",
+     "publisher": "Relay Therapeutics (via Finviz / GlobeNewswire)",
+     "title": "Relay Therapeutics Reports Third Quarter 2026 Financial Results and Corporate Updates"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "IAM": {
+   "key": "IAM",
+   "sponsor_ids": [
+    "iambic"
+   ],
+   "name": "Iambic Therapeutics",
+   "ticker": "IAM",
+   "market": "US",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": {
+    "ticker": "IAM",
+    "name": "Iambic Therapeutics",
+    "hq": "San Diego, US",
+    "listed": "Nasdaq, 2026",
+    "what_en": "Iambic Therapeutics designs small-molecule cancer drugs with AI and develops them itself; it also has discovery partnerships with drug makers including Takeda, AbbVie, Jazz and Revolution Medicines. It raised $150 million in its October 2026 listing.",
+    "what_zh": "Iambic Therapeutics 用 AI 设计小分子抗癌药并自行开发，同时与武田、艾伯维、Jazz、Revolution Medicines 等药企开展药物发现合作。公司 2026 年 10 月上市，募资 1.5 亿美元。",
+    "ai_en": "Its AI models include Enchant, which predicts how a drug candidate will behave in the body, and NeuralPLexer, which predicts molecular structures.",
+    "ai_zh": "其 AI 模型包括预测候选药物体内表现的 Enchant 和预测分子结构的 NeuralPLexer。",
+    "lead_en": "As of November 2026: IAM1363, a pill that blocks HER2 for HER2-altered solid tumours including breast and lung cancers, is in a Phase 1/1b trial; a registrational trial could start as soon as 2027.",
+    "lead_zh": "截至 2026 年 11 月：IAM1363 是一种口服 HER2 抑制剂，用于乳腺癌、肺癌等 HER2 异常实体瘤，处于 1/1b 期试验；注册性试验最早可能于 2027 年启动。",
+    "source": {
+     "url": "https://www.biopharmadive.com/news/iambic-ipo-price-ai-drug-discovery/832771/",
+     "publisher": "BioPharma Dive",
+     "title": "Iambic, an AI drug discovery specialist, banks $150M in an IPO"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "ai_en (model names from a search summary)",
+     "founded (left out: sources give 2019 and 2020)"
+    ]
+   },
+   "quote": null
+  },
+  "TEM": {
+   "key": "TEM",
+   "sponsor_ids": [],
+   "name": "Tempus AI",
+   "ticker": "TEM",
+   "market": "US",
+   "role": "platform",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "TEM",
+    "name": "Tempus AI",
+    "hq": "Chicago, US",
+    "founded": 2015,
+    "listed": "Nasdaq, 2024",
+    "what_en": "Tempus sells genomic and other laboratory tests, mainly for cancer, and licenses the resulting de-identified patient data and models to drug makers. Third-quarter 2026 revenue was $411.5 million: $303.5 million from diagnostics and $108.1 million from data and applications.",
+    "what_zh": "Tempus 销售基因组等实验室检测（主要用于癌症），并把由此形成的去标识化患者数据和模型授权给药企。2026 年第三季度收入 4.115 亿美元，其中诊断 3.035 亿美元，数据与应用 1.081 亿美元。",
+    "ai_en": "Drug makers use its data and models in R&D; in October 2026 Bristol Myers Squibb agreed to license oncology data and models for up to $137.5 million over five years.",
+    "ai_zh": "药企在研发中使用其数据和模型；2026 年 10 月，百时美施贵宝同意在五年内以最高 1.375 亿美元授权使用其肿瘤数据和模型。",
+    "source": {
+     "url": "https://finviz.com/news/413037/tempus-reports-third-quarter-2026-results",
+     "publisher": "Tempus AI (via Finviz / Business Wire)",
+     "title": "Tempus Reports Third Quarter 2026 Results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "2228.HK": {
+   "key": "2228.HK",
+   "sponsor_ids": [],
+   "name": "XtalPi",
+   "name_zh": "晶泰科技",
+   "ticker": "2228.HK",
+   "market": "HK",
+   "role": "platform",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "2228.HK",
+    "name": "XtalPi",
+    "hq": "Shenzhen, China",
+    "founded": 2015,
+    "listed": "Hong Kong Stock Exchange, 2024",
+    "what_en": "XtalPi sells drug-discovery and materials-research services that combine AI, physics-based calculation and robot-run laboratories. First-half 2026 revenue was RMB 393.6 million, about half from drug discovery work and half from automated-lab and AI solutions.",
+    "what_zh": "晶泰科技提供结合 AI、物理计算和机器人实验室的药物发现与材料研发服务。2026 年上半年收入 3.936 亿元人民币，药物发现服务与自动化实验室及 AI 解决方案约各占一半。",
+    "ai_en": "It designs drug candidates for partners rather than running its own trials; its largest deal, with DoveTree in 2025, is worth up to about $6 billion in milestones, of which $51 million was paid first.",
+    "ai_zh": "公司为合作方设计候选药物，而不是自己开展临床试验；最大一笔合作是 2025 年与 DoveTree 的协议，含里程碑付款最高约 60 亿美元，首笔已付 0.51 亿美元。",
+    "source": {
+     "url": "https://www.thailand-business-news.com/pr-news/xtalpi-holdings-announces-2026-interim-results",
+     "publisher": "XtalPi (press release via Thailand Business News)",
+     "title": "XtalPi Holdings Announces 2026 Interim Results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "listed (13 June 2024 listing date from a search summary of the annual report)"
+    ]
+   },
+   "quote": null
+  },
+  "xaira": {
+   "key": "xaira",
+   "sponsor_ids": [],
+   "name": "Xaira Therapeutics",
+   "role": "platform",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": null,
+   "quote": null
+  },
+  "chai": {
+   "key": "chai",
+   "sponsor_ids": [],
+   "name": "Chai Discovery",
+   "role": "platform",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": null,
+   "quote": null
+  },
+  "TMO": {
+   "key": "TMO",
+   "sponsor_ids": [],
+   "name": "Thermo Fisher Scientific",
+   "name_zh": "赛默飞",
+   "ticker": "TMO",
+   "market": "US",
+   "role": "tools",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "TMO",
+    "name": "Thermo Fisher Scientific",
+    "hq": "Waltham, Massachusetts, US",
+    "founded": 1956,
+    "listed": "NYSE",
+    "what_en": "Thermo Fisher sells laboratory instruments, chemicals and supplies, and runs clinical trials (PPD) and drug manufacturing (Patheon) for drug makers. Annual revenue is over $40 billion.",
+    "what_zh": "赛默飞销售实验室仪器、试剂和耗材，并为药企提供临床试验（PPD）和药品生产（Patheon）服务。年收入超过 400 亿美元。",
+    "ai_en": "AI is a small part of the business: it is building AI into instruments and trial services, with OpenAI (announced October 2025, starting in clinical trials) and with NVIDIA (January 2026, for laboratory instruments and automation).",
+    "ai_zh": "AI 只占业务的一小部分：公司正把 AI 嵌入仪器和临床试验服务，合作方包括 OpenAI（2025 年 10 月宣布，先用于临床试验）和英伟达（2026 年 1 月，用于实验室仪器和自动化）。",
+    "source": {
+     "url": "https://corporate.thermofisher.com/us/en/index/artificial-intelligence.html",
+     "publisher": "Thermo Fisher Scientific",
+     "title": "Artificial Intelligence"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "ai_en (announcement dates of the OpenAI and NVIDIA collaborations are from search summaries)"
+    ]
+   },
+   "quote": null
+  },
+  "benevolent": {
+   "key": "benevolent",
+   "sponsor_ids": [
+    "benevolent"
+   ],
+   "name": "BenevolentAI",
+   "role": "platform",
+   "tier": "ai",
+   "country": "GB",
+   "trials": 3,
+   "stopped": 0,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 1/2": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 2": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "verge": {
+   "key": "verge",
+   "sponsor_ids": [
+    "verge"
+   ],
+   "name": "Verge Genomics",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 2,
+   "stopped": 1,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 2
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "valo": {
+   "key": "valo",
+   "sponsor_ids": [
+    "valo"
+   ],
+   "name": "Valo Health",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 2,
+   "stopped": 1,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 2": {
+     "active": 0,
+     "completed": 0,
+     "stopped": 1,
+     "unknown": 1,
+     "total": 2
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "bighat": {
+   "key": "bighat",
+   "sponsor_ids": [
+    "bighat"
+   ],
+   "name": "BigHat Biosciences",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "enveda": {
+   "key": "enveda",
+   "sponsor_ids": [
+    "enveda"
+   ],
+   "name": "Enveda",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 4,
+   "stopped": 0,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 2": {
+     "active": 3,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 3
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "LTRN": {
+   "key": "LTRN",
+   "sponsor_ids": [
+    "lantern"
+   ],
+   "name": "Lantern Pharma",
+   "ticker": "LTRN",
+   "market": "US",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 3,
+   "stopped": 0,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": {
+    "ticker": "LTRN",
+    "name": "Lantern Pharma",
+    "hq": "Dallas, US",
+    "founded": 2013,
+    "listed": "Nasdaq, 2020",
+    "what_en": "Lantern Pharma is a small cancer-drug developer that uses AI to pick which patients and cancers its drugs may suit. It reported no revenue in 2026 to date; its chief executive resigned on 15 November 2026 and the finance chief is interim CEO.",
+    "what_zh": "Lantern Pharma 是一家小型抗癌药开发公司，用 AI 判断其药物可能适合哪些患者和癌种。公司 2026 年至今没有收入；首席执行官已于 2026 年 11 月 15 日辞职，由首席财务官暂代。",
+    "ai_en": "Its AI platform, RADR, is described as using more than 200 billion cancer-related data points and over 200 algorithms.",
+    "ai_zh": "其 AI 平台 RADR 据称使用超过 2000 亿个癌症相关数据点和 200 多种算法。",
+    "lead_en": "As of November 2026: LP-300 is in a Phase 2 trial (HARMONIC) in lung cancer patients who have never smoked, given with chemotherapy; the second part of the trial opened in Taiwan in 2026.",
+    "lead_zh": "截至 2026 年 11 月：LP-300 正在从不吸烟的肺癌患者中进行二期试验（HARMONIC），与化疗联用；试验第二部分已于 2026 年在台湾启动。",
+    "source": {
+     "url": "https://finviz.com/news/424593/lantern-pharma-reports-third-quarter-2026-financial-results-and-provides-business-updates",
+     "publisher": "Lantern Pharma (via Finviz / Business Wire)",
+     "title": "Lantern Pharma Reports Third Quarter 2026 Financial Results and Provides Business Updates"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "bpgbio": {
+   "key": "bpgbio",
+   "sponsor_ids": [
+    "bpgbio"
+   ],
+   "name": "BPGbio (formerly BERG)",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 10,
+   "stopped": 1,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 0,
+     "completed": 5,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 5
+    },
+    "Phase 1/2": {
+     "active": 0,
+     "completed": 2,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    },
+    "Phase 2": {
+     "active": 1,
+     "completed": 1,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 3
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "mindrank": {
+   "key": "mindrank",
+   "sponsor_ids": [
+    "mindrank"
+   ],
+   "name": "MindRank AI",
+   "name_zh": "德睿智药",
+   "role": "platform",
+   "tier": "ai",
+   "country": "CN",
+   "trials": 6,
+   "stopped": 0,
+   "furthest": "Phase 3",
+   "by_phase": {
+    "Phase 1": {
+     "active": 3,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 3
+    },
+    "Phase 1/2": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 2": {
+     "active": 0,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 1,
+     "total": 1
+    },
+    "Phase 3": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "EVAX": {
+   "key": "EVAX",
+   "sponsor_ids": [
+    "evaxion"
+   ],
+   "name": "Evaxion",
+   "ticker": "EVAX",
+   "market": "US",
+   "role": "platform",
+   "tier": "ai",
+   "country": "DK",
+   "trials": 2,
+   "stopped": 1,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 1/2": {
+     "active": 0,
+     "completed": 0,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 2": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": {
+    "ticker": "EVAX",
+    "name": "Evaxion",
+    "hq": "Hørsholm, Denmark",
+    "founded": 2008,
+    "listed": "Nasdaq, 2021",
+    "what_en": "Evaxion is a small Danish company that uses AI to design vaccines, now mainly against cancer. It has no product on sale and recorded no revenue in the third quarter of 2026; earlier revenue came from licensing a vaccine candidate to MSD.",
+    "what_zh": "Evaxion 是一家丹麦小型公司，用 AI 设计疫苗，目前以癌症疫苗为主。公司没有在售产品，2026 年第三季度没有收入；此前的收入来自向默沙东授权一款候选疫苗。",
+    "ai_en": "Its platform, AI-Immunology, is used to pick vaccine targets and design candidates; in November 2026 it said it would focus on cancer and pursue infectious-disease work only with partner funding.",
+    "ai_zh": "其平台 AI-Immunology 用于挑选疫苗靶点和设计候选产品；2026 年 11 月公司表示将聚焦癌症，传染病项目仅在合作方出资时推进。",
+    "lead_en": "As of November 2026: EVX-01, a cancer vaccine made individually for each patient, has completed a Phase 2 trial in advanced melanoma (with pembrolizumab); the company is seeking partners to take it further.",
+    "lead_zh": "截至 2026 年 11 月：EVX-01 是为每位患者单独制备的癌症疫苗，已完成晚期黑色素瘤二期试验（联用帕博利珠单抗）；公司正在寻找合作方继续推进。",
+    "source": {
+     "url": "https://finviz.com/news/425080/evaxion-announces-strategy-and-business-update-and-third-quarter-2026-financial-results",
+     "publisher": "Evaxion (via Finviz / GlobeNewswire)",
+     "title": "Evaxion announces strategy and business update and third quarter 2026 financial results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "healx": {
+   "key": "healx",
+   "sponsor_ids": [
+    "healx"
+   ],
+   "name": "Healx",
+   "role": "platform",
+   "tier": "ai",
+   "country": "GB",
+   "trials": 4,
+   "stopped": 2,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 2": {
+     "active": 1,
+     "completed": 1,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 3
+    },
+    "Phase 3": {
+     "active": 0,
+     "completed": 0,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "oncocross": {
+   "key": "oncocross",
+   "sponsor_ids": [
+    "oncocross"
+   ],
+   "name": "Oncocross",
+   "role": "platform",
+   "tier": "ai",
+   "country": "KR",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "accutar": {
+   "key": "accutar",
+   "sponsor_ids": [
+    "accutar"
+   ],
+   "name": "Accutar Biotechnology",
+   "name_zh": "冰洲石生物",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 6,
+   "stopped": 4,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 2,
+     "completed": 0,
+     "stopped": 4,
+     "unknown": 0,
+     "total": 6
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "charm": {
+   "key": "charm",
+   "sponsor_ids": [
+    "charm"
+   ],
+   "name": "Charm Therapeutics",
+   "role": "platform",
+   "tier": "ai",
+   "country": "GB",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "helixon": {
+   "key": "helixon",
+   "sponsor_ids": [
+    "helixon"
+   ],
+   "name": "Helixon",
+   "name_zh": "华深智药",
+   "role": "platform",
+   "tier": "ai",
+   "country": "CN",
+   "trials": 7,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 6,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 6
+    },
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "stonewise": {
+   "key": "stonewise",
+   "sponsor_ids": [
+    "stonewise"
+   ],
+   "name": "StoneWise",
+   "name_zh": "望石智慧",
+   "role": "platform",
+   "tier": "ai",
+   "country": "CN",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "totus": {
+   "key": "totus",
+   "sponsor_ids": [
+    "totus"
+   ],
+   "name": "Totus Medicines",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "superluminal": {
+   "key": "superluminal",
+   "sponsor_ids": [
+    "superluminal"
+   ],
+   "name": "Superluminal Medicines",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "peptilogics": {
+   "key": "peptilogics",
+   "sponsor_ids": [
+    "peptilogics"
+   ],
+   "name": "Peptilogics",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 2,
+   "stopped": 0,
+   "furthest": "Phase 2/3",
+   "by_phase": {
+    "Phase 1": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 2/3": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "biolojic": {
+   "key": "biolojic",
+   "sponsor_ids": [
+    "biolojic"
+   ],
+   "name": "Biolojic Design / Aulos Bioscience",
+   "role": "platform",
+   "tier": "ai",
+   "country": "IL",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "aulos": {
+   "key": "aulos",
+   "sponsor_ids": [
+    "aulos"
+   ],
+   "name": "Aulos Bioscience (Biolojic-designed antibody)",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "ensem": {
+   "key": "ensem",
+   "sponsor_ids": [
+    "ensem"
+   ],
+   "name": "Ensem Therapeutics",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 2,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1/2": {
+     "active": 2,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "proteinqure": {
+   "key": "proteinqure",
+   "sponsor_ids": [
+    "proteinqure"
+   ],
+   "name": "ProteinQure",
+   "role": "platform",
+   "tier": "ai",
+   "country": "CA",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "BIOA": {
+   "key": "BIOA",
+   "sponsor_ids": [
+    "bioage"
+   ],
+   "name": "BioAge Labs",
+   "ticker": "BIOA",
+   "market": "US",
+   "role": "platform",
+   "tier": "ai",
+   "country": "US",
+   "trials": 7,
+   "stopped": 4,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 0,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    },
+    "Phase 2": {
+     "active": 2,
+     "completed": 0,
+     "stopped": 4,
+     "unknown": 0,
+     "total": 6
+    }
+   },
+   "profile": {
+    "ticker": "BIOA",
+    "name": "BioAge Labs",
+    "hq": "Emeryville, California, US",
+    "founded": 2015,
+    "listed": "Nasdaq, 2024",
+    "what_en": "BioAge develops drugs for heart and metabolic diseases by studying the biology of human ageing. It has no product on sale and funds itself from investors and research collaborations with Novartis and Lilly.",
+    "what_zh": "BioAge 通过研究人类衰老的生物学机制，开发心血管和代谢疾病药物。公司没有在售产品，资金来自投资者以及与诺华、礼来的研究合作。",
+    "ai_en": "Its target-discovery platform analyses human longevity data, and it has an AI-driven drug discovery collaboration with Deep Origin; the company does not describe itself mainly as an AI company.",
+    "ai_zh": "其靶点发现平台分析人类长寿数据，并与 Deep Origin 开展 AI 驱动的药物发现合作；公司并不主要以 AI 公司自居。",
+    "lead_en": "As of November 2026: BGE-102, a pill that blocks NLRP3 (a driver of inflammation), is in two Phase 2 trials: obesity with cardiovascular risk (data expected in late 2026) and diabetic macular edema. An earlier drug, azelaprag, was stopped over liver findings.",
+    "lead_zh": "截至 2026 年 11 月：BGE-102 是一种口服 NLRP3（炎症驱动因子）抑制剂，正在进行两项二期试验：伴心血管风险的肥胖（预计 2026 年第四季度出数据）和糖尿病黄斑水肿。此前的药物 azelaprag 因肝脏指标异常而停止。",
+    "source": {
+     "url": "https://finviz.com/news/417892/bioage-labs-reports-third-quarter-2026-financial-results-and-provides-business-updates",
+     "publisher": "BioAge Labs (via Finviz / GlobeNewswire)",
+     "title": "BioAge Labs Reports Third Quarter 2026 Financial Results and Provides Business Updates"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "nimbus": {
+   "key": "nimbus",
+   "sponsor_ids": [
+    "nimbus"
+   ],
+   "name": "Nimbus Therapeutics",
+   "role": "platform",
+   "tier": "computational",
+   "country": "US",
+   "trials": 2,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1/2": {
+     "active": 2,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "GPCR": {
+   "key": "GPCR",
+   "sponsor_ids": [
+    "structure"
+   ],
+   "name": "Structure Therapeutics",
+   "name_zh": "硕迪生物",
+   "ticker": "GPCR",
+   "market": "US",
+   "role": "platform",
+   "tier": "computational",
+   "country": "US",
+   "trials": 12,
+   "stopped": 0,
+   "furthest": "Phase 3",
+   "by_phase": {
+    "Phase 1": {
+     "active": 2,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 1,
+     "total": 4
+    },
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    },
+    "Phase 2": {
+     "active": 0,
+     "completed": 4,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 4
+    },
+    "Phase 3": {
+     "active": 2,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    }
+   },
+   "profile": {
+    "ticker": "GPCR",
+    "name": "Structure Therapeutics",
+    "hq": "South San Francisco, US",
+    "founded": 2016,
+    "listed": "Nasdaq, 2023",
+    "what_en": "Structure Therapeutics develops pills for obesity and related metabolic diseases, aiming to offer oral alternatives to injected drugs. It has no product on sale and funds its trials from investors; cash was about $1.2 billion in September 2026.",
+    "what_zh": "Structure Therapeutics 开发治疗肥胖及相关代谢疾病的口服药，目标是替代注射药物。公司没有在售产品，试验资金来自投资者；2026 年 9 月底现金约 12 亿美元。",
+    "ai_en": "It designs molecules from the 3D structure of their protein targets by computer (structure-based design) and was co-founded by Schrödinger; its own releases do not use the term AI.",
+    "ai_zh": "公司依据靶点蛋白的三维结构用计算机设计分子（基于结构的药物设计），由薛定谔参与创办；其公告并未使用“AI”一词。",
+    "lead_en": "As of November 2026: aleniglipron, a once-daily GLP-1 pill for weight management, is in two Phase 3 trials (ACCOMPLISH-1 and ACCOMPLISH-2) that started in August 2026; first results are expected in the second half of 2028.",
+    "lead_zh": "截至 2026 年 11 月：aleniglipron 是每日一次的口服 GLP-1 减重药，两项三期试验（ACCOMPLISH-1 和 ACCOMPLISH-2）已于 2026 年 8 月启动，预计 2028 年下半年公布首批结果。",
+    "source": {
+     "url": "https://finviz.com/news/419427/structure-therapeutics-reports-third-quarter-2026-financial-results-and-recent-highlights",
+     "publisher": "Structure Therapeutics (via Finviz / GlobeNewswire)",
+     "title": "Structure Therapeutics Reports Third Quarter 2026 Financial Results and Recent Highlights"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (cash figure from a search summary)"
+    ]
+   },
+   "quote": null
+  },
+  "hotspot": {
+   "key": "hotspot",
+   "sponsor_ids": [
+    "hotspot"
+   ],
+   "name": "HotSpot Therapeutics",
+   "role": "platform",
+   "tier": "computational",
+   "country": "US",
+   "trials": 1,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 1
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "frontier": {
+   "key": "frontier",
+   "sponsor_ids": [
+    "frontier"
+   ],
+   "name": "Frontier Medicines",
+   "role": "platform",
+   "tier": "computational",
+   "country": "US",
+   "trials": 2,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1/2": {
+     "active": 2,
+     "completed": 0,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "regor": {
+   "key": "regor",
+   "sponsor_ids": [
+    "regor"
+   ],
+   "name": "Regor Pharmaceuticals",
+   "name_zh": "锐格医药",
+   "role": "platform",
+   "tier": "computational",
+   "country": "US",
+   "trials": 7,
+   "stopped": 2,
+   "furthest": "Phase 2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 3,
+     "completed": 0,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 4
+    },
+    "Phase 2": {
+     "active": 0,
+     "completed": 2,
+     "stopped": 1,
+     "unknown": 0,
+     "total": 3
+    }
+   },
+   "profile": null,
+   "quote": null
+  },
+  "CGEN": {
+   "key": "CGEN",
+   "sponsor_ids": [
+    "compugen"
+   ],
+   "name": "Compugen",
+   "ticker": "CGEN",
+   "market": "US",
+   "role": "platform",
+   "tier": "computational",
+   "country": "IL",
+   "trials": 5,
+   "stopped": 0,
+   "furthest": "Phase 1/2",
+   "by_phase": {
+    "Phase 1": {
+     "active": 1,
+     "completed": 2,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 3
+    },
+    "Phase 1/2": {
+     "active": 1,
+     "completed": 1,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 2
+    }
+   },
+   "profile": {
+    "ticker": "CGEN",
+    "name": "Compugen",
+    "hq": "Holon, Israel",
+    "founded": 1993,
+    "listed": "Nasdaq, 2000; also Tel Aviv Stock Exchange",
+    "what_en": "Compugen finds new targets for cancer immunotherapy by computer and develops antibodies against them. Its revenue comes from licence payments: AstraZeneca and Gilead each develop a drug based on its discoveries.",
+    "what_zh": "Compugen 用计算方法寻找癌症免疫治疗的新靶点，并开发相应抗体。收入来自授权付款：阿斯利康和吉利德各自在开发一款基于其发现的药物。",
+    "ai_en": "Its computational discovery platform, Unigen, which the company describes as AI-powered, identified the targets TIGIT, PVRIG and IL-18BP.",
+    "ai_zh": "其计算发现平台 Unigen（公司称由 AI 驱动）发现了 TIGIT、PVRIG 和 IL-18BP 等靶点。",
+    "lead_en": "As of November 2026: its own lead, COM701, is in a placebo-controlled trial in ovarian cancer (62 patients enrolled; results due by end of March 2027). Rilvegostomig, which uses a Compugen antibody component, is in Phase 3 trials run by AstraZeneca.",
+    "lead_zh": "截至 2026 年 11 月：自有主要项目 COM701 正在卵巢癌中进行安慰剂对照试验（已入组 62 名患者，预计 2027 年 3 月底前出结果）。使用 Compugen 抗体成分的 rilvegostomig 由阿斯利康开展三期试验。",
+    "source": {
+     "url": "https://finviz.com/news/418865/compugen-reports-third-quarter-2026-results",
+     "publisher": "Compugen (via Finviz / PR Newswire)",
+     "title": "Compugen Reports Third Quarter 2026 Results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "GOOGL": {
+   "key": "GOOGL",
+   "sponsor_ids": [],
+   "name": "Alphabet",
+   "ticker": "GOOGL",
+   "market": "US",
+   "role": "compute",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "hq": "Mountain View, California, US",
+    "founded": 1998,
+    "listed": "Nasdaq, 2004 (as Google)",
+    "what_en": "Alphabet is the parent of Google; most of its revenue comes from advertising on Search and YouTube and from Google Cloud. It is also the parent of the AI lab Google DeepMind and the main backer of Isomorphic Labs.",
+    "what_zh": "Alphabet 是谷歌的母公司，收入主要来自搜索和 YouTube 广告以及谷歌云。它也是 AI 实验室 Google DeepMind 的母公司，并是 Isomorphic Labs 的主要出资方。",
+    "ai_en": "Drug discovery is a small part of the business: Isomorphic Labs (founded 2021, London) designs drugs with its IsoDDE engine for partners Lilly, Novartis, Johnson & Johnson and, since November 2026, Merck; it raised $2.1 billion in May 2026.",
+    "ai_zh": "药物发现只占业务的一小部分：Isomorphic Labs（2021 年成立，总部伦敦）用其 IsoDDE 引擎为礼来、诺华、强生以及 2026 年 11 月起的默沙东设计药物；2026 年 5 月融资 21 亿美元。",
+    "source": {
+     "url": "https://www.isomorphiclabs.com/press/isomorphic-labs-funding",
+     "publisher": "Isomorphic Labs",
+     "title": "Isomorphic Labs press release on its $2.1 billion Series B funding (12 May 2026)"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (Alphabet's revenue mix is from general knowledge)"
+    ]
+   },
+   "quote": null
+  },
+  "MSFT": {
+   "key": "MSFT",
+   "sponsor_ids": [],
+   "name": "Microsoft",
+   "ticker": "MSFT",
+   "market": "US",
+   "role": "compute",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "hq": "Redmond, Washington, US",
+    "founded": 1975,
+    "listed": "Nasdaq, 1986",
+    "what_en": "Microsoft sells software and cloud computing: Windows, Office, the Azure cloud and related AI services. Most of its revenue comes from business software subscriptions and cloud usage.",
+    "what_zh": "微软销售软件和云计算服务：Windows、Office、Azure 云及相关 AI 服务。收入主要来自企业软件订阅和云服务使用费。",
+    "ai_en": "Science R&D is a small part of the business: Microsoft Discovery is an Azure platform of AI agents for research teams, and Microsoft Research publishes biology models such as BioEmu, which predicts the shapes a protein can take.",
+    "ai_zh": "科研只占业务的一小部分：Microsoft Discovery 是 Azure 上面向研发团队的 AI 智能体平台；微软研究院发布了 BioEmu 等生物学模型，可预测蛋白质可能呈现的构象。",
+    "source": {
+     "url": "https://www.microsoft.com/en-us/research/story/microsoft-at-wef-2026/",
+     "publisher": "Microsoft Research",
+     "title": "Microsoft harnesses AI's transformative power (Microsoft at WEF 2026)"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (revenue mix is from general knowledge)"
+    ]
+   },
+   "quote": null
+  },
+  "AMZN": {
+   "key": "AMZN",
+   "sponsor_ids": [],
+   "name": "Amazon",
+   "ticker": "AMZN",
+   "market": "US",
+   "role": "compute",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "hq": "Seattle, US",
+    "founded": 1994,
+    "listed": "Nasdaq, 1997",
+    "what_en": "Amazon runs online retail and the Amazon Web Services (AWS) cloud. Revenue comes from retail sales, seller services, advertising and cloud computing; AWS also supplies computing power to AI companies including Anthropic.",
+    "what_zh": "亚马逊经营网络零售和亚马逊云科技（AWS）。收入来自零售、卖家服务、广告和云计算；AWS 也向 Anthropic 等 AI 公司提供算力。",
+    "ai_en": "Life sciences is a small part of the business: Amazon Bio Discovery is an AWS application in which AI agents and biology models design antibody candidates and send them to partner labs for testing, priced per experiment.",
+    "ai_zh": "生命科学只占业务的一小部分：Amazon Bio Discovery 是 AWS 上的一款应用，由 AI 智能体和生物学模型设计候选抗体，并送交合作实验室检测，按实验收费。",
+    "source": {
+     "url": "https://aws.amazon.com/biodiscovery/",
+     "publisher": "Amazon Web Services",
+     "title": "Amazon Bio Discovery"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (revenue mix is from general knowledge)"
+    ]
+   },
+   "quote": null
+  },
+  "DHR": {
+   "key": "DHR",
+   "sponsor_ids": [],
+   "name": "Danaher",
+   "ticker": "DHR",
+   "market": "US",
+   "role": "tools",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "DHR",
+    "name": "Danaher",
+    "hq": "Washington, D.C., US",
+    "founded": 1969,
+    "listed": "NYSE",
+    "what_en": "Danaher owns businesses that sell equipment and supplies for making biological drugs, research tools and medical diagnostic tests, including Cytiva, Beckman Coulter, Leica Biosystems and Abcam. Revenue was $24.6 billion in 2025.",
+    "what_zh": "丹纳赫旗下企业销售生物药生产设备和耗材、科研工具和医学诊断检测产品，包括 Cytiva、贝克曼库尔特、徕卡生物系统和 Abcam。2025 年收入 246 亿美元。",
+    "ai_en": "AI is a small part of the business: in October 2026 it announced an AI- and robot-run laboratory at Abcam to design and test custom antibodies, due to operate at scale in early 2027, and a collaboration with NVIDIA.",
+    "ai_zh": "AI 只占业务的一小部分：2026 年 10 月公司宣布在 Abcam 建设由 AI 和机器人运行的实验室，用于设计和检测定制抗体，预计 2027 年初规模化运行；同月宣布与英伟达合作。",
+    "source": {
+     "url": "https://finviz.com/news/399694/danaher-accelerates-life-sciences-research-with-new-ai-powered-autonomous-lab",
+     "publisher": "Danaher (via Finviz / PR Newswire)",
+     "title": "Danaher Accelerates Life Sciences Research with New AI-powered Autonomous Lab"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (2025 revenue and Leica Biosystems are from a search summary)",
+     "ai_en (the NVIDIA collaboration is from a search summary)"
+    ]
+   },
+   "quote": null
+  },
+  "IQV": {
+   "key": "IQV",
+   "sponsor_ids": [],
+   "name": "IQVIA",
+   "ticker": "IQV",
+   "market": "US",
+   "role": "cro",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "IQV",
+    "name": "IQVIA",
+    "hq": "Durham, North Carolina, US",
+    "founded": 1982,
+    "listed": "NYSE, 2013 (as Quintiles)",
+    "what_en": "IQVIA runs clinical trials for drug makers and sells them health data and analytics. Third-quarter 2026 revenue was $4.43 billion: $2.64 billion from research and development services and $1.79 billion from commercial services.",
+    "what_zh": "IQVIA（艾昆纬）为药企开展临床试验，并向其出售医疗数据和分析服务。2026 年第三季度收入 44.3 亿美元，其中研发服务 26.4 亿美元，商业服务 17.9 亿美元。",
+    "ai_en": "AI is one part of its services: it says its products are built on health data and what it calls Healthcare-grade AI, and that it had deployed more than 400 AI agents by October 2026.",
+    "ai_zh": "AI 是其服务的一部分：公司称其产品建立在医疗数据和所谓“医疗级 AI”之上，截至 2026 年 10 月已部署 400 多个 AI 智能体。",
+    "source": {
+     "url": "https://finviz.com/news/408579/iqvia-reports-third-quarter-2026-results",
+     "publisher": "IQVIA (via Finviz / Business Wire)",
+     "title": "IQVIA Reports Third-Quarter 2026 Results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "listed (the 2013 listing was that of predecessor Quintiles; from general knowledge plus a profile page)"
+    ]
+   },
+   "quote": null
+  },
+  "CERT": {
+   "key": "CERT",
+   "sponsor_ids": [],
+   "name": "Certara",
+   "ticker": "CERT",
+   "market": "US",
+   "role": "cro",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "CERT",
+    "name": "Certara",
+    "hq": "Radnor, Pennsylvania, US",
+    "founded": 2008,
+    "listed": "Nasdaq, 2020",
+    "what_en": "Certara sells biosimulation software, which models on a computer how a drug behaves in the body, and related consulting to drug makers and regulators. Third-quarter 2026 revenue was $94.9 million: $48.8 million software and $46.1 million services.",
+    "what_zh": "Certara 向药企和监管机构销售生物模拟软件（用计算机模拟药物在体内的行为）及相关咨询服务。2026 年第三季度收入 0.949 亿美元，其中软件 0.488 亿美元，服务 0.461 亿美元。",
+    "ai_en": "Its products are mainly model-based simulation rather than AI; it also offers Certara.AI, an AI platform for life sciences, and sold its regulatory and medical writing business in May 2026.",
+    "ai_zh": "其产品以基于模型的模拟为主，而非 AI；公司另有面向生命科学的 AI 平台 Certara.AI，并于 2026 年 5 月出售了注册与医学写作业务。",
+    "source": {
+     "url": "https://www.certara.com/pressrelease/certara-reports-third-quarter-2026-financial-results/",
+     "publisher": "Certara",
+     "title": "Certara Reports Third Quarter 2026 Financial Results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "VEEV": {
+   "key": "VEEV",
+   "sponsor_ids": [],
+   "name": "Veeva",
+   "ticker": "VEEV",
+   "market": "US",
+   "role": "cro",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "VEEV",
+    "name": "Veeva Systems",
+    "hq": "Pleasanton, California, US",
+    "founded": 2007,
+    "listed": "NYSE, 2013",
+    "what_en": "Veeva sells cloud software to drug makers for running clinical trials, regulatory filings, quality control and sales teams. Most revenue is subscriptions: $766.8 million of $928.0 million in the quarter to July 2026.",
+    "what_zh": "Veeva 向药企销售云软件，用于管理临床试验、注册申报、质量控制和销售团队。收入以订阅为主：截至 2026 年 7 月的季度收入 9.28 亿美元，其中订阅 7.668 亿美元。",
+    "ai_en": "Its AI link is in software, not drug design: it is adding AI agents to its Vault applications and building Veeva Falcon, an agent platform for clinical, regulatory and safety work.",
+    "ai_zh": "它与 AI 的关联在软件而非药物设计：公司正在 Vault 应用中加入 AI 智能体，并开发用于临床、注册和安全性工作的智能体平台 Veeva Falcon。",
+    "source": {
+     "url": "https://www.veeva.com/resources/veeva-announces-fiscal-2027-second-quarter-results/",
+     "publisher": "Veeva Systems",
+     "title": "Veeva Announces Fiscal 2027 Second Quarter Results"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  },
+  "TAK": {
+   "key": "TAK",
+   "sponsor_ids": [],
+   "name": "Takeda",
+   "ticker": "TAK",
+   "market": "US",
+   "role": "pharma",
+   "trials": 26,
+   "stopped": 0,
+   "furthest": "Phase 3",
+   "by_phase": {
+    "Phase 1": {
+     "active": 0,
+     "completed": 7,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 7
+    },
+    "Phase 2": {
+     "active": 6,
+     "completed": 2,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 8
+    },
+    "Phase 3": {
+     "active": 7,
+     "completed": 4,
+     "stopped": 0,
+     "unknown": 0,
+     "total": 11
+    }
+   },
+   "profile": {
+    "ticker": "TAK",
+    "name": "Takeda",
+    "hq": "Tokyo, Japan",
+    "founded": 1781,
+    "listed": "Tokyo Stock Exchange; NYSE (ADR)",
+    "what_en": "Takeda is a Japanese drug maker. It discovers, makes and sells prescription medicines, with revenue from products for gut and immune diseases, rare diseases, blood-plasma therapies, cancer and nerve disorders.",
+    "what_zh": "武田是一家日本制药公司，研发、生产并销售处方药，收入来自消化与免疫疾病、罕见病、血浆制品、肿瘤和神经疾病等领域的产品。",
+    "ai_en": "AI is a small part of the business: its psoriasis pill zasocitinib, co-invented by Schrödinger and Nimbus using computational design, is under FDA priority review with a decision due in early 2027; Takeda is also a discovery partner of Iambic.",
+    "ai_zh": "AI 只占业务的一小部分：其银屑病口服药 zasocitinib 由薛定谔与 Nimbus 借助计算设计共同发明，正在接受 FDA 优先审评，预计 2027 年初有结果；武田也是 Iambic 的药物发现合作方。",
+    "source": {
+     "url": "https://www.takeda.com/newsroom/newsreleases/2026/fda-priority-review-zasocitinib-psoriasis/",
+     "publisher": "Takeda",
+     "title": "U.S. FDA Accepts New Drug Application Under Priority Review for Takeda's Zasocitinib in Moderate-to-Severe Plaque Psoriasis"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (business areas are from general knowledge)"
+    ]
+   },
+   "quote": null
+  },
+  "NVS": {
+   "key": "NVS",
+   "sponsor_ids": [],
+   "name": "Novartis",
+   "ticker": "NVS",
+   "market": "US",
+   "role": "pharma",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "NVS",
+    "name": "Novartis",
+    "hq": "Basel, Switzerland",
+    "founded": 1996,
+    "listed": "SIX Swiss Exchange; NYSE (ADR)",
+    "what_en": "Novartis discovers, makes and sells prescription medicines for heart, immune, nerve and cancer diseases. It was formed in 1996 by the merger of Ciba-Geigy and Sandoz; revenue comes from selling its medicines.",
+    "what_zh": "诺华研发、生产并销售心血管、免疫、神经和肿瘤领域的处方药。公司于 1996 年由汽巴-嘉基与山德士合并而成；收入来自药品销售。",
+    "ai_en": "AI is a small part of the business: it uses AI in target selection, molecule design and trial planning, and has paid for AI partnerships with Isomorphic Labs, Generate Biomedicines, Schrödinger and, in July 2026, Chai Discovery.",
+    "ai_zh": "AI 只占业务的一小部分：公司把 AI 用于靶点选择、分子设计和试验规划，并出资与 Isomorphic Labs、Generate Biomedicines、薛定谔以及 2026 年 7 月的 Chai Discovery 合作。",
+    "source": {
+     "url": "https://www.novartis.com/stories/smarter-decisions-scale-how-novartis-using-ai-advance-rd",
+     "publisher": "Novartis",
+     "title": "Smarter decisions at scale: How Novartis is using AI to advance R&D"
+    },
+    "as_of": "2026-11-23",
+    "checked": "partly",
+    "unverified": [
+     "what_en (therapeutic areas and the 1996 merger partners are from general knowledge)",
+     "ai_en (the Chai Discovery deal is from a search summary; the other three are from the site's own deals file)"
+    ]
+   },
+   "quote": null
+  },
+  "MRK": {
+   "key": "MRK",
+   "sponsor_ids": [],
+   "name": "Merck",
+   "ticker": "MRK",
+   "market": "US",
+   "role": "pharma",
+   "trials": 0,
+   "stopped": 0,
+   "furthest": null,
+   "by_phase": {},
+   "profile": {
+    "ticker": "MRK",
+    "name": "Merck",
+    "hq": "Rahway, New Jersey, US",
+    "founded": 1891,
+    "listed": "NYSE",
+    "what_en": "Merck, known as MSD outside the United States and Canada, makes and sells medicines and vaccines for people and animals. Products include the cancer drug Keytruda and the HPV vaccine Gardasil; revenue comes from selling them.",
+    "what_zh": "默沙东（在美国和加拿大称 Merck）生产并销售人用和动物用药品及疫苗，产品包括抗癌药 Keytruda 和 HPV 疫苗 Gardasil；收入来自产品销售。",
+    "ai_en": "AI is a small part of the business: on 19 November 2026 it announced a research collaboration with Isomorphic Labs to design small-molecule drugs against one cancer target; amounts were not disclosed.",
+    "ai_zh": "AI 只占业务的一小部分：2026 年 11 月 19 日，公司宣布与 Isomorphic Labs 开展研究合作，针对一个肿瘤靶点设计小分子药物，金额未披露。",
+    "source": {
+     "url": "https://www.merck.com/?p=3705104",
+     "publisher": "Merck",
+     "title": "Merck and Isomorphic Labs Enter Strategic Research Collaboration"
+    },
+    "as_of": "2026-11-23",
+    "checked": "opened"
+   },
+   "quote": null
+  }
+ },
+ "today_block": {
+  "signal_ids": [
+   "web:recursion-rec4881-fda-phase3-design",
+   "web:isomorphic-series-c-5bn"
+  ],
+  "signals_run": "2026-11-23",
+  "event_ids": [
+   "NCT05267626:status:ACTIVE_NOT_RECRUITING",
+   "NCT05985655:status:ACTIVE_NOT_RECRUITING",
+   "NCT07932041:phase:Early Phase 1"
+  ],
+  "due_30d": [
+   "NCT07656727",
+   "NCT05456256",
+   "NCT07298395",
+   "NCT07301255"
+  ],
+  "due_30d_n": 4,
+  "overdue": [
+   "NCT05975983",
+   "NCT06254950",
+   "NCT04752813"
+  ]
+ },
+ "glossary": [
+  {
+   "key": "phase",
+   "term_en": "Phase",
+   "term_zh": "试验分期",
+   "def_en": "Human trials run in stages. Phase 1 tests safety in a few people; Phase 2 is the first real test of whether the drug works, and where most fail; Phase 3 confirms it in hundreds or thousands before approval. \"Phase 1/2\" combines two stages in one trial.",
+   "def_zh": "人体试验分阶段进行。一期在少数人身上测试安全性；二期首次真正检验药物是否有效，多数药物在此失败；三期在数百至数千人中确证疗效，之后才能申请上市。“1/2 期”指一项试验合并两个阶段。"
+  },
+  {
+   "key": "primary_completion",
+   "term_en": "Primary completion",
+   "term_zh": "主要完成日期",
+   "def_en": "The date the sponsor expects to have collected the data for the trial's main question. Results usually follow within months. It is the sponsor's own estimate and often slips.",
+   "def_zh": "申办方预计收齐试验主要问题所需数据的日期，结果通常在其后数月内公布。这是申办方自己的估计，经常推迟。"
+  },
+  {
+   "key": "randomised",
+   "term_en": "Randomised",
+   "term_zh": "随机对照",
+   "def_en": "Patients are assigned by chance to the drug or to a comparison (placebo or standard care). Without this, an apparent benefit may be chance or patient selection.",
+   "def_zh": "患者被随机分配到试验药物组或对照组（安慰剂或标准治疗）。没有随机对照，看到的疗效可能只是偶然或选人造成的。"
+  },
+  {
+   "key": "status",
+   "term_en": "Trial status",
+   "term_zh": "试验状态",
+   "def_en": "Recruiting: enrolling patients. Active, not recruiting: enrolment closed, patients still being followed. Completed: finished, which does not mean it succeeded. Terminated, withdrawn or suspended: stopped early.",
+   "def_zh": "招募中：正在入组。进行中但不再招募：入组结束，仍在随访。已完成：试验结束，但不代表成功。终止、撤回或暂停：提前停止。"
+  },
+  {
+   "key": "stopped",
+   "term_en": "Stopped early",
+   "term_zh": "提前终止",
+   "def_en": "A trial the sponsor ended, withdrew or paused before completion. The reason shown is the sponsor's own wording in the registry.",
+   "def_zh": "申办方在完成前终止、撤回或暂停的试验。所示原因为申办方在登记库中的原话。"
+  },
+  {
+   "key": "upfront",
+   "term_en": "Upfront payment",
+   "term_zh": "首付款",
+   "def_en": "Cash the drugmaker pays when the deal is signed. It is the only part of a deal's value that is certain.",
+   "def_zh": "药企在签约时支付的现金，是交易金额中唯一确定的部分。"
+  },
+  {
+   "key": "headline",
+   "term_en": "Headline value",
+   "term_zh": "总额上限",
+   "def_en": "The \"up to\" figure in a deal announcement: upfront plus every milestone payment if all the drugs succeed. Most of it is rarely paid.",
+   "def_zh": "交易公告中的“最高可达”金额：首付款加上所有药物都成功时的全部里程碑付款。其中大部分很少真正支付。"
+  },
+  {
+   "key": "evidence",
+   "term_en": "Evidence score",
+   "term_zh": "证据分",
+   "def_en": "0 to 3: how much an item shows the science works. 0 is a claim or money only; 3 needs a randomised human trial result or a regulator's decision. Funding always scores 0.",
+   "def_zh": "0 到 3 分：该条目在多大程度上说明科学有效。0 分只是说法或资金；3 分需要随机人体试验结果或监管决定。融资恒为 0 分。"
+  },
+  {
+   "key": "market",
+   "term_en": "Market score",
+   "term_zh": "市场分",
+   "def_en": "0 to 3: how much money is moving. 2 means it changes estimates or deal comparisons for a listed company; 3 means it is likely to move a share price or sector spending. It is a description, not a recommendation.",
+   "def_zh": "0 到 3 分：资金变动的程度。2 分表示会改变某上市公司的预期或交易参照；3 分表示可能推动股价或行业支出。这是描述，不是建议。"
+  },
+  {
+   "key": "second_order",
+   "term_en": "2nd order",
+   "term_zh": "二阶",
+   "def_en": "A company touched indirectly: a supplier of computing power or lab tools, a research contractor, or the listed parent of a private company.",
+   "def_zh": "间接受影响的公司：算力或实验室工具供应商、研究外包商，或未上市公司的上市母公司。"
+  },
+  {
+   "key": "ai_native",
+   "term_en": "AI-native",
+   "term_zh": "AI 原生",
+   "def_en": "A company that describes its drug-discovery platform as AI or machine learning. Judged by company, not by molecule; companies using physics-based computation are listed separately as contested.",
+   "def_zh": "自称其药物发现平台由 AI 或机器学习驱动的公司。按公司而非分子判断；以物理计算为主的公司单列为“有争议”。"
+  },
+  {
+   "key": "pe",
+   "term_en": "P/E",
+   "term_zh": "市盈率",
+   "def_en": "Share price divided by the last twelve months' earnings per share. Not shown for loss-making companies, which includes most drug developers.",
+   "def_zh": "股价除以过去十二个月的每股收益。亏损公司不显示，大多数药物研发公司属于此类。"
+  },
+  {
+   "key": "range52",
+   "term_en": "52-week range",
+   "term_zh": "52 周区间",
+   "def_en": "The lowest and highest closing prices of the past year; the marker shows where the latest price sits between them.",
+   "def_zh": "过去一年收盘价的最低与最高值；标记显示最新价格在两者之间的位置。"
+  },
+  {
+   "key": "runway",
+   "term_en": "Cash runway",
+   "term_zh": "现金可支撑时间",
+   "def_en": "Cash and investments divided by the recent quarterly cash burn: roughly how long a loss-making company can fund itself without raising money.",
+   "def_zh": "现金及投资除以近期的季度现金消耗：亏损公司在不融资的情况下大约还能维持多久。"
+  },
+  {
+   "key": "mcap",
+   "term_en": "Market cap",
+   "term_zh": "市值",
+   "def_en": "Share price times shares outstanding.",
+   "def_zh": "股价乘以已发行股数。"
+  }
+ ],
+ "approvals": [
+  {
+   "id": "lirafugratinib-fda-2026-09",
+   "date": "2026-09-23",
+   "drug": "lirafugratinib (Lyrfigtu)",
+   "co": "RLAY",
+   "run_by": "Elevar Therapeutics",
+   "regulator": "FDA",
+   "tier": "computational",
+   "text_en": "FDA approval for previously treated bile-duct cancer with an FGFR2 rearrangement; the response rate was 46%. Discovered by Relay Therapeutics, licensed to Elevar in December 2024. Relay is in the contested tier: its platform is computer simulation of protein motion, and whether that counts as AI is disputed.",
+   "text_zh": "FDA 批准用于既往接受过治疗、携带 FGFR2 重排的胆管癌，客观缓解率为 46%。由 Relay Therapeutics 发现，2024 年 12 月授权给 Elevar。Relay 属于“有争议”一类：其平台是蛋白质运动的计算机模拟，是否算 AI 存在分歧。",
+   "source": {
+    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lirafugratinib-previously-treated-unresectable-locally-advanced-or-metastatic",
+    "publisher": "FDA",
+    "title": "FDA approves lirafugratinib for previously treated cholangiocarcinoma"
+   },
+   "source2": {
+    "url": "https://finviz.com/news/415858/relay-therapeutics-reports-third-quarter-2026-financial-results-and-corporate-updates",
+    "publisher": "Relay Therapeutics (via Finviz / GlobeNewswire)"
+   }
+  }
+ ],
+ "quotes_as_of": null,
  "watchlist": [
   {
    "id": "anthropic",

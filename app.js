@@ -4,229 +4,473 @@
   var T = {
     en: {
       title: "AI Drug Ledger", subtitle: "Drugs from AI-native companies in human trials: what started, what moved, what stopped. Outcomes, not announcements.",
-      loading: "Loading…", failed: "Could not load data/ledger.json.",
-      tabs: { overview: "Overview", signals: "Signals", trials: "Trials", stopped: "Stopped", readouts: "Calendar", deals: "Deals", changes: "Changes", longevity: "Longevity", reading: "Reading", method: "Method" },
-      trials: "Trials on the ledger", sponsors: "Companies", core: "From AI-native sponsors", stoppedN: "Stopped early", results: "With results posted", p3: "Phase 3 or 2/3 (AI-native)", new90: "Registered in the last 90 days",
+      loading: "Loading…", failed: "Could not load data/ledger.json.", skip: "Skip to content",
+      nav: { today: "Today", signals: "Signals", trials: "Trials", calendar: "Calendar", more: "More" },
+      subs: { all: "All trials", stopped: "Stopped", changes: "Changes", companies: "Companies", dates: "Dates ahead", deals: "Deals", longevity: "Longevity", reading: "Reading", method: "Method", glossary: "Glossary" },
+      tSignals: "Latest signals", tChanges: "Registry changes", tDue: "Due in the next 30 days", seeAll: "See all", noSignals: "No material signals in the last scan.", noChanges: "No changes recorded yet.", noDue: "Nothing due in the next 30 days.",
+      overdue: "{n} active Phase 2/3 trials are past their listed result date with no update.", scanOf: "scan of {d}",
+      trials: "Trials", sponsors: "Companies", core: "Trials from AI-native companies", stoppedN: "Stopped early", results: "With results posted", p3: "In Phase 3 or 2/3", new90: "Registered in 90 days",
+      apprH: "Approved so far", apprNone: "No drug from an AI-native company on this ledger has been approved by a major regulator.", apprAi: "From AI-native companies: none yet.", pApproved: "Approved drugs", profPartly: "some details not re-checked",
       verdictH: "Does AI change the odds? Unproven.", verdictP: "{n} of the {t} completed randomised Phase 2 trials needed before a matched comparison means anything. A completed trial is not a successful one: the registry does not say whether a trial met its endpoint.",
-      phaseH: "Trials by phase (AI-native sponsors)", phase: "Phase", active: "Active", completed: "Completed", stopped: "Stopped", unknown: "Unknown", total: "Total",
-      sponsorsH: "Companies", company: "Company", basis: "Basis", furthest: "Furthest phase", ai: "AI-native", computational: "Computational, AI label contested",
-      ticker: "Ticker", listedOnly: "Listed companies only", none: "Nothing yet.",
-      sigNote: "A daily scan of trial registries, filings, preprints, regulators and company news. Each item gets two separate scores: Evidence (does it show the science works) and Market (is money moving). Funding and valuations always score 0 on Evidence.",
-      sigLast: "Last scan: {d}", sigChecked: "Sources checked", weekly: "Weekly summary", evidence: "Evidence", market: "Market", names: "Names", soWhat: "So what", changes: "Changes my view if", second: "2nd order", single: "single source", company_src: "company claim", independent_src: "independent source", conf: "confidence", followups: "Follow-ups", watching: "Waiting on",
-      ty: { human_data: "Human data", trial: "Trial start or stop", regulatory: "Regulatory", benchmark: "Benchmark or replication", deal: "Licence or deal", funding: "Funding or M&A", capex: "Capex or compute", tool: "Tool release", other: "Other" },
-      dir: { positive: "positive", negative: "negative", neutral: "neutral" },
-      calNote: "Dated events ahead: results due from active Phase 2 and Phase 3 trials (sponsors' own estimates, which often slip) and regulator decisions the company has disclosed.", event: "Event", regDecision: "Regulator decision",
-      dealsNote: "Pharma-AI partnerships with the cash paid upfront beside the headline figure. The headline is mostly milestones that depend on drugs succeeding in trials. Figures are from the linked source; headlines are never added up.", deal: "Deal", headline: "Headline, up to", upfront: "Upfront", share: "Upfront share", undisclosed: "not disclosed", moreThan: "more than ",
-      watchH: "Watch list", role: "Role", listing: "Listing", via: "via", priv: "private", roles: { lab: "AI lab", pharma: "Pharma", platform: "AI drug platform", compute: "Compute", tools: "Lab tools" },
-      all: "All", allPhases: "All phases", allStatus: "All statuses", allCompanies: "All companies", search: "Search drug or condition",
-      trial: "Trial", drug: "Drug", condition: "Condition", status: "Status", updated: "Updated", why: "Reason given", readout: "Primary completion", n: "Enrolled",
+      phaseH: "Trials by phase, AI-native companies", active: "Active", completed: "Completed", stopped: "Stopped", unknown: "Unknown", total: "Total",
+      company: "Company", ticker: "Ticker", basis: "Basis", furthest: "Furthest phase", ai: "AI-native", computational: "Computational, contested", year: "1 year", mcap: "Market cap", pe: "P/E",
+      allPhases: "All phases", allCompanies: "All companies", search: "Search drug, condition, company or ticker", listedOnly: "Listed companies only", clear: "Clear filters", noMatch: "Nothing matches these filters.", showMore: "Show {n} more", shown: "{a} of {b}",
+      trial: "Trial", drug: "Drug", condition: "Condition", phase: "Phase", status: "Status", updated: "Updated", why: "Reason given", readout: "Due", n: "Enrolled", date: "Date", change: "Change", event: "Event", source: "Source",
+      dTitle: "Title", dRand: "Randomised", yes: "yes", no: "no", dFirst: "First registered", dPrim: "Primary completion", dWhy: "Why stopped", dRun: "Run by", details: "Details",
       stoppedNote: "Terminated, withdrawn or suspended trials, with the reason the sponsor gave the registry. Failures rarely get a press release; this is where they show.",
-      readoutNote: "Active Phase 2 and Phase 3 trials by the date their main result is due. Dates are the sponsors' own estimates and often slip.",
-      changesNote: "Changes detected between daily snapshots of the registry since {d}. Down moves are logged the same way as up moves.", noChanges: "No changes recorded yet. The log starts from the first snapshot.",
-      date: "Date", change: "Change",
+      changesNote: "Changes detected between daily snapshots of the registry since {d}. Down moves are logged the same way as up moves.",
       ev: { registered: "New trial registered", status: "Status", phase: "Phase", results_posted: "Results posted", date_moved: "Result date moved" },
-      longNote: "Ageing has no approved indication and no accepted endpoint, so real events are rare. These are the milestones worth checking a few times a year.", now: "Where it stands", signal: "What would count", asOf: "as of", source: "Source",
+      calNote: "Results due from active Phase 2 and Phase 3 trials (the sponsors' own estimates, which often slip) and regulator decisions a company has disclosed.", regDecision: "Regulator decision", stripLab: "Next 12 months: one dot per trial result due, squares for regulator decisions",
+      dealsNote: "Pharma-AI partnerships with the cash paid upfront beside the headline figure. Figures are from the linked source; headlines are never added up.", deal: "Deal", headline: "Headline, up to", upfront: "Upfront", share: "Upfront share", undisclosed: "not disclosed", moreThan: "more than ",
+      sigNote: "A daily scan of trial registries, filings, preprints, regulators and company news. Each item gets two separate scores.", sigLast: "Last scan: {d}", sigChecked: "Sources checked", weekly: "Weekly summary", evidence: "Evidence", market: "Market", soWhat: "So what", changes: "Changes my view if", second: "2nd order", single: "single source", company_src: "company claim", independent_src: "independent source", conf: "confidence", followups: "Follow-ups", watching: "Waiting on", watchH: "Watch list", role: "Role", listing: "Listing", via: "via", priv: "private", none: "Nothing yet.",
+      ty: { human_data: "Human data", trial: "Trial start or stop", regulatory: "Regulatory", benchmark: "Benchmark or replication", deal: "Licence or deal", funding: "Funding or M&A", capex: "Capex or compute", tool: "Tool release", other: "Other" },
+      dir: { positive: "positive", negative: "negative", neutral: "neutral" }, confv: { high: "high", medium: "medium", low: "low" },
+      roles: { lab: "AI lab", pharma: "Pharma", platform: "AI drug platform", compute: "Compute", tools: "Lab tools", cro: "Research contractor" },
+      srcs: { registry: "trial registry", sec_search: "SEC filing search", sec_company: "company 8-Ks", preprints: "preprints", arxiv: "arXiv", regulators: "regulators", newsrooms: "company newsrooms", model_hubs: "model hubs", news_search: "news search" },
+      longNote: "Ageing has no approved indication and no accepted endpoint, so real events are rare. These are the milestones worth checking a few times a year.", now: "Where it stands", signal: "What would count", asOf: "as of",
       st: { none: "Does not exist", in_progress: "In progress", stalled: "Stalled", failed: "Failed" },
-      readNote: "The short list to follow. Latest headlines are refreshed with the ledger; news sources are filtered to AI and ageing.", noFeed: "No feed: open the site.",
+      readNote: "The short list to follow. Headlines refresh with the ledger; news sources are filtered to AI and ageing.", noFeed: "No feed: open the site.",
       methodH: "What is counted", methodP: [
         "A trial is on the ledger when it is an interventional drug or biologic trial on ClinicalTrials.gov and its lead sponsor is a company on the list, or it tests a listed asset that such a company discovered and another sponsor now runs.",
         "\"AI-discovered\" is judged by company, not by molecule: a company is AI-native when it describes its discovery platform as AI or machine learning. Companies whose platform is physics-based or structure-based computation are listed separately as contested and kept out of the headline counts. The split is an editorial judgement and should be reviewed company by company.",
-        "Not captured: AI-origin drugs licensed to large pharma and not on the asset list, trials registered only outside ClinicalTrials.gov (many Chinese trials), and whether a completed trial succeeded."],
+        "Not captured: AI-origin drugs licensed to large pharma and not on the asset list, trials registered only outside ClinicalTrials.gov (many Chinese trials), and whether a completed trial succeeded.",
+        "Market data in the company panel is delayed, comes from the source named there, and is context only: the ledger draws no link between a signal and a price."],
       rubricH: "Grading a single claim", rubricP: "Score each 0 to 2. Below 6 of 14, treat it as hype.",
       rubric: ["Evidence level: lab or animal, uncontrolled human, randomised human.", "Endpoint: biomarker, surrogate, clinical outcome.", "Size and pre-registration.", "Independence: company release, peer-reviewed, replicated by others.", "Comparator: none, placebo, standard of care.", "The target has human genetic support.", "The AI contribution is specific and checkable, and negative data are disclosed."],
+      glossNote: "Plain-language meanings of the terms used on this site. Dotted terms anywhere on the page open the same explanation.",
+      pClose: "Close", pOverview: "Overview", pAi: "AI link", pLead: "Most advanced programme", pMarket: "Market data", pMarketNote: "Delayed; as of {d}. Context only, not a signal.", pPrice: "Last close", p1m: "1 month", p3m: "3 months", pYtd: "Year to date", pCash: "Cash", pRunway: "Cash runway", quarters: "{n} quarters", lossMaking: "n/a (loss-making)", pEps: "EPS, 12 months", pRev: "Revenue, 12 months", pRd: "R&D, 12 months",
+      pLedger: "On the ledger", pTrials: "{n} trials, {s} stopped early", pNoTrials: "No trials tracked for this company.", pNext: "Results due", pStopped: "Stopped trials", pSignals: "Signals", pDeals: "Deals", pChanges: "Registry changes", pLinks: "Links", pCt: "All trials on ClinicalTrials.gov", pSec: "SEC filings", pHk: "HKEX page", pSee: "See its trials", pProxy: "Listed through {t}", pPrivate: "Not listed", pSrc: "Profile source",
+      newLab: "new", markRead: "Mark all as read",
       footer: "Descriptive information only; not medical or investment advice, a research report or a recommendation on any investment product. The publisher may hold positions in the companies named. Trial data: ClinicalTrials.gov.", generated: "Data generated {d}"
     },
     zh: {
       title: "AI 新药台账", subtitle: "AI 原生公司进入人体试验的药物：哪些启动了，哪些推进了，哪些停了。只记结果，不记公告。",
-      loading: "加载中…", failed: "无法加载 data/ledger.json。",
-      tabs: { overview: "概览", signals: "信号", trials: "试验", stopped: "已终止", readouts: "日历", deals: "交易", changes: "变动", longevity: "长寿", reading: "阅读", method: "方法" },
-      trials: "台账内试验", sponsors: "公司", core: "来自 AI 原生公司", stoppedN: "提前终止", results: "已公布结果", p3: "三期或二/三期（AI 原生）", new90: "近 90 天新登记",
+      loading: "加载中…", failed: "无法加载 data/ledger.json。", skip: "跳到正文",
+      nav: { today: "今日", signals: "信号", trials: "试验", calendar: "日历", more: "更多" },
+      subs: { all: "全部试验", stopped: "已终止", changes: "变动", companies: "公司", dates: "未来日期", deals: "交易", longevity: "长寿", reading: "阅读", method: "方法", glossary: "术语" },
+      tSignals: "最新信号", tChanges: "登记库变动", tDue: "未来 30 天到期", seeAll: "查看全部", noSignals: "最近一次扫描没有重要信号。", noChanges: "暂无变动记录。", noDue: "未来 30 天没有到期事件。",
+      overdue: "{n} 项进行中的二/三期试验已过登记的结果日期，尚无更新。", scanOf: "{d} 扫描",
+      trials: "试验", sponsors: "公司", core: "AI 原生公司的试验", stoppedN: "提前终止", results: "已公布结果", p3: "处于三期或二/三期", new90: "近 90 天新登记",
+      apprH: "已获批的药物", apprNone: "台账内 AI 原生公司的药物尚无一款获主要监管机构批准。", apprAi: "来自 AI 原生公司：尚无。", pApproved: "已获批药物", profPartly: "部分细节未重新核对",
       verdictH: "AI 是否改变了成功率？尚无定论。", verdictP: "做匹配比较至少需要 {t} 项已完成的随机二期试验，目前只有 {n} 项。“已完成”不等于“成功”：登记库不记录试验是否达到终点。",
-      phaseH: "各期试验数（AI 原生公司）", phase: "分期", active: "进行中", completed: "已完成", stopped: "已终止", unknown: "不详", total: "合计",
-      sponsorsH: "公司", company: "公司", basis: "依据", furthest: "最远分期", ai: "AI 原生", computational: "计算驱动，AI 标签有争议",
-      ticker: "代码", listedOnly: "只看上市公司", none: "暂无。",
-      sigNote: "每日扫描试验登记库、监管文件、预印本、监管机构和公司新闻。每个条目有两个独立评分：证据（是否说明科学有效）和市场（资金是否在动）。融资和估值的证据分恒为 0。",
-      sigLast: "最近一次扫描：{d}", sigChecked: "已检查的来源", weekly: "每周总结", evidence: "证据", market: "市场", names: "相关公司", soWhat: "意义", changes: "何种情况会改变判断", second: "二阶", single: "单一来源", company_src: "公司说法", independent_src: "独立来源", conf: "置信度", followups: "后续跟进", watching: "等待结果",
-      ty: { human_data: "人体数据", trial: "试验启动或终止", regulatory: "监管", benchmark: "基准或重复验证", deal: "授权或交易", funding: "融资或并购", capex: "资本开支或算力", tool: "工具发布", other: "其他" },
-      dir: { positive: "正面", negative: "负面", neutral: "中性" },
-      calNote: "未来的已知日期事件：进行中的二期和三期试验的结果到期日（申办方自行估计，经常推迟），以及公司已披露的监管决定日期。", event: "事件", regDecision: "监管决定",
-      dealsNote: "药企与 AI 公司的合作：首付款与总额并列。总额大多是取决于药物试验成功的里程碑付款。数字来自所链接的来源；总额从不相加。", deal: "交易", headline: "总额上限", upfront: "首付款", share: "首付款占比", undisclosed: "未披露", moreThan: "超过 ",
-      watchH: "关注名单", role: "角色", listing: "上市", via: "通过", priv: "未上市", roles: { lab: "AI 实验室", pharma: "药企", platform: "AI 药物平台", compute: "算力", tools: "实验室工具" },
-      all: "全部", allPhases: "全部分期", allStatus: "全部状态", allCompanies: "全部公司", search: "搜索药物或适应症",
-      trial: "试验", drug: "药物", condition: "适应症", status: "状态", updated: "更新", why: "申办方给出的原因", readout: "主要完成日期", n: "入组人数",
+      phaseH: "各期试验数（AI 原生公司）", active: "进行中", completed: "已完成", stopped: "已终止", unknown: "不详", total: "合计",
+      company: "公司", ticker: "代码", basis: "依据", furthest: "最远分期", ai: "AI 原生", computational: "计算驱动，有争议", year: "一年", mcap: "市值", pe: "市盈率",
+      allPhases: "全部分期", allCompanies: "全部公司", search: "搜索药物、适应症、公司或代码", listedOnly: "只看上市公司", clear: "清除筛选", noMatch: "没有符合筛选条件的内容。", showMore: "再显示 {n} 条", shown: "{a} / {b}",
+      trial: "试验", drug: "药物", condition: "适应症", phase: "分期", status: "状态", updated: "更新", why: "申办方给出的原因", readout: "到期", n: "入组人数", date: "日期", change: "变动", event: "事件", source: "来源",
+      dTitle: "标题", dRand: "随机对照", yes: "是", no: "否", dFirst: "首次登记", dPrim: "主要完成日期", dWhy: "终止原因", dRun: "开展方", details: "详情",
       stoppedNote: "被终止、撤回或暂停的试验，以及申办方在登记库填写的原因。失败很少发新闻稿，这里能看到。",
-      readoutNote: "进行中的二期和三期试验，按主要结果预计日期排序。日期为申办方自行估计，经常推迟。",
-      changesNote: "自 {d} 起，每日登记库快照之间检测到的变动。下行与上行同样记录。", noChanges: "暂无变动记录。记录从首次快照开始。",
-      date: "日期", change: "变动",
+      changesNote: "自 {d} 起，每日登记库快照之间检测到的变动。下行与上行同样记录。",
       ev: { registered: "新试验登记", status: "状态", phase: "分期", results_posted: "公布结果", date_moved: "结果日期变更" },
-      longNote: "衰老没有获批适应症，也没有公认终点，真正的事件很少。以下是每年值得查看几次的里程碑。", now: "现状", signal: "什么才算信号", asOf: "截至", source: "来源",
+      calNote: "进行中的二期和三期试验的结果到期日（申办方自行估计，经常推迟），以及公司已披露的监管决定日期。", regDecision: "监管决定", stripLab: "未来 12 个月：每个圆点为一项试验结果到期，方块为监管决定",
+      dealsNote: "药企与 AI 公司的合作：首付款与总额并列。数字来自所链接的来源；总额从不相加。", deal: "交易", headline: "总额上限", upfront: "首付款", share: "首付款占比", undisclosed: "未披露", moreThan: "超过 ",
+      sigNote: "每日扫描试验登记库、监管文件、预印本、监管机构和公司新闻。每个条目有两个独立评分。", sigLast: "最近一次扫描：{d}", sigChecked: "已检查的来源", weekly: "每周总结", evidence: "证据", market: "市场", soWhat: "意义", changes: "何种情况会改变判断", second: "二阶", single: "单一来源", company_src: "公司说法", independent_src: "独立来源", conf: "置信度", followups: "后续跟进", watching: "等待结果", watchH: "关注名单", role: "角色", listing: "上市", via: "通过", priv: "未上市", none: "暂无。",
+      ty: { human_data: "人体数据", trial: "试验启动或终止", regulatory: "监管", benchmark: "基准或重复验证", deal: "授权或交易", funding: "融资或并购", capex: "资本开支或算力", tool: "工具发布", other: "其他" },
+      dir: { positive: "正面", negative: "负面", neutral: "中性" }, confv: { high: "高", medium: "中", low: "低" },
+      roles: { lab: "AI 实验室", pharma: "药企", platform: "AI 药物平台", compute: "算力", tools: "实验室工具", cro: "研究外包" },
+      srcs: { registry: "试验登记库", sec_search: "SEC 文件检索", sec_company: "公司 8-K", preprints: "预印本", arxiv: "arXiv", regulators: "监管机构", newsrooms: "公司新闻页", model_hubs: "模型平台", news_search: "新闻搜索" },
+      longNote: "衰老没有获批适应症，也没有公认终点，真正的事件很少。以下是每年值得查看几次的里程碑。", now: "现状", signal: "什么才算信号", asOf: "截至",
       st: { none: "尚不存在", in_progress: "进行中", stalled: "停滞", failed: "失败" },
-      readNote: "值得跟踪的短名单。最新标题随台账刷新；新闻类来源只保留与 AI 和衰老相关的标题。", noFeed: "无订阅源，请直接访问网站。",
+      readNote: "值得跟踪的短名单。标题随台账刷新；新闻类来源只保留与 AI 和衰老相关的标题。", noFeed: "无订阅源，请直接访问网站。",
       methodH: "收录口径", methodP: [
         "收录条件：ClinicalTrials.gov 上的干预性药物或生物制品试验，且牵头申办方在公司名单内；或试验的药物在资产名单内，由名单内公司发现、现由其他申办方开展。",
         "“AI 发现”按公司而非分子判断：公司自称其发现平台由 AI 或机器学习驱动，即视为 AI 原生。平台以物理或结构计算为主的公司单列为“有争议”，不计入主要统计。这一划分属于编辑判断，应逐家复核。",
-        "未覆盖：授权给大型药企且不在资产名单内的 AI 来源药物；只在 ClinicalTrials.gov 以外登记的试验（许多中国试验）；已完成试验是否成功。"],
+        "未覆盖：授权给大型药企且不在资产名单内的 AI 来源药物；只在 ClinicalTrials.gov 以外登记的试验（许多中国试验）；已完成试验是否成功。",
+        "公司面板中的行情数据有延迟，来源见面板内说明，仅作背景：台账不在信号与股价之间建立任何联系。"],
       rubricH: "如何评估单项声明", rubricP: "每项 0 到 2 分。14 分中低于 6 分，按炒作对待。",
       rubric: ["证据级别：体外或动物，无对照人体，随机人体。", "终点：生物标志物，替代终点，临床结局。", "样本量与预先登记。", "独立性：公司新闻稿，同行评议，他人重复验证。", "对照：无，安慰剂，标准治疗。", "靶点有人类遗传学证据支持。", "AI 的贡献具体且可核查，并披露阴性数据。"],
+      glossNote: "本站所用术语的通俗解释。页面上带虚线的术语点开后是同样的说明。",
+      pClose: "关闭", pOverview: "概况", pAi: "与 AI 的关系", pLead: "进展最快的项目", pMarket: "行情数据", pMarketNote: "有延迟；截至 {d}。仅作背景，不是信号。", pPrice: "最新收盘", p1m: "1 个月", p3m: "3 个月", pYtd: "年初至今", pCash: "现金", pRunway: "现金可支撑", quarters: "{n} 个季度", lossMaking: "不适用（亏损）", pEps: "每股收益（12 个月）", pRev: "营收（12 个月）", pRd: "研发投入（12 个月）",
+      pLedger: "台账记录", pTrials: "{n} 项试验，{s} 项提前终止", pNoTrials: "未跟踪该公司的试验。", pNext: "即将到期的结果", pStopped: "已终止的试验", pSignals: "信号", pDeals: "交易", pChanges: "登记库变动", pLinks: "链接", pCt: "ClinicalTrials.gov 上的全部试验", pSec: "SEC 文件", pHk: "港交所页面", pSee: "查看其试验", pProxy: "通过 {t} 上市", pPrivate: "未上市", pSrc: "概况来源",
+      newLab: "新", markRead: "全部标为已读",
       footer: "仅为描述性信息，不构成医疗或投资建议、研究报告或对任何投资产品的推荐。发布者可能持有文中所述公司的头寸。试验数据来自 ClinicalTrials.gov。", generated: "数据生成于 {d}"
     }
   };
-  var TABS = ["overview", "signals", "trials", "stopped", "readouts", "deals", "changes", "longevity", "reading", "method"];
-  var lang = "en", D = null, F = { phase: "", bucket: "", sponsor: "", q: "", listed: false };
-  try { lang = localStorage.getItem("ledger-lang") || ((navigator.language || "").indexOf("zh") === 0 ? "zh" : "en"); } catch (e) { lang = (navigator.language || "").indexOf("zh") === 0 ? "zh" : "en"; }
+  var PH_ZH = { "Early Phase 1": "早期一期", "Phase 1": "一期", "Phase 1/2": "1/2 期", "Phase 2": "二期", "Phase 2/3": "2/3 期", "Phase 3": "三期", "Phase 4": "四期", "N/A": "不适用" };
+  var ST_ZH = { RECRUITING: "招募中", NOT_YET_RECRUITING: "尚未招募", ACTIVE_NOT_RECRUITING: "进行中，不再招募", ENROLLING_BY_INVITATION: "邀请入组", COMPLETED: "已完成", TERMINATED: "已终止", WITHDRAWN: "已撤回", SUSPENDED: "已暂停", UNKNOWN: "状态不详" };
+  var VIEWS = { today: [], signals: [], trials: ["all", "stopped", "changes", "companies"], calendar: ["dates", "deals"], more: ["longevity", "reading", "method", "glossary"] };
+  var ALIAS = { overview: "today", stopped: "trials/stopped", changes: "trials/changes", companies: "trials/companies", readouts: "calendar", dates: "calendar", deals: "calendar/deals", longevity: "more/longevity", reading: "more/reading", method: "more/method", glossary: "more/glossary" };
+  var lang = "en", D = null, S = {}, seen = null, opener = null, PAGE = 60;
+  function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; } }
+  lang = store("ledger-lang") || ((navigator.language || "").indexOf("zh") === 0 ? "zh" : "en");
+  seen = store("ledger-seen");
+
+  // ---- helpers ----
   function t(k) { return T[lang][k]; }
+  function f(k, o) { var s = t(k); for (var x in o) s = s.replace("{" + x + "}", o[x]); return s; }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
-  function safeUrl(u) { return /^https?:\/\//.test(u || "") ? esc(u) : "#"; }
-  function link(u, text) { return '<a href="' + safeUrl(u) + '" target="_blank" rel="noopener">' + esc(text) + "</a>"; }
+  function link(u, text) { return '<a href="' + (/^https?:\/\//.test(u || "") ? esc(u) : "#") + '" target="_blank" rel="noopener">' + esc(text) + "</a>"; }
   function nct(id) { return link("https://clinicaltrials.gov/study/" + id, id); }
-  function spName(id) { var s = D.sponsorMap[id]; return s ? (lang === "zh" && s.name_zh ? s.name_zh : s.name) : id; }
-  function who(x) { return x.via === "sponsor" ? spName(x.sponsor_id) : x.lead_sponsor + " (" + (lang === "zh" ? "源自 " : "from ") + spName(x.sponsor_id) + ")"; }
-  function usd(n) { if (n == null) return ""; return n >= 1e9 ? "$" + (n / 1e9).toFixed(2).replace(/\.?0+$/, "") + "B" : "$" + (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M"; }
-  function tk(x) { return x ? '<span class="tk">' + esc(x) + "</span>" : ""; }
-  function listedBox() { return '<label class="chk"><input type="checkbox" id="f-listed"' + (F.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + "</label>"; }
-  function keep(x) { return !F.listed || x.ticker; }
-  function score(n) { var o = ""; for (var i = 1; i <= 3; i++) o += '<i class="' + (i <= n ? "on" : "") + '"></i>'; return '<span class="score" title="' + n + '/3">' + o + "</span>"; }
+  function L(o, k) { return o[k + "_" + lang] || o[k + "_en"] || ""; }
+  function coName(c) { return lang === "zh" && c.name_zh ? c.name_zh : c.name; }
+  function co(key, label) { var c = D.companies[key]; if (!c) return esc(label || key); return '<button type="button" class="co" data-co="' + esc(key) + '">' + esc(label || coName(c)) + "</button>"; }
+  function tk(x) { return x ? (D.companies[x] ? '<button type="button" class="tk" data-co="' + esc(x) + '">' + esc(x) + "</button>" : '<span class="tk">' + esc(x) + "</span>") : ""; }
+  function term(key, label) { return '<button type="button" class="term" data-g="' + key + '">' + esc(label) + "</button>"; }
   function pill(cls, text) { return '<span class="pill ' + esc(cls) + '">' + esc(text) + "</span>"; }
-  function statusText(s) { return String(s || "").toLowerCase().replace(/_/g, " "); }
-  function tab() { var h = location.hash.replace("#", ""); return TABS.indexOf(h) >= 0 ? h : "overview"; }
-  function table(head, rows) {
-    return '<div class="scroll"><table><thead><tr>' + head.map(function (h) { return "<th" + (h[1] ? ' class="n"' : "") + ">" + esc(h[0]) + "</th>"; }).join("") +
-      "</tr></thead><tbody>" + rows.join("") + "</tbody></table></div>";
+  function phase(p) { return lang === "zh" ? (PH_ZH[p] || p) : p; }
+  function status(s) { return lang === "zh" ? (ST_ZH[s] || s) : String(s || "").toLowerCase().replace(/_/g, " "); }
+  function dirPill(d) { return pill(d === "positive" ? "up" : d === "negative" ? "down" : "", t("dir")[d]); }
+  function usd(n) { if (n == null) return ""; var a = Math.abs(n); return (n < 0 ? "−" : "") + "$" + (a >= 1e12 ? (a / 1e12).toFixed(2) + "T" : a >= 1e9 ? (a / 1e9).toFixed(a >= 1e10 ? 0 : 1) + "B" : (a / 1e6).toFixed(a >= 1e8 ? 0 : 1) + "M"); }
+  function dealUsd(n) { return n >= 1e9 ? "$" + (n / 1e9).toFixed(2).replace(/\.?0+$/, "") + "B" : "$" + (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M"; }
+  function pct(x) { return x == null ? "–" : (x > 0 ? "+" : x < 0 ? "−" : "") + Math.abs(x * 100).toFixed(1) + "%"; }
+  function score(n) { var o = ""; for (var i = 1; i <= 3; i++) o += '<i class="' + (i <= n ? "on" : "") + '"></i>'; return '<span class="score">' + o + "<b>" + n + "/3</b></span>"; }
+  function isNew(stamp) { return !!(seen && stamp && stamp > seen); }
+  function spark(arr, w, h) {
+    if (!arr || arr.length < 2) return "";
+    var lo = Math.min.apply(null, arr), hi = Math.max.apply(null, arr), span = hi - lo || 1, n = arr.length - 1;
+    var pts = arr.map(function (v, i) { return (i / n * (w - 4) + 2).toFixed(1) + "," + (h - 2 - (v - lo) / span * (h - 4)).toFixed(1); });
+    var last = pts[pts.length - 1].split(",");
+    return '<svg class="spark" width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + " " + h + '" role="img" aria-label="' + esc(t("year")) + '"><polyline points="' + pts.join(" ") + '"/><circle cx="' + last[0] + '" cy="' + last[1] + '" r="1.8"/></svg>';
   }
-  function trialRow(x, extra) {
-    return "<tr><td class=\"d\">" + nct(x.nct) + "</td><td>" + esc(who(x)) + "</td><td>" + tk(x.ticker) + "</td><td>" + esc((x.interventions || []).join(", ")) +
-      "</td><td>" + esc((x.conditions || []).slice(0, 2).join("; ")) + "</td><td>" + esc(x.phase) + "</td><td>" + pill(x.bucket, statusText(x.status)) + "</td>" + extra + "</tr>";
+
+  // ---- URL state ----
+  function parse() {
+    var h = decodeURIComponent(location.hash.replace(/^#/, "")), qi = h.indexOf("?"), path = (qi < 0 ? h : h.slice(0, qi)).toLowerCase(), q = qi < 0 ? "" : h.slice(qi + 1);
+    if (ALIAS[path]) path = ALIAS[path];
+    var p = path.split("/"), view = VIEWS[p[0]] ? p[0] : "today", subs = VIEWS[view], sub = subs.indexOf(p[1]) >= 0 ? p[1] : (subs[0] || "");
+    var o = { view: view, sub: sub, q: "", phase: "", status: "", company: "", listed: "", sort: "", co: "", n: PAGE };
+    q.split("&").forEach(function (kv) { var i = kv.indexOf("="); if (i > 0 && kv.slice(0, i) in o) o[kv.slice(0, i)] = kv.slice(i + 1).replace(/\+/g, " "); });
+    return o;
+  }
+  function hashOf(o) {
+    var q = ["q", "phase", "status", "company", "listed", "sort", "co"].filter(function (k) { return o[k]; }).map(function (k) { return k + "=" + encodeURIComponent(o[k]).replace(/%20/g, "+"); });
+    return "#" + o.view + (o.sub && o.sub !== VIEWS[o.view][0] ? "/" + o.sub : "") + (q.length ? "?" + q.join("&") : "");
+  }
+  function go(change, push) {
+    var o = {}; for (var k in S) o[k] = S[k];
+    for (k in change) o[k] = change[k];
+    var h = hashOf(o);
+    if (push) location.hash = h; else { var open = S.open; history.replaceState(null, "", h); S = parse(); S.n = o.n || PAGE; S.open = open; }
+  }
+  function href(view, sub, extra) { var o = { view: view, sub: sub || "" }; for (var k in extra || {}) o[k] = extra[k]; return hashOf(o); }
+
+  // ---- tables ----
+  function sorted(rows, cols) {
+    var key = S.sort.replace(/^-/, ""), desc = S.sort.charAt(0) === "-", c = cols.filter(function (x) { return x.key === key; })[0];
+    if (!c || !c.val) return rows;
+    return rows.slice().sort(function (a, b) { var x = c.val(a), y = c.val(b); if (x == null) x = desc ? -Infinity : Infinity; if (y == null) y = desc ? -Infinity : Infinity; return (x < y ? -1 : x > y ? 1 : 0) * (desc ? -1 : 1); });
+  }
+  function thead(cols) {
+    var key = S.sort.replace(/^-/, ""), desc = S.sort.charAt(0) === "-";
+    return "<thead><tr>" + cols.map(function (c) {
+      var lab = c.term ? term(c.term, c.label) : esc(c.label);
+      if (!c.val) return '<th scope="col"' + (c.num ? ' class="n"' : "") + ">" + lab + "</th>";
+      return '<th scope="col"' + (c.num ? ' class="n"' : "") + (key === c.key ? ' aria-sort="' + (desc ? "descending" : "ascending") + '"' : "") + '><button type="button" class="sort" data-sort="' + c.key + '">' + esc(c.label) + "</button>" + (c.term ? " " + term(c.term, "?") : "") + "</th>";
+    }).join("") + "</tr></thead>";
+  }
+  function tbody(rows, cols, opt) {
+    opt = opt || {};
+    if (!rows.length) return '<tbody><tr><td class="empty" colspan="' + cols.length + '">' + esc(t("noMatch")) + ' <button type="button" class="btn" data-clear="1">' + esc(t("clear")) + "</button></td></tr></tbody>";
+    var shown = opt.page ? rows.slice(0, S.n) : rows;
+    var h = shown.map(function (r) {
+      return "<tr" + (opt.isNew && opt.isNew(r) ? ' class="new"' : "") + ">" + cols.map(function (c, i) {
+        return "<td" + (c.cls || c.num ? ' class="' + (c.cls || "") + (c.num ? " n" : "") + '"' : "") + (i && !c.nolabel ? ' data-l="' + esc(c.label) + '"' : "") + ">" + c.cell(r) + "</td>";
+      }).join("") + "</tr>" + (opt.detail && S.open === opt.id(r) ? '<tr class="detail"><td colspan="' + cols.length + '">' + opt.detail(r) + "</td></tr>" : "");
+    }).join("");
+    if (opt.page && rows.length > S.n) h += '<tr><td class="empty" colspan="' + cols.length + '"><button type="button" class="btn" data-more="1">' + esc(f("showMore", { n: Math.min(PAGE, rows.length - S.n) })) + "</button></td></tr>";
+    return "<tbody>" + h + "</tbody>";
+  }
+  function table(id, rows, cols, opt) { return '<div class="scroll"><table class="rc" id="' + id + '">' + thead(cols) + tbody(sorted(rows, cols), cols, opt) + "</table></div>"; }
+
+  function trialCols(extra) {
+    return [
+      { key: "nct", label: t("trial"), cls: "d", nolabel: 1, cell: function (x) { return '<button type="button" class="exp" data-open="' + x.nct + '" aria-expanded="' + (S.open === x.nct) + '" aria-label="' + esc(t("details")) + '">' + (S.open === x.nct ? "▾" : "▸") + "</button>" + nct(x.nct); } },
+      { key: "drug", label: t("drug"), cls: "lead", nolabel: 1, val: function (x) { return (x.interventions[0] || "").toLowerCase(); }, cell: function (x) { return esc((x.interventions || []).slice(0, 2).join(", ")); } },
+      { key: "company", label: t("company"), val: function (x) { return (D.companies[x.co] ? D.companies[x.co].name : x.lead_sponsor).toLowerCase(); }, cell: function (x) { return (x.via === "sponsor" ? co(x.co) : esc(x.lead_sponsor)) + " " + tk(x.ticker); } },
+      { key: "condition", label: t("condition"), cell: function (x) { return esc((x.conditions || []).slice(0, 2).join("; ")); } },
+      { key: "phase", label: t("phase"), term: "phase", val: function (x) { return x.phase_rank; }, cell: function (x) { return esc(phase(x.phase)); } },
+      { key: "status", label: t("status"), term: "status", val: function (x) { return x.status; }, cell: function (x) { return pill(x.bucket, status(x.status)); } }
+    ].concat(extra);
+  }
+  function trialDetail(x) {
+    function row(k, v) { return v == null || v === "" ? "" : "<dt>" + esc(k) + "</dt><dd>" + esc(v) + "</dd>"; }
+    return "<dl>" + row(t("dTitle"), x.title) + row(t("condition"), (x.conditions || []).join("; ")) + row(t("drug"), (x.interventions || []).join(", ")) + row(t("dRun"), x.lead_sponsor) +
+      row(t("n"), x.enrollment) + row(t("dRand"), x.randomised ? t("yes") : t("no")) + row(t("dFirst"), x.first_posted) + row(t("dPrim"), x.primary_completion) + row(t("updated"), x.last_update) + row(t("dWhy"), x.why_stopped) + "</dl>";
+  }
+  function trialRows(base) {
+    var q = S.q.toLowerCase();
+    return base.filter(function (x) { return (!S.listed || x.ticker) && (!S.phase || x.phase === S.phase) && (!S.status || x.bucket === S.status) && (!S.company || x.co === S.company) && (!q || x.search.indexOf(q) >= 0); });
+  }
+  function filters(base, withStatus) {
+    function opts(list, cur, all) { return '<option value="">' + esc(all) + "</option>" + list.map(function (o) { return '<option value="' + esc(o[0]) + '"' + (o[0] === cur ? " selected" : "") + ">" + esc(o[1]) + "</option>"; }).join(""); }
+    var ph = {}, cs = {}; base.forEach(function (x) { ph[x.phase] = x.phase_rank; cs[x.co] = 1; });
+    var phases = Object.keys(ph).sort(function (a, b) { return ph[a] - ph[b]; }).map(function (p) { return [p, phase(p)]; });
+    var cos = Object.keys(cs).map(function (k) { return [k, D.companies[k] ? coName(D.companies[k]) : k]; }).sort(function (a, b) { return a[1] < b[1] ? -1 : 1; });
+    var chips = !withStatus ? "" : '<span class="chips" role="group" aria-label="' + esc(t("status")) + '">' + ["active", "completed", "stopped"].map(function (b) {
+      return '<button type="button" class="chip" data-status="' + b + '" aria-pressed="' + (S.status === b) + '">' + esc(t(b)) + " " + base.filter(function (x) { return x.bucket === b; }).length + "</button>"; }).join("") + "</span>";
+    var any = S.q || S.phase || S.status || S.company || S.listed;
+    return '<div class="filters"><input id="f-q" type="search" placeholder="' + esc(t("search")) + '" aria-label="' + esc(t("search")) + '" value="' + esc(S.q) + '"><select id="f-company" aria-label="' + esc(t("company")) + '">' + opts(cos, S.company, t("allCompanies")) +
+      '</select><select id="f-phase" aria-label="' + esc(t("phase")) + '">' + opts(phases, S.phase, t("allPhases")) + "</select>" + chips +
+      '<label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + "</label>" + (any ? '<button type="button" class="btn" data-clear="1">' + esc(t("clear")) + "</button>" : "") + '</div><p class="muted small" id="count"></p>';
+  }
+
+  // ---- views ----
+  function subnav() {
+    var subs = VIEWS[S.view]; if (!subs.length) return "";
+    return '<section><nav class="subnav" aria-label="' + esc(t("nav")[S.view]) + '">' + subs.map(function (s) { return '<a href="' + href(S.view, s) + '"' + (s === S.sub ? ' aria-current="true"' : "") + ">" + esc(t("subs")[s]) + "</a>"; }).join("") + "</nav></section>";
+  }
+  function sigCard(i, compact) {
+    var names = (i.names || []).map(function (n) { return tk(n.ticker) + " " + dirPill(n.direction) + (n.order === "second" ? " " + term("second_order", t("second")) : ""); }).join(" &nbsp; ");
+    var head = '<p class="muted small">' + (isNew(i.run) ? '<span class="dot" title="' + esc(t("newLab")) + '"></span>' : "") + esc(i.date) + " · " + esc(t("ty")[i.type] || i.type) + " · " + dirPill(i.direction) + "</p><h3>" + link(i.url, L(i, "title")) + "</h3>" +
+      '<p class="scores"><span>' + term("evidence", t("evidence")) + " " + score(i.evidence) + "</span><span>" + term("market", t("market")) + " " + score(i.market) + "</span>" + (compact ? "<span>" + (i.names || []).map(function (n) { return tk(n.ticker); }).join(" ") + "</span>" : "") + "</p>";
+    if (compact) return head;
+    return '<div class="card sig">' + head + '<p class="muted small">' + esc(t("conf")) + ": " + esc(t("confv")[i.confidence] || i.confidence) + " · " + esc(t(i.source_kind + "_src")) + (i.single_source ? " · " + esc(t("single")) : "") + "</p>" +
+      (names ? "<p>" + names + "</p>" : "") + "<p><b>" + esc(t("soWhat")) + ":</b> " + esc(L(i, "so_what")) + '</p><p class="muted small"><b>' + esc(t("changes")) + ":</b> " + esc(L(i, "changes_view")) + "</p></div>";
+  }
+  function evLine(e) {
+    var what = t("ev")[e.type] || e.type, detail = e.type === "registered" ? phase(e.to) : e.type === "results_posted" ? "" : e.type === "status" ? status(e.from) + " → " + status(e.to) : e.type === "phase" ? phase(e.from) + " → " + phase(e.to) : e.from + " → " + e.to;
+    return pill(e.direction, what) + " " + esc(detail);
+  }
+  function byNct(id) { return D.trialMap[id]; }
+  function funnel() {
+    var P = D.stats.by_phase_core, keys = Object.keys(P).filter(function (p) { return P[p].total; }), max = Math.max.apply(null, keys.map(function (p) { return P[p].total; }));
+    var rows = keys.map(function (p) {
+      var r = P[p], segs = ["active", "completed", "stopped", "unknown"].map(function (b) { return r[b] ? '<i class="seg-' + b + '" style="flex:' + r[b] + '" title="' + esc(t(b)) + ": " + r[b] + '">' + r[b] + "</i>" : ""; }).join("");
+      return '<span class="lab">' + esc(phase(p)) + '</span><span class="stack" style="width:' + (100 * r.total / max).toFixed(1) + '%">' + segs + '</span><span class="tot">' + r.total + "</span>";
+    }).join("");
+    return '<div class="funnel">' + rows + '</div><p class="legend">' + ["active", "completed", "stopped", "unknown"].map(function (b) { return '<span><i class="seg-' + b + '"></i>' + esc(t(b)) + "</span>"; }).join("") + "</p>";
   }
   var V = {
-    overview: function () {
-      var s = D.stats, P = s.by_phase_core, tiles = [[s.core_trials, "core"], [s.sponsors, "sponsors"], [s.phase3, "p3"], [s.stopped, "stoppedN"], [s.with_results, "results"], [s.new_90d, "new90"]];
-      var rows = Object.keys(P).filter(function (p) { return P[p].total; }).map(function (p) {
-        var r = P[p]; return "<tr><td>" + esc(p) + '</td><td class="n">' + r.active + '</td><td class="n">' + r.completed + '</td><td class="n">' + r.stopped + '</td><td class="n">' + r.unknown + '</td><td class="n">' + r.total + "</td></tr>";
-      });
-      var pct = Math.min(100, 100 * s.phase2_completed_randomised / s.phase2_threshold);
-      var sp = D.sponsors.filter(function (x) { return x.trials; }).map(function (x) {
-        return "<tr><td>" + esc(spName(x.id)) + "</td><td>" + tk(x.ticker) + "</td><td>" + esc(x.country) + "</td><td>" + esc(t(x.tier)) + '</td><td class="n">' + x.trials + '</td><td class="n">' + x.stopped + "</td><td>" + esc(x.furthest || "") + "</td></tr>";
-      });
-      return '<section><div class="tiles">' + tiles.map(function (x) { return '<div class="tile"><b>' + x[0] + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + "</div></section>" +
-        '<section class="verdict"><h2>' + esc(t("verdictH")) + '</h2><div class="meter"><i style="width:' + pct + '%"></i></div><p class="note">' +
-        esc(t("verdictP").replace("{n}", s.phase2_completed_randomised).replace("{t}", s.phase2_threshold)) + "</p></section>" +
-        "<section><h2>" + esc(t("phaseH")) + "</h2>" + table([[t("phase")], [t("active"), 1], [t("completed"), 1], [t("stopped"), 1], [t("unknown"), 1], [t("total"), 1]], rows) + "</section>" +
-        "<section><h2>" + esc(t("sponsorsH")) + "</h2>" + table([[t("company")], [t("ticker")], [""], [t("basis")], [t("trials"), 1], [t("stopped"), 1], [t("furthest")]], sp) + "</section>";
-    },
-    trials: function () {
-      function opts(list, cur, all) { return '<option value="">' + esc(all) + "</option>" + list.map(function (o) { return '<option value="' + esc(o[0]) + '"' + (o[0] === cur ? " selected" : "") + ">" + esc(o[1]) + "</option>"; }).join(""); }
-      var phases = Object.keys(D.stats.by_phase_all).filter(function (p) { return D.stats.by_phase_all[p].total; }).map(function (p) { return [p, p]; });
-      var sps = D.sponsors.filter(function (x) { return x.trials; }).map(function (x) { return [x.id, spName(x.id)]; });
-      var q = F.q.toLowerCase();
-      var rows = D.trials.filter(function (x) {
-        return keep(x) && (!F.phase || x.phase === F.phase) && (!F.bucket || x.bucket === F.bucket) && (!F.sponsor || x.sponsor_id === F.sponsor) &&
-          (!q || ((x.interventions || []).join(" ") + " " + (x.conditions || []).join(" ") + " " + x.title + " " + x.nct).toLowerCase().indexOf(q) >= 0);
-      });
-      return '<section><div class="filters"><select id="f-sponsor">' + opts(sps, F.sponsor, t("allCompanies")) + '</select><select id="f-phase">' + opts(phases, F.phase, t("allPhases")) +
-        '</select><select id="f-bucket">' + opts([["active", t("active")], ["completed", t("completed")], ["stopped", t("stopped")]], F.bucket, t("allStatus")) +
-        '</select><input id="f-q" type="search" placeholder="' + esc(t("search")) + '" value="' + esc(F.q) + '">' + listedBox() + '</div><p class="muted small">' + rows.length + " / " + D.trials.length + "</p>" +
-        table([[t("trial")], [t("company")], [t("ticker")], [t("drug")], [t("condition")], [t("phase")], [t("status")], [t("updated")]], rows.map(function (x) { return trialRow(x, '<td class="d">' + esc(x.last_update) + "</td>"); })) + "</section>";
-    },
-    stopped: function () {
-      var rows = D.trials.filter(function (x) { return x.bucket === "stopped" && keep(x); });
-      return '<section><p class="note">' + esc(t("stoppedNote")) + '</p><div class="filters">' + listedBox() + "</div>" + table([[t("trial")], [t("company")], [t("ticker")], [t("drug")], [t("condition")], [t("phase")], [t("status")], [t("why")]],
-        rows.map(function (x) { return trialRow(x, "<td>" + esc(x.why_stopped || "") + "</td>"); })) + "</section>";
-    },
-    readouts: function () {
-      var ok = { "Phase 2": 1, "Phase 2/3": 1, "Phase 3": 1 };
-      var rows = D.trials.filter(function (x) { return keep(x) && x.bucket === "active" && ok[x.phase] && x.primary_completion && x.primary_completion >= D.today; })
-        .map(function (x) { return { sort: x.primary_completion, html: '<tr><td class="d">' + esc(x.primary_completion) + "</td><td>" + esc(x.phase) + " · " + esc((x.interventions || []).join(", ")) + '<br><span class="muted small">' + esc((x.conditions || []).slice(0, 2).join("; ")) + "</span></td><td>" + esc(who(x)) + "</td><td>" + tk(x.ticker) + '</td><td class="d">' + nct(x.nct) + '</td><td class="n">' + esc(x.enrollment == null ? "" : x.enrollment) + "</td></tr>" }; });
-      (D.catalysts || []).forEach(function (c) {
-        if (c.sort < D.today || (F.listed && !(c.tickers || []).length)) return;
-        rows.push({ sort: c.sort, html: '<tr><td class="d">' + esc(c.when) + "</td><td>" + pill("active", t("regDecision")) + " " + esc(c["title_" + lang]) + '<br><span class="muted small">' + esc(c["note_" + lang] || "") + "</span></td><td></td><td>" + (c.tickers || []).map(tk).join(" ") + "</td><td>" + link(c.source.url, c.source.publisher) + '</td><td class="n"></td></tr>' });
-      });
-      rows.sort(function (a, b) { return a.sort < b.sort ? -1 : a.sort > b.sort ? 1 : 0; });
-      return '<section><p class="note">' + esc(t("calNote")) + '</p><div class="filters">' + listedBox() + "</div>" + table([[t("readout")], [t("event")], [t("company")], [t("ticker")], [t("source")], [t("n"), 1]], rows.map(function (r) { return r.html; })) + "</section>";
-    },
-    deals: function () {
-      var rows = (D.deals || []).map(function (d) {
-        return '<tr><td class="d">' + esc(d.date) + (d.date_approx ? "*" : "") + "</td><td><b>" + esc(d.ai) + " – " + esc(d.pharma) + '</b><br><span class="muted small">' + esc(d["note_" + lang] || "") + "</span></td><td>" + (d.tickers || []).map(tk).join(" ") +
-          '</td><td class="n">' + (d.headline_usd == null ? esc(t("undisclosed")) : (d.headline_more_than ? esc(t("moreThan")) : "") + usd(d.headline_usd)) + '</td><td class="n">' + (d.upfront_usd == null ? esc(t("undisclosed")) : usd(d.upfront_usd)) +
-          '</td><td class="n">' + (d.upfront_share == null ? "" : (d.upfront_share * 100).toFixed(1) + "%") + "</td><td>" + link(d.source.url, d.source.publisher) + "</td></tr>";
-      });
-      return '<section><p class="note">' + esc(t("dealsNote")) + "</p>" + table([[t("date")], [t("deal")], [t("ticker")], [t("headline"), 1], [t("upfront"), 1], [t("share"), 1], [t("source")]], rows) + "</section>";
+    today: function () {
+      var tb = D.today_block, s = D.stats;
+      var sig = tb.signal_ids.map(function (id) { return D.sigMap[id]; }).filter(Boolean), ev = tb.event_ids.map(function (id) { return D.evMap[id]; }).filter(Boolean), due = tb.due_30d.map(byNct).filter(Boolean);
+      function blk(title, more, body, empty) { return '<div class="blk"><div class="row"><h2>' + title + '</h2><a class="more" href="' + more + '">' + esc(t("seeAll")) + " →</a></div>" + (body ? "<ul>" + body + "</ul>" : '<p class="muted">' + esc(empty) + "</p>") + "</div>"; }
+      var b1 = blk(esc(t("tSignals")) + ' <span class="muted small">' + esc(f("scanOf", { d: tb.signals_run || "–" })) + "</span>", href("signals"), sig.map(function (i) { return "<li>" + sigCard(i, true) + "</li>"; }).join(""), t("noSignals"));
+      var b2 = blk(esc(t("tChanges")), href("trials", "changes"), ev.map(function (e) { return "<li>" + (isNew(e.detected) ? '<span class="dot"></span>' : "") + '<span class="muted small">' + esc(e.date) + "</span> " + co(byNct(e.nct) ? byNct(e.nct).co : e.sponsor_id) + "<br>" + evLine(e) + ' <span class="small">' + nct(e.nct) + "</span></li>"; }).join(""), t("noChanges"));
+      var b3 = blk(esc(t("tDue")) + (tb.due_30d_n > due.length ? ' <span class="muted small">' + tb.due_30d_n + "</span>" : ""), href("calendar"), due.map(function (x) { return '<li><span class="muted small">' + esc(x.primary_completion) + "</span> " + co(x.co) + " " + tk(x.ticker) + "<br>" + esc((x.interventions || [])[0] || "") + " · " + esc(phase(x.phase)) + ' <span class="small">' + nct(x.nct) + "</span></li>"; }).join("") +
+        (tb.overdue.length ? '<li class="muted small">' + esc(f("overdue", { n: tb.overdue.length })) + "</li>" : ""), t("noDue"));
+      var tiles = [[s.core_trials, "core"], [s.sponsors, "sponsors"], [s.phase3, "p3"], [s.stopped, "stoppedN"], [s.with_results, "results"], [s.new_90d, "new90"]];
+      var pc = Math.min(100, 100 * s.phase2_completed_randomised / s.phase2_threshold);
+      return '<section class="today">' + b1 + b2 + b3 + "</section>" +
+        '<section><div class="tiles">' + tiles.map(function (x) { return '<div class="tile"><b>' + x[0] + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + "</div></section>" +
+        "<section><h2>" + esc(t("phaseH")) + "</h2>" + funnel() + "</section>" +
+        '<section class="verdict"><h2>' + esc(t("verdictH")) + '</h2><div class="meter"><i style="width:' + pc + '%"></i></div><p class="note">' + esc(f("verdictP", { n: s.phase2_completed_randomised, t: s.phase2_threshold })) + "</p><h3>" + esc(t("apprH")) + '</h3><p class="note">' + esc((D.approvals || []).some(function (a) { return a.tier === "ai"; }) ? "" : t("apprAi")) + "</p>" +
+        ((D.approvals || []).length ? '<ul class="plain">' + D.approvals.map(function (a) { return "<li><b>" + esc(a.drug) + "</b> · " + esc(a.regulator) + " " + esc(a.date) + " · " + co(a.co) + " " + tk(a.co) + " · " + esc(t(a.tier)) + "<br>" + esc(L(a, "text")) + ' <span class="small">' + link(a.source.url, a.source.publisher) + "</span></li>"; }).join("") + "</ul>" : "") + "</section>";
     },
     signals: function () {
       var st = D.signals_state || {}, items = D.signals || [];
       var head = '<p class="disc">' + esc(D.disclaimer[lang]) + '</p><p class="note">' + esc(t("sigNote")) + "</p>" +
-        '<p class="muted small">' + esc(t("sigLast").replace("{d}", st.last_date || "–")) + (st.weekly ? ' · <a href="weekly.html">' + esc(t("weekly")) + " " + esc(st.weekly) + "</a>" : "") + "</p>";
-      var cards = items.map(function (i) {
-        var names = (i.names || []).map(function (n) { return tk(n.ticker) + " " + pill(n.direction === "positive" ? "up" : n.direction === "negative" ? "down" : "", t("dir")[n.direction]) + (n.order === "second" ? ' <span class="muted small">' + esc(t("second")) + "</span>" : ""); }).join(" &nbsp; ");
-        return '<div class="card sig"><p class="muted small">' + esc(i.date) + " · " + esc(t("ty")[i.type] || i.type) + " · " + pill(i.direction === "positive" ? "up" : i.direction === "negative" ? "down" : "", t("dir")[i.direction]) + "</p><h3>" + link(i.url, i["title_" + lang]) + "</h3>" +
-          '<p class="scores"><span>' + esc(t("evidence")) + " " + score(i.evidence) + "</span><span>" + esc(t("market")) + " " + score(i.market) + '</span><span class="muted small">' + esc(t("conf")) + ": " + esc(i.confidence) + " · " + esc(t(i.source_kind + "_src")) + (i.single_source ? " · " + esc(t("single")) : "") + "</span></p>" +
-          (names ? "<p>" + names + "</p>" : "") + "<p><b>" + esc(t("soWhat")) + ":</b> " + esc(i["so_what_" + lang]) + '</p><p class="muted small"><b>' + esc(t("changes")) + ":</b> " + esc(i["changes_view_" + lang]) + "</p></div>";
-      }).join("");
-      var fu = (st.followups || []).length ? "<section><h2>" + esc(t("followups")) + "</h2><ul>" + st.followups.map(function (f) { return "<li>" + esc(f["text_" + lang]) + "</li>"; }).join("") + "</ul></section>" : "";
-      var op = (D.open || []).length ? "<section><h2>" + esc(t("watching")) + "</h2><ul>" + D.open.map(function (o) { return "<li>" + esc(o.due || "") + " " + esc(o["text_" + lang]) + "</li>"; }).join("") + "</ul></section>" : "";
-      var src = st.sources ? '<section><h2>' + esc(t("sigChecked")) + '</h2><p class="muted small">' + Object.keys(st.sources).map(function (k) { return esc(k) + ": " + esc(st.sources[k]); }).join(" · ") + "</p></section>" : "";
-      var wl = "<section><h2>" + esc(t("watchH")) + "</h2>" + table([[t("company")], [t("role")], [t("listing")]], (D.watchlist || []).map(function (c) {
-        return "<tr><td>" + esc(lang === "zh" && c.name_zh ? c.name_zh : c.name) + "</td><td>" + esc(t("roles")[c.role] || c.role) + "</td><td>" + (c.ticker ? tk(c.ticker) : c.proxy ? esc(t("via")) + " " + tk(c.proxy) : esc(t("priv"))) + "</td></tr>"; })) + "</section>";
-      return "<section>" + head + (cards ? '<div class="sigs">' + cards + "</div>" : '<p class="muted">' + esc(t("none")) + "</p>") + "</section>" + fu + op + src + wl;
+        '<p class="muted small">' + esc(f("sigLast", { d: st.last_date || "–" })) + (st.weekly ? ' · <a href="weekly.html">' + esc(t("weekly")) + " " + esc(st.weekly) + "</a>" : "") + "</p>";
+      var fu = (st.followups || []).length ? "<section><h2>" + esc(t("followups")) + '</h2><ul class="plain">' + st.followups.map(function (x) { return "<li>" + esc(L(x, "text")) + "</li>"; }).join("") + "</ul></section>" : "";
+      var op = (D.open || []).length ? "<section><h2>" + esc(t("watching")) + '</h2><ul class="plain">' + D.open.map(function (o) { return "<li>" + esc(o.due || "") + " " + esc(L(o, "text")) + "</li>"; }).join("") + "</ul></section>" : "";
+      var src = st.sources ? "<section><h2>" + esc(t("sigChecked")) + '</h2><p class="muted small">' + Object.keys(st.sources).map(function (k) { return esc(t("srcs")[k] || k) + ": " + esc(st.sources[k]); }).join(" · ") + "</p></section>" : "";
+      var cols = [{ key: "c", label: t("company"), nolabel: 1, cls: "lead", cell: function (c) { return co(c.ticker || c.id, lang === "zh" && c.name_zh ? c.name_zh : c.name); } },
+        { key: "r", label: t("role"), cell: function (c) { return esc(t("roles")[c.role] || c.role); } },
+        { key: "l", label: t("listing"), cell: function (c) { return c.ticker ? tk(c.ticker) : c.proxy ? esc(t("via")) + " " + tk(c.proxy) : esc(t("priv")); } }];
+      return "<section>" + head + (items.length ? '<div class="sigs">' + items.map(function (i) { return sigCard(i); }).join("") + "</div>" : '<p class="muted">' + esc(t("none")) + "</p>") + "</section>" + fu + op + src +
+        "<section><h2>" + esc(t("watchH")) + "</h2>" + table("t-watch", D.watchlist || [], cols) + "</section>";
     },
-    changes: function () {
-      var note = '<p class="note">' + esc(t("changesNote").replace("{d}", D.baseline || "")) + "</p>";
-      if (!D.events.length) return "<section>" + note + '<p class="muted">' + esc(t("noChanges")) + "</p></section>";
-      return "<section>" + note + table([[t("date")], [t("trial")], [t("company")], [t("change")]], D.events.map(function (e) {
-        var what = t("ev")[e.type] || e.type, detail = e.type === "registered" ? e.to : e.type === "results_posted" ? "" : statusText(e.from) + " → " + statusText(e.to);
-        return '<tr><td class="d">' + esc(e.date) + '</td><td class="d">' + nct(e.nct) + "</td><td>" + esc(spName(e.sponsor_id)) + "</td><td>" + pill(e.direction, what) + " " + esc(detail) + (e.why_stopped ? '<br><span class="muted small">' + esc(e.why_stopped) + "</span>" : "") + "</td></tr>";
-      })) + "</section>";
+    trials: function () {
+      if (S.sub === "changes") {
+        var cols = [{ key: "date", label: t("date"), cls: "d", nolabel: 1, val: function (e) { return e.date; }, cell: function (e) { return esc(e.date); } },
+          { key: "company", label: t("company"), cls: "lead", nolabel: 1, cell: function (e) { return co(byNct(e.nct) ? byNct(e.nct).co : e.sponsor_id); } },
+          { key: "change", label: t("change"), nolabel: 1, cell: function (e) { return evLine(e) + (e.why_stopped ? '<br><span class="muted small">' + esc(e.why_stopped) + "</span>" : ""); } },
+          { key: "nct", label: t("trial"), cls: "d", cell: function (e) { return nct(e.nct); } }];
+        if (!S.sort) S.sort = "-date";
+        return subnav() + '<section><p class="note">' + esc(f("changesNote", { d: D.baseline || "" })) + "</p>" + (D.events.length ? table("t-main", D.events, cols, { isNew: function (e) { return isNew(e.detected); } }) : '<p class="muted">' + esc(t("noChanges")) + "</p>") + "</section>";
+      }
+      if (S.sub === "companies") {
+        var cs = Object.keys(D.companies).map(function (k) { return D.companies[k]; }).filter(function (c) { return c.trials && (!S.listed || c.ticker); });
+        var ccols = [{ key: "name", label: t("company"), cls: "lead", nolabel: 1, val: function (c) { return c.name.toLowerCase(); }, cell: function (c) { return co(c.key); } },
+          { key: "tk", label: t("ticker"), cell: function (c) { return tk(c.ticker); } },
+          { key: "spark", label: t("year"), cell: function (c) { return c.quote ? spark(c.quote.spark, 84, 20) : ""; } },
+          { key: "basis", label: t("basis"), term: "ai_native", cell: function (c) { return c.tier ? esc(t(c.tier)) : esc(t("roles")[c.role] || ""); } },
+          { key: "trials", label: t("trials"), num: 1, val: function (c) { return c.trials; }, cell: function (c) { return c.trials; } },
+          { key: "stopped", label: t("stopped"), num: 1, val: function (c) { return c.stopped; }, cell: function (c) { return c.stopped; } },
+          { key: "furthest", label: t("furthest"), cell: function (c) { return esc(c.furthest ? phase(c.furthest) : ""); } },
+          { key: "mcap", label: t("mcap"), num: 1, val: function (c) { return c.quote ? c.quote.mcap_usd : null; }, cell: function (c) { return c.quote && c.quote.mcap_usd ? usd(c.quote.mcap_usd) : ""; } }];
+        if (!S.sort) S.sort = "-trials";
+        return subnav() + '<section><div class="filters"><label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + "</label></div>" + table("t-main", cs, ccols) + "</section>";
+      }
+      var stop = S.sub === "stopped", base = stop ? D.trials.filter(function (x) { return x.bucket === "stopped"; }) : D.trials;
+      var colsT = trialCols(stop ? [{ key: "why", label: t("why"), cell: function (x) { return esc(x.why_stopped || ""); } }] : [{ key: "updated", label: t("updated"), cls: "d", val: function (x) { return x.last_update; }, cell: function (x) { return esc(x.last_update); } }]);
+      if (!S.sort) S.sort = "-updated";
+      V._cur = { base: base, cols: colsT, opt: { page: 1, detail: trialDetail, id: function (x) { return x.nct; } } };
+      return subnav() + "<section>" + (stop ? '<p class="note">' + esc(t("stoppedNote")) + "</p>" : "") + filters(base, !stop) + table("t-main", trialRows(base), colsT, V._cur.opt) + "</section>";
     },
-    longevity: function () {
-      return '<section><p class="note">' + esc(t("longNote")) + '</p><div class="cards">' + D.longevity.map(function (m) {
-        return '<div class="card"><h3>' + esc(m["title_" + lang]) + "</h3>" + pill(m.status, t("st")[m.status] || m.status) + "<p><b>" + esc(t("now")) + ":</b> " + esc(m["state_" + lang]) + "</p><p><b>" + esc(t("signal")) + ":</b> " + esc(m["signal_" + lang]) +
+    calendar: function () {
+      if (S.sub === "deals") {
+        var dc = [{ key: "date", label: t("date"), cls: "d", nolabel: 1, val: function (d) { return d.date; }, cell: function (d) { return esc(d.date) + (d.date_approx ? "*" : ""); } },
+          { key: "deal", label: t("deal"), cls: "lead", nolabel: 1, cell: function (d) { return esc(d.ai) + " – " + esc(d.pharma) + '<br><span class="muted small" style="font-weight:400">' + esc(L(d, "note")) + "</span>"; } },
+          { key: "tk", label: t("ticker"), cell: function (d) { return (d.tickers || []).map(tk).join(" "); } },
+          { key: "headline", label: t("headline"), term: "headline", num: 1, val: function (d) { return d.headline_usd; }, cell: function (d) { return d.headline_usd == null ? esc(t("undisclosed")) : (d.headline_more_than ? esc(t("moreThan")) : "") + dealUsd(d.headline_usd); } },
+          { key: "upfront", label: t("upfront"), term: "upfront", num: 1, val: function (d) { return d.upfront_usd; }, cell: function (d) { return d.upfront_usd == null ? esc(t("undisclosed")) : dealUsd(d.upfront_usd); } },
+          { key: "share", label: t("share"), num: 1, val: function (d) { return d.upfront_share; }, cell: function (d) { return d.upfront_share == null ? "" : '<span class="share"><i style="width:' + Math.max(1, d.upfront_share * 100).toFixed(1) + '%"></i></span>' + (d.upfront_share * 100).toFixed(1) + "%"; } },
+          { key: "src", label: t("source"), cell: function (d) { return link(d.source.url, d.source.publisher); } }];
+        if (!S.sort) S.sort = "-date";
+        return subnav() + '<section><p class="note">' + esc(t("dealsNote")) + "</p>" + table("t-main", D.deals || [], dc) + "</section>";
+      }
+      var rows = D.trials.filter(function (x) { return (!S.listed || x.ticker) && x.bucket === "active" && x.phase_rank >= 3 && x.primary_completion && x.primary_completion >= D.today; })
+        .map(function (x) { return { sort: x.primary_completion, when: x.primary_completion, x: x }; });
+      (D.catalysts || []).forEach(function (c) { if (c.sort >= D.today) rows.push({ sort: c.sort, when: c.when, c: c }); });
+      rows.sort(function (a, b) { return a.sort < b.sort ? -1 : a.sort > b.sort ? 1 : 0; });
+      var cc = [{ key: "due", label: t("readout"), term: "primary_completion", cls: "d", nolabel: 1, cell: function (r) { return esc(r.when); } },
+        { key: "ev", label: t("event"), cls: "lead", nolabel: 1, cell: function (r) { return r.c ? pill("down", t("regDecision")) + " " + esc(L(r.c, "title")) + '<br><span class="muted small" style="font-weight:400">' + esc(L(r.c, "note")) + "</span>" : esc((r.x.interventions || []).slice(0, 2).join(", ")) + " · " + esc(phase(r.x.phase)) + '<br><span class="muted small" style="font-weight:400">' + esc((r.x.conditions || []).slice(0, 2).join("; ")) + "</span>"; } },
+        { key: "co", label: t("company"), cell: function (r) { return r.c ? (r.c.tickers || []).map(tk).join(" ") : (r.x.via === "sponsor" ? co(r.x.co) : esc(r.x.lead_sponsor)) + " " + tk(r.x.ticker); } },
+        { key: "n", label: t("n"), num: 1, cell: function (r) { return r.x && r.x.enrollment != null ? r.x.enrollment : ""; } },
+        { key: "src", label: t("source"), cls: "d", cell: function (r) { return r.c ? link(r.c.source.url, r.c.source.publisher) : nct(r.x.nct); } }];
+      var W = 720, t0 = new Date(D.today + "T00:00:00Z").getTime(), yr = 365 * 864e5, lanes = {}, marks = "";
+      rows.forEach(function (r) {
+        var x = (new Date(r.sort + "T00:00:00Z").getTime() - t0) / yr; if (x > 1) return;
+        var px = 10 + x * (W - 20), slot = Math.round(px / 7); lanes[slot] = (lanes[slot] || 0) + 1; var y = 50 - lanes[slot] * 8;
+        marks += r.c ? '<rect class="reg" x="' + (px - 3.5).toFixed(1) + '" y="' + (y - 3.5) + '" width="7" height="7"><title>' + esc(r.when + " " + L(r.c, "title")) + "</title></rect>" : '<circle cx="' + px.toFixed(1) + '" cy="' + y + '" r="3"><title>' + esc(r.when + " " + (r.x.interventions[0] || "") + " · " + r.x.phase) + "</title></circle>";
+      });
+      var ticks = ""; for (var m = 0; m <= 12; m += 2) { var d = new Date(t0 + m / 12 * yr), px2 = 10 + m / 12 * (W - 20); ticks += '<line x1="' + px2 + '" y1="54" x2="' + px2 + '" y2="58"/><text x="' + px2 + '" y="70" text-anchor="middle">' + d.toISOString().slice(0, 7) + "</text>"; }
+      var strip = '<div class="strip"><svg viewBox="0 0 ' + W + ' 74" role="img" aria-label="' + esc(t("stripLab")) + '"><line x1="10" y1="54" x2="' + (W - 10) + '" y2="54"/>' + ticks + marks + '</svg><p class="muted small" style="margin:2px 0 6px">' + esc(t("stripLab")) + "</p></div>";
+      return subnav() + '<section><p class="note">' + esc(t("calNote")) + '</p><div class="filters"><label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + "</label></div>" + strip + table("t-main", rows, cc) + "</section>";
+    },
+    more: function () {
+      if (S.sub === "reading") return subnav() + '<section><p class="note">' + esc(t("readNote")) + '</p><div class="cards">' + D.reading.map(function (r) {
+        var h = D.headlines[r.id] || [];
+        return '<div class="card"><h3>' + link(r.url, r.name) + '</h3><p class="muted small">' + esc(r.cadence) + "</p><p>" + esc(L(r, "why")) + "</p>" +
+          (h.length ? '<ul class="small">' + h.map(function (i) { return "<li>" + link(i.url, i.title) + ' <span class="muted">' + esc(i.date || "") + "</span></li>"; }).join("") + "</ul>" : (r.feed ? "" : '<p class="muted small">' + esc(t("noFeed")) + "</p>")) + "</div>";
+      }).join("") + "</div></section>";
+      if (S.sub === "method") return subnav() + "<section><h2>" + esc(t("methodH")) + "</h2>" + t("methodP").map(function (p) { return '<p class="note">' + esc(p) + "</p>"; }).join("") +
+        (D.assets || []).map(function (a) { return '<p class="note"><b>' + esc(a.name) + ":</b> " + esc(L(a, "note")) + " " + link(a.source, t("source")) + "</p>"; }).join("") +
+        "</section><section><h2>" + esc(t("rubricH")) + '</h2><p class="note">' + esc(t("rubricP")) + '</p><ol class="rubric">' + t("rubric").map(function (r) { return "<li>" + esc(r) + "</li>"; }).join("") + "</ol></section>";
+      if (S.sub === "glossary") return subnav() + '<section><p class="note">' + esc(t("glossNote")) + '</p><dl class="gloss">' + (D.glossary || []).map(function (g) { return "<dt>" + esc(L(g, "term")) + "</dt><dd>" + esc(L(g, "def")) + "</dd>"; }).join("") + "</dl></section>";
+      return subnav() + '<section><p class="note">' + esc(t("longNote")) + '</p><div class="cards">' + D.longevity.map(function (m) {
+        return '<div class="card"><h3>' + esc(L(m, "title")) + "</h3>" + pill(m.status, t("st")[m.status] || m.status) + "<p><b>" + esc(t("now")) + ":</b> " + esc(L(m, "state")) + "</p><p><b>" + esc(t("signal")) + ":</b> " + esc(L(m, "signal")) +
           '</p><p class="muted small">' + link(m.source, t("source")) + " · " + esc(t("asOf")) + " " + esc(m.as_of) + "</p></div>";
       }).join("") + "</div></section>";
-    },
-    reading: function () {
-      return '<section><p class="note">' + esc(t("readNote")) + '</p><div class="cards">' + D.reading.map(function (r) {
-        var h = D.headlines[r.id] || [];
-        return '<div class="card"><h3>' + link(r.url, r.name) + '</h3><p class="muted small">' + esc(r.cadence) + "</p><p>" + esc(r["why_" + lang]) + "</p>" +
-          (h.length ? "<ul class=\"small\">" + h.map(function (i) { return "<li>" + link(i.url, i.title) + ' <span class="muted">' + esc(i.date || "") + "</span></li>"; }).join("") + "</ul>" : (r.feed ? "" : '<p class="muted small">' + esc(t("noFeed")) + "</p>")) + "</div>";
-      }).join("") + "</div></section>";
-    },
-    method: function () {
-      return "<section><h2>" + esc(t("methodH")) + "</h2>" + t("methodP").map(function (p) { return '<p class="note">' + esc(p) + "</p>"; }).join("") +
-        (D.assets || []).map(function (a) { return '<p class="note"><b>' + esc(a.name) + ":</b> " + esc(a["note_" + lang]) + " " + link(a.source, t("source")) + "</p>"; }).join("") +
-        "</section><section><h2>" + esc(t("rubricH")) + '</h2><p class="note">' + esc(t("rubricP")) + '</p><ol class="rubric">' + t("rubric").map(function (r) { return "<li>" + esc(r) + "</li>"; }).join("") + "</ol></section>";
     }
   };
+
+  // ---- company panel ----
+  function panelHtml(c) {
+    var q = c.quote, p = c.profile, rows = D.trials.filter(function (x) { return x.co === c.key; });
+    var listing = c.ticker ? tk(c.ticker) + (c.market ? ' <span class="muted small">' + esc(c.market) + "</span>" : "") : c.proxy ? esc(f("pProxy", { t: "" })) + tk(c.proxy) : '<span class="muted small">' + esc(t("pPrivate")) + "</span>";
+    var h = '<div class="phead"><div><h2 id="panel-title">' + esc(coName(c)) + '</h2><p class="small">' + listing + " · " + esc(c.tier ? t(c.tier) : (t("roles")[c.role] || "")) + (p && p.hq ? " · " + esc(p.hq) : "") + '</p></div><button type="button" class="btn" id="panel-close">' + esc(t("pClose")) + " ×</button></div>";
+    if (p) h += "<h3>" + esc(t("pOverview")) + "</h3><p>" + esc(L(p, "what")) + "</p>" + (L(p, "ai") ? '<p><b class="small">' + esc(t("pAi")) + ":</b> " + esc(L(p, "ai")) + "</p>" : "") + (L(p, "lead") ? '<p><b class="small">' + esc(t("pLead")) + ":</b> " + esc(L(p, "lead")) + "</p>" : "") +
+      '<p class="muted small">' + [p.founded ? p.founded : "", p.listed || "", link(p.source.url, t("pSrc") + ": " + p.source.publisher), t("asOf") + " " + p.as_of, p.checked === "partly" ? esc(t("profPartly")) : ""].filter(Boolean).join(" · ") + "</p>";
+    if (q) {
+      function kv(k, v, g) { return v == null || v === "" ? "" : "<div><span>" + (g ? term(g, k) : esc(k)) + "</span><b>" + v + "</b></div>"; }
+      h += "<h3>" + esc(t("pMarket")) + '</h3><div class="mkt"><div class="row" style="margin:0"><div><span class="muted small">' + esc(t("pPrice")) + '</span><br><span class="px">' + esc(q.currency === "USD" ? "$" : (q.currency || "") + " ") + esc(q.price) + "</span></div>" + spark(q.spark, 200, 48) + "</div>" +
+        (q.hi52 != null ? '<div class="range" role="img" aria-label="' + esc(t("year")) + '"><i style="left:' + (100 * q.pos52).toFixed(1) + '%"></i></div><div class="rl"><span>' + esc(q.lo52) + "</span><span>" + term("range52", lang === "zh" ? "52 周区间" : "52-week range") + "</span><span>" + esc(q.hi52) + "</span></div>" : "") +
+        '<div class="kv">' + kv(t("mcap"), q.mcap_usd ? usd(q.mcap_usd) : "", "mcap") + kv(t("pe"), q.pe != null ? q.pe.toFixed(1) : (q.eps_ttm != null && q.eps_ttm <= 0 ? esc(t("lossMaking")) : ""), "pe") +
+        kv(t("p1m"), q.chg_1m == null ? "" : pct(q.chg_1m)) + kv(t("p3m"), q.chg_3m == null ? "" : pct(q.chg_3m)) + kv(t("pYtd"), q.chg_ytd == null ? "" : pct(q.chg_ytd)) +
+        kv(t("pRev"), q.revenue_ttm_usd != null ? usd(q.revenue_ttm_usd) : "") + kv(t("pRd"), q.rd_ttm_usd != null ? usd(q.rd_ttm_usd) : "") + kv(t("pCash"), q.cash_usd != null ? usd(q.cash_usd) : "") + kv(t("pRunway"), q.runway_q != null ? esc(f("quarters", { n: q.runway_q })) : "", "runway") +
+        '</div><p class="muted small" style="margin:10px 0 0">' + esc(f("pMarketNote", { d: q.as_of })) + (q.source ? " " + esc(q.source) + "." : "") + (q.fundamentals_as_of ? " " + esc(t("asOf")) + " " + esc(q.fundamentals_as_of) + " (SEC)." : "") + "</p></div>";
+    }
+    h += "<h3>" + esc(t("pLedger")) + "</h3>";
+    if (!rows.length) h += '<p class="muted">' + esc(t("pNoTrials")) + "</p>";
+    else {
+      var max = Math.max.apply(null, Object.keys(c.by_phase).map(function (k) { return c.by_phase[k].total; }));
+      h += "<p>" + esc(f("pTrials", { n: c.trials, s: c.stopped })) + ' · <a href="' + href("trials", "all", { company: c.key }) + '" data-close="1">' + esc(t("pSee")) + '</a></p><div class="funnel" style="border:0;padding:0;background:none">' + Object.keys(c.by_phase).map(function (k) {
+        var r = c.by_phase[k]; return '<span class="lab">' + esc(phase(k)) + '</span><span class="stack" style="width:' + (100 * r.total / max).toFixed(1) + '%">' + ["active", "completed", "stopped", "unknown"].map(function (b) { return r[b] ? '<i class="seg-' + b + '" style="flex:' + r[b] + '" title="' + esc(t(b)) + '">' + r[b] + "</i>" : ""; }).join("") + '</span><span class="tot">' + r.total + "</span>"; }).join("") + "</div>";
+      var due = rows.filter(function (x) { return x.bucket === "active" && x.phase_rank >= 3 && x.primary_completion >= D.today; }).sort(function (a, b) { return a.primary_completion < b.primary_completion ? -1 : 1; }).slice(0, 5);
+      if (due.length) h += "<h3>" + term("primary_completion", t("pNext")) + "</h3><ul>" + due.map(function (x) { return '<li><span class="muted small">' + esc(x.primary_completion) + "</span> " + esc(x.interventions[0] || "") + " · " + esc(phase(x.phase)) + " · " + esc((x.conditions || [])[0] || "") + ' <span class="small">' + nct(x.nct) + "</span></li>"; }).join("") + "</ul>";
+      var st = rows.filter(function (x) { return x.bucket === "stopped"; });
+      if (st.length) h += "<h3>" + esc(t("pStopped")) + "</h3><ul>" + st.map(function (x) { return "<li>" + esc(x.interventions[0] || "") + " · " + esc(phase(x.phase)) + " · " + pill("stopped", status(x.status)) + ' <span class="small">' + nct(x.nct) + "</span>" + (x.why_stopped ? '<br><span class="muted small">' + esc(x.why_stopped) + "</span>" : "") + "</li>"; }).join("") + "</ul>";
+    }
+    var ap = (D.approvals || []).filter(function (a) { return a.co === c.key; });
+    if (ap.length) h += "<h3>" + esc(t("pApproved")) + "</h3><ul>" + ap.map(function (a) { return "<li><b>" + esc(a.drug) + "</b> · " + esc(a.regulator) + " " + esc(a.date) + "<br>" + esc(L(a, "text")) + ' <span class="small">' + link(a.source.url, a.source.publisher) + "</span></li>"; }).join("") + "</ul>";
+    var sg = (D.signals || []).filter(function (i) { return (i.names || []).some(function (n) { return n.ticker === c.ticker || (c.proxy && n.ticker === c.proxy); }) && (c.ticker || i.title_en.indexOf(c.name.split(" ")[0]) >= 0); });
+    if (sg.length) h += "<h3>" + esc(t("pSignals")) + "</h3><ul>" + sg.slice(0, 6).map(function (i) { return '<li><span class="muted small">' + esc(i.date) + " · " + esc(t("ty")[i.type]) + "</span><br>" + link(i.url, L(i, "title")) + "<br>" + esc(t("evidence")) + " " + score(i.evidence) + " &nbsp; " + esc(t("market")) + " " + score(i.market) + "</li>"; }).join("") + "</ul>";
+    var dl = (D.deals || []).filter(function (d) { return c.ticker && (d.tickers || []).indexOf(c.ticker) >= 0 || d.ai === c.name || d.pharma === c.name; });
+    if (dl.length) h += "<h3>" + esc(t("pDeals")) + "</h3><ul>" + dl.map(function (d) { return '<li><span class="muted small">' + esc(d.date) + "</span> " + esc(d.ai) + " – " + esc(d.pharma) + "<br>" + (d.upfront_usd == null ? esc(t("undisclosed")) : esc(t("upfront")) + " " + dealUsd(d.upfront_usd) + " · " + esc(t("headline")) + " " + (d.headline_more_than ? esc(t("moreThan")) : "") + dealUsd(d.headline_usd)) + ' <span class="small">' + link(d.source.url, d.source.publisher) + "</span></li>"; }).join("") + "</ul>";
+    var ev = D.events.filter(function (e) { return byNct(e.nct) && byNct(e.nct).co === c.key; });
+    if (ev.length) h += "<h3>" + esc(t("pChanges")) + "</h3><ul>" + ev.slice(0, 6).map(function (e) { return '<li><span class="muted small">' + esc(e.date) + "</span> " + evLine(e) + ' <span class="small">' + nct(e.nct) + "</span></li>"; }).join("") + "</ul>";
+    var links = [];
+    if (rows.length) links.push(link("https://clinicaltrials.gov/search?spons=" + encodeURIComponent(c.name.replace(/\s*\(.*/, "")), t("pCt")));
+    if (c.ticker && c.market === "US") links.push(link("https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=" + encodeURIComponent(c.ticker) + "&type=&dateb=&owner=include&count=40", t("pSec")));
+    if (c.ticker && c.market === "HK") links.push(link("https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sym=" + parseInt(c.ticker, 10), t("pHk")));
+    if (links.length) h += "<h3>" + esc(t("pLinks")) + "</h3><p>" + links.join(" · ") + "</p>";
+    return h;
+  }
+  function drawPanel() {
+    var el = document.getElementById("panel"), bd = document.getElementById("backdrop"), c = S.co && D ? D.companies[S.co] : null;
+    if (!c) { if (!el.hidden) { el.hidden = true; bd.hidden = true; document.body.style.overflow = ""; if (opener && document.contains(opener)) opener.focus(); opener = null; } return; }
+    el.innerHTML = panelHtml(c); el.hidden = false; bd.hidden = false; document.body.style.overflow = "hidden"; el.scrollTop = 0;
+    document.getElementById("panel-close").focus();
+  }
+  function closePanel() { if (S.co) { go({ co: "" }, true); } }
+
+  // ---- glossary popover ----
+  function showPop(btn) {
+    var g = (D.glossary || []).filter(function (x) { return x.key === btn.getAttribute("data-g"); })[0], pop = document.getElementById("pop");
+    if (!g) return;
+    pop.innerHTML = "<b>" + esc(L(g, "term")) + "</b>" + esc(L(g, "def")); pop.hidden = false;
+    var r = btn.getBoundingClientRect(), w = pop.offsetWidth, x = Math.max(12, Math.min(window.innerWidth - w - 12, r.left)), y = r.bottom + window.scrollY + 6;
+    pop.style.left = (x + window.scrollX) + "px"; pop.style.top = y + "px"; pop._for = btn;
+  }
+  function hidePop() { var p = document.getElementById("pop"); p.hidden = true; p._for = null; }
+
+  // ---- render ----
   function chrome() {
     document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
-    document.title = T.en.title + " · " + T.zh.title;
+    document.title = t("nav")[S.view] + (S.sub ? " · " + t("subs")[S.sub] : "") + " · " + t("title");
     Array.prototype.forEach.call(document.querySelectorAll("[data-t]"), function (el) { el.textContent = t(el.getAttribute("data-t")); });
-    document.getElementById("lang").textContent = lang === "zh" ? "English" : "中文";
-    var cur = tab();
-    document.getElementById("tabs").innerHTML = TABS.map(function (k) { return '<a href="#' + k + '"' + (k === cur ? ' aria-current="page"' : "") + ">" + esc(t("tabs")[k]) + "</a>"; }).join("");
+    var lb = document.getElementById("lang"); lb.textContent = lang === "zh" ? "English" : "中文"; lb.setAttribute("lang", lang === "zh" ? "en" : "zh-CN"); lb.setAttribute("aria-label", lang === "zh" ? "Switch to English" : "切换到中文");
+    var fresh = { signals: D && (D.signals || []).some(function (i) { return isNew(i.run); }), trials: D && D.events.some(function (e) { return isNew(e.detected); }) };
+    document.getElementById("nav").innerHTML = Object.keys(VIEWS).map(function (k) { return '<a href="#' + k + '"' + (k === S.view ? ' aria-current="page"' : "") + ">" + esc(t("nav")[k]) + (fresh[k] ? '<span class="badge" title="' + esc(t("newLab")) + '"></span>' : "") + "</a>"; }).join("");
   }
-  function render() {
+  function count() { var c = document.getElementById("count"); if (c && V._cur) c.textContent = f("shown", { a: trialRows(V._cur.base).length, b: V._cur.base.length }); }
+  function render(keepScroll) {
     chrome();
     if (!D) return;
-    document.getElementById("main").innerHTML = V[tab()]();
-    document.getElementById("stamp").textContent = t("generated").replace("{d}", D.generated_at);
-    ["sponsor", "phase", "bucket"].forEach(function (k) {
-      var el = document.getElementById("f-" + k);
-      if (el) el.onchange = function () { F[k] = el.value; render(); };
-    });
-    var lb = document.getElementById("f-listed");
-    if (lb) lb.onchange = function () { F.listed = lb.checked; render(); };
-    var q = document.getElementById("f-q");
-    if (q) q.onchange = function () { F.q = q.value; render(); };
+    V._cur = null;
+    document.getElementById("main").innerHTML = V[S.view]();
+    document.getElementById("stamp").textContent = f("generated", { d: D.generated_at });
+    count(); drawPanel();
+    if (!keepScroll) window.scrollTo(0, 0);
   }
-  document.getElementById("lang").onclick = function () {
-    lang = lang === "zh" ? "en" : "zh";
-    try { localStorage.setItem("ledger-lang", lang); } catch (e) { /* private window */ }
-    render();
-  };
-  window.addEventListener("hashchange", render);
-  chrome();
+  function redrawBody() {   // filters and sort change the table body only, so focus stays in the search box
+    var tb = document.getElementById("t-main");
+    if (!tb || !V._cur) return render(true);
+    var tmp = document.createElement("table"); tmp.innerHTML = thead(V._cur.cols) + tbody(sorted(trialRows(V._cur.base), V._cur.cols), V._cur.cols, V._cur.opt);
+    tb.replaceChild(tmp.tHead, tb.tHead); tb.replaceChild(tmp.tBodies[0], tb.tBodies[0]); count();
+  }
+  var timer = null;
+  document.addEventListener("input", function (e) {
+    if (e.target.id !== "f-q") return;
+    clearTimeout(timer); var v = e.target.value;
+    timer = setTimeout(function () { go({ q: v, n: PAGE }); redrawBody(); }, 150);
+  });
+  document.addEventListener("change", function (e) {
+    var id = e.target.id;
+    if (id === "f-company") { go({ company: e.target.value, n: PAGE }); render(true); }
+    else if (id === "f-phase") { go({ phase: e.target.value, n: PAGE }); render(true); }
+    else if (id === "f-listed") { go({ listed: e.target.checked ? "1" : "", n: PAGE }); render(true); }
+    else return;
+    var el = document.getElementById(id); if (el) el.focus();
+  });
+  document.addEventListener("click", function (e) {
+    var el = e.target.closest ? e.target.closest("[data-co],[data-g],[data-sort],[data-status],[data-clear],[data-more],[data-open],[data-close],#panel-close,#backdrop,#lang") : null;
+    var pop = document.getElementById("pop");
+    if (!pop.hidden && (!el || !el.hasAttribute("data-g") || pop._for === el)) { var same = el && pop._for === el; hidePop(); if (same) return; }
+    if (!el) return;
+    if (el.id === "lang") { lang = lang === "zh" ? "en" : "zh"; store("ledger-lang", lang); render(true); return; }
+    if (el.id === "panel-close" || el.id === "backdrop") return closePanel();
+    if (el.hasAttribute("data-close")) return;
+    if (el.hasAttribute("data-g")) { e.preventDefault(); return showPop(el); }
+    if (el.hasAttribute("data-co")) { if (!S.co) opener = el; return go({ co: el.getAttribute("data-co") }, true); }
+    if (el.hasAttribute("data-sort")) { var k = el.getAttribute("data-sort"); go({ sort: S.sort === "-" + k ? k : "-" + k }); return V._cur ? redrawBody() : render(true); }
+    if (el.hasAttribute("data-status")) { var b = el.getAttribute("data-status"); go({ status: S.status === b ? "" : b, n: PAGE }); return render(true); }
+    if (el.hasAttribute("data-clear")) { go({ q: "", phase: "", status: "", company: "", listed: "", n: PAGE }); return render(true); }
+    if (el.hasAttribute("data-more")) { S.n += PAGE; return redrawBody(); }
+    if (el.hasAttribute("data-open")) { var id = el.getAttribute("data-open"); S.open = S.open === id ? null : id; redrawBody(); var again = document.querySelector('[data-open="' + id + '"]'); if (again) again.focus(); }
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") { if (!document.getElementById("pop").hidden) return hidePop(); if (S.co) closePanel(); }
+    if (e.key === "Tab" && S.co) {   // keep focus inside the open panel
+      var p = document.getElementById("panel"), fs = p.querySelectorAll("a[href],button"), first = fs[0], last = fs[fs.length - 1];
+      if (!p.contains(document.activeElement)) { e.preventDefault(); first.focus(); }
+      else if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  });
+  window.addEventListener("hashchange", function () {
+    var prev = S, open = S.open; S = parse();
+    if (prev.view === S.view && prev.sub === S.sub) { S.n = prev.n; S.open = open; if (prev.co !== S.co && hashOf({ view: prev.view, sub: prev.sub, q: prev.q, phase: prev.phase, status: prev.status, company: prev.company, listed: prev.listed, sort: prev.sort }) === hashOf({ view: S.view, sub: S.sub, q: S.q, phase: S.phase, status: S.status, company: S.company, listed: S.listed, sort: S.sort })) { chrome(); return drawPanel(); } return render(true); }
+    render(false);
+  });
+  window.addEventListener("pagehide", function () { if (D) store("ledger-seen", D.generated_at); });
+  S = parse(); chrome0();
+  function chrome0() { Array.prototype.forEach.call(document.querySelectorAll("[data-t]"), function (el) { el.textContent = t(el.getAttribute("data-t")); }); }
   function get(url) { return fetch(url, { cache: "no-cache" }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
   get("data/ledger.json").catch(function () { return get("../data/ledger.json"); }).then(function (d) {
-    D = d; D.sponsorMap = {}; d.sponsors.forEach(function (s) { D.sponsorMap[s.id] = s; });
-    render();
-  }).catch(function () { document.getElementById("main").innerHTML = '<p class="muted">' + esc(t("failed")) + "</p>"; });
+    D = d; D.trialMap = {}; D.sigMap = {}; D.evMap = {};
+    d.trials.forEach(function (x) { D.trialMap[x.nct] = x; }); (d.signals || []).forEach(function (x) { D.sigMap[x.id] = x; }); d.events.forEach(function (x) { D.evMap[x.id] = x; });
+    render(true);
+  }).catch(function (e) { document.getElementById("main").innerHTML = '<p class="muted">' + esc(t("failed")) + "</p>"; if (window.console) console.error(e); });
 })();
