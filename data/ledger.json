@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-23T10:17:48Z",
+ "generated_at": "2026-11-23T10:32:10Z",
  "today": "2026-11-23",
  "baseline": "2026-11-19",
  "sources": {
@@ -9,8 +9,8 @@
   "feed:stat": "ok",
   "feed:biopharmadive": "ok",
   "feed:gen": "ok",
-  "feed:decodingbio": "ok",
-  "feed:topol": "ok",
+  "feed:decodingbio": "error: RuntimeError",
+  "feed:topol": "error: RuntimeError",
   "feed:lifespan": "ok",
   "feed:fightaging": "ok"
  },
@@ -5227,60 +5227,6 @@
     "date": "2026-11-18"
    }
   ],
-  "decodingbio": [
-   {
-    "title": "BioByte 180: Maps Against Cancer",
-    "url": "https://decodingbio.substack.com/p/biobyte-180-maps-against-cancer",
-    "date": "2026-11-19"
-   },
-   {
-    "title": "BioByte 179: Epilepsy Epilogue",
-    "url": "https://decodingbio.substack.com/p/biobyte-179-epilepsy-epilogue",
-    "date": "2026-11-12"
-   },
-   {
-    "title": "A Conversation with Michael Ehlers: Funding the Future of Drug Discovery and Development at Formation Bio",
-    "url": "https://decodingbio.substack.com/p/a-conversation-with-mike-ehlers-funding",
-    "date": "2026-11-10"
-   },
-   {
-    "title": "BioByte 178: The Expression Code",
-    "url": "https://decodingbio.substack.com/p/biobyte-178-the-expression-code",
-    "date": "2026-11-05"
-   },
-   {
-    "title": "BioByte 177: Evolution-Encoded Knowledge",
-    "url": "https://decodingbio.substack.com/p/biobyte-177-evolution-encoded-knowledge",
-    "date": "2026-10-29"
-   }
-  ],
-  "topol": [
-   {
-    "title": "Jo Chikwe: A Renowned Cardiac Surgeon, on Leadership, Diversity, And Much More",
-    "url": "https://erictopol.substack.com/p/jo-chikwe-a-renowned-cardiac-surgeon",
-    "date": "2026-11-15"
-   },
-   {
-    "title": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
-    "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
-    "date": "2026-11-10"
-   },
-   {
-    "title": "Vadim Gladyshev and the Science of Aging",
-    "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of",
-    "date": "2026-10-27"
-   },
-   {
-    "title": "Connecting Our Immune System and Healthspan",
-    "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells",
-    "date": "2026-10-11"
-   },
-   {
-    "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
-    "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery",
-    "date": "2026-10-06"
-   }
-  ],
   "lifespan": [
    {
     "title": "James Peyer on Turning Aging Biology Into Medicine",
@@ -5333,6 +5279,60 @@
     "title": "Aging Clocks May Reflect Disease Burden in Addition to Aging in Many Circumstances",
     "url": "https://www.fightaging.org/archives/2026/11/aging-clocks-may-reflect-disease-burden-in-addition-to-aging-in-many-circumstances/",
     "date": "2026-11-19"
+   }
+  ],
+  "decodingbio": [
+   {
+    "title": "BioByte 180: Maps Against Cancer",
+    "url": "https://decodingbio.substack.com/p/biobyte-180-maps-against-cancer",
+    "date": "2026-11-19"
+   },
+   {
+    "title": "BioByte 179: Epilepsy Epilogue",
+    "url": "https://decodingbio.substack.com/p/biobyte-179-epilepsy-epilogue",
+    "date": "2026-11-12"
+   },
+   {
+    "title": "A Conversation with Michael Ehlers: Funding the Future of Drug Discovery and Development at Formation Bio",
+    "url": "https://decodingbio.substack.com/p/a-conversation-with-mike-ehlers-funding",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "BioByte 178: The Expression Code",
+    "url": "https://decodingbio.substack.com/p/biobyte-178-the-expression-code",
+    "date": "2026-11-05"
+   },
+   {
+    "title": "BioByte 177: Evolution-Encoded Knowledge",
+    "url": "https://decodingbio.substack.com/p/biobyte-177-evolution-encoded-knowledge",
+    "date": "2026-10-29"
+   }
+  ],
+  "topol": [
+   {
+    "title": "Jo Chikwe: A Renowned Cardiac Surgeon, on Leadership, Diversity, And Much More",
+    "url": "https://erictopol.substack.com/p/jo-chikwe-a-renowned-cardiac-surgeon",
+    "date": "2026-11-15"
+   },
+   {
+    "title": "Ethan Mollick on AI: Where Are We Now and Where Are We Headed",
+    "url": "https://erictopol.substack.com/p/ethan-mollick-on-ai-where-are-we",
+    "date": "2026-11-10"
+   },
+   {
+    "title": "Vadim Gladyshev and the Science of Aging",
+    "url": "https://erictopol.substack.com/p/vadim-gladyshev-and-the-science-of",
+    "date": "2026-10-27"
+   },
+   {
+    "title": "Connecting Our Immune System and Healthspan",
+    "url": "https://erictopol.substack.com/p/a-tale-of-two-t-cells",
+    "date": "2026-10-11"
+   },
+   {
+    "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
+    "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery",
+    "date": "2026-10-06"
    }
   ]
  }
