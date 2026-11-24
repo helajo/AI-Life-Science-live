@@ -46,7 +46,7 @@
       rubricH: "Grading a single claim", rubricP: "Score each 0 to 2. Below 6 of 14, treat it as hype.",
       rubric: ["Evidence level: lab or animal, uncontrolled human, randomised human.", "Endpoint: biomarker, surrogate, clinical outcome.", "Size and pre-registration.", "Independence: company release, peer-reviewed, replicated by others.", "Comparator: none, placebo, standard of care.", "The target has human genetic support.", "The AI contribution is specific and checkable, and negative data are disclosed."],
       glossNote: "Plain-language meanings of the terms used on this site. Dotted terms anywhere on the page open the same explanation.",
-      pClose: "Close", pOverview: "Overview", pAi: "AI link", pLead: "Most advanced programme", pMarket: "Market data", pMarketNote: "Delayed; as of {d}. Context only, not a signal.", pPrice: "Last close", p1m: "1 month", p3m: "3 months", pYtd: "Year to date", pCash: "Cash and equivalents", pCashInv: "Cash and investments", pRunway: "Cash runway", quarters: "{n} quarters", lossMaking: "n/a (loss-making)", pEps: "Earnings per share, 12 months", pFin: "Financials", pFinNote: "From the company's SEC filings, period to {d}. Twelve-month figures add the last fiscal year and the year to date.", pRange: "52-week range", pSince: "range since listing, {d}", pNoPe: "not available", pFy: "based on the last fiscal year's earnings, converted to US dollars.", pRev: "Revenue, 12 months", pRd: "R&D, 12 months",
+      pClose: "Close", pOverview: "Overview", pAi: "AI link", pLead: "Most advanced programme", pMarket: "Market data", pMarketNote: "Delayed; as of {d}. Context only, not a signal.", pPrice: "Last close", p1m: "1 month", p3m: "3 months", pYtd: "Year to date", pCash: "Cash and equivalents", pCashInv: "Cash and investments", pRunway: "Cash runway", quarters: "{n} quarters", lossMaking: "n/a (loss-making)", pEps: "Earnings per share, 12 months", pChartYear: "daily closes, past year", pChartNew: "daily closes since listing", pFin: "Financials", pFinNote: "From the company's SEC filings, period to {d}. Twelve-month figures add the last fiscal year and the year to date.", pRange: "52-week range", pSince: "range since listing, {d}", pNoPe: "not available", pFy: "based on the last fiscal year's earnings, converted to US dollars.", pRev: "Revenue, 12 months", pRd: "R&D, 12 months",
       pLedger: "Tracked here", pTrials: "{n} trials, {s} stopped early", pNoTrials: "No trials tracked for this company.", pNext: "Results due", pStopped: "Stopped trials", pSignals: "Signals", pDeals: "Deals", pChanges: "Registry changes", pLinks: "Links", pCt: "All trials on ClinicalTrials.gov", pSec: "SEC filings", pHk: "HKEX page", pSee: "See its trials", pPrivate: "Not listed", pSrc: "Profile source",
       newLab: "new",
       keyH: "How to read the two scores", keyRange: "Each runs from 0 (lowest) to 3. They are kept apart and never added up.", scoreOf: "{k}: {n} of 3", totalOf: "Total",
@@ -102,7 +102,7 @@
       rubricH: "如何评估单项声明", rubricP: "每项 0 到 2 分。14 分中低于 6 分，按炒作对待。",
       rubric: ["证据级别：体外或动物，无对照人体，随机人体。", "终点：生物标志物，替代终点，临床结局。", "样本量与预先登记。", "独立性：公司新闻稿，同行评议，他人重复验证。", "对照：无，安慰剂，标准治疗。", "靶点有人类遗传学证据支持。", "AI 的贡献具体且可核查，并披露阴性数据。"],
       glossNote: "本站所用术语的通俗解释。页面上带虚线的术语点开后是同样的说明。",
-      pClose: "关闭", pOverview: "概况", pAi: "与 AI 的关系", pLead: "进展最快的项目", pMarket: "行情数据", pMarketNote: "有延迟；截至 {d}。仅作背景，不是信号。", pPrice: "最新收盘", p1m: "1 个月", p3m: "3 个月", pYtd: "年初至今", pCash: "现金及等价物", pCashInv: "现金及投资", pRunway: "现金可支撑", quarters: "{n} 个季度", lossMaking: "不适用（亏损）", pEps: "每股收益（12 个月）", pFin: "财务数据", pFinNote: "来自公司向 SEC 提交的文件，截至 {d}。12 个月数据为上一财年加本年至今。", pRange: "52 周区间", pSince: "上市以来区间（自 {d}）", pNoPe: "暂无", pFy: "按上一财年收益计算，并折算为美元。", pRev: "营收（12 个月）", pRd: "研发投入（12 个月）",
+      pClose: "关闭", pOverview: "概况", pAi: "与 AI 的关系", pLead: "进展最快的项目", pMarket: "行情数据", pMarketNote: "有延迟；截至 {d}。仅作背景，不是信号。", pPrice: "最新收盘", p1m: "1 个月", p3m: "3 个月", pYtd: "年初至今", pCash: "现金及等价物", pCashInv: "现金及投资", pRunway: "现金可支撑", quarters: "{n} 个季度", lossMaking: "不适用（亏损）", pEps: "每股收益（12 个月）", pChartYear: "过去一年每日收盘价", pChartNew: "上市以来每日收盘价", pFin: "财务数据", pFinNote: "来自公司向 SEC 提交的文件，截至 {d}。12 个月数据为上一财年加本年至今。", pRange: "52 周区间", pSince: "上市以来区间（自 {d}）", pNoPe: "暂无", pFy: "按上一财年收益计算，并折算为美元。", pRev: "营收（12 个月）", pRd: "研发投入（12 个月）",
       pLedger: "本站记录", pTrials: "{n} 项试验，{s} 项提前终止", pNoTrials: "未跟踪该公司的试验。", pNext: "即将到期的结果", pStopped: "已终止的试验", pSignals: "信号", pDeals: "交易", pChanges: "登记库变动", pLinks: "链接", pCt: "ClinicalTrials.gov 上的全部试验", pSec: "SEC 文件", pHk: "港交所页面", pSee: "查看其试验", pPrivate: "未上市", pSrc: "概况来源",
       newLab: "新",
       keyH: "如何读这两个评分", keyRange: "两项各为 0（最低）到 3 分，分开记录，从不相加。", scoreOf: "{k}：{n} / 3", totalOf: "合计",
@@ -172,6 +172,13 @@
     var pts = arr.map(function (v, i) { return (i / n * (w - 4) + 2).toFixed(1) + "," + (h - 2 - (v - lo) / span * (h - 4)).toFixed(1); });
     var last = pts[pts.length - 1].split(",");
     return '<svg class="spark" width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + " " + h + '" role="img" aria-label="' + esc(t("year")) + '"><polyline points="' + pts.join(" ") + '"/><circle cx="' + last[0] + '" cy="' + last[1] + '" r="1.8"/></svg>';
+  }
+
+  function chart(arr) {       // the company panel's price line, as wide as its box
+    if (!arr || arr.length < 2) return "";
+    var W = 400, H = 72, lo = Math.min.apply(null, arr), hi = Math.max.apply(null, arr), span = hi - lo || 1, n = arr.length - 1;
+    var pts = arr.map(function (v, i) { return (i / n * W).toFixed(1) + "," + (H - 4 - (v - lo) / span * (H - 8)).toFixed(1); });
+    return '<svg class="chart" viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="none" role="img" aria-label="' + esc(t("year")) + '"><line x1="0" y1="' + (H - 0.5) + '" x2="' + W + '" y2="' + (H - 0.5) + '"/><polyline points="' + pts.join(" ") + '"/></svg>';
   }
 
   // ---- URL state ----
@@ -419,7 +426,8 @@
     function kv(k, v, g) { return v == null || v === "" ? "" : "<div><span>" + (g ? term(g, k) : esc(k)) + "</span><b>" + v + "</b></div>"; }
     if (q && q.price != null) {
       var cur = q.currency === "USD" ? "$" : q.currency === "HKD" ? "HK$" : (q.currency || "") + " ";
-      h += "<h3>" + esc(t("pMarket")) + '</h3><div class="mkt"><div class="row" style="margin:0"><div><span class="muted small">' + esc(t("pPrice")) + '</span><br><span class="px">' + esc(cur) + money(q.price) + "</span></div>" + spark(q.spark, 200, 48) + "</div>" +
+      h += "<h3>" + esc(t("pMarket")) + '</h3><div class="mkt"><div><span class="muted small">' + esc(t("pPrice")) + '</span><br><span class="px">' + esc(cur) + money(q.price) + "</span></div>" +
+        (q.spark && q.spark.length > 1 ? chart(q.spark) + '<div class="rl chart-x"><span>' + esc(q.spark_from || "") + "</span><span>" + esc(q.range_since ? t("pChartNew") : t("pChartYear")) + "</span><span>" + esc(q.as_of || "") + "</span></div>" : "") +
         (q.pos52 != null ? '<div class="range" role="img" aria-label="' + esc(t("year")) + '"><i style="left:' + (100 * q.pos52).toFixed(1) + '%"></i></div><div class="rl"><span>' + esc(cur) + money(q.lo52) + "</span><span>" + term("range52", q.range_since ? f("pSince", { d: q.range_since }) : t("pRange")) + "</span><span>" + esc(cur) + money(q.hi52) + "</span></div>" : "") +
         '<div class="kv">' + kv(t("mcap"), q.mcap_usd ? (q.currency !== "USD" ? "US" : "") + usd(q.mcap_usd) : "", "mcap") + kv(t("pe") + (q.pe_fiscal_year ? " *" : ""), q.pe != null ? q.pe.toFixed(1) : (q.loss_making ? esc(t("lossMaking")) : esc(t("pNoPe"))), "pe") +
         kv(t("p1m"), q.chg_1m == null ? "" : pct(q.chg_1m)) + kv(t("p3m"), q.chg_3m == null ? "" : pct(q.chg_3m)) + kv(t("pYtd"), q.chg_ytd == null ? "" : pct(q.chg_ytd)) +

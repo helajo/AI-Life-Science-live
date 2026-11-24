@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-24T05:04:30Z",
+ "generated_at": "2026-11-24T05:28:47Z",
  "today": "2026-11-24",
  "baseline": "2026-11-19",
  "sources": {
@@ -7225,6 +7225,7 @@
      88.91,
      87.64
     ],
+    "spark_from": "2026-11-19",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -7313,7 +7314,7 @@
     "as_of": "2026-11-23",
     "price": 165.05,
     "currency": "USD",
-    "mcap_usd": 3977705000000.0,
+    "mcap_usd": 3093823040000.0,
     "pe": 20.9,
     "pe_fiscal_year": false,
     "hi52": 243.37,
@@ -7451,6 +7452,7 @@
      146.0,
      165.1
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -7635,6 +7637,7 @@
      1351.1,
      1364.6
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -7685,7 +7688,7 @@
     "as_of": "2026-11-23",
     "price": 39.14,
     "currency": "USD",
-    "mcap_usd": 173220641942.0,
+    "mcap_usd": 167420052961.0,
     "pe": 11.6,
     "pe_fiscal_year": true,
     "hi52": 64.16,
@@ -7823,6 +7826,7 @@
      38.87,
      39.14
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -7904,7 +7908,7 @@
     "as_of": "2026-11-23",
     "price": 2.67,
     "currency": "USD",
-    "mcap_usd": 1659653425.0,
+    "mcap_usd": 1525760185.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 5.24,
@@ -8042,6 +8046,7 @@
      2.72,
      2.665
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -8133,7 +8138,7 @@
     "as_of": "2026-11-23",
     "price": 31.36,
     "currency": "HKD",
-    "mcap_usd": 2330172031.3155813,
+    "mcap_usd": 2313719914.0745234,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 80.9,
@@ -8256,6 +8261,7 @@
      33.46,
      31.36
     ],
+    "spark_from": "2025-12-31",
     "source": "Tencent (qt.gtimg.cn)",
     "stale_since": null
    }
@@ -8428,6 +8434,7 @@
      10.37,
      10.21
     ],
+    "spark_from": "2026-02-27",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -8626,6 +8633,7 @@
      26.34,
      24.4
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -8823,6 +8831,7 @@
      8.16,
      8.48
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -8889,7 +8898,7 @@
     "as_of": "2026-11-23",
     "price": 10.53,
     "currency": "USD",
-    "mcap_usd": 3439286445.0,
+    "mcap_usd": 3164927412.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 15.02,
@@ -9027,6 +9036,7 @@
      10.47,
      10.53
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -9245,6 +9255,7 @@
      15.91,
      17.22
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -9347,6 +9358,7 @@
      13.11,
      15.0
     ],
+    "spark_from": "2026-10-15",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -9392,7 +9404,7 @@
     "as_of": "2026-11-23",
     "price": 57.04,
     "currency": "USD",
-    "mcap_usd": 9856984463.0,
+    "mcap_usd": 10404189374.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 89.09,
@@ -9530,6 +9542,7 @@
      59.61,
      57.04
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -9579,8 +9592,8 @@
     "as_of": "2026-11-23",
     "price": 4.75,
     "currency": "HKD",
-    "mcap_usd": 2591851245.8611207,
-    "pe": 148.33,
+    "mcap_usd": 2580892095.205895,
+    "pe": 147.71,
     "pe_fiscal_year": false,
     "hi52": 14.28,
     "lo52": 4.5,
@@ -9714,6 +9727,7 @@
      5.23,
      4.745
     ],
+    "spark_from": "2025-11-25",
     "source": "Tencent (qt.gtimg.cn)",
     "stale_since": null
    }
@@ -9787,7 +9801,7 @@
     "as_of": "2026-11-23",
     "price": 688.08,
     "currency": "USD",
-    "mcap_usd": 248375312114.0,
+    "mcap_usd": 254948263612.0,
     "pe": 36.3,
     "pe_fiscal_year": false,
     "hi52": 727.56,
@@ -9925,6 +9939,7 @@
      688.8,
      688.1
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -10092,6 +10107,7 @@
      175.4,
      177.0
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -10317,6 +10333,7 @@
     "chg_3m": null,
     "chg_ytd": null,
     "spark": null,
+    "spark_from": null,
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -10605,6 +10622,7 @@
      2.03,
      2.38
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -11018,6 +11036,7 @@
     "chg_3m": null,
     "chg_ytd": null,
     "spark": null,
+    "spark_from": null,
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -11137,6 +11156,7 @@
     "chg_3m": null,
     "chg_ytd": null,
     "spark": null,
+    "spark_from": null,
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -11421,6 +11441,7 @@
      1.88,
      1.9
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -11608,6 +11629,7 @@
      272.7,
      282.1
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -11795,6 +11817,7 @@
      498.3,
      492.5
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -11982,6 +12005,7 @@
      257.4,
      255.4
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -12170,6 +12194,7 @@
      227.6,
      225.7
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -12357,6 +12382,7 @@
      250.6,
      251.9
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -12540,6 +12566,7 @@
      10.68,
      10.71
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -12723,6 +12750,7 @@
      262.9,
      268.6
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -12932,6 +12960,7 @@
      21.41,
      22.07
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -12982,7 +13011,7 @@
     "as_of": "2026-11-23",
     "price": 151.94,
     "currency": "USD",
-    "mcap_usd": 289962729141.0,
+    "mcap_usd": 287062338589.0,
     "pe": 21.3,
     "pe_fiscal_year": true,
     "hi52": 170.46,
@@ -13120,6 +13149,7 @@
      151.2,
      151.9
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }
@@ -13304,6 +13334,7 @@
      132.8,
      135.5
     ],
+    "spark_from": "2025-11-24",
     "source": "Nasdaq.com historical quotes (unadjusted)",
     "stale_since": null
    }

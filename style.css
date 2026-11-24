@@ -397,6 +397,10 @@ dl.gloss dd { margin: 0; color: var(--ink-2); max-width: 64ch; }
   #panel .pbody { padding-inline: var(--s4); }
   #panel h2 { font-size: 1.25rem; }
   .kv { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* tables turn into cards below 960px, so a tablet never has to scroll a table sideways */
+@media (max-width: 960px) {
   /* tables become record cards: the lead line first, then labelled facts that flow like a sentence */
   .only-phone { display: block; }
   table.rc thead { display: none; }
@@ -633,3 +637,15 @@ ul.ms li.done .ms-n { color: var(--accent); }
 .pill.oc-met_safety, .pill.oc-missed_safety { background: none; border-color: var(--line-strong, var(--line)); color: var(--ink-2, var(--ink)); font-weight: 500; }
 .pill.oc-met_safety::before { content: "✓ "; }
 .pill.oc-missed_safety::before { content: "✕ "; }
+
+/* --- table cells: let long pills wrap and stack the result under the status, so the trial table fits its box --- */
+td .pill.og { white-space: normal; text-align: left; border-radius: 12px; }
+td .pill.oc { display: table; margin-top: 5px; white-space: normal; border-radius: 12px; }
+#t-main td { overflow-wrap: anywhere; }
+#t-main td.d, #t-main td.n { overflow-wrap: normal; }
+
+/* --- the company panel's price line: full width of its box, dated at both ends --------------- */
+.mkt .chart { display: block; width: 100%; height: 72px; margin-top: 10px; overflow: visible; }
+.mkt .chart polyline { fill: none; stroke: var(--d-ink); stroke-width: 1.5; stroke-linejoin: round; stroke-linecap: round; vector-effect: non-scaling-stroke; }
+.mkt .chart line { stroke: var(--d-rule); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.mkt .chart-x { margin: 4px 0 2px; }
