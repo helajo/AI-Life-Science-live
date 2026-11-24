@@ -9,7 +9,7 @@
       nav: { today: "Today", signals: "Signals", trials: "Trials", calendar: "Calendar", more: "More" },
       subs: { all: "All trials", stopped: "Stopped", changes: "Changes", companies: "Companies", dates: "Dates ahead", deals: "Deals", longevity: "Longevity", reading: "Reading", method: "Method", glossary: "Glossary" },
       resH: "Trial results", resNone: "No trial result is on record yet. The daily scan is looking for the results of {n} trials that have finished or passed their result date.", resAll: "All results",
-      oc: { met: "Met its main goal", missed: "Missed its main goal", mixed: "Mixed result", unclear: "Reported, main goal not stated" }, outcome: "Result", allOutcomes: "All results", noOutcome: "No result yet",
+      oc: { met: "Met its main goal", missed: "Missed its main goal", met_safety: "Met its safety goal", missed_safety: "Missed its safety goal", mixed: "Mixed result", unclear: "Reported, main goal not stated" }, resNote: "“Met its main goal” means a goal about benefit, set before the trial began. A trial whose main goal was safety is marked “met its safety goal”: that shows the drug was tolerated, not that it works.", outcome: "Result", allOutcomes: "All results", noOutcome: "No result yet",
       msH: "Milestones to watch", msNote: "What would have to happen before “AI makes better medicines” is more than a claim. These count only drugs from an AI platform, in randomised trials.",
       ms: { first_p2: "A first randomised Phase 2 trial meets its main goal", three_p2: "Three randomised Phase 2 or later trials meet their main goal, from at least two companies", first_p3: "A first Phase 3 trial meets its main goal", first_approval: "A first approval for a drug from an AI drug company", twenty_readouts: "Twenty randomised results are in, enough for a first comparison with the usual success rate" },
       msCo: "{n} of 2 companies", msRate: "{m} of {k} met their goal so far; about 29% of all Phase 2 drugs do", msDone: "reached",
@@ -65,7 +65,7 @@
       nav: { today: "今日", signals: "信号", trials: "试验", calendar: "日历", more: "更多" },
       subs: { all: "全部试验", stopped: "已终止", changes: "变动", companies: "公司", dates: "未来日期", deals: "交易", longevity: "长寿", reading: "阅读", method: "方法", glossary: "术语" },
       resH: "试验结果", resNone: "尚无试验结果记录。每日扫描正在查找 {n} 项已完成或已过结果日期的试验的结果。", resAll: "全部结果",
-      oc: { met: "达到主要终点", missed: "未达主要终点", mixed: "结果不一", unclear: "已公布，未说明是否达到主要终点" }, outcome: "结果", allOutcomes: "全部结果", noOutcome: "暂无结果",
+      oc: { met: "达到主要终点", missed: "未达主要终点", met_safety: "达到安全性终点", missed_safety: "未达安全性终点", mixed: "结果不一", unclear: "已公布，未说明是否达到主要终点" }, resNote: "“达到主要终点”指试验开始前设定的、关于疗效的目标。主要目标为安全性的试验标为“达到安全性终点”：这说明药物可耐受，并不说明药物有效。", outcome: "结果", allOutcomes: "全部结果", noOutcome: "暂无结果",
       msH: "值得关注的里程碑", msNote: "要让“AI 能做出更好的药”不只是一种说法，需要发生什么。这里只统计来自 AI 平台的药物的随机对照试验。",
       ms: { first_p2: "首个随机二期试验达到主要终点", three_p2: "三项随机二期或更后期试验达到主要终点，且来自至少两家公司", first_p3: "首个三期试验达到主要终点", first_approval: "AI 制药公司的药物首次获批", twenty_readouts: "已有二十项随机试验结果，足以与通常的成功率做初步比较" },
       msCo: "2 家公司中的 {n} 家", msRate: "目前 {k} 项中 {m} 项达到终点；全部二期药物约 29% 达到", msDone: "已达成",
@@ -135,7 +135,7 @@
   function co(key, label) { var c = D.companies[key]; if (!c) return esc(label || key); return '<button type="button" class="co" data-co="' + esc(key) + '">' + esc(label || coName(c)) + "</button>"; }
   function tk(x) { return x ? (D.companies[x] ? '<button type="button" class="tk" data-co="' + esc(x) + '">' + esc(x) + "</button>" : '<span class="tk">' + esc(x) + "</span>") : ""; }
   function term(key, label) { return '<button type="button" class="term" data-g="' + key + '">' + esc(label) + "</button>"; }
-  function ocPill(o) { return '<span class="pill oc oc-' + esc(o) + '">' + esc(t("oc")[o] || o) + "</span>"; }
+  function ocPill(o, ep) { var k = (o === "met" || o === "missed") && ep === "safety" ? o + "_safety" : o; return '<span class="pill oc oc-' + esc(k) + '">' + esc(t("oc")[k] || o) + "</span>"; }
   function pill(cls, text) { return '<span class="pill ' + esc(cls) + '">' + esc(text) + "</span>"; }
   function phase(p) { return lang === "zh" ? (PH_ZH[p] || p) : p; }
   function status(s) { return lang === "zh" ? (ST_ZH[s] || s) : String(s || "").toLowerCase().replace(/_/g, " "); }
@@ -231,7 +231,7 @@
       { key: "company", label: t("company"), val: function (x) { return (D.companies[x.co] ? D.companies[x.co].name : x.lead_sponsor).toLowerCase(); }, cell: function (x) { return (x.via === "sponsor" ? co(x.co) : esc(x.lead_sponsor)) + " " + tk(x.ticker); } },
       { key: "condition", label: t("condition"), cell: function (x) { return esc((x.conditions || []).slice(0, 2).join("; ")); } },
       { key: "phase", label: t("phase"), term: "phase", val: function (x) { return x.phase_rank; }, cell: function (x) { return esc(phase(x.phase)); } },
-      { key: "status", label: t("status"), term: "status", val: function (x) { return x.status; }, cell: function (x) { return pill(x.bucket, status(x.status)) + (x.outcome ? " " + ocPill(x.outcome) : ""); } },
+      { key: "status", label: t("status"), term: "status", val: function (x) { return x.status; }, cell: function (x) { return pill(x.bucket, status(x.status)) + (x.outcome ? " " + ocPill(x.outcome, x.endpoint) : ""); } },
       { key: "origin", label: t("origin"), term: "origin", val: function (x) { return x.origin; }, cell: function (x) { return ogPill(x.origin); } }
     ].concat(extra);
   }
@@ -240,7 +240,7 @@
     var dr = x.drug_id ? D.drugMap[x.drug_id] : null;
     var org = "<dt>" + esc(t("dOrigin")) + "</dt><dd>" + esc(t("og")[x.origin] || x.origin) + (dr && L(dr, "ai_role") ? ": " + esc(L(dr, "ai_role")) : "") + (dr && dr.source ? " " + link(dr.source.url, dr.source.publisher || t("source")) : "") + (dr && dr.checked === "snippet" ? " (" + esc(t("snip")) + ")" : "") + (dr && dr.added_by === "scanner" ? " (" + esc(f("byScan", { d: dr.added })) + ")" : "") + "</dd>";
     var oc = D.outcomeMap[x.nct];
-    if (oc) org = "<dt>" + esc(t("outcome")) + "</dt><dd>" + ocPill(oc.outcome) + " " + esc(oc.date) + ": " + esc(L(oc, "summary")) + " " + link(oc.source.url, oc.source.publisher || t("source")) + "</dd>" + org;
+    if (oc) org = "<dt>" + esc(t("outcome")) + "</dt><dd>" + ocPill(oc.outcome, oc.endpoint) + " " + esc(oc.date) + ": " + esc(L(oc, "summary")) + " " + link(oc.source.url, oc.source.publisher || t("source")) + "</dd>" + org;
     return "<dl>" + org + row(t("dTitle"), x.title) + row(t("condition"), (x.conditions || []).join("; ")) + row(t("drug"), (x.interventions || []).join(", ")) + row(t("dRun"), x.lead_sponsor) +
       row(t("n"), x.enrollment) + row(t("dRand"), x.randomised ? t("yes") : t("no")) + row(t("dFirst"), x.first_posted) + row(t("dPrim"), x.primary_completion) + row(t("updated"), x.last_update) + row(t("dWhy"), x.why_stopped) + "</dl>";
   }
@@ -306,8 +306,8 @@
       var tiles = [[s.core_drugs, "coreDrugs"], [s.core_trials, "core"], [s.core_sponsors, "sponsors"], [s.core_phase3_live, "p3"], [s.core_stopped, "stoppedN"], [s.core_with_results, "results"]];
       var bo = s.by_origin || {};
       var pc = Math.min(100, 100 * s.phase2_completed_randomised / s.phase2_threshold);
-      var ocs = (D.outcomes || []).slice(0, 5), resBlock = "<section><h2>" + esc(t("resH")) + "</h2>" + (ocs.length ? '<ul class="plain dated">' + ocs.map(function (o) {
-        var x = byNct(o.nct) || {}; return "<li>" + '<span class="muted small">' + esc(o.date) + "</span> " + ocPill(o.outcome) + " <b>" + esc(x.drug || (x.interventions || [])[0] || o.nct) + "</b> · " + (x.co ? co(x.co) : "") + " " + tk(x.ticker) + " · " + esc(phase(x.phase || "")) + "<br>" + esc(L(o, "summary")) + ' <span class="small">' + link(o.source.url, o.source.publisher || t("source")) + " · " + nct(o.nct) + "</span></li>"; }).join("") + "</ul>"
+      var ocs = (D.outcomes || []).filter(function (o) { return o.outcome === "met" || o.outcome === "missed" || o.outcome === "mixed"; }).slice(0, 6), resBlock = "<section><h2>" + esc(t("resH")) + '</h2><p class="note">' + esc(t("resNote")) + "</p>" + (ocs.length ? '<ul class="plain dated">' + ocs.map(function (o) {
+        var x = byNct(o.nct) || {}; return "<li>" + '<span class="muted small">' + esc(o.date) + "</span> " + ocPill(o.outcome, o.endpoint) + " <b>" + esc(x.drug || (x.interventions || [])[0] || o.nct) + "</b> · " + (x.co ? co(x.co) : "") + " " + tk(x.ticker) + " · " + esc(phase(x.phase || "")) + "<br>" + esc(L(o, "summary")) + ' <span class="small">' + link(o.source.url, o.source.publisher || t("source")) + " · " + nct(o.nct) + "</span></li>"; }).join("") + "</ul>"
         : '<p class="note">' + esc(f("resNone", { n: D.results_watch || 0 })) + "</p>") + "</section>";
       var msBlock = "<section><h2>" + esc(t("msH")) + '</h2><p class="note">' + esc(t("msNote")) + '</p><ul class="ms">' + (D.milestones || []).map(function (m) {
         var extra = m.id === "three_p2" ? " · " + esc(f("msCo", { n: Math.min(m.companies, 2) })) : m.id === "twenty_readouts" && m.have ? " · " + esc(f("msRate", { m: m.met, k: m.have })) : "";

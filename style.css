@@ -630,3 +630,6 @@ ul.ms li { display: grid; grid-template-columns: 4.4em minmax(0, 1fr); gap: 2px 
 .ms-bar { grid-column: 2; height: 4px; background: var(--line-strong, var(--line)); margin-top: 4px; }
 .ms-bar i { display: block; height: 100%; background: var(--accent); }
 ul.ms li.done .ms-n { color: var(--accent); }
+.pill.oc-met_safety, .pill.oc-missed_safety { background: none; border-color: var(--line-strong, var(--line)); color: var(--ink-2, var(--ink)); font-weight: 500; }
+.pill.oc-met_safety::before { content: "✓ "; }
+.pill.oc-missed_safety::before { content: "✕ "; }
