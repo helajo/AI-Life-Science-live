@@ -44,6 +44,13 @@
       pClose: "Close", pOverview: "Overview", pAi: "AI link", pLead: "Most advanced programme", pMarket: "Market data", pMarketNote: "Delayed; as of {d}. Context only, not a signal.", pPrice: "Last close", p1m: "1 month", p3m: "3 months", pYtd: "Year to date", pCash: "Cash and equivalents", pCashInv: "Cash and investments", pRunway: "Cash runway", quarters: "{n} quarters", lossMaking: "n/a (loss-making)", pEps: "Earnings per share, 12 months", pFin: "Financials", pFinNote: "From the company's SEC filings, period to {d}. Twelve-month figures add the last fiscal year and the year to date.", pRange: "52-week range", pSince: "range since listing, {d}", pNoPe: "not available", pFy: "based on the last fiscal year's earnings, converted to US dollars.", pRev: "Revenue, 12 months", pRd: "R&D, 12 months",
       pLedger: "Tracked here", pTrials: "{n} trials, {s} stopped early", pNoTrials: "No trials tracked for this company.", pNext: "Results due", pStopped: "Stopped trials", pSignals: "Signals", pDeals: "Deals", pChanges: "Registry changes", pLinks: "Links", pCt: "All trials on ClinicalTrials.gov", pSec: "SEC filings", pHk: "HKEX page", pSee: "See its trials", pPrivate: "Not listed", pSrc: "Profile source",
       newLab: "new",
+      keyH: "How to read the two scores", keyRange: "Each runs from 0 (lowest) to 3. They are kept apart and never added up.", scoreOf: "{k}: {n} of 3", totalOf: "Total",
+      evQ: "How far is the science shown?", mkQ: "How much money is moving?",
+      evK: ["A claim or money only", "A preprint, or a lab or animal result the company reports itself", "Independent replication, a blind benchmark, or human data with no randomised control", "A randomised Phase 2 or later result, or a regulator's decision"],
+      mkK: ["None", "Context only", "Changes estimates or deal comparisons for a listed company", "Likely to move a share price or sector spending"],
+      evFoot: "Funding, valuations and acquisitions always score 0; a trial start scores 1 at most.", mkFoot: "A description, not a recommendation. Deals count the cash paid upfront, not the “up to” total.",
+      keyHint: "how far the science is shown", keyHint2: "how much money is moving", keyHint3: "Each 0 (lowest) to 3.", keyMore: "What the scores mean",
+      stripDot: "Trial result due",
       footer: "Descriptive information only; not medical or investment advice, a research report or a recommendation on any investment product. The publisher may hold positions in the companies named. Trial data: ClinicalTrials.gov.", generated: "Data generated {d}"
     },
     zh: {
@@ -88,6 +95,13 @@
       pClose: "关闭", pOverview: "概况", pAi: "与 AI 的关系", pLead: "进展最快的项目", pMarket: "行情数据", pMarketNote: "有延迟；截至 {d}。仅作背景，不是信号。", pPrice: "最新收盘", p1m: "1 个月", p3m: "3 个月", pYtd: "年初至今", pCash: "现金及等价物", pCashInv: "现金及投资", pRunway: "现金可支撑", quarters: "{n} 个季度", lossMaking: "不适用（亏损）", pEps: "每股收益（12 个月）", pFin: "财务数据", pFinNote: "来自公司向 SEC 提交的文件，截至 {d}。12 个月数据为上一财年加本年至今。", pRange: "52 周区间", pSince: "上市以来区间（自 {d}）", pNoPe: "暂无", pFy: "按上一财年收益计算，并折算为美元。", pRev: "营收（12 个月）", pRd: "研发投入（12 个月）",
       pLedger: "本站记录", pTrials: "{n} 项试验，{s} 项提前终止", pNoTrials: "未跟踪该公司的试验。", pNext: "即将到期的结果", pStopped: "已终止的试验", pSignals: "信号", pDeals: "交易", pChanges: "登记库变动", pLinks: "链接", pCt: "ClinicalTrials.gov 上的全部试验", pSec: "SEC 文件", pHk: "港交所页面", pSee: "查看其试验", pPrivate: "未上市", pSrc: "概况来源",
       newLab: "新",
+      keyH: "如何读这两个评分", keyRange: "两项各为 0（最低）到 3 分，分开记录，从不相加。", scoreOf: "{k}：{n} / 3", totalOf: "合计",
+      evQ: "科学成立的证据有多强？", mkQ: "资金变动有多大？",
+      evK: ["只是说法或资金", "预印本，或公司自行公布的体外或动物结果", "独立重复验证、盲测基准，或没有随机对照的人体数据", "随机二期或更后期试验的结果，或监管决定"],
+      mkK: ["无", "仅作背景", "会改变某上市公司的预期或交易参照", "可能推动股价或行业支出"],
+      evFoot: "融资、估值和并购恒为 0 分；试验启动最多 1 分。", mkFoot: "这是描述，不是建议。交易只计首付款，不计“最高可达”的总额。",
+      keyHint: "科学成立的证据有多强", keyHint2: "资金变动有多大", keyHint3: "各为 0（最低）到 3 分。", keyMore: "评分的含义",
+      stripDot: "试验结果到期",
       footer: "仅为描述性信息，不构成医疗或投资建议、研究报告或对任何投资产品的推荐。发布者可能持有文中所述公司的头寸。试验数据来自 ClinicalTrials.gov。", generated: "数据生成于 {d}"
     }
   };
@@ -114,17 +128,33 @@
   function pill(cls, text) { return '<span class="pill ' + esc(cls) + '">' + esc(text) + "</span>"; }
   function phase(p) { return lang === "zh" ? (PH_ZH[p] || p) : p; }
   function status(s) { return lang === "zh" ? (ST_ZH[s] || s) : String(s || "").toLowerCase().replace(/_/g, " "); }
-  function dirPill(d) { return pill(d === "positive" ? "up" : d === "negative" ? "down" : "", t("dir")[d]); }
+  function dirPill(d) { return pill(d === "positive" ? "up" : d === "negative" ? "down" : "neutral", t("dir")[d]); }
+  function ogPill(o) { return pill("og og-" + o, t("og")[o] || o); }
   function usd(n) { if (n == null) return ""; var a = Math.abs(n); return (n < 0 ? "−" : "") + "$" + (a >= 1e12 ? (a / 1e12).toFixed(2) + "T" : a >= 1e9 ? (a / 1e9).toFixed(a >= 1e10 ? 0 : 1) + "B" : (a / 1e6).toFixed(a >= 1e8 ? 0 : 1) + "M"); }
   function dealUsd(n) { return n >= 1e9 ? "$" + (n / 1e9).toFixed(2).replace(/\.?0+$/, "") + "B" : "$" + (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M"; }
   function pct(x) { return x == null ? "–" : (x > 0 ? "+" : x < 0 ? "−" : "") + Math.abs(x * 100).toFixed(1) + "%"; }
-  function score(n) { var o = ""; for (var i = 1; i <= 3; i++) o += '<i class="' + (i <= n ? "on" : "") + '"></i>'; return '<span class="score">' + o + "<b>" + n + "/3</b></span>"; }
+  function score(n, kind, bare) {   // kind: "ev" (bars) or "mk" (dots); the two scores never share a shape or a colour
+    var o = ""; for (var i = 1; i <= 3; i++) o += '<i class="' + (i <= n ? "on" : "") + '"></i>';
+    return '<span class="score score-' + kind + '" role="img" aria-label="' + esc(f("scoreOf", { k: t(kind === "ev" ? "evidence" : "market"), n: n })) + '">' + o + (bare ? "" : "<b>" + n + "/3</b>") + "</span>";
+  }
+  function scoreKey() {
+    function col(kind, name, q, list, foot) {
+      return '<div class="skey-col skey-' + kind + '"><h3>' + esc(t(name)) + ' <span>' + esc(t(q)) + "</span></h3><ol>" + t(list).map(function (x, n) { return "<li>" + score(n, kind, true) + "<b>" + n + "</b><span>" + esc(x) + "</span></li>"; }).join("") + '</ol><p class="skey-foot">' + esc(t(foot)) + "</p></div>";
+    }
+    return '<div class="skey" role="group" aria-label="' + esc(t("keyH")) + '"><p class="skey-h"><b>' + esc(t("keyH")) + "</b> " + esc(t("keyRange")) + "</p>" + col("ev", "evidence", "evQ", "evK", "evFoot") + col("mk", "market", "mkQ", "mkK", "mkFoot") + "</div>";
+  }
+  function scoreHint() {
+    return '<p class="skey-hint"><span>' + score(2, "ev", true) + " <b>" + esc(t("evidence")) + "</b> " + esc(t("keyHint")) + "</span> <span>" + score(2, "mk", true) + " <b>" + esc(t("market")) + "</b> " + esc(t("keyHint2")) + "</span> " + esc(t("keyHint3")) + ' <a href="' + href("signals") + '">' + esc(t("keyMore")) + "</a></p>";
+  }
   function isNew(stamp) { if (!seen || !stamp || !D) return false; var d = stamp.slice(0, 10), sd = seen.slice(0, 10); return d > sd || (d === sd && D.generated_at > seen); }
   function newDot() { return '<span class="dot" role="img" aria-label="' + esc(t("newLab")) + '" title="' + esc(t("newLab")) + '"></span>'; }
   function fold(s) { s = String(s || "").trim().toLowerCase(); return s.normalize ? s.normalize("NFD").replace(/[\u0300-\u036f]/g, "") : s; }
   function money(x) { return Number(x).toFixed(2); }
   var CAD_ZH = { "several a week": "每周数篇", "daily": "每日", "weekly": "每周", "yearly, April": "每年 4 月", "yearly, October": "每年 10 月" };
   function srcStatus(v) { return lang !== "zh" ? v : String(v).replace(/^ok, (\d+) new/, "正常，新增 $1 条").replace(/\((\d+) over the cap, not listed\)/, "（另有 $1 条超出上限未列出）").replace(/unreachable/g, "无法访问"); }
+  var NAV_IC = { today: '<circle cx="12" cy="14" r="4"/><path d="M12 4v2.5M4.6 8.6l1.8 1.8M19.4 8.6l-1.8 1.8M3 20h18"/>', signals: '<path d="M3 12h4l2.5-6 4 12 2.5-6h5"/>', trials: '<g transform="rotate(-40 12 12)"><rect x="3" y="8" width="18" height="8" rx="4"/><path d="M12 8v8"/></g>', calendar: '<rect x="4" y="5.5" width="16" height="14" rx="2"/><path d="M4 10.5h16M8.5 3.5v4M15.5 3.5v4"/>', more: '<path d="M5 7h14M5 12h14M5 17h9"/>' };
+  function icon(inner, vb) { return '<svg viewBox="0 0 ' + (vb || "24 24") + '" aria-hidden="true" focusable="false">' + inner + "</svg>"; }
+  var IC_CHEV = icon('<path d="M6 3.5 10.5 8 6 12.5"/>', "16 16"), IC_X = icon('<path d="M4 4l8 8M12 4l-8 8"/>', "16 16"), IC_NONE = icon('<circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5M8.5 11h5"/>');
   function spark(arr, w, h) {
     if (!arr || arr.length < 2) return "";
     var lo = Math.min.apply(null, arr), hi = Math.max.apply(null, arr), span = hi - lo || 1, n = arr.length - 1;
@@ -171,27 +201,27 @@
   }
   function tbody(rows, cols, opt) {
     opt = opt || {};
-    if (!rows.length) return '<tbody><tr><td class="empty" colspan="' + cols.length + '">' + esc(t("noMatch")) + ' <button type="button" class="btn" data-clear="1">' + esc(t("clear")) + "</button></td></tr></tbody>";
+    if (!rows.length) return '<tbody><tr><td class="empty" colspan="' + cols.length + '"><div class="empty-in">' + IC_NONE + "<span>" + esc(t("noMatch")) + '</span> <button type="button" class="btn" data-clear="1">' + IC_X + esc(t("clear")) + "</button></div></td></tr></tbody>";
     var shown = opt.page ? rows.slice(0, S.n) : rows;
     var h = shown.map(function (r) {
       return "<tr" + (opt.isNew && opt.isNew(r) ? ' class="new"' : "") + ">" + cols.map(function (c, i) {
         return "<td" + (c.cls || c.num ? ' class="' + (c.cls || "") + (c.num ? " n" : "") + '"' : "") + (i && !c.nolabel ? ' data-l="' + esc(c.label) + '"' : "") + ">" + c.cell(r) + "</td>";
       }).join("") + "</tr>" + (opt.detail && S.open === opt.id(r) ? '<tr class="detail"><td colspan="' + cols.length + '">' + opt.detail(r) + "</td></tr>" : "");
     }).join("");
-    if (opt.page && rows.length > S.n) h += '<tr><td class="empty" colspan="' + cols.length + '"><button type="button" class="btn" data-more="1">' + esc(f("showMore", { n: Math.min(PAGE, rows.length - S.n) })) + "</button></td></tr>";
+    if (opt.page && rows.length > S.n) h += '<tr><td class="foot" colspan="' + cols.length + '"><button type="button" class="btn" data-more="1">' + esc(f("showMore", { n: Math.min(PAGE, rows.length - S.n) })) + "</button></td></tr>";
     return "<tbody>" + h + "</tbody>";
   }
   function table(id, rows, cols, opt) { return '<div class="scroll"><table class="rc" id="' + id + '">' + thead(cols) + tbody(sorted(rows, cols), cols, opt) + "</table></div>"; }
 
   function trialCols(extra) {
     return [
-      { key: "nct", label: t("trial"), cls: "d", nolabel: 1, cell: function (x) { return '<button type="button" class="exp" data-open="' + x.nct + '" aria-expanded="' + (S.open === x.nct) + '" aria-label="' + esc(t("details")) + '">' + (S.open === x.nct ? "▾" : "▸") + "</button>" + nct(x.nct); } },
+      { key: "nct", label: t("trial"), cls: "d", nolabel: 1, cell: function (x) { return '<button type="button" class="exp" data-open="' + x.nct + '" aria-expanded="' + (S.open === x.nct) + '" aria-label="' + esc(t("details")) + '">' + IC_CHEV + "</button>" + nct(x.nct); } },
       { key: "drug", label: t("drug"), cls: "lead", nolabel: 1, val: function (x) { return (x.interventions[0] || "").toLowerCase(); }, cell: function (x) { return esc((x.interventions || []).slice(0, 2).join(", ") || x.title); } },
       { key: "company", label: t("company"), val: function (x) { return (D.companies[x.co] ? D.companies[x.co].name : x.lead_sponsor).toLowerCase(); }, cell: function (x) { return (x.via === "sponsor" ? co(x.co) : esc(x.lead_sponsor)) + " " + tk(x.ticker); } },
       { key: "condition", label: t("condition"), cell: function (x) { return esc((x.conditions || []).slice(0, 2).join("; ")); } },
       { key: "phase", label: t("phase"), term: "phase", val: function (x) { return x.phase_rank; }, cell: function (x) { return esc(phase(x.phase)); } },
       { key: "status", label: t("status"), term: "status", val: function (x) { return x.status; }, cell: function (x) { return pill(x.bucket, status(x.status)); } },
-      { key: "origin", label: t("origin"), term: "origin", val: function (x) { return x.origin; }, cell: function (x) { return pill(x.origin === "platform" ? "active" : "", t("og")[x.origin] || x.origin); } }
+      { key: "origin", label: t("origin"), term: "origin", val: function (x) { return x.origin; }, cell: function (x) { return ogPill(x.origin); } }
     ].concat(extra);
   }
   function trialDetail(x) {
@@ -215,59 +245,66 @@
     var so = S.sort || DEF;
     return '<div class="filters"><input id="f-q" type="search" placeholder="' + esc(t("search")) + '" aria-label="' + esc(t("search")) + '" value="' + esc(S.q) + '"><select id="f-company" aria-label="' + esc(t("company")) + '">' + opts(cos, S.company, t("allCompanies")) +
       '</select><select id="f-phase" aria-label="' + esc(t("phase")) + '">' + opts(phases, S.phase, t("allPhases")) + '</select><select id="f-origin" aria-label="' + esc(t("origin")) + '">' + opts(["platform", "partner", "acquired", "not_stated"].map(function (o) { return [o, t("og")[o]]; }), S.origin, t("allOrigins")) + "</select>" + chips +
-      '<label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + '</label><select id="f-sort" class="only-phone" aria-label="' + esc(t("sortBy")) + '">' + Object.keys(t("sorts")).map(function (k) { return '<option value="' + k + '"' + (k === so ? " selected" : "") + ">" + esc(t("sortBy")) + ": " + esc(t("sorts")[k]) + "</option>"; }).join("") + '</select><button type="button" class="btn" id="f-clear" data-clear="1" hidden>' + esc(t("clear")) + '</button></div><p class="muted small" id="count"></p>';
+      '<label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + '</label><select id="f-sort" class="only-phone" aria-label="' + esc(t("sortBy")) + '">' + Object.keys(t("sorts")).map(function (k) { return '<option value="' + k + '"' + (k === so ? " selected" : "") + ">" + esc(t("sortBy")) + ": " + esc(t("sorts")[k]) + "</option>"; }).join("") + '</select><button type="button" class="btn" id="f-clear" data-clear="1" hidden>' + IC_X + esc(t("clear")) + '</button></div><p class="muted small" id="count"></p>';
   }
 
   // ---- views ----
   function subnav() {
     var subs = VIEWS[S.view]; if (!subs.length) return "";
-    return '<section><nav class="subnav" aria-label="' + esc(t("nav")[S.view]) + '">' + subs.map(function (s) { return '<a href="' + href(S.view, s) + '"' + (s === S.sub ? ' aria-current="true"' : "") + ">" + esc(t("subs")[s]) + "</a>"; }).join("") + "</nav></section>";
+    return '<section><nav class="subnav" aria-label="' + esc(t("nav")[S.view]) + '">' + subs.map(function (s) { return '<a href="' + href(S.view, s) + '"' + (s === S.sub ? ' aria-current="true"' : "") + '><span class="nl" data-w="' + esc(t("subs")[s]) + '">' + esc(t("subs")[s]) + "</span></a>"; }).join("") + "</nav></section>";
   }
   function sigCard(i, compact) {
-    var names = (i.names || []).map(function (n) { return tk(n.ticker) + " " + pill("", t("dir")[n.direction]) + (n.order === "second" ? " " + term("second_order", t("second")) : ""); }).join(" &nbsp; ");
+    var names = (i.names || []).map(function (n) { return tk(n.ticker) + " " + pill("", t("dir")[n.direction]) + (n.order === "second" ? " " + term("second_order", t("second")) : ""); }).join("</span><span>");
     var head = '<p class="muted small">' + (isNew(i.run) ? newDot() : "") + esc(i.date) + " · " + esc(t("ty")[i.type] || i.type) + " · " + dirPill(i.direction) + "</p><h3>" + link(i.url, L(i, "title")) + "</h3>" +
-      '<p class="scores"><span>' + term("evidence", t("evidence")) + " " + score(i.evidence) + "</span><span>" + term("market", t("market")) + " " + score(i.market) + "</span>" + (compact ? "<span>" + (i.names || []).map(function (n) { return tk(n.ticker); }).join(" ") + "</span>" : "") + "</p>";
+      '<p class="scores"><span>' + term("evidence", t("evidence")) + " " + score(i.evidence, "ev") + "</span><span>" + term("market", t("market")) + " " + score(i.market, "mk") + "</span>" + (compact ? "<span>" + (i.names || []).map(function (n) { return tk(n.ticker); }).join(" ") + "</span>" : "") + "</p>";
     if (compact) return head;
     return '<div class="card sig">' + head + '<p class="muted small">' + esc(t("conf")) + ": " + esc(t("confv")[i.confidence] || i.confidence) + " · " + esc(t(i.source_kind + "_src")) + (i.single_source ? " · " + esc(t("single")) : "") + "</p>" +
-      (names ? "<p>" + names + "</p>" : "") + "<p><b>" + esc(t("soWhat")) + ":</b> " + esc(L(i, "so_what")) + '</p><p class="muted small"><b>' + esc(t("changes")) + ":</b> " + esc(L(i, "changes_view")) + "</p></div>";
+      (names ? '<p class="names"><span>' + names + "</span></p>" : "") + '<p class="sw"><b>' + esc(t("soWhat")) + ":</b> " + esc(L(i, "so_what")) + '</p><p class="cv small"><b>' + esc(t("changes")) + ":</b> " + esc(L(i, "changes_view")) + "</p></div>";
   }
   function evLine(e) {
     var what = t("ev")[e.type] || e.type, detail = e.type === "registered" ? phase(e.to) : e.type === "results_posted" ? "" : e.type === "status" ? status(e.from) + " → " + status(e.to) : e.type === "phase" ? phase(e.from) + " → " + phase(e.to) : e.from + " → " + e.to;
     return pill(e.direction, what) + " " + esc(detail);
   }
   function byNct(id) { return D.trialMap[id]; }
-  function funnel() {
-    var P = D.stats.by_phase_core, keys = Object.keys(P).filter(function (p) { return P[p].total; }), max = Math.max.apply(null, keys.map(function (p) { return P[p].total; }));
+  var BUCKETS = ["active", "completed", "stopped", "unknown"];
+  function stateLegend() { return '<p class="legend">' + BUCKETS.map(function (b) { return '<span><i class="seg-' + b + '"></i>' + esc(t(b)) + "</span>"; }).join("") + "</p>"; }
+  function bars(P, small) {   // one stacked bar per phase; a count that does not fit its segment drops below it (CSS container query)
+    var keys = Object.keys(P).filter(function (p) { return P[p].total; }), max = Math.max.apply(null, keys.map(function (p) { return P[p].total; }));
     var rows = keys.map(function (p) {
-      var r = P[p], segs = ["active", "completed", "stopped", "unknown"].map(function (b) { return r[b] ? '<i class="seg-' + b + '" style="flex:' + r[b] + '" title="' + esc(t(b)) + ": " + r[b] + '">' + r[b] + "</i>" : ""; }).join("");
-      return '<span class="lab">' + esc(phase(p)) + '</span><span class="stack" style="width:' + (100 * r.total / max).toFixed(1) + '%">' + segs + '</span><span class="tot">' + r.total + "</span>";
+      var r = P[p], said = [], segs = BUCKETS.map(function (b) {
+        if (!r[b]) return "";
+        said.push(t(b) + " " + r[b]);
+        return '<i class="seg-' + b + " d" + String(r[b]).length + '" style="flex:' + r[b] + '" title="' + esc(t(b)) + ": " + r[b] + '"><b>' + r[b] + "</b></i>";
+      }).join("");
+      return '<div class="frow"><span class="lab">' + esc(phase(p)) + '</span><span class="stack" role="img" aria-label="' + esc(phase(p) + ": " + said.join(", ")) + '" style="width:' + (100 * r.total / max).toFixed(1) + '%">' + segs + '</span><span class="tot" title="' + esc(t("totalOf")) + '">' + r.total + "</span></div>";
     }).join("");
-    return '<div class="funnel">' + rows + '</div><p class="legend">' + ["active", "completed", "stopped", "unknown"].map(function (b) { return '<span><i class="seg-' + b + '"></i>' + esc(t(b)) + "</span>"; }).join("") + "</p>";
+    return '<div class="funnel' + (small ? " funnel-sm" : "") + '">' + stateLegend() + rows + "</div>";
   }
+  function funnel() { return bars(D.stats.by_phase_core, false); }
   var V = {
     today: function () {
       var tb = D.today_block, s = D.stats;
       var sig = tb.signal_ids.map(function (id) { return D.sigMap[id]; }).filter(Boolean), ev = tb.event_ids.map(function (id) { return D.evMap[id]; }).filter(Boolean), due = tb.due_30d.map(byNct).filter(Boolean);
-      function blk(title, more, body, empty) { return '<div class="blk"><div class="row"><h2>' + title + '</h2><a class="more" href="' + more + '">' + esc(t("seeAll")) + " →</a></div>" + (body ? "<ul>" + body + "</ul>" : '<p class="muted">' + esc(empty) + "</p>") + "</div>"; }
-      var b1 = blk(esc(t("tSignals")) + ' <span class="muted small">' + esc(f("scanOf", { d: tb.signals_run || "–" })) + "</span>", href("signals"), sig.map(function (i) { return "<li>" + sigCard(i, true) + "</li>"; }).join(""), t("noSignals"));
-      var b2 = blk(esc(t("tChanges")), href("trials", "changes"), ev.map(function (e) { return "<li>" + (isNew(e.detected) ? newDot() : "") + '<span class="muted small">' + esc(e.date) + "</span> " + co(byNct(e.nct) ? byNct(e.nct).co : e.sponsor_id) + "<br>" + evLine(e) + ' <span class="small">' + nct(e.nct) + "</span></li>"; }).join(""), t("noChanges"));
-      var b3 = blk(esc(t("tDue")) + (tb.due_30d_n > due.length ? ' <span class="muted small">' + tb.due_30d_n + "</span>" : ""), href("calendar"), due.map(function (x) { return '<li><span class="muted small">' + esc(x.primary_completion) + "</span> " + co(x.co) + " " + tk(x.ticker) + "<br>" + esc((x.interventions || [])[0] || "") + " · " + esc(phase(x.phase)) + ' <span class="small">' + nct(x.nct) + "</span></li>"; }).join("") +
-        (tb.overdue.length ? '<li class="muted small">' + esc(f("overdue", { n: tb.overdue.length })) + "</li>" : ""), t("noDue"));
+      function blk(cls, title, more, body, empty, hint) { return '<div class="blk ' + cls + '"><div class="row"><h2>' + title + '</h2><a class="more" href="' + more + '">' + esc(t("seeAll")) + " →</a></div>" + (hint || "") + (body ? "<ul>" + body + "</ul>" : '<p class="blk-empty">' + esc(empty) + "</p>") + "</div>"; }
+      var b1 = blk("blk-sig", esc(t("tSignals")) + ' <span class="muted small">' + esc(f("scanOf", { d: tb.signals_run || "–" })) + "</span>", href("signals"), sig.map(function (i) { return "<li>" + sigCard(i, true) + "</li>"; }).join(""), t("noSignals"), sig.length ? scoreHint() : "");
+      var b2 = blk("blk-rail", esc(t("tChanges")), href("trials", "changes"), ev.map(function (e) { return '<li class="ln"><span class="when">' + esc(e.date) + "</span><div>" + (isNew(e.detected) ? newDot() : "") + co(byNct(e.nct) ? byNct(e.nct).co : e.sponsor_id) + "<br>" + evLine(e) + ' <span class="small">' + nct(e.nct) + "</span></div></li>"; }).join(""), t("noChanges"));
+      var b3 = blk("blk-rail", esc(t("tDue")) + (tb.due_30d_n > due.length ? ' <span class="muted small">' + tb.due_30d_n + "</span>" : ""), href("calendar"), due.map(function (x) { return '<li class="ln"><span class="when">' + esc(x.primary_completion) + "</span><div>" + co(x.co) + " " + tk(x.ticker) + "<br>" + esc((x.interventions || [])[0] || "") + " · " + esc(phase(x.phase)) + ' <span class="small">' + nct(x.nct) + "</span></div></li>"; }).join("") +
+        (tb.overdue.length ? '<li class="ln-note">' + esc(f("overdue", { n: tb.overdue.length })) + "</li>" : ""), t("noDue"));
       var tiles = [[s.core_drugs, "coreDrugs"], [s.core_trials, "core"], [s.core_sponsors, "sponsors"], [s.core_phase3_live, "p3"], [s.core_stopped, "stoppedN"], [s.core_with_results, "results"]];
       var bo = s.by_origin || {};
       var pc = Math.min(100, 100 * s.phase2_completed_randomised / s.phase2_threshold);
       return '<section class="today">' + b1 + b2 + b3 + "</section>" +
-        "<section><h2>" + esc(t("tilesH")) + '</h2><div class="tiles">' + tiles.map(function (x) { return '<div class="tile"><b>' + x[0] + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + '</div><p class="note" style="margin-top:10px">' + esc(f("originLine", { n: s.ai_company_trials, a: bo.platform, b: bo.acquired, p: bo.partner, d: bo.not_stated })) + ' <a href="' + href("more", "method") + '">' + esc(t("subs").method) + "</a></p></section>" +
+        "<section><h2>" + esc(t("tilesH")) + '</h2><div class="tiles">' + tiles.map(function (x) { return '<div class="tile"><b>' + x[0] + "</b><span>" + esc(t(x[1])) + "</span></div>"; }).join("") + '</div><p class="origin">' + esc(f("originLine", { n: s.ai_company_trials, a: bo.platform, b: bo.acquired, p: bo.partner, d: bo.not_stated })) + ' <a href="' + href("more", "method") + '">' + esc(t("subs").method) + "</a></p></section>" +
         "<section><h2>" + esc(t("phaseH")) + "</h2>" + funnel() + "</section>" +
-        '<section class="verdict"><h2>' + esc(t("verdictH")) + '</h2><div class="meter"><i style="width:' + pc + '%"></i></div><p class="note">' + esc(f("verdictP", { n: s.phase2_completed_randomised, t: s.phase2_threshold })) + "</p><h3>" + esc(t("apprH")) + '</h3><p class="note">' + esc((D.approvals || []).some(function (a) { return a.tier === "ai"; }) ? "" : t("apprAi")) + "</p>" +
-        ((D.approvals || []).length ? '<ul class="plain">' + D.approvals.map(function (a) { return "<li><b>" + esc(a.drug) + "</b> · " + esc(a.regulator) + " " + esc(a.date) + " · " + co(a.co) + " " + tk(a.co) + " · " + esc(t(a.tier)) + "<br>" + esc(L(a, "text")) + ' <span class="small">' + link(a.source.url, a.source.publisher) + "</span></li>"; }).join("") + "</ul>" : "") + "</section>";
+        '<section class="verdict"><h2>' + esc(t("verdictH")) + '</h2><div class="meter-row"><div class="meter" role="img" aria-label="' + s.phase2_completed_randomised + " / " + s.phase2_threshold + '"><i style="width:' + pc + '%"></i></div><span class="meter-n" aria-hidden="true">' + s.phase2_completed_randomised + " <small>/ " + s.phase2_threshold + '</small></span></div><p class="note">' + esc(f("verdictP", { n: s.phase2_completed_randomised, t: s.phase2_threshold })) + "</p><h3>" + esc(t("apprH")) + '</h3><p class="note">' + esc((D.approvals || []).some(function (a) { return a.tier === "ai"; }) ? "" : t("apprAi")) + "</p>" +
+        ((D.approvals || []).length ? '<ul class="appr">' + D.approvals.map(function (a) { return "<li><b>" + esc(a.drug) + '</b><span class="meta">' + esc(a.regulator) + " " + esc(a.date) + " · " + co(a.co) + " " + tk(a.co) + " · " + esc(t(a.tier)) + "</span>" + esc(L(a, "text")) + ' <span class="small">' + link(a.source.url, a.source.publisher) + "</span></li>"; }).join("") + "</ul>" : "") + "</section>";
     },
     signals: function () {
       var st = D.signals_state || {}, items = D.signals || [];
       var head = '<p class="disc">' + esc(D.disclaimer[lang]) + '</p><p class="note">' + esc(t("sigNote")) + "</p>" +
-        '<p class="muted small">' + esc(f("sigLast", { d: st.last_date || "–" })) + (st.weekly ? ' · <a href="weekly.html">' + esc(t("weekly")) + " " + esc(st.weekly) + "</a>" : "") + "</p>";
+        '<p class="muted small">' + esc(f("sigLast", { d: st.last_date || "–" })) + (st.weekly ? ' · <a href="weekly.html">' + esc(t("weekly")) + " " + esc(st.weekly) + "</a>" : "") + "</p>" + scoreKey();
       var fu = (st.followups || []).length ? "<section><h2>" + esc(t("followups")) + '</h2><ul class="plain">' + st.followups.map(function (x) { return "<li>" + esc(L(x, "text")) + "</li>"; }).join("") + "</ul></section>" : "";
-      var op = (D.open || []).length ? "<section><h2>" + esc(t("watching")) + '</h2><ul class="plain">' + D.open.map(function (o) { return "<li>" + esc(o.due || "") + " " + esc(L(o, "text")) + "</li>"; }).join("") + "</ul></section>" : "";
+      var op = (D.open || []).length ? "<section><h2>" + esc(t("watching")) + '</h2><ul class="plain dated">' + D.open.map(function (o) { return '<li><span class="when">' + esc(o.due || "") + "</span><span>" + esc(L(o, "text")) + "</span></li>"; }).join("") + "</ul></section>" : "";
       var src = st.sources ? "<section><h2>" + esc(t("sigChecked")) + '</h2><p class="muted small">' + Object.keys(st.sources).map(function (k) { return esc(t("srcs")[k] || k) + ": " + esc(srcStatus(st.sources[k])); }).join(" · ") + "</p></section>" : "";
       var cols = [{ key: "c", label: t("company"), nolabel: 1, cls: "lead", cell: function (c) { return co(c.ticker || c.id, lang === "zh" && c.name_zh ? c.name_zh : c.name); } },
         { key: "r", label: t("role"), cell: function (c) { return esc(t("roles")[c.role] || c.role) + (c.added_by === "scanner" ? ' <span class="muted small">· ' + esc(f("wAdded", { d: c.added })) + "</span>" : ""); } },
@@ -321,7 +358,7 @@
       (D.catalysts || []).forEach(function (c) { if (c.sort >= D.today) rows.push({ sort: c.sort, when: c.when, c: c }); });
       rows.sort(function (a, b) { return a.sort < b.sort ? -1 : a.sort > b.sort ? 1 : 0; });
       var cc = [{ key: "due", label: t("readout"), term: "primary_completion", cls: "d", nolabel: 1, cell: function (r) { return esc(r.when); } },
-        { key: "ev", label: t("event"), cls: "lead", nolabel: 1, cell: function (r) { return r.c ? pill("active", t("regDecision")) + " " + esc(L(r.c, "title")) + '<br><span class="muted small" style="font-weight:400">' + esc(L(r.c, "note")) + "</span>" : esc((r.x.interventions || []).slice(0, 2).join(", ")) + " · " + esc(phase(r.x.phase)) + '<br><span class="muted small" style="font-weight:400">' + esc((r.x.conditions || []).slice(0, 2).join("; ")) + "</span>"; } },
+        { key: "ev", label: t("event"), cls: "lead", nolabel: 1, cell: function (r) { return r.c ? pill("reg", t("regDecision")) + " " + esc(L(r.c, "title")) + '<br><span class="muted small" style="font-weight:400">' + esc(L(r.c, "note")) + "</span>" : esc((r.x.interventions || []).slice(0, 2).join(", ")) + " · " + esc(phase(r.x.phase)) + '<br><span class="muted small" style="font-weight:400">' + esc((r.x.conditions || []).slice(0, 2).join("; ")) + "</span>"; } },
         { key: "co", label: t("company"), cell: function (r) { return r.c ? (r.c.tickers || []).map(tk).join(" ") : (r.x.via === "sponsor" ? co(r.x.co) : esc(r.x.lead_sponsor)) + " " + tk(r.x.ticker); } },
         { key: "n", label: t("n"), num: 1, cell: function (r) { return r.x && r.x.enrollment != null ? r.x.enrollment : ""; } },
         { key: "src", label: t("source"), cls: "d", cell: function (r) { return r.c ? link(r.c.source.url, r.c.source.publisher) : nct(r.x.nct); } }];
@@ -329,11 +366,11 @@
       rows.forEach(function (r) {
         var x = (new Date(r.sort + "T00:00:00Z").getTime() - t0) / yr; if (x > 1) return;
         var px = 10 + x * (W - 20), slot = Math.round(px / 7); lanes[slot] = (lanes[slot] || 0) + 1; var y = 50 - lanes[slot] * 8;
-        marks += r.c ? '<rect class="reg" x="' + (px - 3.5).toFixed(1) + '" y="' + (y - 3.5) + '" width="7" height="7"><title>' + esc(r.when + " " + L(r.c, "title")) + "</title></rect>" : '<circle cx="' + px.toFixed(1) + '" cy="' + y + '" r="3"><title>' + esc(r.when + " " + (r.x.interventions[0] || "") + " · " + r.x.phase) + "</title></circle>";
+        marks += r.c ? '<rect class="reg" x="' + (px - 3.5).toFixed(1) + '" y="' + (y - 3.5) + '" width="7" height="7" rx="1"><title>' + esc(r.when + " " + L(r.c, "title")) + "</title></rect>" : '<circle cx="' + px.toFixed(1) + '" cy="' + y + '" r="3.5"><title>' + esc(r.when + " " + (r.x.interventions[0] || "") + " · " + r.x.phase) + "</title></circle>";
       });
       var ticks = "", d0 = new Date(t0);
       for (var m = 1; m <= 12; m += 2) { var d = new Date(Date.UTC(d0.getUTCFullYear(), d0.getUTCMonth() + m, 1)), px2 = 10 + (d.getTime() - t0) / yr * (W - 20); if (px2 > W - 10) break; ticks += '<line x1="' + px2.toFixed(1) + '" y1="54" x2="' + px2.toFixed(1) + '" y2="58"/><text x="' + px2.toFixed(1) + '" y="70" text-anchor="' + (px2 > W - 40 ? "end" : "middle") + '">' + d.toISOString().slice(0, 7) + "</text>"; }
-      var strip = '<div class="strip"><svg viewBox="0 0 ' + W + ' 74" role="img" aria-label="' + esc(t("stripLab")) + '"><line x1="10" y1="54" x2="' + (W - 10) + '" y2="54"/>' + ticks + marks + '</svg><p class="muted small" style="margin:2px 0 6px">' + esc(t("stripLab")) + "</p></div>";
+      var strip = '<div class="strip"><svg viewBox="0 0 ' + W + ' 74" role="img" aria-label="' + esc(t("stripLab")) + '"><line x1="10" y1="54" x2="' + (W - 10) + '" y2="54"/>' + ticks + marks + '</svg><p class="muted small" style="margin:2px 0 6px">' + esc(t("stripLab")) + '</p><p class="legend strip-key"><span><i class="k-dot"></i>' + esc(t("stripDot")) + '</span><span><i class="k-sq"></i>' + esc(t("regDecision")) + "</span></p></div>";
       return subnav() + '<section><p class="note">' + esc(t("calNote")) + '</p><div class="filters"><label class="chk"><input type="checkbox" id="f-listed"' + (S.listed ? " checked" : "") + "> " + esc(t("listedOnly")) + "</label></div>" + strip + table("t-main", rows, cc) + "</section>";
     },
     more: function () {
@@ -342,10 +379,10 @@
         return '<div class="card"><h3>' + link(r.url, r.name) + '</h3><p class="muted small">' + esc(lang === "zh" ? (CAD_ZH[r.cadence] || r.cadence) : r.cadence) + "</p><p>" + esc(L(r, "why")) + "</p>" +
           (h.length ? '<ul class="small">' + h.map(function (i) { return "<li>" + link(i.url, i.title) + ' <span class="muted">' + esc(i.date || "") + "</span></li>"; }).join("") + "</ul>" : (r.feed ? "" : '<p class="muted small">' + esc(t("noFeed")) + "</p>")) + "</div>";
       }).join("") + "</div></section>";
-      if (S.sub === "method") return subnav() + "<section><h2>" + esc(t("methodH")) + "</h2>" + t("methodP").map(function (p) { return '<p class="note">' + esc(p) + "</p>"; }).join("") +
+      if (S.sub === "method") return subnav() + '<section class="prose"><h2>' + esc(t("methodH")) + "</h2>" + t("methodP").map(function (p) { return '<p class="note">' + esc(p) + "</p>"; }).join("") +
         (D.assets || []).map(function (a) { return '<p class="note"><b>' + esc(a.name) + ":</b> " + esc(L(a, "note")) + " " + link(a.source, t("source")) + "</p>"; }).join("") +
-        "</section><section><h2>" + esc(t("rubricH")) + '</h2><p class="note">' + esc(t("rubricP")) + '</p><ol class="rubric">' + t("rubric").map(function (r) { return "<li>" + esc(r) + "</li>"; }).join("") + "</ol></section>";
-      if (S.sub === "glossary") return subnav() + '<section><p class="note">' + esc(t("glossNote")) + '</p><dl class="gloss">' + (D.glossary || []).map(function (g) { return "<dt>" + esc(L(g, "term")) + "</dt><dd>" + esc(L(g, "def")) + "</dd>"; }).join("") + "</dl></section>";
+        '</section><section class="prose"><h2>' + esc(t("rubricH")) + '</h2><p class="note">' + esc(t("rubricP")) + '</p><ol class="rubric">' + t("rubric").map(function (r) { return "<li>" + esc(r) + "</li>"; }).join("") + "</ol></section>";
+      if (S.sub === "glossary") return subnav() + '<section><p class="note">' + esc(t("glossNote")) + '</p><dl class="gloss">' + (D.glossary || []).map(function (g) { return "<div><dt>" + esc(L(g, "term")) + "</dt><dd>" + esc(L(g, "def")) + "</dd></div>"; }).join("") + "</dl></section>";
       return subnav() + '<section><p class="note">' + esc(t("longNote")) + '</p><div class="cards">' + D.longevity.map(function (m) {
         return '<div class="card"><h3>' + esc(L(m, "title")) + "</h3>" + pill(m.status, t("st")[m.status] || m.status) + "<p><b>" + esc(t("now")) + ":</b> " + esc(L(m, "state")) + "</p><p><b>" + esc(t("signal")) + ":</b> " + esc(L(m, "signal")) +
           '</p><p class="muted small">' + link(m.source, t("source")) + " · " + esc(t("asOf")) + " " + esc(m.as_of) + "</p></div>";
@@ -357,7 +394,7 @@
   function panelHtml(c) {
     var q = c.quote, p = c.profile, rows = D.trials.filter(function (x) { return x.co === c.key; });
     var listing = c.ticker ? tk(c.ticker) + (c.market ? ' <span class="muted small">' + esc(c.market) + "</span>" : "") : c.proxy ? esc(t("pProxyA")) + " " + tk(c.proxy) + " " + esc(t("pProxyB")) : '<span class="muted small">' + esc(t("pPrivate")) + "</span>";
-    var h = '<div class="phead"><div><h2 id="panel-title">' + esc(coName(c)) + '</h2><p class="small">' + listing + " · " + esc(c.tier ? t(c.tier) : (t("roles")[c.role] || "")) + (p && p.hq ? " · " + esc(p.hq) : "") + '</p></div><button type="button" class="btn" id="panel-close">' + esc(t("pClose")) + " ×</button></div>";
+    var h = '<div class="phead"><div><h2 id="panel-title">' + esc(coName(c)) + '</h2><p class="pmeta"><span>' + listing + "</span><span>" + esc(c.tier ? t(c.tier) : (t("roles")[c.role] || "")) + "</span>" + (p && p.hq ? "<span>" + esc(p.hq) + "</span>" : "") + '</p></div><button type="button" class="btn" id="panel-close">' + IC_X + esc(t("pClose")) + '</button></div><div class="pbody">';
     if (p) h += "<h3>" + esc(t("pOverview")) + "</h3><p>" + esc(L(p, "what")) + "</p>" + (L(p, "ai") ? '<p><b class="small">' + esc(t("pAi")) + ":</b> " + esc(L(p, "ai")) + "</p>" : "") + (L(p, "lead") ? '<p><b class="small">' + esc(t("pLead")) + ":</b> " + esc(L(p, "lead")) + "</p>" : "") +
       '<p class="muted small">' + [p.founded ? p.founded : "", p.listed || "", link(p.source.url, t("pSrc") + ": " + p.source.publisher), t("asOf") + " " + p.as_of, p.checked === "partly" ? esc(t("profPartly")) : ""].filter(Boolean).join(" · ") + "</p>";
     function kv(k, v, g) { return v == null || v === "" ? "" : "<div><span>" + (g ? term(g, k) : esc(k)) + "</span><b>" + v + "</b></div>"; }
@@ -377,20 +414,18 @@
     h += "<h3>" + esc(t("pLedger")) + "</h3>";
     if (!rows.length) h += '<p class="muted">' + esc(t("pNoTrials")) + "</p>";
     else {
-      var max = Math.max.apply(null, Object.keys(c.by_phase).map(function (k) { return c.by_phase[k].total; }));
-      h += "<p>" + esc(f("pTrials", { n: c.trials, s: c.stopped })) + ' · <a href="' + href("trials", "all", { company: c.key }) + '" data-close="1">' + esc(t("pSee")) + '</a></p><div class="funnel" style="border:0;padding:0;background:none">' + Object.keys(c.by_phase).map(function (k) {
-        var r = c.by_phase[k]; return '<span class="lab">' + esc(phase(k)) + '</span><span class="stack" style="width:' + (100 * r.total / max).toFixed(1) + '%">' + ["active", "completed", "stopped", "unknown"].map(function (b) { return r[b] ? '<i class="seg-' + b + '" style="flex:' + r[b] + '" title="' + esc(t(b)) + '">' + r[b] + "</i>" : ""; }).join("") + '</span><span class="tot">' + r.total + "</span>"; }).join("") + "</div>";
+      h += "<p>" + esc(f("pTrials", { n: c.trials, s: c.stopped })) + ' · <a href="' + href("trials", "all", { company: c.key }) + '" data-close="1">' + esc(t("pSee")) + '</a></p>' + bars(c.by_phase, true);
       var due = rows.filter(function (x) { return x.bucket === "active" && x.phase_rank >= 3 && x.primary_completion >= D.today; }).sort(function (a, b) { return a.primary_completion < b.primary_completion ? -1 : 1; }).slice(0, 5);
       if (due.length) h += "<h3>" + term("primary_completion", t("pNext")) + "</h3><ul>" + due.map(function (x) { return '<li><span class="muted small">' + esc(x.primary_completion) + "</span> " + esc(x.interventions[0] || "") + " · " + esc(phase(x.phase)) + " · " + esc((x.conditions || [])[0] || "") + ' <span class="small">' + nct(x.nct) + "</span></li>"; }).join("") + "</ul>";
       var st = rows.filter(function (x) { return x.bucket === "stopped"; });
       if (st.length) h += "<h3>" + esc(t("pStopped")) + "</h3><ul>" + st.map(function (x) { return "<li>" + esc(x.interventions[0] || "") + " · " + esc(phase(x.phase)) + " · " + pill("stopped", status(x.status)) + ' <span class="small">' + nct(x.nct) + "</span>" + (x.why_stopped ? '<br><span class="muted small">' + esc(x.why_stopped) + "</span>" : "") + "</li>"; }).join("") + "</ul>";
     }
     var mine = (D.drugs || []).filter(function (d) { return c.sponsor_ids.indexOf(d.sponsor_id) >= 0; });
-    if (mine.length) h += "<h3>" + esc(t("pDrugs")) + "</h3><ul>" + mine.map(function (d) { return "<li><b>" + esc(d.drug) + "</b> " + pill(d.origin === "platform" ? "active" : "", t("og")[d.origin] || d.origin) + (L(d, "ai_role") ? "<br>" + esc(L(d, "ai_role")) : "") + (d.source ? ' <span class="small">' + link(d.source.url, d.source.publisher || t("source")) + (d.checked === "snippet" ? " (" + esc(t("snip")) + ")" : "") + "</span>" : "") + (d.added_by === "scanner" ? ' <span class="muted small">(' + esc(f("byScan", { d: d.added })) + ")</span>" : "") + "</li>"; }).join("") + "</ul>";
+    if (mine.length) h += "<h3>" + esc(t("pDrugs")) + "</h3><ul>" + mine.map(function (d) { return "<li><b>" + esc(d.drug) + "</b> " + ogPill(d.origin) + (L(d, "ai_role") ? "<br>" + esc(L(d, "ai_role")) : "") + (d.source ? ' <span class="small">' + link(d.source.url, d.source.publisher || t("source")) + (d.checked === "snippet" ? " (" + esc(t("snip")) + ")" : "") + "</span>" : "") + (d.added_by === "scanner" ? ' <span class="muted small">(' + esc(f("byScan", { d: d.added })) + ")</span>" : "") + "</li>"; }).join("") + "</ul>";
     var ap = (D.approvals || []).filter(function (a) { return a.co === c.key; });
     if (ap.length) h += "<h3>" + esc(t("pApproved")) + "</h3><ul>" + ap.map(function (a) { return "<li><b>" + esc(a.drug) + "</b> · " + esc(a.regulator) + " " + esc(a.date) + "<br>" + esc(L(a, "text")) + ' <span class="small">' + link(a.source.url, a.source.publisher) + "</span></li>"; }).join("") + "</ul>";
     var sg = (D.signals || []).filter(function (i) { return (i.names || []).some(function (n) { return n.ticker === c.ticker || (c.proxy && n.ticker === c.proxy); }) && (c.ticker || i.title_en.indexOf(c.name.split(" ")[0]) >= 0); });
-    if (sg.length) h += "<h3>" + esc(t("pSignals")) + "</h3><ul>" + sg.slice(0, 6).map(function (i) { return '<li><span class="muted small">' + esc(i.date) + " · " + esc(t("ty")[i.type]) + "</span><br>" + link(i.url, L(i, "title")) + "<br>" + esc(t("evidence")) + " " + score(i.evidence) + " &nbsp; " + esc(t("market")) + " " + score(i.market) + "</li>"; }).join("") + "</ul>";
+    if (sg.length) h += "<h3>" + esc(t("pSignals")) + "</h3><ul>" + sg.slice(0, 6).map(function (i) { return '<li><span class="muted small">' + esc(i.date) + " · " + esc(t("ty")[i.type]) + "</span><br>" + link(i.url, L(i, "title")) + "<br>" + '<span class="scores">' + "<span>" + esc(t("evidence")) + " " + score(i.evidence, "ev") + "</span><span>" + esc(t("market")) + " " + score(i.market, "mk") + "</span></span></li>"; }).join("") + "</ul>";
     var dl = (D.deals || []).filter(function (d) { return c.ticker && (d.tickers || []).indexOf(c.ticker) >= 0 || d.ai === c.name || d.pharma === c.name; });
     if (dl.length) h += "<h3>" + esc(t("pDeals")) + "</h3><ul>" + dl.map(function (d) { return '<li><span class="muted small">' + esc(d.date) + "</span> " + esc(d.ai) + " – " + esc(d.pharma) + "<br>" + (d.upfront_usd == null ? esc(t("undisclosed")) : esc(t("upfront")) + " " + dealUsd(d.upfront_usd) + " · " + esc(t("headline")) + " " + (d.headline_more_than ? esc(t("moreThan")) : "") + dealUsd(d.headline_usd)) + ' <span class="small">' + link(d.source.url, d.source.publisher) + "</span></li>"; }).join("") + "</ul>";
     var ev = D.events.filter(function (e) { return byNct(e.nct) && byNct(e.nct).co === c.key; });
@@ -400,7 +435,7 @@
     if (c.ticker && c.market === "US") links.push(link("https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=" + encodeURIComponent(c.ticker) + "&type=&dateb=&owner=include&count=40", t("pSec")));
     if (c.ticker && c.market === "HK") links.push(link("https://www.hkex.com.hk/Market-Data/Securities-Prices/Equities/Equities-Quote?sym=" + parseInt(c.ticker, 10), t("pHk")));
     if (links.length) h += "<h3>" + esc(t("pLinks")) + "</h3><p>" + links.join(" · ") + "</p>";
-    return h;
+    return h + "</div>";
   }
   function drawPanel() {
     if (S.co && D && !D.companies[S.co]) go({ co: "" });       // an unknown key in a link is dropped
@@ -459,7 +494,7 @@
     var gs = document.getElementById("gs"); gs.placeholder = t("gsPh"); gs.setAttribute("aria-label", t("gsPh"));
     document.getElementById("nav").setAttribute("aria-label", lang === "zh" ? "栏目" : "Sections");
     var fresh = { signals: D && (D.signals || []).some(function (i) { return isNew(i.run); }), trials: D && D.events.some(function (e) { return isNew(e.detected); }) };
-    document.getElementById("nav").innerHTML = Object.keys(VIEWS).map(function (k) { return '<a href="#' + k + '"' + (k === S.view ? ' aria-current="page"' : "") + ">" + esc(t("nav")[k]) + (fresh[k] ? '<span class="badge" title="' + esc(t("newLab")) + '"></span>' : "") + "</a>"; }).join("");
+    document.getElementById("nav").innerHTML = Object.keys(VIEWS).map(function (k) { return '<a href="#' + k + '"' + (k === S.view ? ' aria-current="page"' : "") + ">" + icon(NAV_IC[k]) + '<span class="nl" data-w="' + esc(t("nav")[k]) + '">' + esc(t("nav")[k]) + "</span>" + (fresh[k] ? '<span class="badge" role="img" aria-label="' + esc(t("newLab")) + '" title="' + esc(t("newLab")) + '"></span>' : "") + "</a>"; }).join("");
   }
   function count() {
     var c = document.getElementById("count"), b = document.getElementById("f-clear");
@@ -525,6 +560,7 @@
   document.addEventListener("keydown", function (e) {
     if (e.target.id === "gs" && e.key === "Enter") { var first = document.querySelector("#gs-res .gs-item"); if (first) { e.preventDefault(); first.click(); } return; }
     if (e.target.id === "gs" && e.key === "ArrowDown") { var f1 = document.querySelector("#gs-res .gs-item"); if (f1) { e.preventDefault(); f1.focus(); } return; }
+    if (e.key === "/" && !e.ctrlKey && !e.metaKey && !e.altKey && !/^(INPUT|SELECT|TEXTAREA)$/.test(e.target.tagName) && !S.co) { e.preventDefault(); return document.getElementById("gs").focus(); }
     if (e.key === "Escape") { if (!document.getElementById("gs-res").hidden) { gsHide(); return document.getElementById("gs").focus(); } if (!document.getElementById("pop").hidden) return hidePop(); if (S.co) closePanel(); }
     if (e.key === "Tab" && S.co && !document.getElementById("panel").hidden) {   // keep focus inside the open panel
       var p = document.getElementById("panel"), fs = p.querySelectorAll("a[href],button"), first = fs[0], last = fs[fs.length - 1];

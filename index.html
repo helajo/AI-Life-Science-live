@@ -4,26 +4,35 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>AI Biotech Watch · AI 制药观察</title>
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1923" media="(prefers-color-scheme: dark)">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip" href="#main" data-t="skip"></a>
 <header class="top">
   <div class="wrap bar">
-    <div>
+    <a class="brand" href="#today">
+      <svg class="mark" viewBox="0 0 28 28" aria-hidden="true" focusable="false"><g transform="rotate(-38 14 14)"><path d="M14 8H9a6 6 0 0 0 0 12h5z" fill="currentColor"/><rect x="3" y="8" width="22" height="12" rx="6" fill="none" stroke="currentColor" stroke-width="1.8"/></g></svg>
       <h1 data-t="title"></h1>
-      <p class="sub" data-t="subtitle"></p>
-    </div>
-    <button id="lang" type="button"></button>
+    </a>
     <div class="gs" role="search">
-      <input id="gs" type="search" autocomplete="off" spellcheck="false" aria-controls="gs-res" aria-expanded="false">
+      <input id="gs" type="search" placeholder=" " autocomplete="off" spellcheck="false" aria-controls="gs-res" aria-expanded="false">
+      <svg class="gs-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+      <kbd class="gs-key" aria-hidden="true">/</kbd>
       <div id="gs-res" hidden></div>
     </div>
+    <button id="lang" type="button"></button>
   </div>
-  <nav class="wrap nav" id="nav" aria-label="Sections"></nav>
+  <div class="wrap navrow">
+    <nav class="nav" id="nav" aria-label="Sections"></nav>
+    <p class="sub" data-t="subtitle"></p>
+  </div>
 </header>
-<main class="wrap" id="main" tabindex="-1"><p class="muted" data-t="loading"></p></main>
+<main class="wrap" id="main" tabindex="-1"><p class="muted" data-t="loading"></p><div class="skel" aria-hidden="true"><i></i><i></i><i></i><i></i></div></main>
 <footer class="wrap foot">
+  <p class="sub-foot" data-t="subtitle"></p>
   <p data-t="footer"></p>
   <p class="muted" id="stamp"></p>
 </footer>
