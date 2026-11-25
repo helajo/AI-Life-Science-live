@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-25T15:49:39Z",
+ "generated_at": "2026-11-25T22:50:20Z",
  "today": "2026-11-25",
  "baseline": "2026-11-19",
  "sources": {
@@ -9,8 +9,8 @@
   "feed:stat": "ok",
   "feed:biopharmadive": "ok",
   "feed:gen": "ok",
-  "feed:decodingbio": "error: RuntimeError",
-  "feed:topol": "error: RuntimeError",
+  "feed:decodingbio": "ok",
+  "feed:topol": "ok",
   "feed:lifespan": "ok",
   "feed:fightaging": "ok"
  },
@@ -6495,6 +6495,58 @@
  ],
  "signals": [
   {
+   "id": "newsroom:https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+   "date": "2026-11-25",
+   "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+   "source_kind": "company",
+   "title_en": "Google DeepMind releases Mass Spec Skills for its Antigravity agent; says it named the exact molecule in about 97% of attempts on 100 test compounds",
+   "title_zh": "Google DeepMind 为其 Antigravity 智能体发布质谱分析技能，称在 100 个测试化合物上约 97% 的尝试能准确识别分子",
+   "type": "tool",
+   "direction": "positive",
+   "evidence": 1,
+   "market": 1,
+   "names": [
+    {
+     "ticker": "GOOGL",
+     "order": "second",
+     "direction": "positive"
+    }
+   ],
+   "so_what_en": "This is a laboratory analysis tool, not a drug result: the agent runs existing open tools and public databases, the test was run by DeepMind itself on compounds already in a public library (under 4% without the tools or internet access), and the page says molecules absent from databases cannot be confirmed.",
+   "so_what_zh": "这是实验室分析工具，不是药物结果：智能体调用的是现有开源工具和公开数据库，测试由 DeepMind 自行完成，所用化合物已收录于公开谱库（不使用工具和联网时准确率低于 4%），页面也说明数据库中没有的分子无法确认。",
+   "changes_view_en": "an outside group repeats the test on compounds that are in no public library, or a named drugmaker says it uses the tool in routine work",
+   "changes_view_zh": "外部团队在未收录于任何公开谱库的化合物上重复该测试，或有具名药企表示已在日常工作中使用该工具",
+   "confidence": "medium",
+   "single_source": true,
+   "run": "2026-11-26"
+  },
+  {
+   "id": "sec:0001193125-26-478564",
+   "date": "2026-11-25",
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526478564/d51820d8k.htm",
+   "source_kind": "independent",
+   "title_en": "Tempus AI borrows up to US$500M from Ares-led lenders and elects to pay about US$600M of the Personalis purchase in cash",
+   "title_zh": "Tempus AI 向 Ares 牵头的贷款方借款最高 5 亿美元，并选择以现金支付收购 Personalis 对价中的约 6 亿美元",
+   "type": "deal",
+   "direction": "neutral",
+   "evidence": 0,
+   "market": 2,
+   "names": [
+    {
+     "ticker": "TEM",
+     "order": "first",
+     "direction": "neutral"
+    }
+   ],
+   "so_what_en": "Tempus is paying for a testing company partly with secured debt: a US$385M term loan at Term SOFR plus 5.50% and a US$115M revolver, both due in five years, with minimum-liquidity and minimum-revenue covenants, alongside about US$900M in new shares; this is financing, and says nothing about whether AI improves drug development.",
+   "so_what_zh": "Tempus 部分依靠有担保债务收购一家检测公司：3.85 亿美元定期贷款（利率为 Term SOFR 加 5.50%）和 1.15 亿美元循环贷款，均为五年期，附最低流动性和最低收入约束条款，另发行约 9 亿美元新股；这是融资安排，并不说明 AI 是否改善了药物研发。",
+   "changes_view_en": "the Personalis acquisition does not close, or a later filing shows Tempus near its liquidity or revenue covenant",
+   "changes_view_zh": "Personalis 收购未能完成，或后续文件显示 Tempus 接近触及流动性或收入约束条款",
+   "confidence": "high",
+   "single_source": false,
+   "run": "2026-11-26"
+  },
+  {
    "id": "newsroom:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
    "date": "2026-11-24",
    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
@@ -6513,6 +6565,26 @@
    "confidence": "medium",
    "single_source": true,
    "run": "2026-11-25"
+  },
+  {
+   "id": "arxiv:2611.32347v1",
+   "date": "2026-11-24",
+   "url": "https://arxiv.org/abs/2611.32347v1",
+   "source_kind": "company",
+   "title_en": "Preprint: a training-free change to decoding raises co-generation success of protein language models, by 48.7 points on ESM3; computer tests only",
+   "title_zh": "预印本：一种无需训练的解码改动提高了蛋白质语言模型的序列与结构共生成成功率，在 ESM3 上提高 48.7 个百分点；仅有计算测试",
+   "type": "tool",
+   "direction": "neutral",
+   "evidence": 1,
+   "market": 0,
+   "names": [],
+   "so_what_en": "A method paper from the authors themselves, not yet peer reviewed: the gains (3.6 points on DPLM-2, 17.7 on DPLM-2.1, 48.7 on ESM3) are on computed measures of generated proteins, and the abstract reports no laboratory test.",
+   "so_what_zh": "这是作者自己发表的方法论文，尚未经同行评审：提升幅度（DPLM-2 为 3.6 个百分点，DPLM-2.1 为 17.7，ESM3 为 48.7）来自对生成蛋白质的计算指标，摘要未报告任何实验室验证。",
+   "changes_view_en": "proteins generated this way are made and shown to fold or bind in a laboratory",
+   "changes_view_zh": "用该方法生成的蛋白质被实际合成，并在实验室中证明能够折叠或结合",
+   "confidence": "medium",
+   "single_source": true,
+   "run": "2026-11-26"
   },
   {
    "id": "news:leash-biosciences-raises-11m-to-train-ai-for-drug-discovery",
@@ -6995,34 +7067,35 @@
   }
  ],
  "signals_state": {
-  "last_finish": "2026-11-24T22:50:55Z",
-  "last_date": "2026-11-25",
+  "last_finish": "2026-11-25T22:50:02Z",
+  "last_date": "2026-11-26",
   "sources": {
    "registry": "ok, 0 new",
-   "sec_search": "ok, 1 new",
-   "sec_company": "ok, 0 new",
+   "sec_search": "ok, 0 new",
+   "sec_company": "ok, 1 new",
    "preprints": "ok, 0 new",
    "arxiv": "ok, 2 new",
    "regulators": "ok, 0 new",
    "newsrooms": "ok, 1 new",
    "model_hubs": "ok, 0 new",
-   "news_search": "ok, 48 new (23 over the cap, not listed)"
+   "news_search": "ok, 67 new (42 over the cap, not listed)"
   },
   "searched": [
-   "Work list: 29 items since 2026-11-22. Opened: the OpenAI protein-design post, the SEC 6-K of Gix Internet (no drug-discovery content, left out) and arXiv 2611.29935 (antibody inverse folding, in silico only, no wet-lab validation, left out, as was arXiv 2611.29681).",
-   "Searched for: Leash Biosciences $11M round; Kimi / Moonshot AI in biopharma; Pfizer's in vivo CAR-T licence from Starna (US$330M upfront, 18 Nov 2026 - left out: no AI claim in the deal); CBS News on Anthropic; Lilly, Novo Nordisk, Schrodinger, Chai Discovery and Thermo Fisher newsroom items for November 2026; NMPA guidance on AI in drug development.",
-   "Nothing new found in November 2026 for Lilly, Novo Nordisk, Thermo Fisher or Schrodinger beyond items already on the ledger (Lilly TuneLab 150 members, scored 2026-11-23; Schrodinger's Q3 release of 4 Nov 2026). No NMPA AI drug-development guideline published in November 2026 was found; the latest NMPA AI document remains the March 2026 'AI + drug regulation' opinion.",
-   "Left out: Google News results that are stock commentary, listicles or opinion (Seeking Alpha on Schrodinger, Moomoo on NVIDIA portfolio stocks, LinkedIn, EMJ on IL-33), and repeat coverage of items already scored (Novartis CEO on AI timelines, Isomorphic's Series C and MSD deal, Lilly TuneLab).",
-   "Unreachable (403): SCMP on Moonshot AI and science, Morningstar/Business Wire, MobiHealthNews and FinSMEs for the Leash round - the Leash figures come from the Pulse 2.0 copy of the release, which gives no date on the page, so the date is taken from the work-list item of 24 November 2026.",
-   "Open items: none due today (Absci ABS-201 interim due 2026-12-31; Merck-Isomorphic terms 2027-02-28; Recursion REC-4881 Phase 3 and Sanofi Phase 1 starts 2027-12-31). No text addressed the scanner as instructions."
+   "13 web searches: Merck Isomorphic expanded collaboration; Endpoints 'Prof Oak' Anthropic; GSK AI supplier turns drug rival; Rakovina NanoPalm (twice); Anthropic Zurich expansion; AMD quantum drug discovery; Lilly AI news; Novo Nordisk / Thermo Fisher AI news; Schrödinger / Chai news; NMPA 人工智能 药物研发 指导原则; AI-designed drug Phase 2 results or holds; Tempus Personalis credit facility (second source for the figures)",
+   "Opened: Tempus 8-K (SEC), DeepMind blog post, arXiv 2611.32347v1 and 2611.31856v1",
+   "Merck - Isomorphic (AIM Media House): the same 19 November deal already scored; no expansion and no upfront figure found",
+   "AstraZeneca - Tempus US$200M: already scored on 24 November",
+   "OpenAI GPT-6 protein design coverage (TechRepublic, DongA Science): already scored on 25 November",
+   "arXiv 2611.31856v1 (one-step generation on manifolds): a general machine-learning method with one protein measure and no drug or laboratory result; not scored",
+   "AMD quantum item: the underlying event is the AMD - PsiQuantum partnership of about 12 November; AMD is not on the watch list and no original release was opened; not scored",
+   "Unreachable: Google News redirect links (Rakovina - NanoPalm release, Endpoints 'Prof Oak' article, Quartz on Anthropic in Zurich) returned only a blank page; globenewswire.com search and endpoints.news search returned HTTP 403. These three items were left out because the original could not be opened, not because nothing was found",
+   "Lilly, Novo Nordisk, Thermo Fisher, Schrödinger, Chai, NMPA: searches returned no new release dated since 23 November; newsrooms themselves were not opened",
+   "Open items: none due; Absci ABS-201 interim data still expected in December",
+   "Skipped as not events on the topics: stock-quote and market pages (Recursion 52-week low, sector moves), opinion and round-up pieces, BioArctic results, AI medical advice lawsuit, Anthropic model and free-will coverage",
+   "sec.gov answered one direct request with its automated-tool notice; the filing was then read through the fetch tool",
+   "No text addressed to the scanner was found in any source"
   ],
-  "followups": [
-   {
-    "text_en": "OpenAI's protein-design PDF: are the designed sequences released, and does any outside group test them?",
-    "text_zh": "OpenAI 的蛋白设计 PDF：设计的序列是否公开，是否有外部团队进行验证？",
-    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
-   }
-  ],
+  "followups": [],
   "weekly": "2026-11-23"
  },
  "open": [
@@ -7053,6 +7126,13 @@
    "text_en": "Sanofi: does the Phase 1 trial of the candidate optioned from Recursion start in 2027?",
    "text_zh": "赛诺菲：从 Recursion 选定的候选药物是否在 2027 年启动一期试验？",
    "url": "https://www.sec.gov/Archives/edgar/data/1601830/000160183026000144/exhibit991-q0326.htm"
+  },
+  {
+   "id": "tempus-personalis-close",
+   "due": "2026-12-31",
+   "text_en": "Tempus AI: does the Personalis acquisition close, and is the Ares term loan drawn?",
+   "text_zh": "Tempus AI：对 Personalis 的收购是否完成，Ares 定期贷款是否提取？",
+   "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526478564/d51820d8k.htm"
   }
  ],
  "disclaimer": {
@@ -7286,7 +7366,7 @@
     "as_of": "2026-11-24",
     "price": 81.91,
     "currency": "USD",
-    "mcap_usd": 1042191197292.0,
+    "mcap_usd": 1083445623974.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 115.1,
@@ -7391,7 +7471,7 @@
     "as_of": "2026-11-24",
     "price": 155.38,
     "currency": "USD",
-    "mcap_usd": 3429189000000.0,
+    "mcap_usd": 3598130000000.0,
     "pe": 19.6,
     "pe_fiscal_year": false,
     "hi52": 243.37,
@@ -7576,7 +7656,7 @@
     "as_of": "2026-11-24",
     "price": 1407.59,
     "currency": "USD",
-    "mcap_usd": 1299855631684.0,
+    "mcap_usd": 1309771084310.0,
     "pe": 45.7,
     "pe_fiscal_year": false,
     "hi52": 1475.25,
@@ -7765,7 +7845,7 @@
     "as_of": "2026-11-24",
     "price": 40.31,
     "currency": "USD",
-    "mcap_usd": 177781410378.0,
+    "mcap_usd": 181235196184.0,
     "pe": 12.0,
     "pe_fiscal_year": true,
     "hi52": 64.16,
@@ -7985,7 +8065,7 @@
     "as_of": "2026-11-24",
     "price": 2.68,
     "currency": "USD",
-    "mcap_usd": 1541329166.0,
+    "mcap_usd": 1640970647.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 5.24,
@@ -8406,7 +8486,7 @@
     "as_of": "2026-11-24",
     "price": 10.91,
     "currency": "USD",
-    "mcap_usd": 1373588526.0,
+    "mcap_usd": 1460083292.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 22.67,
@@ -8573,7 +8653,7 @@
     "as_of": "2026-11-24",
     "price": 24.99,
     "currency": "USD",
-    "mcap_usd": 1810125613.0,
+    "mcap_usd": 1830396618.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 34.0,
@@ -8771,7 +8851,7 @@
     "as_of": "2026-11-24",
     "price": 9.17,
     "currency": "USD",
-    "mcap_usd": 1452792262.0,
+    "mcap_usd": 1554712290.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.54,
@@ -8976,7 +9056,7 @@
     "as_of": "2026-11-24",
     "price": 10.95,
     "currency": "USD",
-    "mcap_usd": 3328236360.0,
+    "mcap_usd": 3458883519.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 15.02,
@@ -9195,7 +9275,7 @@
     "as_of": "2026-11-24",
     "price": 18.12,
     "currency": "USD",
-    "mcap_usd": 3928659377.0,
+    "mcap_usd": 4030300733.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 21.27,
@@ -9396,7 +9476,7 @@
     "as_of": "2026-11-24",
     "price": 16.45,
     "currency": "USD",
-    "mcap_usd": 735965525.0,
+    "mcap_usd": 758964448.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 25.0,
@@ -9483,7 +9563,7 @@
     "as_of": "2026-11-24",
     "price": 54.83,
     "currency": "USD",
-    "mcap_usd": 9344435864.0,
+    "mcap_usd": 9984665609.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 89.09,
@@ -9880,7 +9960,7 @@
     "as_of": "2026-11-24",
     "price": 695.62,
     "currency": "USD",
-    "mcap_usd": 249103375794.0,
+    "mcap_usd": 253925639816.0,
     "pe": 36.7,
     "pe_fiscal_year": false,
     "hi52": 727.56,
@@ -10048,7 +10128,7 @@
     "as_of": "2026-11-24",
     "price": 183.2,
     "currency": "USD",
-    "mcap_usd": 283938002285.0,
+    "mcap_usd": 285985408398.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 212.71,
@@ -10401,7 +10481,7 @@
     "as_of": "2026-11-24",
     "price": 0.25,
     "currency": "USD",
-    "mcap_usd": 4181347.0,
+    "mcap_usd": 4813633.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -10563,7 +10643,7 @@
     "as_of": "2026-11-24",
     "price": 2.46,
     "currency": "USD",
-    "mcap_usd": 21488847.0,
+    "mcap_usd": 22411115.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 6.92,
@@ -11104,7 +11184,7 @@
     "as_of": "2026-11-24",
     "price": 4.98,
     "currency": "USD",
-    "mcap_usd": 236916114.0,
+    "mcap_usd": 251393044.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -11224,7 +11304,7 @@
     "as_of": "2026-11-24",
     "price": 17.18,
     "currency": "USD",
-    "mcap_usd": 1200935364.0,
+    "mcap_usd": 1288626390.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -11382,7 +11462,7 @@
     "as_of": "2026-11-24",
     "price": 2.01,
     "currency": "USD",
-    "mcap_usd": 180656655.0,
+    "mcap_usd": 185385887.0,
     "pe": 5.3,
     "pe_fiscal_year": false,
     "hi52": 3.23,
@@ -11570,7 +11650,7 @@
     "as_of": "2026-11-24",
     "price": 279.05,
     "currency": "USD",
-    "mcap_usd": 3260860560000.0,
+    "mcap_usd": 3357491400000.0,
     "pe": 14.6,
     "pe_fiscal_year": false,
     "hi52": 408.61,
@@ -11758,7 +11838,7 @@
     "as_of": "2026-11-24",
     "price": 496.13,
     "currency": "USD",
-    "mcap_usd": 3559003739046.0,
+    "mcap_usd": 3638315496861.0,
     "pe": 25.9,
     "pe_fiscal_year": false,
     "hi52": 559.15,
@@ -11946,7 +12026,7 @@
     "as_of": "2026-11-24",
     "price": 252.29,
     "currency": "USD",
-    "mcap_usd": 2561848727458.0,
+    "mcap_usd": 2643055396136.0,
     "pe": 20.4,
     "pe_fiscal_year": false,
     "hi52": 287.2,
@@ -12135,7 +12215,7 @@
     "as_of": "2026-11-24",
     "price": 229.09,
     "currency": "USD",
-    "mcap_usd": 158498457311.0,
+    "mcap_usd": 159982907331.0,
     "pe": 37.6,
     "pe_fiscal_year": false,
     "hi52": 242.8,
@@ -12323,7 +12403,7 @@
     "as_of": "2026-11-24",
     "price": 252.01,
     "currency": "USD",
-    "mcap_usd": 40801184000.0,
+    "mcap_usd": 41396112000.0,
     "pe": 30.7,
     "pe_fiscal_year": false,
     "hi52": 284.5,
@@ -12507,7 +12587,7 @@
     "as_of": "2026-11-24",
     "price": 10.92,
     "currency": "USD",
-    "mcap_usd": 1612383759.0,
+    "mcap_usd": 1645943308.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.61,
@@ -12691,7 +12771,7 @@
     "as_of": "2026-11-24",
     "price": 273.62,
     "currency": "USD",
-    "mcap_usd": 43568861991.0,
+    "mcap_usd": 44000349076.0,
     "pe": 44.9,
     "pe_fiscal_year": false,
     "hi52": 325.99,
@@ -12901,7 +12981,7 @@
     "as_of": "2026-11-24",
     "price": 22.6,
     "currency": "USD",
-    "mcap_usd": 72360125539.0,
+    "mcap_usd": 72676425984.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 22.62,
@@ -13090,7 +13170,7 @@
     "as_of": "2026-11-24",
     "price": 154.41,
     "currency": "USD",
-    "mcap_usd": 293788573257.0,
+    "mcap_usd": 296393200299.0,
     "pe": 21.6,
     "pe_fiscal_year": true,
     "hi52": 170.46,
@@ -13275,7 +13355,7 @@
     "as_of": "2026-11-24",
     "price": 141.57,
     "currency": "USD",
-    "mcap_usd": 343384071882.0,
+    "mcap_usd": 346095842138.0,
     "pe": 143.0,
     "pe_fiscal_year": false,
     "hi52": 156.92,
@@ -13420,8 +13500,10 @@
   }
  },
  "today_block": {
-  "signal_ids": [],
-  "signals_run": "2026-11-25",
+  "signal_ids": [
+   "sec:0001193125-26-478564"
+  ],
+  "signals_run": "2026-11-26",
   "event_ids": [
    "NCT05267626:status:ACTIVE_NOT_RECRUITING",
    "NCT05985655:status:ACTIVE_NOT_RECRUITING",
@@ -16105,65 +16187,6 @@
     "title": "Drug Developers Should Treat AI as an Operating Model, From Target to Trial",
     "url": "https://www.genengnews.com/topics/artificial-intelligence/drug-developers-should-treat-ai-as-an-operating-model-from-target-to-trial/",
     "date": "2026-11-24"
-   },
-   {
-    "title": "Immune Aging Study in Mice Reveals Clues to T Cell Dysfunction and Cancer Development",
-    "url": "https://www.genengnews.com/topics/cancer/immune-aging-study-in-mice-reveals-clues-to-t-cell-dysfunction-and-cancer-development/",
-    "date": "2026-11-20"
-   }
-  ],
-  "lifespan": [
-   {
-    "title": "Single-Dose Gene Therapy Lowers LDL Cholesterol in Monkeys",
-    "url": "https://lifespan.io/single-dose-gene-therapy-lowers-ldl-cholesterol-in-monkeys/",
-    "date": "2026-11-24"
-   },
-   {
-    "title": "Putting the Brakes on Peripheral Nerve Aging",
-    "url": "https://lifespan.io/putting-the-brakes-on-peripheral-nerve-aging/",
-    "date": "2026-11-23"
-   },
-   {
-    "title": "James Peyer on Turning Aging Biology Into Medicine",
-    "url": "https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/",
-    "date": "2026-11-20"
-   },
-   {
-    "title": "One Way That Aged T Cells Age the Whole Body",
-    "url": "https://lifespan.io/one-way-that-aged-t-cells-age-the-whole-body/",
-    "date": "2026-11-19"
-   },
-   {
-    "title": "Partial Reprogramming’s Outcome Depends on Cell Type",
-    "url": "https://lifespan.io/partial-reprogrammings-outcome-depends-on-cell-type/",
-    "date": "2026-11-17"
-   }
-  ],
-  "fightaging": [
-   {
-    "title": "Elevated Bile Salt Hydrolase Activity in the Gut Microbiome May Slow Aging",
-    "url": "https://www.fightaging.org/archives/2026/11/elevated-bile-salt-hydrolase-activity-in-the-gut-microbiome-may-slow-aging/",
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Reviewing Efforts to Bring Klotho Therapies to the Clinic",
-    "url": "https://www.fightaging.org/archives/2026/11/reviewing-efforts-to-bring-klotho-therapies-to-the-clinic/",
-    "date": "2026-11-25"
-   },
-   {
-    "title": "Antiprotozoal Drug Use Correlates with a Sizable Reduction in Age-Related Mortality and Disease Risk",
-    "url": "https://www.fightaging.org/archives/2026/11/antiprotozoal-drug-use-correlates-with-a-sizable-reduction-in-age-related-mortality-and-disease-risk/",
-    "date": "2026-11-24"
-   },
-   {
-    "title": "N-MNA Produced by Gut Microbes Increases NAD Levels in Intestinal Cells",
-    "url": "https://www.fightaging.org/archives/2026/11/n-mna-produced-by-gut-microbes-increases-nad-levels-in-intestinal-cells/",
-    "date": "2026-11-24"
-   },
-   {
-    "title": "The Amygdala and Entorhinal Cortex Atrophy Before the Hippocampus in Early Alzheimer's Disease",
-    "url": "https://www.fightaging.org/archives/2026/11/the-amygdala-and-entorhinal-cortex-atrophy-before-the-hippocampus-in-early-alzheimers-disease/",
-    "date": "2026-11-24"
    }
   ],
   "decodingbio": [
@@ -16218,6 +16241,60 @@
     "title": "Michael Lewis: The NIH “Murder Mystery,” DOGE, and Our Government Immune System",
     "url": "https://erictopol.substack.com/p/michael-lewis-the-nih-murder-mystery",
     "date": "2026-10-06"
+   }
+  ],
+  "lifespan": [
+   {
+    "title": "Chronic, Not Occasional, Loneliness Increases Dementia Risk",
+    "url": "https://lifespan.io/chronic-not-occasional-loneliness-increases-dementia-risk/",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Single-Dose Gene Therapy Lowers LDL Cholesterol in Monkeys",
+    "url": "https://lifespan.io/single-dose-gene-therapy-lowers-ldl-cholesterol-in-monkeys/",
+    "date": "2026-11-24"
+   },
+   {
+    "title": "Putting the Brakes on Peripheral Nerve Aging",
+    "url": "https://lifespan.io/putting-the-brakes-on-peripheral-nerve-aging/",
+    "date": "2026-11-23"
+   },
+   {
+    "title": "James Peyer on Turning Aging Biology Into Medicine",
+    "url": "https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/",
+    "date": "2026-11-20"
+   },
+   {
+    "title": "One Way That Aged T Cells Age the Whole Body",
+    "url": "https://lifespan.io/one-way-that-aged-t-cells-age-the-whole-body/",
+    "date": "2026-11-19"
+   }
+  ],
+  "fightaging": [
+   {
+    "title": "Assessing Albumin Modifications Finds a Major Shift in Middle Age",
+    "url": "https://www.fightaging.org/archives/2026/11/assessing-albumin-modifications-finds-a-major-shift-in-middle-age/",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Elevated Bile Salt Hydrolase Activity in the Gut Microbiome May Slow Aging",
+    "url": "https://www.fightaging.org/archives/2026/11/elevated-bile-salt-hydrolase-activity-in-the-gut-microbiome-may-slow-aging/",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Reviewing Efforts to Bring Klotho Therapies to the Clinic",
+    "url": "https://www.fightaging.org/archives/2026/11/reviewing-efforts-to-bring-klotho-therapies-to-the-clinic/",
+    "date": "2026-11-25"
+   },
+   {
+    "title": "Antiprotozoal Drug Use Correlates with a Sizable Reduction in Age-Related Mortality and Disease Risk",
+    "url": "https://www.fightaging.org/archives/2026/11/antiprotozoal-drug-use-correlates-with-a-sizable-reduction-in-age-related-mortality-and-disease-risk/",
+    "date": "2026-11-24"
+   },
+   {
+    "title": "N-MNA Produced by Gut Microbes Increases NAD Levels in Intestinal Cells",
+    "url": "https://www.fightaging.org/archives/2026/11/n-mna-produced-by-gut-microbes-increases-nad-levels-in-intestinal-cells/",
+    "date": "2026-11-24"
    }
   ]
  }
