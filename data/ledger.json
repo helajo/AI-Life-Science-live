@@ -1,6 +1,6 @@
 {
  "schema_version": 3,
- "generated_at": "2026-11-27T15:21:26Z",
+ "generated_at": "2026-11-27T22:51:21Z",
  "today": "2026-11-27",
  "baseline": "2026-11-19",
  "sources": {
@@ -6521,6 +6521,26 @@
    "run": "2026-11-26"
   },
   {
+   "id": "web:tencent-oridtp-nature-dual-target-peptides",
+   "date": "2026-11-25",
+   "url": "https://mlq.ai/news/tencents-ai-designed-obesity-and-cancer-peptides-nature-paper-says/",
+   "source_kind": "independent",
+   "title_en": "Tencent lab publishes in Nature: AI-designed dual-target peptides work in mice, no human data",
+   "title_zh": "腾讯实验室在《自然》发表：AI 从头设计的双靶点多肽在小鼠中有效，尚无人体数据",
+   "type": "human_data",
+   "direction": "positive",
+   "evidence": 1,
+   "market": 1,
+   "names": [],
+   "so_what_en": "A peer-reviewed paper from Tencent's AI for Life Sciences Lab says its ORIDTP system designed peptides from scratch that hit two targets at once: GLP-1 and glucagon receptor co-agonists that cut weight and blood sugar in obese and diabetic mice, and PD-1/CTLA-4 co-inhibitors where the lead cut tumour volume by 94.2% against controls.",
+   "so_what_zh": "腾讯 AI 生命科学实验室在同行评审论文中称，其 ORIDTP 系统从头设计出可同时作用于两个靶点的多肽：GLP-1 与胰高血糖素受体双激动剂在肥胖和糖尿病小鼠中降低体重和血糖；PD-1/CTLA-4 双抑制剂中领先分子使肿瘤体积较对照组缩小 94.2%。",
+   "changes_view_en": "Tencent or a partner files an IND for an ORIDTP-designed peptide, or another group reproduces the design success rate on new targets.",
+   "changes_view_zh": "腾讯或其合作方为 ORIDTP 设计的多肽提交 IND，或其他团队在新靶点上复现该设计成功率。",
+   "confidence": "medium",
+   "single_source": false,
+   "run": "2026-11-28"
+  },
+  {
    "id": "arxiv:2611.34247v1",
    "date": "2026-11-25",
    "url": "https://arxiv.org/abs/2611.34247v1",
@@ -6890,6 +6910,32 @@
    "run": "2026-11-23"
   },
   {
+   "id": "news:iam-c1-shows-promise-in-cdk2-cdk4-dependent-tumors",
+   "date": "2026-11-18",
+   "url": "https://www.biopharmawatch.com/news/IAM/iambic-preclinical-data-cdk2-4-inhibitor-iam-c1",
+   "source_kind": "company",
+   "title_en": "Iambic reports preclinical data for IAM-C1 and says an IND is due this quarter",
+   "title_zh": "Iambic 公布 IAM-C1 临床前数据，称本季度提交 IND",
+   "type": "other",
+   "direction": "positive",
+   "evidence": 1,
+   "market": 1,
+   "names": [
+    {
+     "ticker": "IAM",
+     "order": "first",
+     "direction": "positive"
+    }
+   ],
+   "so_what_en": "In posters at the EORTC-NCI-AACR symposium Iambic reports its dual CDK2/CDK4 inhibitor gave 78% tumour growth inhibition in a patient-derived model from a patient who had progressed on CDK4/6 inhibitors, against 24% for palbociclib, with a 13% mean neutrophil drop in rats; all of it is animal data from the company, and the company itself warns the tolerability comparison is across studies.",
+   "so_what_zh": "在 EORTC-NCI-AACR 会议海报中，Iambic 称其 CDK2/CDK4 双抑制剂在一名 CDK4/6 抑制剂治疗后进展患者来源的模型中实现 78% 抑瘤率，帕博西尼为 24%，大鼠中性粒细胞平均下降 13%；这些均为公司自报的动物数据，公司自己也提示耐受性比较来自不同研究。",
+   "changes_view_en": "The IND is filed and a first-in-human trial of IAM-C1 appears on ClinicalTrials.gov, or the IND slips past this quarter.",
+   "changes_view_zh": "IND 获提交且 IAM-C1 的首次人体试验出现在 ClinicalTrials.gov，或该 IND 推迟至本季度之后。",
+   "confidence": "medium",
+   "single_source": true,
+   "run": "2026-11-28"
+  },
+  {
    "id": "web:isomorphic-series-c-5bn",
    "date": "2026-11-17",
    "url": "https://pharmaphorum.com/news/isomorphic-labs-raises-5bn-massive-third-round",
@@ -7139,38 +7185,32 @@
   }
  ],
  "signals_state": {
-  "last_finish": "2026-11-26T22:50:35Z",
-  "last_date": "2026-11-27",
+  "last_finish": "2026-11-27T22:51:12Z",
+  "last_date": "2026-11-28",
   "sources": {
    "registry": "ok, 0 new",
    "sec_search": "ok, 0 new",
    "sec_company": "ok, 0 new",
    "preprints": "ok, 0 new",
-   "arxiv": "ok, 2 new",
+   "arxiv": "ok, 0 new",
    "regulators": "ok, 0 new",
-   "newsrooms": "ok, 0 new",
+   "newsrooms": "ok, 0 new; unreachable: deepmind",
    "model_hubs": "ok, 0 new",
-   "news_search": "ok, 64 new (39 over the cap, not listed)"
+   "news_search": "ok, 45 new (20 over the cap, not listed)"
   },
   "searched": [
-   "Tempus AI Bristol Myers Squibb $137.5 million agreement: original found as the 8-K of 2026-10-23 (opened)",
-   "Schrödinger acquisition of biologics discovery tools (two searches): Business Wire release of 2026-11-25 opened via financialcontent.com",
-   "Eli Lilly AI drug discovery, November 2026: nothing new since the TuneLab item",
-   "Chai Discovery news, November 2026: nothing after the Roche collaboration already scored",
-   "Novo Nordisk AI drug discovery news this week: nothing new",
-   "AI-designed drug Phase 2 results, November 2026: no new readout; led to the Oliver Wyman analysis (opened, undated, listed as a follow-up)",
-   "FDA guidance on AI in drug development, November 2026: nothing new",
-   "NMPA 人工智能 药物研发 指导原则 2026年11月: nothing new",
-   "Oliver Wyman AI drug company Phase 2 success analysis: original opened",
-   "Unreachable: tempus.com press release page (HTTP 429); investors.tempus.com release page (no content returned); SEC full-text search (Forbidden)",
-   "Opened and not scored: arXiv 2611.34166 (bulk expression deconvolution, not about drug discovery). Work-list items skipped as opinion, listicles, stock commentary or repeats of items already scored (OpenAI protein design, MedChemBench, AstraZeneca–Tempus US$200M).",
-   "No text addressed to the scanner was found in the pages opened."
+   "Iambic IAM-C1 CDK2/CDK4 preclinical data; opened a republished version of the 18 Nov company release (globenewswire.com returned 403, iambic.ai post URL 404)",
+   "Anthropic / OpenAI protein design news: the only primary page found was Anthropic's August 2026 protein-binder post, already covered; the 26 Nov Korean-language item added no new event",
+   "Tencent ORIDTP Nature paper: nature.com required a login (303 to idp.nature.com), pandaily 404, pubmed blocked on cookies; used an opened news report of the paper",
+   "Recursion November selloff, Lilly AI releases, Tempus-Personalis close, Citeline follow-on item, Isomorphic CNBC interview: no new dated event beyond what is already scored",
+   "Novo Nordisk, Thermo Fisher, Schrodinger, Chai newsrooms (no feed): nothing new since the last run",
+   "work-list source 'newsrooms' reported deepmind unreachable; deepmind.google/blog was readable in this run and its newest science posts are not about drugs"
   ],
   "followups": [
    {
-    "text_en": "Oliver Wyman (October 2026, exact date not shown, so not scored): 45% of Phase 2 programmes from AI drug companies moved to the next phase against 29% for the industry, on 46 programmes of which about half are still running; IQVIA's May report found Phase 2 rates on par with peers.",
-    "text_zh": "奥纬咨询（2026 年 10 月，未注明具体日期，故未评分）：AI 制药公司的二期项目有 45% 进入下一阶段，行业为 29%，样本为 46 个项目，其中约一半仍在进行；IQVIA 5 月的报告则认为二期成功率与同类公司持平。",
-    "url": "https://www.oliverwyman.com/our-expertise/perspectives/health/2026/oct/biopharma-ai-drug-development-challenges.html"
+    "text_en": "Read the ORIDTP paper itself (Nature, DOI 10.1038/s41586-026-11338-1) when a readable copy is available; the nature.com page was behind a login in this run.",
+    "text_zh": "待可读版本出现后阅读 ORIDTP 原文（《自然》，DOI 10.1038/s41586-026-11338-1）；本次运行中 nature.com 页面需要登录。",
+    "url": "https://www.nature.com/articles/s41586-026-11338-1"
    }
   ],
   "weekly": "2026-11-23"
@@ -7210,6 +7250,20 @@
    "text_en": "Tempus AI: does the Personalis acquisition close, and is the Ares term loan drawn?",
    "text_zh": "Tempus AI：对 Personalis 的收购是否完成，Ares 定期贷款是否提取？",
    "url": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526478564/d51820d8k.htm"
+  },
+  {
+   "id": "iambic-iamc1-ind",
+   "due": "2027-03-31",
+   "text_en": "Iambic: is the IAM-C1 IND filed, and does a first-in-human trial appear on the registry?",
+   "text_zh": "Iambic：IAM-C1 的 IND 是否提交，注册库中是否出现首次人体试验？",
+   "url": "https://www.biopharmawatch.com/news/IAM/iambic-preclinical-data-cdk2-4-inhibitor-iam-c1"
+  },
+  {
+   "id": "tencent-oridtp-clinic",
+   "due": "2027-11-30",
+   "text_en": "Tencent ORIDTP: does any designed peptide enter development with a named partner or an IND?",
+   "text_zh": "腾讯 ORIDTP：是否有设计出的多肽通过明确合作方或 IND 进入开发阶段？",
+   "url": "https://mlq.ai/news/tencents-ai-designed-obesity-and-cancer-peptides-nature-paper-says/"
   }
  ],
  "disclaimer": {
@@ -7443,7 +7497,7 @@
     "as_of": "2026-11-25",
     "price": 82.79,
     "currency": "USD",
-    "mcap_usd": 1181814868047.0,
+    "mcap_usd": 1214620732319.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 115.1,
@@ -7549,7 +7603,7 @@
     "as_of": "2026-11-25",
     "price": 149.3,
     "currency": "USD",
-    "mcap_usd": 3536554500000.0,
+    "mcap_usd": 3626809000000.0,
     "pe": 18.9,
     "pe_fiscal_year": false,
     "hi52": 243.37,
@@ -7734,7 +7788,7 @@
     "as_of": "2026-11-25",
     "price": 1392.22,
     "currency": "USD",
-    "mcap_usd": 1308698634975.0,
+    "mcap_usd": 1312094724537.0,
     "pe": 45.2,
     "pe_fiscal_year": false,
     "hi52": 1475.25,
@@ -7923,7 +7977,7 @@
     "as_of": "2026-11-25",
     "price": 40.97,
     "currency": "USD",
-    "mcap_usd": 181500872015.0,
+    "mcap_usd": 182120782288.0,
     "pe": 12.1,
     "pe_fiscal_year": true,
     "hi52": 64.16,
@@ -8143,7 +8197,7 @@
     "as_of": "2026-11-25",
     "price": 2.63,
     "currency": "USD",
-    "mcap_usd": 1640970647.0,
+    "mcap_usd": 1687677592.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 5.24,
@@ -8565,7 +8619,7 @@
     "as_of": "2026-11-25",
     "price": 11.31,
     "currency": "USD",
-    "mcap_usd": 1458792326.0,
+    "mcap_usd": 1488484559.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 22.67,
@@ -8733,7 +8787,7 @@
     "as_of": "2026-11-25",
     "price": 24.38,
     "currency": "USD",
-    "mcap_usd": 1835652063.0,
+    "mcap_usd": 1840156731.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 34.0,
@@ -8931,7 +8985,7 @@
     "as_of": "2026-11-25",
     "price": 9.0,
     "currency": "USD",
-    "mcap_usd": 1596171284.0,
+    "mcap_usd": 1652313673.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.54,
@@ -9136,7 +9190,7 @@
     "as_of": "2026-11-25",
     "price": 10.59,
     "currency": "USD",
-    "mcap_usd": 3436020266.0,
+    "mcap_usd": 3534005635.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 15.02,
@@ -9355,7 +9409,7 @@
     "as_of": "2026-11-25",
     "price": 18.24,
     "currency": "USD",
-    "mcap_usd": 4003785596.0,
+    "mcap_usd": 4114265331.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 21.27,
@@ -9556,7 +9610,7 @@
     "as_of": "2026-11-25",
     "price": 15.51,
     "currency": "USD",
-    "mcap_usd": 775357297.0,
+    "mcap_usd": 752113705.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 25.0,
@@ -9644,7 +9698,7 @@
     "as_of": "2026-11-25",
     "price": 54.74,
     "currency": "USD",
-    "mcap_usd": 10081338477.0,
+    "mcap_usd": 10198075525.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 89.09,
@@ -10041,7 +10095,7 @@
     "as_of": "2026-11-25",
     "price": 685.52,
     "currency": "USD",
-    "mcap_usd": 251958200557.0,
+    "mcap_usd": 253032696575.0,
     "pe": 36.2,
     "pe_fiscal_year": false,
     "hi52": 727.56,
@@ -10209,7 +10263,7 @@
     "as_of": "2026-11-25",
     "price": 184.21,
     "currency": "USD",
-    "mcap_usd": 283875959676.0,
+    "mcap_usd": 284791088166.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 212.71,
@@ -10562,7 +10616,7 @@
     "as_of": "2026-11-25",
     "price": 0.3,
     "currency": "USD",
-    "mcap_usd": 4926427.0,
+    "mcap_usd": 4688129.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -10724,7 +10778,7 @@
     "as_of": "2026-11-25",
     "price": 2.43,
     "currency": "USD",
-    "mcap_usd": 22872249.0,
+    "mcap_usd": 22226661.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 6.92,
@@ -11265,7 +11319,7 @@
     "as_of": "2026-11-25",
     "price": 5.47,
     "currency": "USD",
-    "mcap_usd": 245873427.0,
+    "mcap_usd": 245878023.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -11385,7 +11439,7 @@
     "as_of": "2026-11-25",
     "price": 18.0,
     "currency": "USD",
-    "mcap_usd": 1287910486.0,
+    "mcap_usd": 1302228557.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": null,
@@ -11543,7 +11597,7 @@
     "as_of": "2026-11-25",
     "price": 1.96,
     "currency": "USD",
-    "mcap_usd": 178764962.0,
+    "mcap_usd": 183494194.0,
     "pe": 5.2,
     "pe_fiscal_year": false,
     "hi52": 3.23,
@@ -11731,7 +11785,7 @@
     "as_of": "2026-11-25",
     "price": 273.1,
     "currency": "USD",
-    "mcap_usd": 3345553926000.0,
+    "mcap_usd": 3380358240000.0,
     "pe": 14.3,
     "pe_fiscal_year": false,
     "hi52": 408.61,
@@ -11919,7 +11973,7 @@
     "as_of": "2026-11-25",
     "price": 489.93,
     "currency": "USD",
-    "mcap_usd": 3648526514370.0,
+    "mcap_usd": 3659999984953.0,
     "pe": 25.6,
     "pe_fiscal_year": false,
     "hi52": 559.15,
@@ -12107,7 +12161,7 @@
     "as_of": "2026-11-25",
     "price": 244.43,
     "currency": "USD",
-    "mcap_usd": 2715935948318.0,
+    "mcap_usd": 2747834706321.0,
     "pe": 19.8,
     "pe_fiscal_year": false,
     "hi52": 287.2,
@@ -12296,7 +12350,7 @@
     "as_of": "2026-11-25",
     "price": 227.35,
     "currency": "USD",
-    "mcap_usd": 159423600333.0,
+    "mcap_usd": 161094486019.0,
     "pe": 37.3,
     "pe_fiscal_year": false,
     "hi52": 242.8,
@@ -12484,7 +12538,7 @@
     "as_of": "2026-11-25",
     "price": 251.12,
     "currency": "USD",
-    "mcap_usd": 41178576000.0,
+    "mcap_usd": 41117600000.0,
     "pe": 30.5,
     "pe_fiscal_year": false,
     "hi52": 284.5,
@@ -12668,7 +12722,7 @@
     "as_of": "2026-11-25",
     "price": 10.79,
     "currency": "USD",
-    "mcap_usd": 1658146780.0,
+    "mcap_usd": 1671875686.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 12.61,
@@ -12852,7 +12906,7 @@
     "as_of": "2026-11-25",
     "price": 271.9,
     "currency": "USD",
-    "mcap_usd": 43819011164.0,
+    "mcap_usd": 43961490952.0,
     "pe": 44.6,
     "pe_fiscal_year": false,
     "hi52": 325.99,
@@ -13062,7 +13116,7 @@
     "as_of": "2026-11-25",
     "price": 23.01,
     "currency": "USD",
-    "mcap_usd": 72644827538.0,
+    "mcap_usd": 72739622876.0,
     "pe": null,
     "pe_fiscal_year": false,
     "hi52": 23.1,
@@ -13251,7 +13305,7 @@
     "as_of": "2026-11-25",
     "price": 155.29,
     "currency": "USD",
-    "mcap_usd": 293053934861.0,
+    "mcap_usd": 294122499801.0,
     "pe": 21.7,
     "pe_fiscal_year": true,
     "hi52": 170.46,
@@ -13436,7 +13490,7 @@
     "as_of": "2026-11-25",
     "price": 140.29,
     "currency": "USD",
-    "mcap_usd": 347648946922.0,
+    "mcap_usd": 348659697654.0,
     "pe": 141.7,
     "pe_fiscal_year": false,
     "hi52": 156.92,
@@ -13581,10 +13635,8 @@
   }
  },
  "today_block": {
-  "signal_ids": [
-   "news:tempus-ai-lands-137-5-million-bms-deal-as-data-business-revenue-surges"
-  ],
-  "signals_run": "2026-11-27",
+  "signal_ids": [],
+  "signals_run": "2026-11-28",
   "event_ids": [
    "NCT05267626:status:ACTIVE_NOT_RECRUITING",
    "NCT05985655:status:ACTIVE_NOT_RECRUITING",
@@ -16260,11 +16312,6 @@
     "title": "STAT+: Alaskan hospitals use AI to improve stroke care, peptides go mainstream, and RSNA 2026",
     "url": "https://www.statnews.com/2026/11/24/alaskan-hospitals-using-ai-rsna-2026-peptides-health-tech/?utm_campaign=rss",
     "date": "2026-11-24"
-   },
-   {
-    "title": "STAT+: AI can analyze X-rays and CT scans to draft radiology reports. Will it make care better, safer?",
-    "url": "https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/?utm_campaign=rss",
-    "date": "2026-11-24"
    }
   ],
   "biopharmadive": [],
@@ -16276,6 +16323,11 @@
    }
   ],
   "lifespan": [
+   {
+    "title": "Nasal mRNA Improves Cognition in Aging and Alzheimer’s Mice",
+    "url": "https://lifespan.io/nasal-mrna-improves-cognition-in-aging-and-alzheimers-mice/",
+    "date": "2026-11-27"
+   },
    {
     "title": "One Method of Increasing NAD+ Harms Bone in Mice",
     "url": "https://lifespan.io/one-method-of-increasing-nad-harms-bone-in-mice/",
@@ -16295,14 +16347,14 @@
     "title": "Putting the Brakes on Peripheral Nerve Aging",
     "url": "https://lifespan.io/putting-the-brakes-on-peripheral-nerve-aging/",
     "date": "2026-11-23"
-   },
-   {
-    "title": "James Peyer on Turning Aging Biology Into Medicine",
-    "url": "https://lifespan.io/james-peyer-on-turning-aging-biology-into-medicine/",
-    "date": "2026-11-20"
    }
   ],
   "fightaging": [
+   {
+    "title": "Galectin-3 in Alzheimer's Disease, Linking Microglia Inflammation to Pathology",
+    "url": "https://www.fightaging.org/archives/2026/11/galectin-3-in-alzheimers-disease-linking-microglia-inflammation-to-pathology/",
+    "date": "2026-11-27"
+   },
    {
     "title": "The Machinery of Repair is Subject to the Same Damage it Seeks to Remove",
     "url": "https://www.fightaging.org/archives/2026/11/the-machinery-of-repair-is-subject-to-the-same-damage-it-seeks-to-remove/",
@@ -16321,11 +16373,6 @@
    {
     "title": "Icariin Enhances Mitophagy in the Aging Brain, Reducing Inflammation",
     "url": "https://www.fightaging.org/archives/2026/11/icariin-enhances-mitophagy-in-the-aging-brain-reducing-inflammation/",
-    "date": "2026-11-26"
-   },
-   {
-    "title": "ZNF865 Regulates Cellular Senescence in Intervertebral Disc Tissues",
-    "url": "https://www.fightaging.org/archives/2026/11/znf865-regulates-cellular-senescence-in-intervertebral-disc-tissues/",
     "date": "2026-11-26"
    }
   ],
